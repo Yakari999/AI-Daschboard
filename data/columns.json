@@ -52,5 +52,14 @@
     "createdAt": "2026-08-11T22:39:16.268Z",
     "updatedAt": "2026-08-11T22:39:16.268Z",
     "lastRun": "2026-08-11T23:00:00.000Z"
+  },
+  {
+    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
+    "title": "Idée de vacances wingfoil en europe en automne",
+    "prompt": "3 Idées de vacances wingfoil en europe en automne",
+    "resultCount": 3,
+    "createdAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-11T22:50:30.590Z",
+    "lastRun": null
   }
 ]
