@@ -29,10 +29,19 @@
   {
     "id": "recettes-avocat-saumon",
     "title": "Recettes avocat & saumon",
-    "prompt": "Affiche-moi 5 nouvelles recettes avec de l'avocat et du saumon.",
+    "prompt": "5 recettes faciles avec avocat et saumon",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T21:39:25.324Z",
+    "updatedAt": "2026-08-11T22:36:56.618Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
+  },
+  {
+    "id": "prochaines-competition-de-vtt-en-suisse",
+    "title": "Prochaines compétition de VTT en Suisse",
+    "prompt": "3 prochaines compétitions de VTT en Suisse.",
+    "resultCount": 3,
+    "createdAt": "2026-08-11T22:37:48.168Z",
+    "updatedAt": "2026-08-11T22:37:48.168Z",
+    "lastRun": null
   }
 ]
