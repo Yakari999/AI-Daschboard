@@ -9,21 +9,21 @@
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
-    "id": "youtube-ia-outils",
-    "title": "Vidéos outils IA",
-    "prompt": "Affiche-moi les liens vers les 3 dernières vidéos YouTube qui parlent des derniers outils IA sortis.",
-    "resultCount": 3,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T08:00:00.000Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
-  },
-  {
     "id": "recettes-avocat-saumon",
     "title": "Recettes avocat & saumon",
     "prompt": "Affiche-moi 5 nouvelles recettes avec de l'avocat et du saumon.",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T21:39:25.324Z",
+    "lastRun": "2026-08-11T22:00:00.000Z"
+  },
+  {
+    "id": "youtube-ia-outils",
+    "title": "Vidéos outils IA",
+    "prompt": "Affiche-moi les liens vers les 3 dernières vidéos YouTube qui parlent des derniers outils IA sortis.",
+    "resultCount": 3,
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T08:00:00.000Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
