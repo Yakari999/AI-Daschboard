@@ -1,38 +1,108 @@
 {
   "ebike-avinox": [
     {
-      "id": "placeholder-1",
+      "id": "avinox-1",
       "type": "article",
-      "title": "Exemple de résultat",
-      "summary": "Ceci est un exemple. Les vrais résultats apparaîtront ici après la première exécution automatique du prompt (ou en cliquant sur \"Rafraîchir\" pendant une session avec Claude).",
-      "url": "https://example.com",
+      "title": "Nouveau moteur Avinox M2, date de sortie 2026",
+      "summary": "DJI lance les motorisations Avinox M2 et M2S, plus puissantes et raffinées. Présentation attendue en mars 2026, vélos livrés à partir d'avril.",
+      "url": "https://www.shcycles.fr/nouveau-moteur-avinox-m2-2026/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-11T08:00:00.000Z"
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "avinox-2",
+      "type": "article",
+      "title": "Vélo électrique DJI : en 2026, le moteur Avinox ne sera...",
+      "summary": "Le point sur l'évolution du moteur Avinox chez DJI et son déploiement sur les vélos électriques en 2026.",
+      "url": "https://www.ebike24.fr/blog/velos-electriques-dji-avinox",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "avinox-3",
+      "type": "article",
+      "title": "VTTAE 2026 | Les premiers vélos en Avinox M2 & M2S",
+      "summary": "Commencal, Mondraker, Orbea, Norco et Forestal sont pressentis pour des VTT électriques équipés du moteur Avinox en 2026.",
+      "url": "https://www.vojomag.com/news/vttae-2026-les-premiers-velos-en-avinox-m2-m2s/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "avinox-4",
+      "type": "article",
+      "title": "DJI Avinox MG1 : ce nouveau moteur change de vitesse en 0,1 seconde",
+      "summary": "Dévoilé à l'Eurobike 2026, le concept MG1 intègre une transmission interne avec des changements de vitesse ultra-rapides.",
+      "url": "https://www.cleanrider.com/actus/dji-avinox-mg1-moteur-velo-electrique-transmission-automatique/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "avinox-5",
+      "type": "article",
+      "title": "DJI Avinox M2 (2026) : caractéristiques et évolutions supposées",
+      "summary": "Puissance, autonomie : tour d'horizon des caractéristiques attendues pour le moteur VTT électrique Avinox M2.",
+      "url": "https://www.alberabike.fr/dji-avinox-m2-2026-moteur-vtt-electrique-puissance-autonomie-pxl-21_56.html",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
     }
   ],
   "youtube-ia-outils": [
     {
-      "id": "placeholder-1",
+      "id": "yt-ia-1",
       "type": "video",
-      "title": "Exemple de résultat",
-      "summary": "Ceci est un exemple. Les vraies vidéos trouvées apparaîtront ici après la première exécution.",
-      "url": "https://example.com",
+      "title": "Les meilleurs outils IA à utiliser en 2026",
+      "summary": "Un tour d'horizon rapide en format short des outils IA à connaître cette année.",
+      "url": "https://www.youtube.com/shorts/ziMfHt9hnlw",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-11T08:00:00.000Z"
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "yt-ia-2",
+      "type": "video",
+      "title": "TOP 5 des générateurs de vidéo IA : les meilleurs outils de 2026 (+ bonus nouveauté)",
+      "summary": "Comparatif des générateurs de vidéo IA les plus performants du moment, avec une découverte bonus.",
+      "url": "https://www.youtube.com/watch?v=UG5KPcaQrGA",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "yt-ia-3",
+      "type": "video",
+      "title": "Génération de vidéos avec l'IA : quel est le meilleur outil en 2026 ?",
+      "summary": "Analyse comparative pour choisir le bon outil de génération vidéo par IA.",
+      "url": "https://www.youtube.com/watch?v=OTIrzJED6Ns",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
     }
   ],
   "recettes-avocat-saumon": [
     {
-      "id": "placeholder-1",
+      "id": "recette-1",
       "type": "recipe",
-      "title": "Exemple de résultat",
-      "summary": "Ceci est un exemple. Les vraies recettes trouvées apparaîtront ici après la première exécution.",
-      "url": "https://example.com",
+      "title": "Tartare de saumon et avocat",
+      "summary": "Saumon mariné au citron vert, gingembre et soja, mélangé à l'avocat en dés. Servi avec des chips wonton ou toasts croustillants.",
+      "url": "https://chefsquare.fr/recette-tartare-saumon-avocat",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-11T08:00:00.000Z"
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "recette-2",
+      "type": "recipe",
+      "title": "Saumon & avocat, tout simplement",
+      "summary": "Saumon zesté d'agrumes, avocat en dés sur lit de jeunes pousses d'épinards, crème de mascarpone aux herbes fraîches.",
+      "url": "https://www.jcdavid.fr/recette-saumon-avocat/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T00:00:00.000Z"
     }
   ]
 }
