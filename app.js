@@ -53,6 +53,15 @@ const FALLBACK_COLUMNS = [
     "createdAt": "2026-08-11T22:39:16.268Z",
     "updatedAt": "2026-08-11T22:39:16.268Z",
     "lastRun": "2026-08-11T23:00:00.000Z"
+  },
+  {
+    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
+    "title": "Idée de vacances wingfoil en europe en automne",
+    "prompt": "3 Idées de vacances wingfoil en europe en automne",
+    "resultCount": 3,
+    "createdAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-11T22:50:30.590Z",
+    "lastRun": "2026-08-11T23:20:00.000Z"
   }
 ];
 
@@ -349,6 +358,38 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.meteomedia.com%2Ffr%2Fville%2Fch%2Fvaud%2Fsaint-prex%2Fvents?w=400&h=225",
       "date": null,
       "fetchedAt": "2026-08-11T23:00:00.000Z"
+    }
+  ],
+  "idee-de-vacances-wingfoil-en-europe-en-automne": [
+    {
+      "id": "wing-1",
+      "type": "article",
+      "title": "Où et quand partir faire du wing ?",
+      "summary": "Guide saisonnier par spot : Tarifa et Fuerteventura restent ventés et cléments en automne, quand la météo continentale se dégrade.",
+      "url": "https://wingfoil.voyages-adekua.fr/infos-adekua/ou-quand-partir-wing-foil-sejour-stage-croisiere-cours",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwingfoil.voyages-adekua.fr%2Finfos-adekua%2Fou-quand-partir-wing-foil-sejour-stage-croisiere-cours?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T23:20:00.000Z"
+    },
+    {
+      "id": "wing-2",
+      "type": "article",
+      "title": "Plus beaux spots wingfoil en Europe : destinations incontournables",
+      "summary": "Leucate et sa Tramontane régulière, Tarifa au vent constant, L'Almanarre à Hyères : les spots européens qui tiennent la route à l'automne.",
+      "url": "https://www.tourismorama.com/plus-beaux-spots-wingfoil-europe-destinations-incontournables-riders/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tourismorama.com%2Fplus-beaux-spots-wingfoil-europe-destinations-incontournables-riders%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T23:20:00.000Z"
+    },
+    {
+      "id": "wing-3",
+      "type": "article",
+      "title": "Voyage Wingfoil : meilleures destinations et spots pour séjour Wing",
+      "summary": "Sélection de séjours organisés, dont Fuerteventura, réputée pour son ambiance détendue et son vent fiable hors saison estivale.",
+      "url": "https://fun-and-fly.com/sejour-wingfoil/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffun-and-fly.com%2Fsejour-wingfoil%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T23:20:00.000Z"
     }
   ]
 };
