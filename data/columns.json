@@ -6,7 +6,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
+    "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
     "id": "youtube-ia-outils",
@@ -15,7 +15,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
+    "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
     "id": "presse",
@@ -24,7 +24,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-11T22:36:28.310Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
+    "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
     "id": "recettes-avocat-saumon",
@@ -33,7 +33,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
+    "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
     "id": "prochaines-competition-de-vtt-en-suisse",
@@ -42,7 +42,7 @@
     "resultCount": 3,
     "createdAt": "2026-08-11T22:37:48.168Z",
     "updatedAt": "2026-08-11T22:37:57.921Z",
-    "lastRun": null
+    "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
     "id": "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy",
@@ -51,6 +51,6 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T22:39:16.268Z",
     "updatedAt": "2026-08-11T22:39:16.268Z",
-    "lastRun": null
+    "lastRun": "2026-08-11T23:00:00.000Z"
   }
 ]
