@@ -10,6 +10,15 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
+    "id": "presse",
+    "title": "presse",
+    "prompt": "affiche moi les derniers articles d'actualité qui parle de la qualité du lac léman",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-11T21:39:53.869Z",
+    "lastRun": "2026-08-11T22:00:00.000Z"
+  },
+  {
     "id": "youtube-ia-outils",
     "title": "Vidéos outils IA",
     "prompt": "Affiche-moi les liens vers les 3 dernières vidéos YouTube qui parlent des derniers outils IA sortis.",
@@ -25,24 +34,6 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T21:39:25.324Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
-  },
-  {
-    "id": "presse",
-    "title": "presse",
-    "prompt": "affiche moi les derniers articles d'actualité qui parle de la qualité du lac léman",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-11T21:39:53.869Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
-  },
-  {
-    "id": "muscu",
-    "title": "Muscu",
-    "prompt": "affiche moi  des idées d'exercice de muscu à faire à la maison avec des halters",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T21:41:07.328Z",
-    "updatedAt": "2026-08-11T21:41:07.328Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   }
 ];
@@ -237,58 +228,6 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-08-11T22:00:00.000Z"
     }
-  ],
-  "muscu": [
-    {
-      "id": "muscu-1",
-      "type": "article",
-      "title": "Exercices haltère et kettlebell (programme muscu complet)",
-      "summary": "Un programme complet d'exercices à faire avec haltères et kettlebell à la maison.",
-      "url": "https://entrainement-sportif.fr/exercices-musculation-halteres.htm",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fentrainement-sportif.fr%2Fexercices-musculation-halteres.htm?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-2",
-      "type": "article",
-      "title": "60 meilleurs exercices avec haltère",
-      "summary": "Un large panorama d'exercices classés par groupe musculaire pour s'entraîner avec des haltères.",
-      "url": "https://www.docteur-fitness.com/exercices-halteres",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docteur-fitness.com%2Fexercices-halteres?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-3",
-      "type": "article",
-      "title": "Faire de la musculation à la maison avec des haltères",
-      "summary": "Les bases pour bien démarrer un entraînement à domicile avec une paire d'haltères.",
-      "url": "https://www.carefitness.com/blog/25_halteres-maison.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.carefitness.com%2Fblog%2F25_halteres-maison.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-4",
-      "type": "article",
-      "title": "Comment se muscler à la maison avec une paire d'haltères ?",
-      "summary": "Conseils pratiques pour structurer ses séances et progresser à la maison.",
-      "url": "https://www.powergym.fr/articles-conseils/114_Comment-muscler-paire-halt%C3%A8res-maison.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.powergym.fr%2Farticles-conseils%2F114_Comment-muscler-paire-halt%25C3%25A8res-maison.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-5",
-      "type": "article",
-      "title": "8 exercices avec des haltères - Ma routine fitness",
-      "summary": "Une routine de 8 exercices avec haltères proposée par Decathlon Conseil Sport.",
-      "url": "https://conseilsport.decathlon.fr/8-exercices-avec-des-halteres-ma-routine-fitness",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconseilsport.decathlon.fr%2F8-exercices-avec-des-halteres-ma-routine-fitness?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    }
   ]
 };
 
@@ -298,7 +237,9 @@ const ICONS = {
   pencil: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>',
   trash: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg>',
   chevronLeft: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>',
-  chevronRight: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>'
+  chevronRight: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>',
+  sun: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></svg>',
+  moon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
 };
 
 const state = {
@@ -349,9 +290,10 @@ function toast(msg, ms = 3200) {
 // ---- Data loading ----
 async function loadData() {
   try {
+    const bust = Date.now();
     const [colRes, resRes] = await Promise.all([
-      fetch("data/columns.json", { cache: "no-store" }),
-      fetch("data/results.json", { cache: "no-store" })
+      fetch(`data/columns.json?t=${bust}`, { cache: "no-store" }),
+      fetch(`data/results.json?t=${bust}`, { cache: "no-store" })
     ]);
     if (!colRes.ok || !resRes.ok) throw new Error("fetch failed");
     state.columns = await colRes.json();
@@ -678,16 +620,23 @@ function closeSettings() {
 }
 
 // ---- Theme ----
+function currentTheme() {
+  return document.documentElement.getAttribute("data-theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+function updateThemeIcon() {
+  $("#themeToggle").innerHTML = currentTheme() === "dark" ? ICONS.sun : ICONS.moon;
+}
 function initTheme() {
   const saved = localStorage.getItem("dashboard-theme");
   if (saved) document.documentElement.setAttribute("data-theme", saved);
+  updateThemeIcon();
 }
 function toggleTheme() {
-  const current = document.documentElement.getAttribute("data-theme") ||
-    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-  const next = current === "dark" ? "light" : "dark";
+  const next = currentTheme() === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", next);
   localStorage.setItem("dashboard-theme", next);
+  updateThemeIcon();
 }
 
 // ---- Wiring ----
