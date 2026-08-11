@@ -37,11 +37,20 @@
   },
   {
     "id": "prochaines-competition-de-vtt-en-suisse",
-    "title": "Prochaines compétition de VTT en Suisse",
+    "title": "Compétition de VTT en Suisse",
     "prompt": "3 prochaines compétitions de VTT en Suisse.",
     "resultCount": 3,
     "createdAt": "2026-08-11T22:37:48.168Z",
-    "updatedAt": "2026-08-11T22:37:48.168Z",
+    "updatedAt": "2026-08-11T22:37:57.921Z",
+    "lastRun": null
+  },
+  {
+    "id": "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy",
+    "title": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
+    "prompt": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T22:39:16.268Z",
+    "updatedAt": "2026-08-11T22:39:16.268Z",
     "lastRun": null
   }
 ]
