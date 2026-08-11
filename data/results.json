@@ -1,54 +1,54 @@
 {
   "ebike-avinox": [
     {
-      "id": "avinox-1",
-      "type": "article",
-      "title": "Nouveau moteur Avinox M2, date de sortie 2026",
-      "summary": "DJI lance les motorisations Avinox M2 et M2S, plus puissantes et raffinées. Présentation attendue en mars 2026, vélos livrés à partir d'avril.",
-      "url": "https://www.shcycles.fr/nouveau-moteur-avinox-m2-2026/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.shcycles.fr%2Fnouveau-moteur-avinox-m2-2026%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
-    },
-    {
-      "id": "avinox-2",
-      "type": "article",
-      "title": "Vélo électrique DJI : en 2026, le moteur Avinox ne sera...",
-      "summary": "Le point sur l'évolution du moteur Avinox chez DJI et son déploiement sur les vélos électriques en 2026.",
-      "url": "https://www.ebike24.fr/blog/velos-electriques-dji-avinox",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.ebike24.fr%2Fblog%2Fvelos-electriques-dji-avinox?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
-    },
-    {
-      "id": "avinox-3",
-      "type": "article",
-      "title": "VTTAE 2026 | Les premiers vélos en Avinox M2 & M2S",
-      "summary": "Commencal, Mondraker, Orbea, Norco et Forestal sont pressentis pour des VTT électriques équipés du moteur Avinox en 2026.",
-      "url": "https://www.vojomag.com/news/vttae-2026-les-premiers-velos-en-avinox-m2-m2s/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.vojomag.com%2Fnews%2Fvttae-2026-les-premiers-velos-en-avinox-m2-m2s%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
-    },
-    {
-      "id": "avinox-4",
+      "id": "mg1-1",
       "type": "article",
       "title": "DJI Avinox MG1 : ce nouveau moteur change de vitesse en 0,1 seconde",
-      "summary": "Dévoilé à l'Eurobike 2026, le concept MG1 intègre une transmission interne avec des changements de vitesse ultra-rapides.",
+      "summary": "Transmission intégrée au moteur, passages de vitesse en moins de 0,1 seconde sans interruption de puissance, même à l'arrêt ou en forte charge.",
       "url": "https://www.cleanrider.com/actus/dji-avinox-mg1-moteur-velo-electrique-transmission-automatique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cleanrider.com%2Factus%2Fdji-avinox-mg1-moteur-velo-electrique-transmission-automatique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     },
     {
-      "id": "avinox-5",
+      "id": "mg1-2",
       "type": "article",
-      "title": "DJI Avinox M2 (2026) : caractéristiques et évolutions supposées",
-      "summary": "Puissance, autonomie : tour d'horizon des caractéristiques attendues pour le moteur VTT électrique Avinox M2.",
-      "url": "https://www.alberabike.fr/dji-avinox-m2-2026-moteur-vtt-electrique-puissance-autonomie-pxl-21_56.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.alberabike.fr%2Fdji-avinox-m2-2026-moteur-vtt-electrique-puissance-autonomie-pxl-21_56.html?w=400&h=225",
+      "title": "Eurobike 2026 | Avinox MG1 : un moteur avec boîte de vitesses intégrée",
+      "summary": "Trois mois après le lancement des M2 et M2S, Avinox dévoile un concept encore plus ambitieux à l'Eurobike 2026.",
+      "url": "https://www.vojomag.com/news/eurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.vojomag.com%2Fnews%2Feurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "mg1-3",
+      "type": "article",
+      "title": "Avinox MG1, moteur à transmission intégrée qui redéfinit le VTTAE",
+      "summary": "Chaîne mono-vitesse ou courroie, plus de dérailleur ni de cassette multi-vitesses : le MG1 simplifie l'entretien du vélo électrique.",
+      "url": "https://www.shcycles.fr/moteur-transmission-avinox-mg1/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.shcycles.fr%2Fmoteur-transmission-avinox-mg1%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "mg1-4",
+      "type": "article",
+      "title": "Avinox dévoile le concept produit Avinox MG1 à l'Eurobike 2026",
+      "summary": "Compatible VTT, trekking, SUV et gravel, le MG1 supporte une charge totale de plus de 150 kg. Aucune date de commercialisation annoncée.",
+      "url": "https://www.prnewswire.com/news-releases/avinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Favinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "mg1-5",
+      "type": "article",
+      "title": "Avinox MG1, le moteur à transmission intégrée révélé à l'Eurobike",
+      "summary": "Plusieurs modes de conduite proposés, du changement manuel classique jusqu'à un mode entièrement automatique.",
+      "url": "https://docteur-ebike.com/moteur-avinox-mg1/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdocteur-ebike.com%2Fmoteur-avinox-mg1%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     }
   ],
   "youtube-ia-outils": [
@@ -60,7 +60,7 @@
       "url": "https://www.youtube.com/shorts/ziMfHt9hnlw",
       "image": "https://img.youtube.com/vi/ziMfHt9hnlw/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     },
     {
       "id": "yt-ia-2",
@@ -70,7 +70,7 @@
       "url": "https://www.youtube.com/watch?v=UG5KPcaQrGA",
       "image": "https://img.youtube.com/vi/UG5KPcaQrGA/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     },
     {
       "id": "yt-ia-3",
@@ -80,7 +80,7 @@
       "url": "https://www.youtube.com/watch?v=OTIrzJED6Ns",
       "image": "https://img.youtube.com/vi/OTIrzJED6Ns/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     }
   ],
   "recettes-avocat-saumon": [
@@ -92,7 +92,7 @@
       "url": "https://chefsquare.fr/recette-tartare-saumon-avocat",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchefsquare.fr%2Frecette-tartare-saumon-avocat?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     },
     {
       "id": "recette-2",
@@ -102,9 +102,141 @@
       "url": "https://www.jcdavid.fr/recette-saumon-avocat/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.jcdavid.fr%2Frecette-saumon-avocat%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T00:00:00.000Z"
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "recette-3",
+      "type": "recipe",
+      "title": "Mille-feuille saumon avocat",
+      "summary": "Pour 4 personnes, 25 min de préparation : pavé de saumon, avocat, feuilles croustillantes et pointe de poivre agrume, montés en mille-feuille.",
+      "url": "https://auxdelicesdantan.wordpress.com/2026/05/15/mille-feuille-saumon-avocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fauxdelicesdantan.wordpress.com%2F2026%2F05%2F15%2Fmille-feuille-saumon-avocat%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "recette-4",
+      "type": "recipe",
+      "title": "Salade au saumon fumé et avocat : recette et variantes",
+      "summary": "L'équilibre entre le goût délicat du saumon fumé et la texture crémeuse de l'avocat, avec plusieurs variantes proposées.",
+      "url": "https://www.epiceriedupatrimoine.com/salade-saumon-fume-avocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.epiceriedupatrimoine.com%2Fsalade-saumon-fume-avocat%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "recette-5",
+      "type": "recipe",
+      "title": "Saumon grillé et salsa d'avocat",
+      "summary": "Avocat, oignon, coriandre et jus de lime en salsa fraîche, servie sur un pavé de saumon grillé au barbecue.",
+      "url": "https://chefcuisto.com/recette/saumon-grille-avec-une-salsa-davocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchefcuisto.com%2Frecette%2Fsaumon-grille-avec-une-salsa-davocat%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
     }
   ],
-  "presse": [],
-  "muscu": []
+  "presse": [
+    {
+      "id": "leman-1",
+      "type": "article",
+      "title": "L'eau du Léman plus propre, mais aussi plus chaude",
+      "summary": "Le lac se réchauffe et atteint des températures records en 2025, selon la RTS.",
+      "url": "https://www.rts.ch/info/environnement/2026/article/le-leman-se-rechauffe-et-atteint-des-temperatures-records-en-2025-29198607.html",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.rts.ch%2Finfo%2Fenvironnement%2F2026%2Farticle%2Fle-leman-se-rechauffe-et-atteint-des-temperatures-records-en-2025-29198607.html?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "leman-2",
+      "type": "article",
+      "title": "Dégradation de la qualité des eaux du Léman",
+      "summary": "Point sur les facteurs de dégradation observés récemment dans le lac.",
+      "url": "https://www.paysdegexagglo.fr/actualite/24314/8430-degradation-de-la-qualite-des-eaux-du-leman.htm",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.paysdegexagglo.fr%2Factualite%2F24314%2F8430-degradation-de-la-qualite-des-eaux-du-leman.htm?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "leman-3",
+      "type": "article",
+      "title": "Les eaux du lac Léman continuent de se réchauffer",
+      "summary": "Un réchauffement des eaux de surface de 1,7 degré, avec un brassage hivernal incomplet pour la 14e année consécutive.",
+      "url": "https://www.terrenature.ch/nature/les-eaux-du-lac-leman-continuent-de-se-rechauffer/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.terrenature.ch%2Fnature%2Fles-eaux-du-lac-leman-continuent-de-se-rechauffer%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "leman-4",
+      "type": "article",
+      "title": "La qualité de l'eau du Léman va-t-elle être altérée par les blooms algaux ?",
+      "summary": "Analyse de l'INRAE sur l'impact des activités humaines et du changement climatique sur le lac.",
+      "url": "https://www.inrae.fr/actualites/qualite-leau-du-leman-va-t-elle-etre-alteree-blooms-algaux-du-fait-activites-humaines-du-changement-climatique",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.inrae.fr%2Factualites%2Fqualite-leau-du-leman-va-t-elle-etre-alteree-blooms-algaux-du-fait-activites-humaines-du-changement-climatique?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "leman-5",
+      "type": "article",
+      "title": "Lac Léman : un bilan de santé globalement positif",
+      "summary": "Le phosphore atteint son niveau le plus bas depuis 1970, réduisant nettement les efflorescences algales.",
+      "url": "https://www.sauvonsleau.fr/jcms/e_29392/lac-leman--un-bilan-de-sante-globalement-positif",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.sauvonsleau.fr%2Fjcms%2Fe_29392%2Flac-leman--un-bilan-de-sante-globalement-positif?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    }
+  ],
+  "muscu": [
+    {
+      "id": "muscu-1",
+      "type": "article",
+      "title": "Exercices haltère et kettlebell (programme muscu complet)",
+      "summary": "Un programme complet d'exercices à faire avec haltères et kettlebell à la maison.",
+      "url": "https://entrainement-sportif.fr/exercices-musculation-halteres.htm",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fentrainement-sportif.fr%2Fexercices-musculation-halteres.htm?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "muscu-2",
+      "type": "article",
+      "title": "60 meilleurs exercices avec haltère",
+      "summary": "Un large panorama d'exercices classés par groupe musculaire pour s'entraîner avec des haltères.",
+      "url": "https://www.docteur-fitness.com/exercices-halteres",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docteur-fitness.com%2Fexercices-halteres?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "muscu-3",
+      "type": "article",
+      "title": "Faire de la musculation à la maison avec des haltères",
+      "summary": "Les bases pour bien démarrer un entraînement à domicile avec une paire d'haltères.",
+      "url": "https://www.carefitness.com/blog/25_halteres-maison.html",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.carefitness.com%2Fblog%2F25_halteres-maison.html?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "muscu-4",
+      "type": "article",
+      "title": "Comment se muscler à la maison avec une paire d'haltères ?",
+      "summary": "Conseils pratiques pour structurer ses séances et progresser à la maison.",
+      "url": "https://www.powergym.fr/articles-conseils/114_Comment-muscler-paire-halt%C3%A8res-maison.html",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.powergym.fr%2Farticles-conseils%2F114_Comment-muscler-paire-halt%25C3%25A8res-maison.html?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    },
+    {
+      "id": "muscu-5",
+      "type": "article",
+      "title": "8 exercices avec des haltères - Ma routine fitness",
+      "summary": "Une routine de 8 exercices avec haltères proposée par Decathlon Conseil Sport.",
+      "url": "https://conseilsport.decathlon.fr/8-exercices-avec-des-halteres-ma-routine-fitness",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconseilsport.decathlon.fr%2F8-exercices-avec-des-halteres-ma-routine-fitness?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-11T22:00:00.000Z"
+    }
+  ]
 }
