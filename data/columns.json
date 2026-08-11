@@ -9,21 +9,21 @@
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
-    "id": "ebike-avinox",
-    "title": "Vélos électriques Avinox",
-    "prompt": "Affiche-moi les 5 dernières actualités que tu trouves sur internet sur le moteur avinox mg1",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T21:39:05.716Z",
-    "lastRun": "2026-08-11T22:00:00.000Z"
-  },
-  {
     "id": "youtube-ia-outils",
     "title": "Vidéos outils IA",
     "prompt": "Affiche-moi les liens vers les 3 dernières vidéos YouTube qui parlent des derniers outils IA sortis.",
     "resultCount": 3,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T08:00:00.000Z",
+    "lastRun": "2026-08-11T22:00:00.000Z"
+  },
+  {
+    "id": "ebike-avinox",
+    "title": "Vélos électriques Avinox",
+    "prompt": "Affiche-moi les 5 dernières actualités que tu trouves sur internet sur le moteur avinox mg1",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T21:39:05.716Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
