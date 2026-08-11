@@ -232,7 +232,7 @@ function updateStatusLine() {
 
 // ---- Column CRUD ----
 function slugify(str) {
-  return str.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+  return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || `colonne-${Date.now()}`;
 }
 
