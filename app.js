@@ -166,7 +166,10 @@ function formatDate(iso) {
 function renderTile(item) {
   const icon = TYPE_ICON[item.type] || TYPE_ICON.default;
   const media = item.image
-    ? el("img", { class: "tile-media", src: item.image, alt: "" })
+    ? el("img", {
+        class: "tile-media", src: item.image, alt: "", loading: "lazy",
+        onerror: (e) => e.target.replaceWith(el("div", { class: "tile-media placeholder" }, icon))
+      })
     : el("div", { class: "tile-media placeholder" }, icon);
   const body = el("div", { class: "tile-body" }, [
     el("p", { class: "tile-title" }, item.title || "Sans titre"),
