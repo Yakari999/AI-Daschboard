@@ -188,57 +188,5 @@
       "date": null,
       "fetchedAt": "2026-08-11T22:00:00.000Z"
     }
-  ],
-  "muscu": [
-    {
-      "id": "muscu-1",
-      "type": "article",
-      "title": "Exercices haltère et kettlebell (programme muscu complet)",
-      "summary": "Un programme complet d'exercices à faire avec haltères et kettlebell à la maison.",
-      "url": "https://entrainement-sportif.fr/exercices-musculation-halteres.htm",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fentrainement-sportif.fr%2Fexercices-musculation-halteres.htm?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-2",
-      "type": "article",
-      "title": "60 meilleurs exercices avec haltère",
-      "summary": "Un large panorama d'exercices classés par groupe musculaire pour s'entraîner avec des haltères.",
-      "url": "https://www.docteur-fitness.com/exercices-halteres",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docteur-fitness.com%2Fexercices-halteres?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-3",
-      "type": "article",
-      "title": "Faire de la musculation à la maison avec des haltères",
-      "summary": "Les bases pour bien démarrer un entraînement à domicile avec une paire d'haltères.",
-      "url": "https://www.carefitness.com/blog/25_halteres-maison.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.carefitness.com%2Fblog%2F25_halteres-maison.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-4",
-      "type": "article",
-      "title": "Comment se muscler à la maison avec une paire d'haltères ?",
-      "summary": "Conseils pratiques pour structurer ses séances et progresser à la maison.",
-      "url": "https://www.powergym.fr/articles-conseils/114_Comment-muscler-paire-halt%C3%A8res-maison.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.powergym.fr%2Farticles-conseils%2F114_Comment-muscler-paire-halt%25C3%25A8res-maison.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    },
-    {
-      "id": "muscu-5",
-      "type": "article",
-      "title": "8 exercices avec des haltères - Ma routine fitness",
-      "summary": "Une routine de 8 exercices avec haltères proposée par Decathlon Conseil Sport.",
-      "url": "https://conseilsport.decathlon.fr/8-exercices-avec-des-halteres-ma-routine-fitness",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconseilsport.decathlon.fr%2F8-exercices-avec-des-halteres-ma-routine-fitness?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
-    }
   ]
 }
