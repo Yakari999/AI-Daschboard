@@ -250,6 +250,8 @@ const state = {
   pendingSaves: 0
 };
 
+const dragState = { id: null };
+
 function $(sel, root = document) { return root.querySelector(sel); }
 function el(tag, attrs = {}, children = []) {
   const node = document.createElement(tag);
@@ -393,13 +395,14 @@ function renderTile(item) {
       })
     : el("div", { class: "tile-media placeholder" }, icon);
   const pubDate = formatDate(item.date, item.datePrecision);
+  const footerChildren = [el("span", { class: "type-badge" }, item.type || "info")];
+  if (pubDate) {
+    footerChildren.push(el("span", { class: "tile-date", title: "Date de parution" }, pubDate));
+  }
   const body = el("div", { class: "tile-body" }, [
     el("p", { class: "tile-title" }, item.title || "Sans titre"),
     el("p", { class: "tile-summary" }, item.summary || ""),
-    el("div", { class: "tile-footer" }, [
-      el("span", { class: "type-badge" }, item.type || "info"),
-      el("span", { class: "tile-date", title: "Date de parution" }, pubDate || "Date inconnue")
-    ])
+    el("div", { class: "tile-footer" }, footerChildren)
   ]);
   const tag = item.url ? "a" : "div";
   const attrs = item.url ? { class: "tile", href: item.url, target: "_blank", rel: "noopener" } : { class: "tile" };
@@ -419,7 +422,24 @@ function renderColumn(col, idx, total) {
     el("button", { class: "mini-btn danger", title: "Supprimer", onclick: () => deleteColumn(col.id), html: ICONS.trash })
   ]);
 
-  const head = el("div", { class: "column-head" }, [
+  const headAttrs = { class: "column-head" };
+  if (isEditable()) {
+    headAttrs.draggable = "true";
+    headAttrs.title = "Glisser pour réorganiser";
+    headAttrs.ondragstart = (e) => {
+      if (e.target.closest("button")) { e.preventDefault(); return; }
+      dragState.id = col.id;
+      e.dataTransfer.effectAllowed = "move";
+      e.currentTarget.closest(".column").classList.add("dragging");
+    };
+    headAttrs.ondragend = (e) => {
+      e.currentTarget.closest(".column").classList.remove("dragging");
+      $("#board").querySelectorAll(".column.drag-over").forEach(n => n.classList.remove("drag-over"));
+      dragState.id = null;
+    };
+  }
+
+  const head = el("div", headAttrs, [
     el("div", { class: "column-title-row" }, [
       el("h2", { class: "column-title" }, col.title),
       menu
@@ -431,7 +451,25 @@ function renderColumn(col, idx, total) {
     ])
   ]);
 
-  return el("div", { class: "column" }, [head, body]);
+  const columnAttrs = { class: "column" };
+  if (isEditable()) {
+    columnAttrs.ondragover = (e) => {
+      if (!dragState.id || dragState.id === col.id) return;
+      e.preventDefault();
+      e.currentTarget.classList.add("drag-over");
+    };
+    columnAttrs.ondragleave = (e) => {
+      e.currentTarget.classList.remove("drag-over");
+    };
+    columnAttrs.ondrop = (e) => {
+      e.preventDefault();
+      e.currentTarget.classList.remove("drag-over");
+      if (dragState.id && dragState.id !== col.id) reorderColumns(dragState.id, col.id);
+      dragState.id = null;
+    };
+  }
+
+  return el("div", columnAttrs, [head, body]);
 }
 
 function renderAddColumn() {
@@ -499,6 +537,16 @@ function moveColumn(id, dir) {
   state.columns.splice(newIdx, 0, moved);
   render();
   persistColumns("Réorganise les colonnes").catch(e => toast("Échec de l'enregistrement sur GitHub : " + e.message));
+}
+
+function reorderColumns(draggedId, targetId) {
+  const from = state.columns.findIndex(c => c.id === draggedId);
+  const to = state.columns.findIndex(c => c.id === targetId);
+  if (from === -1 || to === -1 || from === to) return;
+  const [moved] = state.columns.splice(from, 1);
+  state.columns.splice(to, 0, moved);
+  render();
+  persistColumns("Réorganise les colonnes (glisser-déposer)").catch(e => toast("Échec de l'enregistrement sur GitHub : " + e.message));
 }
 
 function openAddForm() {

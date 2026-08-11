@@ -125,7 +125,14 @@
     display: flex;
     flex-direction: column;
     max-height: calc(100vh - 130px);
+    transition: outline-color .15s ease, opacity .15s ease;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
   }
+  .column-head[draggable="true"] { cursor: grab; }
+  .column-head[draggable="true"]:active { cursor: grabbing; }
+  .column.dragging { opacity: .4; }
+  .column.drag-over { outline-color: var(--accent); }
   .column-head { padding: 16px 16px 12px; border-bottom: 1px solid var(--border); }
   .column-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
   .column-title {
@@ -315,6 +322,6 @@
 
   <div class="toast-wrap" id="toastWrap"></div>
 
-<script src="app.js?v=4"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>
