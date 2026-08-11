@@ -9,12 +9,12 @@
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
-    "id": "recettes-avocat-saumon",
-    "title": "Recettes avocat & saumon",
-    "prompt": "Affiche-moi 5 nouvelles recettes avec de l'avocat et du saumon.",
+    "id": "presse",
+    "title": "presse",
+    "prompt": "affiche moi les derniers articles d'actualité qui parle de la qualité du lac léman",
     "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T21:39:25.324Z",
+    "createdAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-11T21:39:53.869Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
@@ -27,12 +27,12 @@
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
-    "id": "presse",
-    "title": "presse",
-    "prompt": "affiche moi les derniers articles d'actualité qui parle de la qualité du lac léman",
+    "id": "recettes-avocat-saumon",
+    "title": "Recettes avocat & saumon",
+    "prompt": "Affiche-moi 5 nouvelles recettes avec de l'avocat et du saumon.",
     "resultCount": 5,
-    "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-11T21:39:53.869Z",
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T21:39:25.324Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
