@@ -246,7 +246,8 @@ const state = {
   columns: [],
   results: {},
   sha: { columns: null, results: null },
-  gh: loadGhConfig()
+  gh: loadGhConfig(),
+  pendingSaves: 0
 };
 
 function $(sel, root = document) { return root.querySelector(sel); }
@@ -353,11 +354,21 @@ function isEditable() {
 
 async function persistColumns(message) {
   if (!isEditable()) return;
-  await ghPutFile("data/columns.json", state.columns, message);
+  state.pendingSaves++;
+  try {
+    await ghPutFile("data/columns.json", state.columns, message);
+  } finally {
+    state.pendingSaves--;
+  }
 }
 async function persistResults(message) {
   if (!isEditable()) return;
-  await ghPutFile("data/results.json", state.results, message);
+  state.pendingSaves++;
+  try {
+    await ghPutFile("data/results.json", state.results, message);
+  } finally {
+    state.pendingSaves--;
+  }
 }
 
 // ---- Rendering ----
@@ -638,6 +649,14 @@ function toggleTheme() {
   localStorage.setItem("dashboard-theme", next);
   updateThemeIcon();
 }
+
+// ---- Prevent leaving/reloading while a save is still in flight ----
+window.addEventListener("beforeunload", (e) => {
+  if (state.pendingSaves > 0) {
+    e.preventDefault();
+    e.returnValue = "";
+  }
+});
 
 // ---- Wiring ----
 document.addEventListener("DOMContentLoaded", async () => {
