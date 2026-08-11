@@ -69,8 +69,9 @@
       "summary": "Comparatif des générateurs de vidéo IA les plus performants du moment, avec une découverte bonus.",
       "url": "https://www.youtube.com/watch?v=UG5KPcaQrGA",
       "image": "https://img.youtube.com/vi/UG5KPcaQrGA/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
+      "date": "2026-02-01T00:00:00.000Z",
+      "fetchedAt": "2026-08-11T22:00:00.000Z",
+      "datePrecision": "month"
     },
     {
       "id": "yt-ia-3",
@@ -79,8 +80,9 @@
       "summary": "Analyse comparative pour choisir le bon outil de génération vidéo par IA.",
       "url": "https://www.youtube.com/watch?v=OTIrzJED6Ns",
       "image": "https://img.youtube.com/vi/OTIrzJED6Ns/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-11T22:00:00.000Z"
+      "date": "2026-04-01T00:00:00.000Z",
+      "fetchedAt": "2026-08-11T22:00:00.000Z",
+      "datePrecision": "month"
     }
   ],
   "recettes-avocat-saumon": [
@@ -111,7 +113,7 @@
       "summary": "Pour 4 personnes, 25 min de préparation : pavé de saumon, avocat, feuilles croustillantes et pointe de poivre agrume, montés en mille-feuille.",
       "url": "https://auxdelicesdantan.wordpress.com/2026/05/15/mille-feuille-saumon-avocat/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fauxdelicesdantan.wordpress.com%2F2026%2F05%2F15%2Fmille-feuille-saumon-avocat%2F?w=400&h=225",
-      "date": null,
+      "date": "2026-05-15T00:00:00.000Z",
       "fetchedAt": "2026-08-11T22:00:00.000Z"
     },
     {

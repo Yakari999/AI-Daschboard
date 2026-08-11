@@ -95,14 +95,24 @@
     transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
   }
   .icon-btn:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+  .icon-btn:disabled { opacity: .35; cursor: not-allowed; }
+  .icon-btn:disabled:hover { box-shadow: none; transform: none; }
+  .icon-btn svg { width: 18px; height: 18px; }
+
+  .board-toolbar {
+    display: none; gap: 8px; justify-content: flex-end;
+    padding: 12px clamp(16px, 4vw, 40px) 0;
+  }
+  .board-toolbar.visible { display: flex; }
 
   main.board {
     display: flex;
     gap: 18px;
-    padding: 24px clamp(16px, 4vw, 40px) 60px;
+    padding: 14px clamp(16px, 4vw, 40px) 60px;
     overflow-x: auto;
     align-items: flex-start;
     min-height: calc(100vh - 90px);
+    scroll-behavior: smooth;
   }
 
   .column {
@@ -121,15 +131,19 @@
   .column-title {
     font-size: 1rem; font-weight: 700; margin: 0; word-break: break-word;
   }
-  .column-menu { display: flex; gap: 4px; flex-shrink: 0; }
+  .column-menu { display: flex; align-items: center; gap: 2px; flex-shrink: 0; }
+  .column-menu .mini-btn:nth-child(2) { margin-right: 4px; }
   .mini-btn {
-    width: 28px; height: 28px; border-radius: 8px; border: none;
+    width: 26px; height: 26px; border-radius: 8px; border: none;
     background: transparent; color: var(--text-muted); cursor: pointer;
-    display: flex; align-items: center; justify-content: center; font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
     transition: background .15s ease, color .15s ease;
   }
+  .mini-btn svg { width: 14px; height: 14px; }
   .mini-btn:hover { background: var(--surface-2); color: var(--text); }
   .mini-btn.danger:hover { background: color-mix(in srgb, var(--danger) 15%, transparent); color: var(--danger); }
+  .mini-btn:disabled { opacity: .3; cursor: not-allowed; }
+  .mini-btn:disabled:hover { background: transparent; color: var(--text-muted); }
 
   .column-prompt {
     margin: 8px 0 0;
@@ -254,6 +268,15 @@
       <button class="icon-btn" id="settingsBtn" title="Réglages">⚙️</button>
     </div>
   </header>
+
+  <div class="board-toolbar" id="boardToolbar">
+    <button class="icon-btn" id="scrollLeftBtn" title="Défiler vers la gauche">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="icon-btn" id="scrollRightBtn" title="Défiler vers la droite">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
 
   <main class="board" id="board">
     <!-- columns injected by JS -->
