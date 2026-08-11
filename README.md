@@ -29,5 +29,5 @@ affichés sous forme de tuiles (article, vidéo, recette...).
 
 ## Publier sur GitHub Pages
 
-Une fois cette branche fusionnée sur `main` :
 Settings → Pages → Source : "Deploy from a branch" → `main` / `(root)`.
+Le site sera ensuite disponible à `https://yakari999.github.io/AI-Daschboard/`.
