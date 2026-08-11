@@ -1,0 +1,38 @@
+{
+  "ebike-avinox": [
+    {
+      "id": "placeholder-1",
+      "type": "article",
+      "title": "Exemple de résultat",
+      "summary": "Ceci est un exemple. Les vrais résultats apparaîtront ici après la première exécution automatique du prompt (ou en cliquant sur \"Rafraîchir\" pendant une session avec Claude).",
+      "url": "https://example.com",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T08:00:00.000Z"
+    }
+  ],
+  "youtube-ia-outils": [
+    {
+      "id": "placeholder-1",
+      "type": "video",
+      "title": "Exemple de résultat",
+      "summary": "Ceci est un exemple. Les vraies vidéos trouvées apparaîtront ici après la première exécution.",
+      "url": "https://example.com",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T08:00:00.000Z"
+    }
+  ],
+  "recettes-avocat-saumon": [
+    {
+      "id": "placeholder-1",
+      "type": "recipe",
+      "title": "Exemple de résultat",
+      "summary": "Ceci est un exemple. Les vraies recettes trouvées apparaîtront ici après la première exécution.",
+      "url": "https://example.com",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-11T08:00:00.000Z"
+    }
+  ]
+}
