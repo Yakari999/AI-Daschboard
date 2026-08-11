@@ -19,11 +19,11 @@
   },
   {
     "id": "presse",
-    "title": "presse",
-    "prompt": "affiche moi les derniers articles d'actualité qui parle de la qualité du lac léman",
+    "title": "Evénements culturels Lausanne",
+    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-11T22:36:28.310Z",
     "lastRun": "2026-08-11T22:00:00.000Z"
   },
   {
