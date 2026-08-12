@@ -16,6 +16,21 @@ const FALLBACK_COLUMNS = [
     "sourceType": "prompt"
   },
   {
+    "id": "courses-au-large",
+    "title": "Courses au large",
+    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "resultCount": 5,
+    "createdAt": "2026-08-12T09:39:51.181Z",
+    "updatedAt": "2026-08-12T20:40:00.000Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "sport"
+    ],
+    "frequency": "daily",
+    "layout": "list-date",
+    "sourceType": "prompt"
+  },
+  {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -58,21 +73,6 @@ const FALLBACK_COLUMNS = [
     ],
     "frequency": "weekly",
     "layout": "tiles",
-    "sourceType": "prompt"
-  },
-  {
-    "id": "courses-au-large",
-    "title": "Courses au large",
-    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
-    "resultCount": 5,
-    "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T20:40:00.000Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "sport"
-    ],
-    "frequency": "daily",
-    "layout": "list-date",
     "sourceType": "prompt"
   },
   {
@@ -863,55 +863,55 @@ const FALLBACK_RESULTS = {
       "id": "presse-citron-1",
       "type": "article",
       "title": "Voici les 5 nouvelles règles de l'IA qui s'appliquent en France depuis hier",
-      "summary": "Nouvelles obligations de transparence pour les fournisseurs et déployeurs de systèmes d'IA, afin de mieux signaler les contenus générés par IA.",
+      "summary": "Nouvelles obligations de transparence pour les fournisseurs et déployeurs de systèmes d'IA en Europe, en vigueur depuis le 2 août. L'objectif : mieux identifier les contenus générés par IA et informer clairement les internautes lorsqu'ils interagissent avec un système automatisé.",
       "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "fetchedAt": "2026-08-12T21:45:00.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
       "id": "presse-citron-2",
       "type": "article",
       "title": "La nouvelle IA d'OpenAI fait peur à son propre créateur",
-      "summary": "OpenAI restreint l'accès à un nouveau modèle jugé trop puissant, non disponible sur ChatGPT en raison d'un \"seuil critique\".",
+      "summary": "OpenAI a développé un nouveau modèle plus puissant, surnommé en interne «Astra», dont l'accès reste volontairement restreint en raison des risques qu'il pourrait représenter s'il était rendu public. Il n'est pour l'instant pas disponible sur ChatGPT, l'entreprise évoquant un «seuil critique» de capacités atteint.",
       "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "fetchedAt": "2026-08-12T21:45:00.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
       "id": "presse-citron-3",
       "type": "article",
       "title": "Souveraineté, cybersécurité, quantique... 7 points à retenir sur l'IA",
-      "summary": "Discussion avec deux experts sur les grands enjeux actuels de l'intelligence artificielle en France.",
+      "summary": "Deux experts du cabinet Square Management, Jules Brochard et Axel Barrault, décryptent la menace que représente l'alliance entre IA et informatique quantique pour les systèmes de chiffrement actuels (RSA). Ils pointent aussi une stratégie de captation de données chiffrées par certains États, stockées en vue du jour où les ordinateurs quantiques seront assez puissants pour les décrypter, et relativisent le discours sur la souveraineté européenne, jugée encore trop dépendante des géants américains du cloud.",
       "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "date": "2026-07-05T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T21:45:00.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
       "id": "presse-citron-4",
       "type": "article",
       "title": "Une nouvelle IA en France : OVHcloud se lance dans les LLM",
-      "summary": "L'hébergeur français annonce à Paris son entrée sur le marché des grands modèles de langage.",
+      "summary": "L'hébergeur français, acteur reconnu du cloud, annonce à Paris son entrée sur le marché des grands modèles de langage (LLM) — une diversification stratégique face à la domination des géants américains sur ce secteur.",
       "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "fetchedAt": "2026-08-12T21:45:00.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
       "id": "presse-citron-5",
       "type": "article",
       "title": "Accord XXL entre Mistral et Microsoft",
-      "summary": "Un partenariat d'ampleur qui illustre la montée en puissance de la France dans l'IA face aux géants américains.",
+      "summary": "Microsoft a signé le 22 juillet 2026 un accord pluriannuel avec la start-up française Mistral AI pour utiliser la puissance de calcul de ses infrastructures européennes. En retour, Mistral pourra accélérer le déploiement de ses centres de données sur le continent et intégrer plusieurs de ses modèles dans les produits de l'Américain, sans que Microsoft n'entre au capital — l'accord positionne aussi la start-up pour une levée de fonds visant une valorisation à 20 milliards d'euros.",
       "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "date": "2026-07-22T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T21:45:00.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     }
   ]
@@ -1093,7 +1093,7 @@ function isRecentlyNew(item) {
   return Date.now() - seen < NEW_BADGE_WINDOW_MS;
 }
 
-function renderTile(item) {
+function renderTile(item, opts = {}) {
   const icon = TYPE_ICON[item.type] || TYPE_ICON.default;
   const media = item.image
     ? el("img", {
@@ -1106,9 +1106,10 @@ function renderTile(item) {
   if (pubDate) {
     footerChildren.push(el("span", { class: "tile-date", title: "Date de parution" }, pubDate));
   }
+  const summaryClass = "tile-summary" + (opts.longSummary ? " tile-summary-long" : "");
   const body = el("div", { class: "tile-body" }, [
     el("p", { class: "tile-title" }, item.title || "Sans titre"),
-    el("p", { class: "tile-summary" }, item.summary || ""),
+    el("p", { class: summaryClass }, item.summary || ""),
     el("div", { class: "tile-footer" }, footerChildren)
   ]);
   const mediaWrap = isRecentlyNew(item)
@@ -1163,7 +1164,8 @@ function renderColumn(col, idx, total) {
       : [...items].sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr", { sensitivity: "base" }));
     bodyChildren = sorted.map(item => renderListItem(item, { showDate: byDate }));
   } else {
-    bodyChildren = items.map(renderTile);
+    const longSummary = col.sourceType === "site";
+    bodyChildren = items.map(item => renderTile(item, { longSummary }));
   }
   const body = el("div", { class: bodyClass }, bodyChildren);
 
