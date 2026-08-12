@@ -84,10 +84,10 @@
   {
     "id": "films-sorties",
     "title": "Top films",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films sortis en 2025 et 2026, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:41:09.686Z",
-    "updatedAt": "2026-08-12T13:02:02.016Z",
+    "updatedAt": "2026-08-12T13:04:39.827Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "ciné"
@@ -96,13 +96,25 @@
   {
     "id": "top-films-sf",
     "title": "Top films SF",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF sortis en 2025 et 2026, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
     "resultCount": 10,
     "tags": [
       "ciné"
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
-    "updatedAt": "2026-08-12T13:03:08.181Z",
+    "updatedAt": "2026-08-12T13:04:54.123Z",
+    "lastRun": null
+  },
+  {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:06:43.136Z",
     "lastRun": null
   }
 ]
