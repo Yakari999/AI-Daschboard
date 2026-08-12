@@ -118,12 +118,12 @@
     "id": "top-jeux",
     "title": "Top jeux",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 15,
+    "resultCount": 10,
     "tags": [
       "jeux"
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "frequency": "weekly"
   }
