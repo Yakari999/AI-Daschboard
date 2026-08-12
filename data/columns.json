@@ -10,7 +10,8 @@
     "tags": [
       "event"
     ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "youtube-ia-outils",
@@ -23,7 +24,8 @@
     "tags": [
       "ia"
     ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -36,7 +38,8 @@
     "frequency": "weekly",
     "tags": [
       "Wing"
-    ]
+    ],
+    "layout": "tiles"
   },
   {
     "id": "series-netflix",
@@ -49,7 +52,8 @@
     "tags": [
       "ciné"
     ],
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "courses-au-large",
@@ -62,7 +66,8 @@
     "tags": [
       "sport"
     ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "films-sorties",
@@ -75,7 +80,8 @@
     "tags": [
       "ciné"
     ],
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "top-films-sf",
@@ -88,7 +94,8 @@
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "top-jeux",
@@ -101,6 +108,21 @@
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
+    "id": "marques-vtt-avinox",
+    "title": "Marques VTT Avinox",
+    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
+    "resultCount": 30,
+    "frequency": "weekly",
+    "layout": "list",
+    "tags": [
+      "bike"
+    ],
+    "createdAt": "2026-08-12T20:05:00.000Z",
+    "updatedAt": "2026-08-12T20:05:00.000Z",
+    "lastRun": "2026-08-12T20:05:00.000Z"
   }
 ]

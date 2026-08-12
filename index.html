@@ -232,6 +232,19 @@
 
   .empty-tile { font-size: .78rem; color: var(--text-muted); padding: 20px 4px; text-align: center; }
 
+  .column-list { padding: 10px; display: flex; flex-direction: column; gap: 6px; overflow-y: auto; min-height: 0; }
+  .list-item {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 9px 12px; text-decoration: none; color: var(--text); font-size: .84rem; font-weight: 550;
+    transition: background .15s ease, color .15s ease;
+  }
+  a.list-item:hover { background: var(--accent-soft); color: var(--accent); }
+  .list-item-badge {
+    background: var(--accent); color: #fff; font-size: .6rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .03em; padding: 2px 8px; border-radius: 999px; flex-shrink: 0;
+  }
+
   .column.add-column {
     background: transparent;
     border: 2px dashed var(--border);
@@ -348,6 +361,6 @@
 
   <div class="toast-wrap" id="toastWrap"></div>
 
-<script src="app.js?v=10"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>

@@ -605,5 +605,128 @@
       "date": "2025-02-11T00:00:00.000Z",
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     }
+  ],
+  "marques-vtt-avinox": [
+    {
+      "id": "avinox-brand-1",
+      "type": "link",
+      "title": "Amflow",
+      "summary": "",
+      "url": "https://www.amflowbikes.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-2",
+      "type": "link",
+      "title": "Canyon",
+      "summary": "",
+      "url": "https://www.canyon.com/en-us/mountain-bikes/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-3",
+      "type": "link",
+      "title": "Commencal",
+      "summary": "",
+      "url": "https://www.commencal.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-4",
+      "type": "link",
+      "title": "Forbidden Bike Co.",
+      "summary": "",
+      "url": "https://forbiddenbike.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-5",
+      "type": "link",
+      "title": "Megamo",
+      "summary": "",
+      "url": "https://www.megamo.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-6",
+      "type": "link",
+      "title": "Mondraker",
+      "summary": "",
+      "url": "https://mondraker.com/us/en",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-7",
+      "type": "link",
+      "title": "Orbea",
+      "summary": "",
+      "url": "https://www.orbea.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-8",
+      "type": "link",
+      "title": "Pivot Cycles",
+      "summary": "",
+      "url": "https://www.pivotcycles.com/en/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-9",
+      "type": "link",
+      "title": "ROTWILD",
+      "summary": "",
+      "url": "https://www.rotwild.com/en",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-10",
+      "type": "link",
+      "title": "Unno",
+      "summary": "",
+      "url": "https://www.unno.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-11",
+      "type": "link",
+      "title": "YT Industries",
+      "summary": "",
+      "url": "https://www.yt-industries.com/en-us",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    }
   ]
 }

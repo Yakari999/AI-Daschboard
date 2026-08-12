@@ -1,20 +1,6 @@
 // ---- Fallback seed data (used when data/*.json can't be fetched, e.g. local preview) ----
 const FALLBACK_COLUMNS = [
   {
-    "id": "ebike-avinox",
-    "title": "VTT Avinox MG1",
-    "prompt": "5 dernières actualités sur le moteur Avinox mg1",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-12T12:29:55.607Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "bike",
-      "sport"
-    ],
-    "frequency": "daily"
-  },
-  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
@@ -25,20 +11,8 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "event"
     ],
-    "frequency": "daily"
-  },
-  {
-    "id": "recettes-avocat-saumon",
-    "title": "Recettes avocat & saumon",
-    "prompt": "5 recettes faciles avec avocat et saumon",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-12T12:13:25.089Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "cuisine"
-    ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "youtube-ia-outils",
@@ -51,17 +25,22 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "ia"
     ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
     "title": "Idée de vacances wingfoil en europe en automne",
-    "prompt": "3 Idées de vacances wingfoil en europe en automne",
-    "resultCount": 3,
+    "prompt": "Idées de vacances wingfoil en europe en automne",
+    "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-12T17:48:27.004Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
-    "frequency": "daily"
+    "frequency": "weekly",
+    "tags": [
+      "Wing"
+    ],
+    "layout": "tiles"
   },
   {
     "id": "series-netflix",
@@ -74,7 +53,8 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "ciné"
     ],
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "courses-au-large",
@@ -87,7 +67,8 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "sport"
     ],
-    "frequency": "daily"
+    "frequency": "daily",
+    "layout": "tiles"
   },
   {
     "id": "films-sorties",
@@ -100,7 +81,8 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "ciné"
     ],
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "top-films-sf",
@@ -113,76 +95,40 @@ const FALLBACK_COLUMNS = [
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
   },
   {
     "id": "top-jeux",
     "title": "Top jeux",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 15,
+    "resultCount": 10,
     "tags": [
       "jeux"
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly"
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
+    "id": "marques-vtt-avinox",
+    "title": "Marques VTT Avinox",
+    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
+    "resultCount": 30,
+    "frequency": "weekly",
+    "layout": "list",
+    "tags": [
+      "bike"
+    ],
+    "createdAt": "2026-08-12T20:05:00.000Z",
+    "updatedAt": "2026-08-12T20:05:00.000Z",
+    "lastRun": "2026-08-12T20:05:00.000Z"
   }
 ];
 
 const FALLBACK_RESULTS = {
-  "ebike-avinox": [
-    {
-      "id": "mg1-c1",
-      "type": "article",
-      "title": "Eurobike 2026 | Avinox MG1 : un moteur avec boîte de vitesses intégrée",
-      "summary": "Concept très compact intégrant directement une boîte de vitesses ou un variateur de couple, déjà testé sur des prototypes Canyon, Commencal, Forbidden, Mondraker et Megamo.",
-      "url": "https://www.vojomag.com/news/eurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.vojomag.com%2Fnews%2Feurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "mg1-c2",
-      "type": "article",
-      "title": "Avinox dévoile le concept produit Avinox MG1 à l'Eurobike 2026",
-      "summary": "Présenté comme un concept, sans date de commercialisation annoncée pour l'instant.",
-      "url": "https://www.prnewswire.com/news-releases/avinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Favinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "mg1-c3",
-      "type": "article",
-      "title": "New Avinox MG gearbox motor prototype: is this the end of the classic drivetrain?",
-      "summary": "E-MOUNTAINBIKE Magazine analyse l'objectif du concept : ressenti plus naturel, changements de vitesse fluides, entretien réduit.",
-      "url": "https://ebike-mtb.com/en/avinox-mg-gearbox-motor/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Febike-mtb.com%2Fen%2Favinox-mg-gearbox-motor%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "mg1-c4",
-      "type": "article",
-      "title": "Avinox MG1, moteur à transmission intégrée qui redéfinit le VTTAE",
-      "summary": "Plus de dérailleur ni de cassette : une simple chaîne mono-vitesse ou courroie remplace la transmission classique.",
-      "url": "https://www.shcycles.fr/moteur-transmission-avinox-mg1/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.shcycles.fr%2Fmoteur-transmission-avinox-mg1%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "mg1-c5",
-      "type": "article",
-      "title": "DJI Avinox MG1 : ce nouveau moteur change de vitesse en 0,1 seconde",
-      "summary": "Transmission intégrée, changements de rapport possibles même à l'arrêt ou sous forte charge.",
-      "url": "https://www.cleanrider.com/actus/dji-avinox-mg1-moteur-velo-electrique-transmission-automatique/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cleanrider.com%2Factus%2Fdji-avinox-mg1-moteur-velo-electrique-transmission-automatique%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    }
-  ],
   "youtube-ia-outils": [
     {
       "id": "yt-c1",
@@ -234,58 +180,6 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=RatJ6UDm98U",
       "image": "https://img.youtube.com/vi/RatJ6UDm98U/hqdefault.jpg",
       "date": "2026-03-06T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    }
-  ],
-  "recettes-avocat-saumon": [
-    {
-      "id": "rec-c1",
-      "type": "recipe",
-      "title": "Salade de saumon à l'avocat et vinaigrette agrumée",
-      "summary": "Saumon riche en oméga-3, avocat crémeux et vinaigrette aux agrumes, prête en 15 minutes sans cuisson.",
-      "url": "https://www.mealbake.com/fr/recipes/salade-de-saumon-a-l-avocat-et-vinaigrette-agrumee",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mealbake.com%2Ffr%2Frecipes%2Fsalade-de-saumon-a-l-avocat-et-vinaigrette-agrumee?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c2",
-      "type": "recipe",
-      "title": "Salade au saumon fumé et avocat : recette et variantes",
-      "summary": "L'équilibre entre le goût délicat du saumon fumé et la texture crémeuse de l'avocat.",
-      "url": "https://www.epiceriedupatrimoine.com/salade-saumon-fume-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.epiceriedupatrimoine.com%2Fsalade-saumon-fume-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c3",
-      "type": "recipe",
-      "title": "Saumon fumé sur mousse à l'avocat",
-      "summary": "Une mousse d'avocat légère surmontée de fines tranches de saumon fumé, en entrée ou apéritif.",
-      "url": "https://www.recettes.com/recettes/saumon-fume-sur-mousse-a-l-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.recettes.com%2Frecettes%2Fsaumon-fume-sur-mousse-a-l-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c4",
-      "type": "recipe",
-      "title": "Salade saumon avocat",
-      "summary": "Une recette simple et gourmande, prête en quelques minutes.",
-      "url": "https://lesdelicesdestef.fr/salade-saumon-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flesdelicesdestef.fr%2Fsalade-saumon-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c5",
-      "type": "recipe",
-      "title": "Recette gourmande de salade au saumon et avocat",
-      "summary": "Une explosion de saveurs pour un repas léger et équilibré.",
-      "url": "https://www.actuniort.fr/art-de-vivre/14751",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.actuniort.fr%2Fart-de-vivre%2F14751?w=400&h=225",
-      "date": null,
       "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
@@ -841,6 +735,129 @@ const FALLBACK_RESULTS = {
       "date": "2025-02-11T00:00:00.000Z",
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     }
+  ],
+  "marques-vtt-avinox": [
+    {
+      "id": "avinox-brand-1",
+      "type": "link",
+      "title": "Amflow",
+      "summary": "",
+      "url": "https://www.amflowbikes.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-2",
+      "type": "link",
+      "title": "Canyon",
+      "summary": "",
+      "url": "https://www.canyon.com/en-us/mountain-bikes/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-3",
+      "type": "link",
+      "title": "Commencal",
+      "summary": "",
+      "url": "https://www.commencal.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-4",
+      "type": "link",
+      "title": "Forbidden Bike Co.",
+      "summary": "",
+      "url": "https://forbiddenbike.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-5",
+      "type": "link",
+      "title": "Megamo",
+      "summary": "",
+      "url": "https://www.megamo.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-6",
+      "type": "link",
+      "title": "Mondraker",
+      "summary": "",
+      "url": "https://mondraker.com/us/en",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-7",
+      "type": "link",
+      "title": "Orbea",
+      "summary": "",
+      "url": "https://www.orbea.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-8",
+      "type": "link",
+      "title": "Pivot Cycles",
+      "summary": "",
+      "url": "https://www.pivotcycles.com/en/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-9",
+      "type": "link",
+      "title": "ROTWILD",
+      "summary": "",
+      "url": "https://www.rotwild.com/en",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-10",
+      "type": "link",
+      "title": "Unno",
+      "summary": "",
+      "url": "https://www.unno.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    },
+    {
+      "id": "avinox-brand-11",
+      "type": "link",
+      "title": "YT Industries",
+      "summary": "",
+      "url": "https://www.yt-industries.com/en-us",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T20:05:00.000Z",
+      "firstSeenAt": "2026-08-12T20:05:00.000Z"
+    }
   ]
 };
 
@@ -1046,11 +1063,30 @@ function renderTile(item) {
   return el(tag, attrs, [mediaWrap, body]);
 }
 
+function renderListItem(item) {
+  const tag = item.url ? "a" : "div";
+  const attrs = item.url ? { class: "list-item", href: item.url, target: "_blank", rel: "noopener" } : { class: "list-item" };
+  const children = [el("span", {}, item.title || "Sans titre")];
+  if (isRecentlyNew(item)) {
+    children.push(el("span", { class: "list-item-badge", title: "Apparu dans les dernières 24h" }, "Nouveau"));
+  }
+  return el(tag, attrs, children);
+}
+
 function renderColumn(col, idx, total) {
   const items = state.results[col.id] || [];
-  const body = el("div", { class: "column-body" },
-    items.length ? items.map(renderTile) : [el("div", { class: "empty-tile" }, "Aucun résultat pour l'instant.")]
-  );
+  const isList = col.layout === "list";
+  const bodyClass = isList ? "column-list" : "column-body";
+  let bodyChildren;
+  if (!items.length) {
+    bodyChildren = [el("div", { class: "empty-tile" }, "Aucun résultat pour l'instant.")];
+  } else if (isList) {
+    const sorted = [...items].sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr", { sensitivity: "base" }));
+    bodyChildren = sorted.map(renderListItem);
+  } else {
+    bodyChildren = items.map(renderTile);
+  }
+  const body = el("div", { class: bodyClass }, bodyChildren);
 
   const menu = el("div", { class: "column-menu" }, [
     el("button", { class: "mini-btn", title: "Déplacer à gauche", disabled: idx === 0, onclick: () => moveColumn(col.id, -1), html: ICONS.chevronLeft }),
@@ -1261,6 +1297,11 @@ function openAddForm() {
     el("option", { value: "weekly" }, "Hebdomadaire (chaque lundi, 6h)")
   ]);
   frequencySelect.value = "daily";
+  const layoutSelect = el("select", {}, [
+    el("option", { value: "tiles" }, "Tuiles (avec image)"),
+    el("option", { value: "list" }, "Liste simple (texte, A→Z)")
+  ]);
+  layoutSelect.value = "tiles";
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
@@ -1272,6 +1313,7 @@ function openAddForm() {
         el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
         el("div", { class: "form-field" }, [el("label", {}, "Fréquence de mise à jour"), frequencySelect])
       ]),
+      el("div", { class: "form-field" }, [el("label", {}, "Affichage"), layoutSelect]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -1285,6 +1327,7 @@ function openAddForm() {
               id: slugify(title), title, prompt,
               resultCount: clampResultCount(resultCountInput.value),
               frequency: frequencySelect.value === "weekly" ? "weekly" : "daily",
+              layout: layoutSelect.value === "list" ? "list" : "tiles",
               tags: parseTags(tagsInput.value),
               createdAt: now, updatedAt: now, lastRun: null
             };
@@ -1327,6 +1370,11 @@ function openEditForm(col) {
     el("option", { value: "weekly" }, "Hebdomadaire (chaque lundi, 6h)")
   ]);
   frequencySelect.value = col.frequency === "weekly" ? "weekly" : "daily";
+  const layoutSelect = el("select", {}, [
+    el("option", { value: "tiles" }, "Tuiles (avec image)"),
+    el("option", { value: "list" }, "Liste simple (texte, A→Z)")
+  ]);
+  layoutSelect.value = col.layout === "list" ? "list" : "tiles";
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
@@ -1337,6 +1385,7 @@ function openEditForm(col) {
         el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
         el("div", { class: "form-field" }, [el("label", {}, "Fréquence de mise à jour"), frequencySelect])
       ]),
+      el("div", { class: "form-field" }, [el("label", {}, "Affichage"), layoutSelect]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -1346,6 +1395,7 @@ function openEditForm(col) {
             col.prompt = promptInput.value.trim() || col.prompt;
             col.resultCount = clampResultCount(resultCountInput.value);
             col.frequency = frequencySelect.value === "weekly" ? "weekly" : "daily";
+            col.layout = layoutSelect.value === "list" ? "list" : "tiles";
             col.tags = parseTags(tagsInput.value);
             col.updatedAt = new Date().toISOString();
             render();
