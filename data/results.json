@@ -280,20 +280,10 @@
       "type": "article",
       "title": "Défi Azimut-Lorient",
       "summary": "Temps fort de la saison IMOCA qui sert de préparation directe aux grandes échéances transocéaniques.",
-      "url": "https://www.polefinistere.com/calendrier-2026/",
+      "url": "https://www.defi-azimut.net/fr",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "voile-5",
-      "type": "article",
-      "title": "Calendrier course au large 2026-2028",
-      "summary": "Vue d'ensemble de toutes les grandes échéances IMOCA, Ultim et Class40 à venir.",
-      "url": "https://www.spencer.club/en-US/calendar",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.spencer.club%2Fen-US%2Fcalendar?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
+      "date": "2026-09-15T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T20:40:00.000Z"
     }
   ],
   "films-sorties": [

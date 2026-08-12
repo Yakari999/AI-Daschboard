@@ -1,74 +1,18 @@
 // ---- Fallback seed data (used when data/*.json can't be fetched, e.g. local preview) ----
 const FALLBACK_COLUMNS = [
   {
-    "id": "presse",
-    "title": "Evénements culturels Lausanne",
-    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "event"
-    ],
-    "frequency": "daily",
-    "layout": "tiles"
-  },
-  {
-    "id": "youtube-ia-outils",
-    "title": "Vidéos outils IA",
-    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-12T12:13:31.096Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "ia"
-    ],
-    "frequency": "daily",
-    "layout": "tiles"
-  },
-  {
-    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
-    "title": "Idée de vacances wingfoil en europe en automne",
-    "prompt": "Idées de vacances wingfoil en europe en automne",
-    "resultCount": 10,
-    "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-12T17:48:27.004Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
+    "id": "marques-vtt-avinox",
+    "title": "Marques VTT Avinox",
+    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S, Mg1), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
+    "resultCount": 30,
     "frequency": "weekly",
+    "layout": "list",
     "tags": [
-      "Wing"
+      "bike"
     ],
-    "layout": "tiles"
-  },
-  {
-    "id": "series-netflix",
-    "title": "Top séries",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 15,
-    "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "tags": [
-      "ciné"
-    ],
-    "frequency": "weekly",
-    "layout": "tiles"
-  },
-  {
-    "id": "courses-au-large",
-    "title": "Courses au large",
-    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
-    "resultCount": 5,
-    "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T12:14:03.309Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "sport"
-    ],
-    "frequency": "daily",
-    "layout": "tiles"
+    "createdAt": "2026-08-12T20:05:00.000Z",
+    "updatedAt": "2026-08-12T17:55:43.650Z",
+    "lastRun": "2026-08-12T20:05:00.000Z"
   },
   {
     "id": "films-sorties",
@@ -99,6 +43,20 @@ const FALLBACK_COLUMNS = [
     "layout": "tiles"
   },
   {
+    "id": "series-netflix",
+    "title": "Top séries",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 15,
+    "createdAt": "2026-08-12T09:19:55.490Z",
+    "updatedAt": "2026-08-12T13:04:29.156Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "tags": [
+      "ciné"
+    ],
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
     "id": "top-jeux",
     "title": "Top jeux",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -113,18 +71,46 @@ const FALLBACK_COLUMNS = [
     "layout": "tiles"
   },
   {
-    "id": "marques-vtt-avinox",
-    "title": "Marques VTT Avinox",
-    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
-    "resultCount": 30,
-    "frequency": "weekly",
-    "layout": "list",
+    "id": "presse",
+    "title": "Evénements culturels Lausanne",
+    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-12T12:12:53.333Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
-      "bike"
+      "event"
     ],
-    "createdAt": "2026-08-12T20:05:00.000Z",
-    "updatedAt": "2026-08-12T20:05:00.000Z",
-    "lastRun": "2026-08-12T20:05:00.000Z"
+    "frequency": "daily",
+    "layout": "tiles"
+  },
+  {
+    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
+    "title": "Idée de vacances wingfoil en europe en automne",
+    "prompt": "Idées de vacances wingfoil en europe en automne",
+    "resultCount": 10,
+    "createdAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-12T17:48:27.004Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "frequency": "weekly",
+    "tags": [
+      "Wing"
+    ],
+    "layout": "tiles"
+  },
+  {
+    "id": "courses-au-large",
+    "title": "Courses au large",
+    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "resultCount": 5,
+    "createdAt": "2026-08-12T09:39:51.181Z",
+    "updatedAt": "2026-08-12T20:40:00.000Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "sport"
+    ],
+    "frequency": "daily",
+    "layout": "list-date"
   }
 ];
 
@@ -410,20 +396,10 @@ const FALLBACK_RESULTS = {
       "type": "article",
       "title": "Défi Azimut-Lorient",
       "summary": "Temps fort de la saison IMOCA qui sert de préparation directe aux grandes échéances transocéaniques.",
-      "url": "https://www.polefinistere.com/calendrier-2026/",
+      "url": "https://www.defi-azimut.net/fr",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "voile-5",
-      "type": "article",
-      "title": "Calendrier course au large 2026-2028",
-      "summary": "Vue d'ensemble de toutes les grandes échéances IMOCA, Ultim et Class40 à venir.",
-      "url": "https://www.spencer.club/en-US/calendar",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.spencer.club%2Fen-US%2Fcalendar?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
+      "date": "2026-09-15T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T20:40:00.000Z"
     }
   ],
   "films-sorties": [
@@ -1063,26 +1039,49 @@ function renderTile(item) {
   return el(tag, attrs, [mediaWrap, body]);
 }
 
-function renderListItem(item) {
+function renderListItem(item, opts = {}) {
   const tag = item.url ? "a" : "div";
   const attrs = item.url ? { class: "list-item", href: item.url, target: "_blank", rel: "noopener" } : { class: "list-item" };
-  const children = [el("span", {}, item.title || "Sans titre")];
+  const nameChildren = [el("span", { class: "list-item-name" }, item.title || "Sans titre")];
+  const pubDate = opts.showDate ? formatDate(item.date, item.datePrecision) : null;
+  if (pubDate) nameChildren.push(el("span", { class: "list-item-date" }, pubDate));
+  const children = [el("div", { class: "list-item-main" }, nameChildren)];
   if (isRecentlyNew(item)) {
     children.push(el("span", { class: "list-item-badge", title: "Apparu dans les dernières 24h" }, "Nouveau"));
   }
   return el(tag, attrs, children);
 }
 
+function compareListByDate(a, b) {
+  const now = Date.now();
+  const ta = a.date ? new Date(a.date).getTime() : NaN;
+  const tb = b.date ? new Date(b.date).getTime() : NaN;
+  const upcomingA = !Number.isNaN(ta) && ta >= now;
+  const upcomingB = !Number.isNaN(tb) && tb >= now;
+  if (upcomingA && upcomingB) return ta - tb;
+  if (upcomingA) return -1;
+  if (upcomingB) return 1;
+  const knownA = !Number.isNaN(ta);
+  const knownB = !Number.isNaN(tb);
+  if (knownA && knownB) return tb - ta;
+  if (knownA) return -1;
+  if (knownB) return 1;
+  return (a.title || "").localeCompare(b.title || "", "fr", { sensitivity: "base" });
+}
+
 function renderColumn(col, idx, total) {
   const items = state.results[col.id] || [];
-  const isList = col.layout === "list";
+  const isList = col.layout === "list" || col.layout === "list-date";
   const bodyClass = isList ? "column-list" : "column-body";
   let bodyChildren;
   if (!items.length) {
     bodyChildren = [el("div", { class: "empty-tile" }, "Aucun résultat pour l'instant.")];
   } else if (isList) {
-    const sorted = [...items].sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr", { sensitivity: "base" }));
-    bodyChildren = sorted.map(renderListItem);
+    const byDate = col.layout === "list-date";
+    const sorted = byDate
+      ? [...items].sort(compareListByDate)
+      : [...items].sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr", { sensitivity: "base" }));
+    bodyChildren = sorted.map(item => renderListItem(item, { showDate: byDate }));
   } else {
     bodyChildren = items.map(renderTile);
   }
@@ -1234,6 +1233,11 @@ function clampResultCount(n) {
   return Math.min(Math.max(Number.isFinite(v) ? v : 5, 1), 30);
 }
 
+const LAYOUTS = ["tiles", "list", "list-date"];
+function normalizeLayout(v) {
+  return LAYOUTS.includes(v) ? v : "tiles";
+}
+
 function parseTags(str) {
   const seen = new Set();
   for (const raw of str.split(",")) {
@@ -1299,7 +1303,8 @@ function openAddForm() {
   frequencySelect.value = "daily";
   const layoutSelect = el("select", {}, [
     el("option", { value: "tiles" }, "Tuiles (avec image)"),
-    el("option", { value: "list" }, "Liste simple (texte, A→Z)")
+    el("option", { value: "list" }, "Liste simple (texte, A→Z)"),
+    el("option", { value: "list-date" }, "Liste triée par date (le plus proche en haut)")
   ]);
   layoutSelect.value = "tiles";
 
@@ -1327,7 +1332,7 @@ function openAddForm() {
               id: slugify(title), title, prompt,
               resultCount: clampResultCount(resultCountInput.value),
               frequency: frequencySelect.value === "weekly" ? "weekly" : "daily",
-              layout: layoutSelect.value === "list" ? "list" : "tiles",
+              layout: normalizeLayout(layoutSelect.value),
               tags: parseTags(tagsInput.value),
               createdAt: now, updatedAt: now, lastRun: null
             };
@@ -1372,9 +1377,10 @@ function openEditForm(col) {
   frequencySelect.value = col.frequency === "weekly" ? "weekly" : "daily";
   const layoutSelect = el("select", {}, [
     el("option", { value: "tiles" }, "Tuiles (avec image)"),
-    el("option", { value: "list" }, "Liste simple (texte, A→Z)")
+    el("option", { value: "list" }, "Liste simple (texte, A→Z)"),
+    el("option", { value: "list-date" }, "Liste triée par date (le plus proche en haut)")
   ]);
-  layoutSelect.value = col.layout === "list" ? "list" : "tiles";
+  layoutSelect.value = normalizeLayout(col.layout);
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
@@ -1395,7 +1401,7 @@ function openEditForm(col) {
             col.prompt = promptInput.value.trim() || col.prompt;
             col.resultCount = clampResultCount(resultCountInput.value);
             col.frequency = frequencySelect.value === "weekly" ? "weekly" : "daily";
-            col.layout = layoutSelect.value === "list" ? "list" : "tiles";
+            col.layout = normalizeLayout(layoutSelect.value);
             col.tags = parseTags(tagsInput.value);
             col.updatedAt = new Date().toISOString();
             render();

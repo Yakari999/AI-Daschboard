@@ -236,10 +236,13 @@
   .list-item {
     display: flex; align-items: center; justify-content: space-between; gap: 8px;
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
-    padding: 9px 12px; text-decoration: none; color: var(--text); font-size: .84rem; font-weight: 550;
+    padding: 9px 12px; text-decoration: none; color: var(--text);
     transition: background .15s ease, color .15s ease;
   }
   a.list-item:hover { background: var(--accent-soft); color: var(--accent); }
+  .list-item-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .list-item-name { font-size: .84rem; font-weight: 550; }
+  .list-item-date { font-size: .68rem; color: var(--text-muted); }
   .list-item-badge {
     background: var(--accent); color: #fff; font-size: .6rem; font-weight: 700;
     text-transform: uppercase; letter-spacing: .03em; padding: 2px 8px; border-radius: 999px; flex-shrink: 0;
@@ -361,6 +364,6 @@
 
   <div class="toast-wrap" id="toastWrap"></div>
 
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 </body>
 </html>

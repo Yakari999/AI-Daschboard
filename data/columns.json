@@ -103,12 +103,12 @@
     "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
     "resultCount": 5,
     "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T12:14:03.309Z",
+    "updatedAt": "2026-08-12T20:40:00.000Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "sport"
     ],
     "frequency": "daily",
-    "layout": "tiles"
+    "layout": "list-date"
   }
 ]
