@@ -14,6 +14,34 @@
     "lastRun": "2026-08-12T20:05:00.000Z"
   },
   {
+    "id": "films-sorties",
+    "title": "Top films",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 15,
+    "createdAt": "2026-08-12T09:41:09.686Z",
+    "updatedAt": "2026-08-12T13:04:39.827Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "tags": [
+      "ciné"
+    ],
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
+    "id": "top-films-sf",
+    "title": "Top films SF",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 15,
+    "tags": [
+      "ciné"
+    ],
+    "createdAt": "2026-08-12T13:03:08.181Z",
+    "updatedAt": "2026-08-12T13:04:54.123Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
     "id": "series-netflix",
     "title": "Top séries",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -28,6 +56,20 @@
     "layout": "tiles"
   },
   {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly",
+    "layout": "tiles"
+  },
+  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
@@ -37,20 +79,6 @@
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "event"
-    ],
-    "frequency": "daily",
-    "layout": "tiles"
-  },
-  {
-    "id": "youtube-ia-outils",
-    "title": "Vidéos outils IA",
-    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-12T12:13:31.096Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "ia"
     ],
     "frequency": "daily",
     "layout": "tiles"
@@ -81,48 +109,6 @@
       "sport"
     ],
     "frequency": "daily",
-    "layout": "tiles"
-  },
-  {
-    "id": "films-sorties",
-    "title": "Top films",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 15,
-    "createdAt": "2026-08-12T09:41:09.686Z",
-    "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "tags": [
-      "ciné"
-    ],
-    "frequency": "weekly",
-    "layout": "tiles"
-  },
-  {
-    "id": "top-films-sf",
-    "title": "Top films SF",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 15,
-    "tags": [
-      "ciné"
-    ],
-    "createdAt": "2026-08-12T13:03:08.181Z",
-    "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly",
-    "layout": "tiles"
-  },
-  {
-    "id": "top-jeux",
-    "title": "Top jeux",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
-    "tags": [
-      "jeux"
-    ],
-    "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly",
     "layout": "tiles"
   }
 ]
