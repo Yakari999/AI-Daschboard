@@ -60,10 +60,10 @@
   {
     "id": "series-netflix",
     "title": "Top séries",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries 2025 et 2026, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T13:01:01.631Z",
+    "updatedAt": "2026-08-12T13:04:29.156Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "ciné"
