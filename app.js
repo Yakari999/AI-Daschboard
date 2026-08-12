@@ -6,8 +6,12 @@ const FALLBACK_COLUMNS = [
     "prompt": "5 dernières actualités sur le moteur Avinox mg1",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:29:55.607Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "bike",
+      "sport"
+    ]
   },
   {
     "id": "presse",
@@ -15,8 +19,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-11T22:36:28.310Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:12:53.333Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "event"
+    ]
   },
   {
     "id": "recettes-avocat-saumon",
@@ -24,8 +31,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "5 recettes faciles avec avocat et saumon",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:25.089Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "cuisine"
+    ]
   },
   {
     "id": "youtube-ia-outils",
@@ -33,8 +43,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:31.096Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "ia"
+    ]
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -51,8 +64,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, avec liens vers les trailer youtube. Avec vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T11:55:55.552Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:55.502Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "cine"
+    ]
   },
   {
     "id": "courses-au-large",
@@ -60,8 +76,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
     "resultCount": 5,
     "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T09:39:51.181Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:14:03.309Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "sport"
+    ]
   },
   {
     "id": "films-sorties",
@@ -69,8 +88,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "liste des 10 dernières sorties de film au cinéma avec lien vers le trailer youtube et affichage vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:41:09.686Z",
-    "updatedAt": "2026-08-12T09:41:09.686Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:14:13.600Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "cine"
+    ]
   }
 ];
 
@@ -732,6 +754,15 @@ function formatDate(iso, precision) {
   }
 }
 
+const NEW_BADGE_WINDOW_MS = 24 * 60 * 60 * 1000;
+
+function isRecentlyNew(item) {
+  if (!item.firstSeenAt) return false;
+  const seen = new Date(item.firstSeenAt).getTime();
+  if (Number.isNaN(seen)) return false;
+  return Date.now() - seen < NEW_BADGE_WINDOW_MS;
+}
+
 function renderTile(item) {
   const icon = TYPE_ICON[item.type] || TYPE_ICON.default;
   const media = item.image
@@ -750,9 +781,12 @@ function renderTile(item) {
     el("p", { class: "tile-summary" }, item.summary || ""),
     el("div", { class: "tile-footer" }, footerChildren)
   ]);
+  const mediaWrap = isRecentlyNew(item)
+    ? el("div", { class: "tile-media-wrap" }, [media, el("span", { class: "new-badge", title: "Apparu dans les dernières 24h" }, "Nouveau")])
+    : media;
   const tag = item.url ? "a" : "div";
   const attrs = item.url ? { class: "tile", href: item.url, target: "_blank", rel: "noopener" } : { class: "tile" };
-  return el(tag, attrs, [media, body]);
+  return el(tag, attrs, [mediaWrap, body]);
 }
 
 function renderColumn(col, idx, total) {
