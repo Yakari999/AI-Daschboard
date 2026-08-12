@@ -1,5 +1,19 @@
 [
   {
+    "id": "marques-vtt-avinox",
+    "title": "Marques VTT Avinox",
+    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S, Mg1), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
+    "resultCount": 30,
+    "frequency": "weekly",
+    "layout": "list",
+    "tags": [
+      "bike"
+    ],
+    "createdAt": "2026-08-12T20:05:00.000Z",
+    "updatedAt": "2026-08-12T17:55:43.650Z",
+    "lastRun": "2026-08-12T20:05:00.000Z"
+  },
+  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
@@ -110,19 +124,5 @@
     "lastRun": "2026-08-12T15:40:00.000Z",
     "frequency": "weekly",
     "layout": "tiles"
-  },
-  {
-    "id": "marques-vtt-avinox",
-    "title": "Marques VTT Avinox",
-    "prompt": "Liste des marques de VTT électrique qui ont signé un partenariat avec DJI pour utiliser le moteur Avinox (M1, M2, M2S), triée par ordre alphabétique, avec un lien vers le site officiel de chaque marque. Complète la liste chaque semaine avec les nouvelles marques qui rejoignent le partenariat.",
-    "resultCount": 30,
-    "frequency": "weekly",
-    "layout": "list",
-    "tags": [
-      "bike"
-    ],
-    "createdAt": "2026-08-12T20:05:00.000Z",
-    "updatedAt": "2026-08-12T17:54:35.990Z",
-    "lastRun": "2026-08-12T20:05:00.000Z"
   }
 ]
