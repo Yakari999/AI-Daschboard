@@ -28,12 +28,15 @@
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
     "title": "Idée de vacances wingfoil en europe en automne",
-    "prompt": "3 Idées de vacances wingfoil en europe en automne",
-    "resultCount": 3,
+    "prompt": "Idées de vacances wingfoil en europe en automne",
+    "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-12T17:48:27.004Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
-    "frequency": "daily"
+    "frequency": "weekly",
+    "tags": [
+      "Wing"
+    ]
   },
   {
     "id": "series-netflix",
