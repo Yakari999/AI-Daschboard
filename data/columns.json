@@ -61,5 +61,14 @@
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-12T09:39:51.181Z",
     "lastRun": null
+  },
+  {
+    "id": "films-sorties",
+    "title": "Films sorties",
+    "prompt": "liste des 10 dernières sorties de film au cinéma avec lien vers le trailer youtube et affichage vignette youtube",
+    "resultCount": 10,
+    "createdAt": "2026-08-12T09:41:09.686Z",
+    "updatedAt": "2026-08-12T09:41:09.686Z",
+    "lastRun": null
   }
 ]
