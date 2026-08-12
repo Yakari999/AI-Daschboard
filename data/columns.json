@@ -9,21 +9,21 @@
     "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
-    "id": "youtube-ia-outils",
-    "title": "Vidéos outils IA",
-    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
-  },
-  {
     "id": "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy",
     "title": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
     "prompt": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
     "resultCount": 5,
     "createdAt": "2026-08-11T22:39:16.268Z",
     "updatedAt": "2026-08-11T22:39:16.268Z",
+    "lastRun": "2026-08-11T23:00:00.000Z"
+  },
+  {
+    "id": "prochaines-competition-de-vtt-en-suisse",
+    "title": "Compétition de VTT en Suisse",
+    "prompt": "3 prochaines compétitions de VTT en Suisse.",
+    "resultCount": 3,
+    "createdAt": "2026-08-11T22:37:48.168Z",
+    "updatedAt": "2026-08-11T22:37:57.921Z",
     "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
@@ -45,6 +45,15 @@
     "lastRun": "2026-08-11T23:00:00.000Z"
   },
   {
+    "id": "youtube-ia-outils",
+    "title": "Vidéos outils IA",
+    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T22:35:14.382Z",
+    "lastRun": "2026-08-11T23:00:00.000Z"
+  },
+  {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
     "title": "Idée de vacances wingfoil en europe en automne",
     "prompt": "3 Idées de vacances wingfoil en europe en automne",
@@ -52,14 +61,5 @@
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
     "lastRun": "2026-08-11T23:20:00.000Z"
-  },
-  {
-    "id": "prochaines-competition-de-vtt-en-suisse",
-    "title": "Compétition de VTT en Suisse",
-    "prompt": "3 prochaines compétitions de VTT en Suisse.",
-    "resultCount": 3,
-    "createdAt": "2026-08-11T22:37:48.168Z",
-    "updatedAt": "2026-08-11T22:37:57.921Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
   }
 ]
