@@ -10,15 +10,6 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-12T09:15:00.000Z"
   },
   {
-    "id": "prochaines-competition-de-vtt-en-suisse",
-    "title": "Compétition de VTT en Suisse",
-    "prompt": "3 prochaines compétitions de VTT en Suisse.",
-    "resultCount": 3,
-    "createdAt": "2026-08-11T22:37:48.168Z",
-    "updatedAt": "2026-08-11T22:37:57.921Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
-  },
-  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
@@ -53,6 +44,15 @@ const FALLBACK_COLUMNS = [
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
     "lastRun": "2026-08-12T09:15:00.000Z"
+  },
+  {
+    "id": "series-netflix",
+    "title": "Séries Netflix",
+    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. pas besoin d'image.",
+    "resultCount": 10,
+    "createdAt": "2026-08-12T09:19:55.490Z",
+    "updatedAt": "2026-08-12T09:19:55.490Z",
+    "lastRun": "2026-08-12T09:35:00.000Z"
   }
 ];
 
@@ -267,38 +267,6 @@ const FALLBACK_RESULTS = {
       "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
-  "prochaines-competition-de-vtt-en-suisse": [
-    {
-      "id": "vtt-c1",
-      "type": "article",
-      "title": "Battistrada – Calendrier des événements VTT Suisse 2026-2027",
-      "summary": "Liste complète des cyclosportives et courses VTT en Suisse, avec dates et localisations.",
-      "url": "https://battistrada.com/fr/calendrier-cyclosportives/suisse/?biketype=2",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbattistrada.com%2Ffr%2Fcalendrier-cyclosportives%2Fsuisse%2F%3Fbiketype%3D2?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "vtt-c2",
-      "type": "article",
-      "title": "Cyclisme Romand – Calendrier des courses cyclistes 2026",
-      "summary": "Calendrier officiel des courses en Suisse romande, incluant les épreuves VTT.",
-      "url": "https://www.cyclismeromand.ch/calendrier/cal_gen.pdf",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cyclismeromand.ch%2Fcalendrier%2Fcal_gen.pdf?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "vtt-c3",
-      "type": "article",
-      "title": "GuideVTT.com – Calendrier des courses VTT officielles en Suisse",
-      "summary": "Agenda des courses organisées par les clubs cyclistes régionaux, surtout en Romandie.",
-      "url": "https://www.guidevtt.com/programme_courses_VTT.php",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.guidevtt.com%2Fprogramme_courses_VTT.php?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    }
-  ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
     {
       "id": "wing-c1",
@@ -329,6 +297,108 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsrokacompany.com%2Fblogs%2Factualites%2Fles-meilleurs-spots-de-wing-foil-et-sup-en-corse?w=400&h=225",
       "date": null,
       "fetchedAt": "2026-08-12T09:15:00.000Z"
+    }
+  ],
+  "series-netflix": [
+    {
+      "id": "nf-1",
+      "type": "video",
+      "title": "Squid Game — Saison 3 (finale)",
+      "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
+      "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-2",
+      "type": "video",
+      "title": "One Piece — Saison 2 : Into the Grand Line",
+      "summary": "L'adaptation live-action du manga culte, sortie le 10 mars 2026.",
+      "url": "https://www.youtube.com/watch?v=wUi4E4IACfQ",
+      "image": null,
+      "date": "2026-03-10T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-3",
+      "type": "video",
+      "title": "3 Body Problem — Saison 2",
+      "summary": "Adaptation du roman de Liu Cixin, la saison 2 embrasse la théorie de la forêt sombre.",
+      "url": "https://www.youtube.com/watch?v=5vqIIjcOps0",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-4",
+      "type": "video",
+      "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
+      "summary": "Sortie le 25 juin 2026, la suite de l'adaptation live-action.",
+      "url": "https://www.youtube.com/watch?v=M_Las484swM",
+      "image": null,
+      "date": "2026-06-25T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-5",
+      "type": "video",
+      "title": "Bandi",
+      "summary": "Thriller social en créole/français tourné en Martinique, numéro 1 dans 22 pays dont la Suisse. Sorti le 9 avril 2026.",
+      "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
+      "image": null,
+      "date": "2026-04-09T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-6",
+      "type": "video",
+      "title": "The Empress — Saison 2",
+      "summary": "La série historique la mieux notée de Netflix (83% Rotten Tomatoes), sur l'impératrice Sissi.",
+      "url": "https://www.youtube.com/watch?v=cPSKEEC99gQ",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-7",
+      "type": "video",
+      "title": "Bridgerton — Saison 4",
+      "summary": "Le clan Bridgerton continue de faire fondre les cœurs, en tête des classements Netflix.",
+      "url": "https://www.youtube.com/watch?v=IqaXNwAzSmQ",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-8",
+      "type": "video",
+      "title": "The Night Agent — Saison 3",
+      "summary": "82% sur Rotten Tomatoes : Peter Sutherland traque un agent du Trésor en fuite à Istanbul.",
+      "url": "https://www.youtube.com/watch?v=1F6BCHAfGDc",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-9",
+      "type": "video",
+      "title": "The Lincoln Lawyer — Saison 4",
+      "summary": "Mickey Haller doit prouver son innocence dans un procès pour meurtre.",
+      "url": "https://www.youtube.com/watch?v=pVvVNbLf7Ig",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
+    },
+    {
+      "id": "nf-10",
+      "type": "video",
+      "title": "Stranger Things — Saison 5 (finale)",
+      "summary": "La saison finale de la série culte, l'un des événements Netflix les plus attendus.",
+      "url": "https://www.youtube.com/watch?v=AfQ13jsLDms",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-12T09:35:00.000Z"
     }
   ]
 };
