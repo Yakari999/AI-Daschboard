@@ -100,10 +100,24 @@
   .icon-btn svg { width: 18px; height: 18px; }
 
   .board-toolbar {
-    display: none; gap: 8px; justify-content: flex-end;
+    display: none; align-items: center; justify-content: space-between; gap: 10px;
     padding: 12px clamp(16px, 4vw, 40px) 0;
   }
   .board-toolbar.visible { display: flex; }
+  .tag-filter-bar { display: flex; flex-wrap: wrap; gap: 6px; }
+  .scroll-controls { display: flex; gap: 8px; flex-shrink: 0; }
+  .tag-pill {
+    border: 1px solid var(--border); background: var(--surface); color: var(--text-muted);
+    border-radius: 999px; padding: 5px 12px; font-size: .74rem; font-weight: 600; cursor: pointer;
+    transition: background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .tag-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .tag-pill.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .column-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .column-tag {
+    font-size: .64rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+    background: var(--surface-2); color: var(--text-muted);
+  }
 
   main.board {
     display: flex;
@@ -277,12 +291,15 @@
   </header>
 
   <div class="board-toolbar" id="boardToolbar">
-    <button class="icon-btn" id="scrollLeftBtn" title="Défiler vers la gauche">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-    </button>
-    <button class="icon-btn" id="scrollRightBtn" title="Défiler vers la droite">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </button>
+    <div class="tag-filter-bar" id="tagFilterBar"></div>
+    <div class="scroll-controls" id="scrollControls">
+      <button class="icon-btn" id="scrollLeftBtn" title="Défiler vers la gauche">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="icon-btn" id="scrollRightBtn" title="Défiler vers la droite">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
   </div>
 
   <main class="board" id="board">
@@ -322,6 +339,6 @@
 
   <div class="toast-wrap" id="toastWrap"></div>
 
-<script src="app.js?v=6"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>

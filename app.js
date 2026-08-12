@@ -48,10 +48,10 @@ const FALLBACK_COLUMNS = [
   {
     "id": "series-netflix",
     "title": "Séries Netflix",
-    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. Avec vignette youtube",
+    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, avec liens vers les trailer youtube. Avec vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T09:28:58.329Z",
+    "updatedAt": "2026-08-12T11:55:55.552Z",
     "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
@@ -581,10 +581,22 @@ const state = {
   results: {},
   sha: { columns: null, results: null },
   gh: loadGhConfig(),
-  pendingSaves: 0
+  pendingSaves: 0,
+  activeTags: loadActiveTags()
 };
 
 const dragState = { id: null };
+
+function loadActiveTags() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("dashboard-active-tags") || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+function saveActiveTags() {
+  localStorage.setItem("dashboard-active-tags", JSON.stringify([...state.activeTags]));
+}
 
 function $(sel, root = document) { return root.querySelector(sel); }
 function el(tag, attrs = {}, children = []) {
@@ -773,11 +785,13 @@ function renderColumn(col, idx, total) {
     };
   }
 
+  const tags = col.tags || [];
   const head = el("div", headAttrs, [
     el("div", { class: "column-title-row" }, [
       el("h2", { class: "column-title" }, col.title),
       menu
     ]),
+    tags.length ? el("div", { class: "column-tags" }, tags.map(t => el("span", { class: "column-tag" }, t))) : null,
     el("p", { class: "column-prompt" }, col.prompt),
     el("div", { class: "column-meta" }, [
       el("span", { title: "Dernière mise à jour de cette colonne" }, col.lastRun ? `Màj ${formatDate(col.lastRun)}` : "Jamais exécuté"),
@@ -815,10 +829,12 @@ function renderAddColumn() {
 function render() {
   const board = $("#board");
   board.innerHTML = "";
-  const total = state.columns.length;
-  state.columns.forEach((col, idx) => board.appendChild(renderColumn(col, idx, total)));
+  const visible = visibleColumns();
+  const total = visible.length;
+  visible.forEach((col, idx) => board.appendChild(renderColumn(col, idx, total)));
   board.appendChild(renderAddColumn());
   updateStatusLine();
+  renderTagFilterBar();
   updateScrollButtons();
 }
 
@@ -831,13 +847,39 @@ function updateStatusLine() {
   }
 }
 
+// ---- Tag filter bar ----
+function renderTagFilterBar() {
+  const bar = $("#tagFilterBar");
+  if (!bar) return;
+  bar.innerHTML = "";
+  const tags = getAllTags();
+  if (tags.length === 0) return;
+  bar.appendChild(el("button", {
+    class: "tag-pill" + (state.activeTags.size === 0 ? " active" : ""),
+    onclick: () => { state.activeTags.clear(); saveActiveTags(); render(); }
+  }, "Tous"));
+  tags.forEach(tag => {
+    bar.appendChild(el("button", {
+      class: "tag-pill" + (state.activeTags.has(tag) ? " active" : ""),
+      onclick: () => {
+        if (state.activeTags.has(tag)) state.activeTags.delete(tag);
+        else state.activeTags.add(tag);
+        saveActiveTags();
+        render();
+      }
+    }, tag));
+  });
+}
+
 // ---- Board horizontal scroll ----
 function updateScrollButtons() {
   const board = $("#board");
   const toolbar = $("#boardToolbar");
   if (!board || !toolbar) return;
   const hasOverflow = board.scrollWidth > board.clientWidth + 4;
-  toolbar.classList.toggle("visible", hasOverflow);
+  const hasTags = getAllTags().length > 0;
+  toolbar.classList.toggle("visible", hasOverflow || hasTags);
+  $("#scrollControls").style.display = hasOverflow ? "flex" : "none";
   if (!hasOverflow) return;
   $("#scrollLeftBtn").disabled = board.scrollLeft <= 4;
   $("#scrollRightBtn").disabled = board.scrollLeft >= board.scrollWidth - board.clientWidth - 4;
@@ -856,6 +898,26 @@ function guessCount(prompt) {
   const m = prompt.match(/\b(\d{1,2})\b/);
   const n = m ? parseInt(m[1], 10) : 5;
   return Math.min(Math.max(n, 1), 10);
+}
+
+function parseTags(str) {
+  const seen = new Set();
+  for (const raw of str.split(",")) {
+    const t = raw.trim();
+    if (t) seen.add(t);
+  }
+  return [...seen];
+}
+
+function getAllTags() {
+  const set = new Set();
+  state.columns.forEach(c => (c.tags || []).forEach(t => set.add(t)));
+  return [...set].sort((a, b) => a.localeCompare(b));
+}
+
+function visibleColumns() {
+  if (state.activeTags.size === 0) return state.columns;
+  return state.columns.filter(c => (c.tags || []).some(t => state.activeTags.has(t)));
 }
 
 function moveColumn(id, dir) {
@@ -894,12 +956,14 @@ function openAddForm() {
 
   const titleInput = el("input", { placeholder: "Ex : Vélos électriques Bosch" });
   const promptInput = el("textarea", { rows: "4", placeholder: "Ex : Affiche-moi les 5 dernières actualités sur..." });
+  const tagsInput = el("input", { placeholder: "Ex : sport, suisse" });
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
       el("h2", { class: "column-title" }, "Nouvelle colonne"),
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
+      el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -912,6 +976,7 @@ function openAddForm() {
             const col = {
               id: slugify(title), title, prompt,
               resultCount: guessCount(prompt),
+              tags: parseTags(tagsInput.value),
               createdAt: now, updatedAt: now, lastRun: null
             };
             state.columns.push(col);
@@ -941,16 +1006,18 @@ function openEditForm(col) {
   }
   const board = $("#board");
   const columns = [...board.children];
-  const idx = state.columns.findIndex(c => c.id === col.id);
+  const idx = visibleColumns().findIndex(c => c.id === col.id);
   const target = columns[idx];
 
   const titleInput = el("input", { value: col.title });
   const promptInput = el("textarea", { rows: "4" }, col.prompt);
+  const tagsInput = el("input", { value: (col.tags || []).join(", "), placeholder: "Ex : sport, suisse" });
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
+      el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -959,6 +1026,7 @@ function openEditForm(col) {
             col.title = titleInput.value.trim() || col.title;
             col.prompt = promptInput.value.trim() || col.prompt;
             col.resultCount = guessCount(col.prompt);
+            col.tags = parseTags(tagsInput.value);
             col.updatedAt = new Date().toISOString();
             render();
             try {
