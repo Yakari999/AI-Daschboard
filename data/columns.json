@@ -124,14 +124,14 @@
     "title": "Presse-citron",
     "prompt": "Presse-citron",
     "sourceType": "site",
-    "resultCount": 5,
+    "resultCount": 15,
     "frequency": "daily",
     "layout": "tiles",
     "tags": [
       "actu"
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
-    "updatedAt": "2026-08-12T21:10:00.000Z",
+    "updatedAt": "2026-08-12T19:08:53.915Z",
     "lastRun": "2026-08-12T21:10:00.000Z"
   }
 ]
