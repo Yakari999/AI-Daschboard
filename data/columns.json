@@ -52,5 +52,14 @@
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T09:28:58.329Z",
     "lastRun": "2026-08-12T09:35:00.000Z"
+  },
+  {
+    "id": "courses-au-large",
+    "title": "Courses au large",
+    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "resultCount": 5,
+    "createdAt": "2026-08-12T09:39:51.181Z",
+    "updatedAt": "2026-08-12T09:39:51.181Z",
+    "lastRun": null
   }
 ]
