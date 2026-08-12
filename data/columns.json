@@ -15,6 +15,21 @@
     "sourceType": "prompt"
   },
   {
+    "id": "courses-au-large",
+    "title": "Courses au large",
+    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "resultCount": 5,
+    "createdAt": "2026-08-12T09:39:51.181Z",
+    "updatedAt": "2026-08-12T20:40:00.000Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "sport"
+    ],
+    "frequency": "daily",
+    "layout": "list-date",
+    "sourceType": "prompt"
+  },
+  {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -57,21 +72,6 @@
     ],
     "frequency": "weekly",
     "layout": "tiles",
-    "sourceType": "prompt"
-  },
-  {
-    "id": "courses-au-large",
-    "title": "Courses au large",
-    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
-    "resultCount": 5,
-    "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T20:40:00.000Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "sport"
-    ],
-    "frequency": "daily",
-    "layout": "list-date",
     "sourceType": "prompt"
   },
   {
