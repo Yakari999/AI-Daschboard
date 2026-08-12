@@ -6,7 +6,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "presse",
@@ -15,7 +15,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-11T22:36:28.310Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "recettes-avocat-saumon",
@@ -24,7 +24,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "youtube-ia-outils",
@@ -33,7 +33,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -42,7 +42,7 @@
     "resultCount": 3,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "series-netflix",
@@ -51,7 +51,7 @@
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T09:28:58.329Z",
-    "lastRun": "2026-08-12T09:35:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "courses-au-large",
@@ -60,7 +60,7 @@
     "resultCount": 5,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-12T09:39:51.181Z",
-    "lastRun": null
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "films-sorties",
@@ -69,6 +69,6 @@
     "resultCount": 10,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T09:41:09.686Z",
-    "lastRun": null
+    "lastRun": "2026-08-12T09:50:00.000Z"
   }
 ]

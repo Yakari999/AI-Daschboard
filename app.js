@@ -7,7 +7,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "presse",
@@ -16,7 +16,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-11T22:36:28.310Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "recettes-avocat-saumon",
@@ -25,7 +25,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "youtube-ia-outils",
@@ -34,7 +34,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -43,7 +43,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 3,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
-    "lastRun": "2026-08-12T09:15:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
   },
   {
     "id": "series-netflix",
@@ -52,7 +52,25 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T09:28:58.329Z",
-    "lastRun": "2026-08-12T09:35:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z"
+  },
+  {
+    "id": "courses-au-large",
+    "title": "Courses au large",
+    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "resultCount": 5,
+    "createdAt": "2026-08-12T09:39:51.181Z",
+    "updatedAt": "2026-08-12T09:39:51.181Z",
+    "lastRun": "2026-08-12T09:50:00.000Z"
+  },
+  {
+    "id": "films-sorties",
+    "title": "Films sorties",
+    "prompt": "liste des 10 dernières sorties de film au cinéma avec lien vers le trailer youtube et affichage vignette youtube",
+    "resultCount": 10,
+    "createdAt": "2026-08-12T09:41:09.686Z",
+    "updatedAt": "2026-08-12T09:41:09.686Z",
+    "lastRun": "2026-08-12T09:50:00.000Z"
   }
 ];
 
@@ -399,6 +417,150 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/AfQ13jsLDms/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
+    }
+  ],
+  "courses-au-large": [
+    {
+      "id": "voile-1",
+      "type": "article",
+      "title": "The Ocean Race Atlantic",
+      "summary": "Transatlantique en équipage reliant New York à Barcelone, départ le 2 septembre 2026. Lancement de cette nouvelle épreuve du calendrier IMOCA.",
+      "url": "https://www.imoca.org/fr/news/news/une-saison-2026-dense-et-strategique-pour-la-flotte-imoca",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.imoca.org%2Ffr%2Fnews%2Fnews%2Fune-saison-2026-dense-et-strategique-pour-la-flotte-imoca?w=400&h=225",
+      "date": "2026-09-02T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "voile-2",
+      "type": "article",
+      "title": "24H ULTIM (Lorient)",
+      "summary": "Épreuve d'endurance disputée à Lorient le 24 septembre 2026, qui confronte les trimarans géants sur 24 heures.",
+      "url": "https://www.classeultim.org/calendrier-2026",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.classeultim.org%2Fcalendrier-2026?w=400&h=225",
+      "date": "2026-09-24T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "voile-3",
+      "type": "article",
+      "title": "Route du Rhum – Destination Guadeloupe",
+      "summary": "Course transatlantique en solitaire mythique, départ de Saint-Malo prévu le 1er novembre 2026.",
+      "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-courses/2026-06-02/84568-calendrier-des-grandes-courses-a-la-voile-en-2026",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffigaronautisme.meteoconsult.fr%2Factus-nautisme-courses%2F2026-06-02%2F84568-calendrier-des-grandes-courses-a-la-voile-en-2026?w=400&h=225",
+      "date": "2026-11-01T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "voile-4",
+      "type": "article",
+      "title": "Défi Azimut-Lorient",
+      "summary": "Temps fort de la saison IMOCA qui sert de préparation directe aux grandes échéances transocéaniques.",
+      "url": "https://www.polefinistere.com/calendrier-2026/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "voile-5",
+      "type": "article",
+      "title": "Calendrier course au large 2026-2028",
+      "summary": "Vue d'ensemble de toutes les grandes échéances IMOCA, Ultim et Class40 à venir.",
+      "url": "https://www.spencer.club/en-US/calendar",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.spencer.club%2Fen-US%2Fcalendar?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    }
+  ],
+  "films-sorties": [
+    {
+      "id": "film-1",
+      "type": "video",
+      "title": "L'Odyssée",
+      "summary": "Christopher Nolan adapte l'Odyssée d'Homère avec Matt Damon et Tom Holland, tourné en IMAX. Sorti le 15 juillet 2026, meilleur démarrage de la carrière du réalisateur.",
+      "url": "https://www.youtube.com/watch?v=wBPYOYBt6Vc",
+      "image": "https://img.youtube.com/vi/wBPYOYBt6Vc/hqdefault.jpg",
+      "date": "2026-07-15T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-2",
+      "type": "video",
+      "title": "Vaiana, la légende du bout du monde",
+      "summary": "Remake live-action du film Disney avec Dwayne Johnson, sorti le 8 juillet 2026.",
+      "url": "https://www.youtube.com/watch?v=bMqUG0qhgyM",
+      "image": "https://img.youtube.com/vi/bMqUG0qhgyM/hqdefault.jpg",
+      "date": "2026-07-08T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-3",
+      "type": "video",
+      "title": "Toy Story 5",
+      "summary": "Le plus gros succès du box-office France en juin 2026, sorti le 17 juin.",
+      "url": "https://www.youtube.com/watch?v=B93DTgLpnP8",
+      "image": "https://img.youtube.com/vi/B93DTgLpnP8/hqdefault.jpg",
+      "date": "2026-06-17T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-4",
+      "type": "video",
+      "title": "Des Minions et des Monstres",
+      "summary": "Nouveau film d'animation Illumination réalisé par Pierre Coffin, sorti le 24 juin 2026.",
+      "url": "https://www.youtube.com/watch?v=JgFFh6z9vEY",
+      "image": "https://img.youtube.com/vi/JgFFh6z9vEY/hqdefault.jpg",
+      "date": "2026-06-24T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-5",
+      "type": "video",
+      "title": "Evil Dead Burn",
+      "summary": "Nouvel opus de la franchise horrifique réalisé par Sébastien Vaniček, produit par Sam Raimi. Sorti le 8 juillet 2026.",
+      "url": "https://www.youtube.com/watch?v=lFNG0BRw6Bw",
+      "image": "https://img.youtube.com/vi/lFNG0BRw6Bw/hqdefault.jpg",
+      "date": "2026-07-08T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-6",
+      "type": "video",
+      "title": "La Pat' Patrouille : Le Film Mission Dino",
+      "summary": "La Pat' Patrouille s'échoue sur une île tropicale inexplorée. Sorti le 5 août 2026.",
+      "url": "https://www.youtube.com/watch?v=yMIkPRB6QuM",
+      "image": "https://img.youtube.com/vi/yMIkPRB6QuM/hqdefault.jpg",
+      "date": "2026-08-05T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-7",
+      "type": "video",
+      "title": "Les Gendarmes",
+      "summary": "Comédie avec Arnaud Ducret, Fred Testot et Marc Riso, adaptée d'une bande dessinée. Sortie le 5 août 2026.",
+      "url": "https://www.youtube.com/watch?v=czRFK_veoO8",
+      "image": "https://img.youtube.com/vi/czRFK_veoO8/hqdefault.jpg",
+      "date": "2026-08-05T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-8",
+      "type": "video",
+      "title": "La Fin d'Oak Street",
+      "summary": "Thriller de science-fiction avec Anne Hathaway et Ewan McGregor, réalisé par David Robert Mitchell. Sortie le 12 août 2026.",
+      "url": "https://www.youtube.com/watch?v=xPr4CoZfD08",
+      "image": "https://img.youtube.com/vi/xPr4CoZfD08/hqdefault.jpg",
+      "date": "2026-08-12T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
+    },
+    {
+      "id": "film-9",
+      "type": "video",
+      "title": "Backrooms",
+      "summary": "Film d'horreur ayant totalisé 860 000 entrées en deux semaines en juin 2026.",
+      "url": "https://www.youtube.com/watch?v=mWCsWK_iIvY",
+      "image": "https://img.youtube.com/vi/mWCsWK_iIvY/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:50:00.000Z"
     }
   ]
 };
