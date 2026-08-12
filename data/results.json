@@ -241,58 +241,6 @@
       "fetchedAt": "2026-08-11T23:00:00.000Z"
     }
   ],
-  "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy": [
-    {
-      "id": "vent-1",
-      "type": "link",
-      "title": "Windfinder – Prévisions de vent Saint-Prex",
-      "summary": "Prévisions par intervalles de 3h jusqu'à 10 jours (vitesse, direction, rafales).",
-      "url": "https://fr.windfinder.com/forecast/saint-prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffr.windfinder.com%2Fforecast%2Fsaint-prex?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-2",
-      "type": "link",
-      "title": "Windfinder – Rapport météo temps réel Saint-Prex",
-      "summary": "Conditions de vent actuelles mesurées en temps réel à Saint-Prex.",
-      "url": "https://fr.windfinder.com/report/saint-prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffr.windfinder.com%2Freport%2Fsaint-prex?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-3",
-      "type": "link",
-      "title": "Windy.app – Saint-Prex, vent, vagues et météo",
-      "summary": "Prévisions basées sur le modèle GFS, mises à jour 4 fois par jour, avec info spéciales voile/kitesurf.",
-      "url": "https://windy.app/fr/forecast2/spot/603444/Saint-Prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwindy.app%2Ffr%2Fforecast2%2Fspot%2F603444%2FSaint-Prex?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-4",
-      "type": "link",
-      "title": "Meteo Suisse – Saint-Prex en temps réel",
-      "summary": "Prévisions météo locales pour Saint-Prex.",
-      "url": "https://meteo-ch.ch/fr/cities/saint-prex.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmeteo-ch.ch%2Ffr%2Fcities%2Fsaint-prex.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-5",
-      "type": "link",
-      "title": "MétéoMédia – Prévisions du vent Saint-Prex",
-      "summary": "Prévisions du vent pour Saint-Prex, canton de Vaud.",
-      "url": "https://www.meteomedia.com/fr/ville/ch/vaud/saint-prex/vents",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.meteomedia.com%2Ffr%2Fville%2Fch%2Fvaud%2Fsaint-prex%2Fvents?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    }
-  ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
     {
       "id": "wing-1",
