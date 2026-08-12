@@ -43,5 +43,14 @@
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
     "lastRun": "2026-08-12T09:15:00.000Z"
+  },
+  {
+    "id": "series-netflix",
+    "title": "Séries Netflix",
+    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. pas besoin d'image.",
+    "resultCount": 10,
+    "createdAt": "2026-08-12T09:19:55.490Z",
+    "updatedAt": "2026-08-12T09:19:55.490Z",
+    "lastRun": null
   }
 ]
