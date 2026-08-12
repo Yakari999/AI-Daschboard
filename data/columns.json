@@ -5,8 +5,11 @@
     "prompt": "5 dernières actualités sur le moteur Avinox mg1",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:12.917Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "bike"
+    ]
   },
   {
     "id": "presse",
@@ -26,8 +29,11 @@
     "prompt": "5 recettes faciles avec avocat et saumon",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:25.089Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "cuisine"
+    ]
   },
   {
     "id": "youtube-ia-outils",
@@ -35,8 +41,11 @@
     "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:31.096Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "ia"
+    ]
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -53,8 +62,11 @@
     "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, avec liens vers les trailer youtube. Avec vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T11:55:55.552Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "updatedAt": "2026-08-12T12:13:55.502Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "cine"
+    ]
   },
   {
     "id": "courses-au-large",
