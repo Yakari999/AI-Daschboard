@@ -11,7 +11,8 @@
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-08-12T20:05:00.000Z"
+    "lastRun": "2026-08-12T20:05:00.000Z",
+    "sourceType": "prompt"
   },
   {
     "id": "films-sorties",
@@ -25,7 +26,8 @@
       "ciné"
     ],
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "top-films-sf",
@@ -39,7 +41,8 @@
     "updatedAt": "2026-08-12T13:04:54.123Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "series-netflix",
@@ -53,7 +56,8 @@
       "ciné"
     ],
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "courses-au-large",
@@ -67,7 +71,8 @@
       "sport"
     ],
     "frequency": "daily",
-    "layout": "list-date"
+    "layout": "list-date",
+    "sourceType": "prompt"
   },
   {
     "id": "top-jeux",
@@ -81,7 +86,8 @@
     "updatedAt": "2026-08-12T13:56:42.401Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "presse",
@@ -95,7 +101,8 @@
       "event"
     ],
     "frequency": "daily",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -109,6 +116,22 @@
     "tags": [
       "Wing"
     ],
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "presse-citron",
+    "title": "Presse-citron",
+    "prompt": "Presse-citron",
+    "sourceType": "site",
+    "resultCount": 5,
+    "frequency": "daily",
+    "layout": "tiles",
+    "tags": [
+      "actu"
+    ],
+    "createdAt": "2026-08-12T21:10:00.000Z",
+    "updatedAt": "2026-08-12T21:10:00.000Z",
+    "lastRun": "2026-08-12T21:10:00.000Z"
   }
 ]

@@ -718,5 +718,62 @@
       "fetchedAt": "2026-08-12T20:05:00.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     }
+  ],
+  "presse-citron": [
+    {
+      "id": "presse-citron-1",
+      "type": "article",
+      "title": "Voici les 5 nouvelles règles de l'IA qui s'appliquent en France depuis hier",
+      "summary": "Nouvelles obligations de transparence pour les fournisseurs et déployeurs de systèmes d'IA, afin de mieux signaler les contenus générés par IA.",
+      "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-2",
+      "type": "article",
+      "title": "La nouvelle IA d'OpenAI fait peur à son propre créateur",
+      "summary": "OpenAI restreint l'accès à un nouveau modèle jugé trop puissant, non disponible sur ChatGPT en raison d'un \"seuil critique\".",
+      "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-3",
+      "type": "article",
+      "title": "Souveraineté, cybersécurité, quantique... 7 points à retenir sur l'IA",
+      "summary": "Discussion avec deux experts sur les grands enjeux actuels de l'intelligence artificielle en France.",
+      "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-4",
+      "type": "article",
+      "title": "Une nouvelle IA en France : OVHcloud se lance dans les LLM",
+      "summary": "L'hébergeur français annonce à Paris son entrée sur le marché des grands modèles de langage.",
+      "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-5",
+      "type": "article",
+      "title": "Accord XXL entre Mistral et Microsoft",
+      "summary": "Un partenariat d'ampleur qui illustre la montée en puissance de la France dans l'IA face aux géants américains.",
+      "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    }
   ]
 }

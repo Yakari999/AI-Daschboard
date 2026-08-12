@@ -12,7 +12,8 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-08-12T20:05:00.000Z"
+    "lastRun": "2026-08-12T20:05:00.000Z",
+    "sourceType": "prompt"
   },
   {
     "id": "films-sorties",
@@ -26,7 +27,8 @@ const FALLBACK_COLUMNS = [
       "ciné"
     ],
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "top-films-sf",
@@ -40,7 +42,8 @@ const FALLBACK_COLUMNS = [
     "updatedAt": "2026-08-12T13:04:54.123Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "frequency": "weekly",
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "series-netflix",
@@ -54,49 +57,8 @@ const FALLBACK_COLUMNS = [
       "ciné"
     ],
     "frequency": "weekly",
-    "layout": "tiles"
-  },
-  {
-    "id": "top-jeux",
-    "title": "Top jeux",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
-    "tags": [
-      "jeux"
-    ],
-    "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly",
-    "layout": "tiles"
-  },
-  {
-    "id": "presse",
-    "title": "Evénements culturels Lausanne",
-    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "tags": [
-      "event"
-    ],
-    "frequency": "daily",
-    "layout": "tiles"
-  },
-  {
-    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
-    "title": "Idée de vacances wingfoil en europe en automne",
-    "prompt": "Idées de vacances wingfoil en europe en automne",
-    "resultCount": 10,
-    "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-12T17:48:27.004Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
-    "frequency": "weekly",
-    "tags": [
-      "Wing"
-    ],
-    "layout": "tiles"
+    "layout": "tiles",
+    "sourceType": "prompt"
   },
   {
     "id": "courses-au-large",
@@ -110,7 +72,68 @@ const FALLBACK_COLUMNS = [
       "sport"
     ],
     "frequency": "daily",
-    "layout": "list-date"
+    "layout": "list-date",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly",
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "presse",
+    "title": "Evénements culturels Lausanne",
+    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-12T12:12:53.333Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "tags": [
+      "event"
+    ],
+    "frequency": "daily",
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
+    "title": "Idée de vacances wingfoil en europe en automne",
+    "prompt": "Idées de vacances wingfoil en europe en automne",
+    "resultCount": 10,
+    "createdAt": "2026-08-11T22:50:30.590Z",
+    "updatedAt": "2026-08-12T17:48:27.004Z",
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "frequency": "weekly",
+    "tags": [
+      "Wing"
+    ],
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "presse-citron",
+    "title": "Presse-citron",
+    "prompt": "Presse-citron",
+    "sourceType": "site",
+    "resultCount": 5,
+    "frequency": "daily",
+    "layout": "tiles",
+    "tags": [
+      "actu"
+    ],
+    "createdAt": "2026-08-12T21:10:00.000Z",
+    "updatedAt": "2026-08-12T21:10:00.000Z",
+    "lastRun": "2026-08-12T21:10:00.000Z"
   }
 ];
 
@@ -834,6 +857,63 @@ const FALLBACK_RESULTS = {
       "fetchedAt": "2026-08-12T20:05:00.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     }
+  ],
+  "presse-citron": [
+    {
+      "id": "presse-citron-1",
+      "type": "article",
+      "title": "Voici les 5 nouvelles règles de l'IA qui s'appliquent en France depuis hier",
+      "summary": "Nouvelles obligations de transparence pour les fournisseurs et déployeurs de systèmes d'IA, afin de mieux signaler les contenus générés par IA.",
+      "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-2",
+      "type": "article",
+      "title": "La nouvelle IA d'OpenAI fait peur à son propre créateur",
+      "summary": "OpenAI restreint l'accès à un nouveau modèle jugé trop puissant, non disponible sur ChatGPT en raison d'un \"seuil critique\".",
+      "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-3",
+      "type": "article",
+      "title": "Souveraineté, cybersécurité, quantique... 7 points à retenir sur l'IA",
+      "summary": "Discussion avec deux experts sur les grands enjeux actuels de l'intelligence artificielle en France.",
+      "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-4",
+      "type": "article",
+      "title": "Une nouvelle IA en France : OVHcloud se lance dans les LLM",
+      "summary": "L'hébergeur français annonce à Paris son entrée sur le marché des grands modèles de langage.",
+      "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-5",
+      "type": "article",
+      "title": "Accord XXL entre Mistral et Microsoft",
+      "summary": "Un partenariat d'ampleur qui illustre la montée en puissance de la France dans l'IA face aux géants américains.",
+      "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T21:10:00.000Z",
+      "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    }
   ]
 };
 
@@ -1075,7 +1155,7 @@ function renderColumn(col, idx, total) {
   const bodyClass = isList ? "column-list" : "column-body";
   let bodyChildren;
   if (!items.length) {
-    bodyChildren = [el("div", { class: "empty-tile" }, "Aucun résultat pour l'instant.")];
+    bodyChildren = [el("div", { class: "empty-tile" }, col.lastError || "Aucun résultat pour l'instant.")];
   } else if (isList) {
     const byDate = col.layout === "list-date";
     const sorted = byDate
@@ -1238,6 +1318,19 @@ function normalizeLayout(v) {
   return LAYOUTS.includes(v) ? v : "tiles";
 }
 
+const SOURCE_TYPES = ["prompt", "site"];
+function normalizeSourceType(v) {
+  return SOURCE_TYPES.includes(v) ? v : "prompt";
+}
+
+function applyPromptFieldLabel(sourceTypeSelect, promptLabel, promptInput) {
+  const isSite = sourceTypeSelect.value === "site";
+  promptLabel.textContent = isSite ? "Nom ou URL du site" : "Prompt";
+  promptInput.placeholder = isSite
+    ? "Ex : Presse-citron ou https://www.presse-citron.net"
+    : "Ex : Affiche-moi les 5 dernières actualités sur...";
+}
+
 function parseTags(str) {
   const seen = new Set();
   for (const raw of str.split(",")) {
@@ -1293,6 +1386,7 @@ function openAddForm() {
   const addCol = board.querySelector(".add-column");
 
   const titleInput = el("input", { placeholder: "Ex : Vélos électriques Bosch" });
+  const promptLabel = el("label", {}, "Prompt");
   const promptInput = el("textarea", { rows: "4", placeholder: "Ex : Affiche-moi les 5 dernières actualités sur..." });
   const tagsInput = el("input", { placeholder: "Ex : sport, suisse" });
   const resultCountInput = el("input", { type: "number", min: "1", max: "30", value: String(guessCount("")) });
@@ -1307,12 +1401,19 @@ function openAddForm() {
     el("option", { value: "list-date" }, "Liste triée par date (le plus proche en haut)")
   ]);
   layoutSelect.value = "tiles";
+  const sourceTypeSelect = el("select", {}, [
+    el("option", { value: "prompt" }, "Prompt personnalisé"),
+    el("option", { value: "site" }, "Site d'actu (flux RSS)")
+  ]);
+  sourceTypeSelect.value = "prompt";
+  sourceTypeSelect.addEventListener("change", () => applyPromptFieldLabel(sourceTypeSelect, promptLabel, promptInput));
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
       el("h2", { class: "column-title" }, "Nouvelle colonne"),
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
-      el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
+      el("div", { class: "form-field" }, [el("label", {}, "Type de colonne"), sourceTypeSelect]),
+      el("div", { class: "form-field" }, [promptLabel, promptInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
       el("div", { class: "form-field-row" }, [
         el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
@@ -1326,10 +1427,11 @@ function openAddForm() {
           onclick: async () => {
             const title = titleInput.value.trim();
             const prompt = promptInput.value.trim();
-            if (!title || !prompt) { toast("Titre et prompt sont requis."); return; }
+            if (!title || !prompt) { toast("Titre et " + (sourceTypeSelect.value === "site" ? "nom du site sont" : "prompt sont") + " requis."); return; }
             const now = new Date().toISOString();
             const col = {
               id: slugify(title), title, prompt,
+              sourceType: normalizeSourceType(sourceTypeSelect.value),
               resultCount: clampResultCount(resultCountInput.value),
               frequency: frequencySelect.value === "weekly" ? "weekly" : "daily",
               layout: normalizeLayout(layoutSelect.value),
@@ -1367,6 +1469,7 @@ function openEditForm(col) {
   const target = columns[idx];
 
   const titleInput = el("input", { value: col.title });
+  const promptLabel = el("label", {}, "Prompt");
   const promptInput = el("textarea", { rows: "4" }, col.prompt);
   const tagsInput = el("input", { value: (col.tags || []).join(", "), placeholder: "Ex : sport, suisse" });
   const resultCountInput = el("input", { type: "number", min: "1", max: "30", value: String(col.resultCount || guessCount(col.prompt)) });
@@ -1381,11 +1484,19 @@ function openEditForm(col) {
     el("option", { value: "list-date" }, "Liste triée par date (le plus proche en haut)")
   ]);
   layoutSelect.value = normalizeLayout(col.layout);
+  const sourceTypeSelect = el("select", {}, [
+    el("option", { value: "prompt" }, "Prompt personnalisé"),
+    el("option", { value: "site" }, "Site d'actu (flux RSS)")
+  ]);
+  sourceTypeSelect.value = normalizeSourceType(col.sourceType);
+  sourceTypeSelect.addEventListener("change", () => applyPromptFieldLabel(sourceTypeSelect, promptLabel, promptInput));
+  applyPromptFieldLabel(sourceTypeSelect, promptLabel, promptInput);
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
-      el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
+      el("div", { class: "form-field" }, [el("label", {}, "Type de colonne"), sourceTypeSelect]),
+      el("div", { class: "form-field" }, [promptLabel, promptInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
       el("div", { class: "form-field-row" }, [
         el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
@@ -1399,6 +1510,7 @@ function openEditForm(col) {
           onclick: async () => {
             col.title = titleInput.value.trim() || col.title;
             col.prompt = promptInput.value.trim() || col.prompt;
+            col.sourceType = normalizeSourceType(sourceTypeSelect.value);
             col.resultCount = clampResultCount(resultCountInput.value);
             col.frequency = frequencySelect.value === "weekly" ? "weekly" : "daily";
             col.layout = normalizeLayout(layoutSelect.value);
