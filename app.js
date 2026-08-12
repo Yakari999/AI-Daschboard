@@ -60,14 +60,14 @@ const FALLBACK_COLUMNS = [
   },
   {
     "id": "series-netflix",
-    "title": "Séries Netflix",
-    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, avec liens vers les trailer youtube. Avec vignette youtube",
+    "title": "Top séries",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T12:13:55.502Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
+    "updatedAt": "2026-08-12T13:04:29.156Z",
+    "lastRun": "2026-08-12T13:20:00.000Z",
     "tags": [
-      "cine"
+      "ciné"
     ]
   },
   {
@@ -84,15 +84,39 @@ const FALLBACK_COLUMNS = [
   },
   {
     "id": "films-sorties",
-    "title": "Films sorties",
-    "prompt": "liste des 10 dernières sorties de film au cinéma avec lien vers le trailer youtube et affichage vignette youtube",
+    "title": "Top films",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:41:09.686Z",
-    "updatedAt": "2026-08-12T12:14:13.600Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
+    "updatedAt": "2026-08-12T13:04:39.827Z",
+    "lastRun": "2026-08-12T13:20:00.000Z",
     "tags": [
-      "cine"
+      "ciné"
     ]
+  },
+  {
+    "id": "top-films-sf",
+    "title": "Top films SF",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "ciné"
+    ],
+    "createdAt": "2026-08-12T13:03:08.181Z",
+    "updatedAt": "2026-08-12T13:04:54.123Z",
+    "lastRun": "2026-08-12T13:20:00.000Z"
+  },
+  {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:06:43.136Z",
+    "lastRun": "2026-08-12T13:20:00.000Z"
   }
 ];
 
@@ -341,104 +365,65 @@ const FALLBACK_RESULTS = {
   ],
   "series-netflix": [
     {
-      "id": "nf-1",
+      "id": "ts-1",
+      "type": "video",
+      "title": "The Pitt — Saison 2",
+      "summary": "Après avoir remporté l'Emmy de la meilleure série dramatique, la série médicale d'HBO Max revient pour une saison saluée par la critique.",
+      "url": "https://www.youtube.com/watch?v=cAZFgj2MwwI",
+      "image": "https://img.youtube.com/vi/cAZFgj2MwwI/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "ts-2",
+      "type": "video",
+      "title": "3 Body Problem — Saison 2",
+      "summary": "Adaptation du roman de Liu Cixin, la saison 2 embrasse la théorie de la forêt sombre.",
+      "url": "https://www.youtube.com/watch?v=5vqIIjcOps0",
+      "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
+      "date": "2026-04-01T00:00:00.000Z",
+      "datePrecision": "month",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "ts-3",
       "type": "video",
       "title": "Squid Game — Saison 3 (finale)",
       "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
       "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
       "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
-      "id": "nf-2",
-      "type": "video",
-      "title": "One Piece — Saison 2 : Into the Grand Line",
-      "summary": "L'adaptation live-action du manga culte, sortie le 10 mars 2026.",
-      "url": "https://www.youtube.com/watch?v=wUi4E4IACfQ",
-      "image": "https://img.youtube.com/vi/wUi4E4IACfQ/hqdefault.jpg",
-      "date": "2026-03-10T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-3",
-      "type": "video",
-      "title": "3 Body Problem — Saison 2",
-      "summary": "Adaptation du roman de Liu Cixin, la saison 2 embrasse la théorie de la forêt sombre.",
-      "url": "https://www.youtube.com/watch?v=5vqIIjcOps0",
-      "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-4",
-      "type": "video",
-      "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
-      "summary": "Sortie le 25 juin 2026, la suite de l'adaptation live-action.",
-      "url": "https://www.youtube.com/watch?v=M_Las484swM",
-      "image": "https://img.youtube.com/vi/M_Las484swM/hqdefault.jpg",
-      "date": "2026-06-25T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-5",
-      "type": "video",
-      "title": "Bandi",
-      "summary": "Thriller social en créole/français tourné en Martinique, numéro 1 dans 22 pays dont la Suisse. Sorti le 9 avril 2026.",
-      "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
-      "image": "https://img.youtube.com/vi/KyhR3g0wAsM/hqdefault.jpg",
-      "date": "2026-04-09T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-6",
+      "id": "ts-4",
       "type": "video",
       "title": "The Empress — Saison 2",
       "summary": "La série historique la mieux notée de Netflix (83% Rotten Tomatoes), sur l'impératrice Sissi.",
       "url": "https://www.youtube.com/watch?v=cPSKEEC99gQ",
       "image": "https://img.youtube.com/vi/cPSKEEC99gQ/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
-      "id": "nf-7",
+      "id": "ts-5",
       "type": "video",
-      "title": "Bridgerton — Saison 4",
-      "summary": "Le clan Bridgerton continue de faire fondre les cœurs, en tête des classements Netflix.",
-      "url": "https://www.youtube.com/watch?v=IqaXNwAzSmQ",
-      "image": "https://img.youtube.com/vi/IqaXNwAzSmQ/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
+      "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
+      "summary": "Sortie le 25 juin 2026, la suite très attendue de l'adaptation live-action.",
+      "url": "https://www.youtube.com/watch?v=M_Las484swM",
+      "image": "https://img.youtube.com/vi/M_Las484swM/hqdefault.jpg",
+      "date": "2026-06-25T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
-      "id": "nf-8",
+      "id": "ts-6",
       "type": "video",
-      "title": "The Night Agent — Saison 3",
-      "summary": "82% sur Rotten Tomatoes : Peter Sutherland traque un agent du Trésor en fuite à Istanbul.",
-      "url": "https://www.youtube.com/watch?v=1F6BCHAfGDc",
-      "image": "https://img.youtube.com/vi/1F6BCHAfGDc/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-9",
-      "type": "video",
-      "title": "The Lincoln Lawyer — Saison 4",
-      "summary": "Mickey Haller doit prouver son innocence dans un procès pour meurtre.",
-      "url": "https://www.youtube.com/watch?v=pVvVNbLf7Ig",
-      "image": "https://img.youtube.com/vi/pVvVNbLf7Ig/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
-    },
-    {
-      "id": "nf-10",
-      "type": "video",
-      "title": "Stranger Things — Saison 5 (finale)",
-      "summary": "La saison finale de la série culte, l'un des événements Netflix les plus attendus.",
-      "url": "https://www.youtube.com/watch?v=AfQ13jsLDms",
-      "image": "https://img.youtube.com/vi/AfQ13jsLDms/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:35:00.000Z"
+      "title": "Bandi",
+      "summary": "Thriller social tourné en Martinique, numéro 1 dans 22 pays dont la Suisse.",
+      "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
+      "image": "https://img.youtube.com/vi/KyhR3g0wAsM/hqdefault.jpg",
+      "date": "2026-04-09T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     }
   ],
   "courses-au-large": [
@@ -495,94 +480,158 @@ const FALLBACK_RESULTS = {
   ],
   "films-sorties": [
     {
-      "id": "film-1",
+      "id": "tf-1",
+      "type": "video",
+      "title": "Valeur sentimentale",
+      "summary": "Joachim Trier, Grand Prix du Festival de Cannes 2025. Avec Renate Reinsve, Stellan Skarsgård, Elle Fanning.",
+      "url": "https://www.youtube.com/watch?v=u4a6nRFwcV8",
+      "image": "https://img.youtube.com/vi/u4a6nRFwcV8/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "tf-2",
+      "type": "video",
+      "title": "Sirât",
+      "summary": "Oliver Laxe, Prix du Jury à Cannes 2025. Figure dans le top 10 des films les mieux notés par la presse française.",
+      "url": "https://www.youtube.com/watch?v=hQSSygPH1CE",
+      "image": "https://img.youtube.com/vi/hQSSygPH1CE/hqdefault.jpg",
+      "date": "2025-09-10T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "tf-3",
+      "type": "video",
+      "title": "L'Agent secret",
+      "summary": "Kleber Mendonça Filho, Prix de la mise en scène et prix d'interprétation masculine (Wagner Moura) à Cannes 2025.",
+      "url": "https://www.youtube.com/watch?v=yn1MTvX4iYc",
+      "image": "https://img.youtube.com/vi/yn1MTvX4iYc/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "tf-4",
+      "type": "video",
+      "title": "Résurrection",
+      "summary": "Bi Gan, Prix spécial du jury à Cannes 2025. Un jeune rêveur qui se réincarne à travers cinq époques.",
+      "url": "https://www.youtube.com/watch?v=FAaL2uJgscc",
+      "image": "https://img.youtube.com/vi/FAaL2uJgscc/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "tf-5",
+      "type": "video",
+      "title": "Projet Dernière Chance (Project Hail Mary)",
+      "summary": "Phil Lord et Christopher Miller adaptent Andy Weir (Seul sur Mars), avec Ryan Gosling.",
+      "url": "https://www.youtube.com/watch?v=zEuBewFxgaA",
+      "image": "https://img.youtube.com/vi/zEuBewFxgaA/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "tf-6",
       "type": "video",
       "title": "L'Odyssée",
-      "summary": "Christopher Nolan adapte l'Odyssée d'Homère avec Matt Damon et Tom Holland, tourné en IMAX. Sorti le 15 juillet 2026, meilleur démarrage de la carrière du réalisateur.",
+      "summary": "Christopher Nolan adapte Homère avec Matt Damon et Tom Holland, meilleur démarrage de la carrière du réalisateur.",
       "url": "https://www.youtube.com/watch?v=wBPYOYBt6Vc",
       "image": "https://img.youtube.com/vi/wBPYOYBt6Vc/hqdefault.jpg",
       "date": "2026-07-15T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    }
+  ],
+  "top-films-sf": [
+    {
+      "id": "sf-1",
+      "type": "video",
+      "title": "Disclosure Day",
+      "summary": "Le retour de Steven Spielberg à la science-fiction, avec Emily Blunt et Josh O'Connor. Sorti le 10 juin 2026.",
+      "url": "https://www.youtube.com/watch?v=Nc5HRNpq82k",
+      "image": "https://img.youtube.com/vi/Nc5HRNpq82k/hqdefault.jpg",
+      "date": "2026-06-10T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
-      "id": "film-2",
+      "id": "sf-2",
       "type": "video",
-      "title": "Vaiana, la légende du bout du monde",
-      "summary": "Remake live-action du film Disney avec Dwayne Johnson, sorti le 8 juillet 2026.",
-      "url": "https://www.youtube.com/watch?v=bMqUG0qhgyM",
-      "image": "https://img.youtube.com/vi/bMqUG0qhgyM/hqdefault.jpg",
-      "date": "2026-07-08T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-3",
-      "type": "video",
-      "title": "Toy Story 5",
-      "summary": "Le plus gros succès du box-office France en juin 2026, sorti le 17 juin.",
-      "url": "https://www.youtube.com/watch?v=B93DTgLpnP8",
-      "image": "https://img.youtube.com/vi/B93DTgLpnP8/hqdefault.jpg",
-      "date": "2026-06-17T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-4",
-      "type": "video",
-      "title": "Des Minions et des Monstres",
-      "summary": "Nouveau film d'animation Illumination réalisé par Pierre Coffin, sorti le 24 juin 2026.",
-      "url": "https://www.youtube.com/watch?v=JgFFh6z9vEY",
-      "image": "https://img.youtube.com/vi/JgFFh6z9vEY/hqdefault.jpg",
-      "date": "2026-06-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-5",
-      "type": "video",
-      "title": "Evil Dead Burn",
-      "summary": "Nouvel opus de la franchise horrifique réalisé par Sébastien Vaniček, produit par Sam Raimi. Sorti le 8 juillet 2026.",
-      "url": "https://www.youtube.com/watch?v=lFNG0BRw6Bw",
-      "image": "https://img.youtube.com/vi/lFNG0BRw6Bw/hqdefault.jpg",
-      "date": "2026-07-08T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-6",
-      "type": "video",
-      "title": "La Pat' Patrouille : Le Film Mission Dino",
-      "summary": "La Pat' Patrouille s'échoue sur une île tropicale inexplorée. Sorti le 5 août 2026.",
-      "url": "https://www.youtube.com/watch?v=yMIkPRB6QuM",
-      "image": "https://img.youtube.com/vi/yMIkPRB6QuM/hqdefault.jpg",
-      "date": "2026-08-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-7",
-      "type": "video",
-      "title": "Les Gendarmes",
-      "summary": "Comédie avec Arnaud Ducret, Fred Testot et Marc Riso, adaptée d'une bande dessinée. Sortie le 5 août 2026.",
-      "url": "https://www.youtube.com/watch?v=czRFK_veoO8",
-      "image": "https://img.youtube.com/vi/czRFK_veoO8/hqdefault.jpg",
-      "date": "2026-08-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-8",
-      "type": "video",
-      "title": "La Fin d'Oak Street",
-      "summary": "Thriller de science-fiction avec Anne Hathaway et Ewan McGregor, réalisé par David Robert Mitchell. Sortie le 12 août 2026.",
-      "url": "https://www.youtube.com/watch?v=xPr4CoZfD08",
-      "image": "https://img.youtube.com/vi/xPr4CoZfD08/hqdefault.jpg",
-      "date": "2026-08-12T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
-    },
-    {
-      "id": "film-9",
-      "type": "video",
-      "title": "Backrooms",
-      "summary": "Film d'horreur ayant totalisé 860 000 entrées en deux semaines en juin 2026.",
-      "url": "https://www.youtube.com/watch?v=mWCsWK_iIvY",
-      "image": "https://img.youtube.com/vi/mWCsWK_iIvY/hqdefault.jpg",
+      "title": "Projet Dernière Chance (Project Hail Mary)",
+      "summary": "Adaptation ambitieuse du roman d'Andy Weir, avec Ryan Gosling.",
+      "url": "https://www.youtube.com/watch?v=zEuBewFxgaA",
+      "image": "https://img.youtube.com/vi/zEuBewFxgaA/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-12T09:50:00.000Z"
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "sf-3",
+      "type": "video",
+      "title": "The Running Man",
+      "summary": "Edgar Wright adapte Stephen King, avec Glen Powell : une critique de la société du spectacle.",
+      "url": "https://www.youtube.com/watch?v=KD18ddeFuyM",
+      "image": "https://img.youtube.com/vi/KD18ddeFuyM/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "sf-4",
+      "type": "video",
+      "title": "Predator: Badlands",
+      "summary": "Un jeune Predator rejeté par les siens fait équipe avec une androïde. Sorti le 5 novembre 2025.",
+      "url": "https://www.youtube.com/watch?v=R2n_TZgmmPo",
+      "image": "https://img.youtube.com/vi/R2n_TZgmmPo/hqdefault.jpg",
+      "date": "2025-11-05T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    }
+  ],
+  "top-jeux": [
+    {
+      "id": "jv-1",
+      "type": "video",
+      "title": "Monster Hunter Wilds",
+      "summary": "Le dernier opus de la licence Capcom, sorti le 12 février 2025.",
+      "url": "https://www.youtube.com/watch?v=tQ4lXF8a-TE",
+      "image": "https://img.youtube.com/vi/tQ4lXF8a-TE/hqdefault.jpg",
+      "date": "2025-02-12T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "jv-2",
+      "type": "video",
+      "title": "Assassin's Creed Shadows",
+      "summary": "Ubisoft situe l'aventure dans le Japon féodal, disponible depuis le 20 mars 2025.",
+      "url": "https://www.youtube.com/watch?v=f2s4cgHsnTA",
+      "image": "https://img.youtube.com/vi/f2s4cgHsnTA/hqdefault.jpg",
+      "date": "2025-03-20T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "jv-3",
+      "type": "video",
+      "title": "Doom: The Dark Ages",
+      "summary": "Le préquel médiéval-futuriste de la licence id Software, disponible depuis le 15 mai 2025.",
+      "url": "https://www.youtube.com/watch?v=S7IEg0_qNXs",
+      "image": "https://img.youtube.com/vi/S7IEg0_qNXs/hqdefault.jpg",
+      "date": "2025-05-15T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "jv-4",
+      "type": "video",
+      "title": "Elden Ring Nightreign",
+      "summary": "Le spin-off coopératif de FromSoftware, disponible depuis le 30 mai 2025.",
+      "url": "https://www.youtube.com/watch?v=MqLM4MV0Fls",
+      "image": "https://img.youtube.com/vi/MqLM4MV0Fls/hqdefault.jpg",
+      "date": "2025-05-30T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "jv-5",
+      "type": "video",
+      "title": "Sid Meier's Civilization VII",
+      "summary": "Le retour de la licence de stratégie culte, disponible depuis le 11 février 2025.",
+      "url": "https://www.youtube.com/watch?v=MGOdJMNN2b0",
+      "image": "https://img.youtube.com/vi/MGOdJMNN2b0/hqdefault.jpg",
+      "date": "2025-02-11T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T13:20:00.000Z"
     }
   ]
 };
