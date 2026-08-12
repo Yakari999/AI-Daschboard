@@ -18,14 +18,14 @@
     "id": "courses-au-large",
     "title": "Courses au large",
     "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
-    "resultCount": 5,
+    "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T20:40:00.000Z",
+    "updatedAt": "2026-08-12T19:10:21.724Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "sport"
     ],
-    "frequency": "daily",
+    "frequency": "weekly",
     "layout": "list-date",
     "sourceType": "prompt"
   },
@@ -131,7 +131,7 @@
       "actu"
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
-    "updatedAt": "2026-08-12T19:08:53.915Z",
+    "updatedAt": "2026-08-12T19:09:04.649Z",
     "lastRun": "2026-08-12T21:10:00.000Z"
   }
 ]
