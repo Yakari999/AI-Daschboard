@@ -11,7 +11,8 @@ const FALLBACK_COLUMNS = [
     "tags": [
       "bike",
       "sport"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "presse",
@@ -23,7 +24,8 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "event"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "recettes-avocat-saumon",
@@ -35,7 +37,8 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "cuisine"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "youtube-ia-outils",
@@ -47,7 +50,8 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "ia"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -56,19 +60,21 @@ const FALLBACK_COLUMNS = [
     "resultCount": 3,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "frequency": "daily"
   },
   {
     "id": "series-netflix",
     "title": "Top séries",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "tags": [
       "ciné"
-    ]
+    ],
+    "frequency": "weekly"
   },
   {
     "id": "courses-au-large",
@@ -80,43 +86,47 @@ const FALLBACK_COLUMNS = [
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "sport"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "tags": [
       "ciné"
-    ]
+    ],
+    "frequency": "weekly"
   },
   {
     "id": "top-films-sf",
     "title": "Top films SF",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "tags": [
       "ciné"
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-08-12T15:40:00.000Z"
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly"
   },
   {
     "id": "top-jeux",
     "title": "Top jeux",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "tags": [
       "jeux"
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:06:43.136Z",
-    "lastRun": "2026-08-12T15:40:00.000Z"
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly"
   }
 ];
 
@@ -1075,7 +1085,9 @@ function renderColumn(col, idx, total) {
     tags.length ? el("div", { class: "column-tags" }, tags.map(t => el("span", { class: "column-tag" }, t))) : null,
     el("p", { class: "column-prompt" }, col.prompt),
     el("div", { class: "column-meta" }, [
-      el("span", { title: "Dernière mise à jour de cette colonne" }, col.lastRun ? `Màj ${formatDate(col.lastRun)}` : "Jamais exécuté"),
+      el("span", { title: "Dernière mise à jour de cette colonne" },
+        (col.lastRun ? `Màj ${formatDate(col.lastRun)}` : "Jamais exécuté") +
+        (col.frequency === "weekly" ? " · hebdo" : "")),
       el("button", { class: "refresh-btn", onclick: () => requestRefresh(col) }, ["🔄 Rafraîchir"])
     ])
   ]);
@@ -1178,7 +1190,12 @@ function slugify(str) {
 function guessCount(prompt) {
   const m = prompt.match(/\b(\d{1,2})\b/);
   const n = m ? parseInt(m[1], 10) : 5;
-  return Math.min(Math.max(n, 1), 10);
+  return Math.min(Math.max(n, 1), 30);
+}
+
+function clampResultCount(n) {
+  const v = parseInt(n, 10);
+  return Math.min(Math.max(Number.isFinite(v) ? v : 5, 1), 30);
 }
 
 function parseTags(str) {
@@ -1238,6 +1255,12 @@ function openAddForm() {
   const titleInput = el("input", { placeholder: "Ex : Vélos électriques Bosch" });
   const promptInput = el("textarea", { rows: "4", placeholder: "Ex : Affiche-moi les 5 dernières actualités sur..." });
   const tagsInput = el("input", { placeholder: "Ex : sport, suisse" });
+  const resultCountInput = el("input", { type: "number", min: "1", max: "30", value: String(guessCount("")) });
+  const frequencySelect = el("select", {}, [
+    el("option", { value: "daily" }, "Quotidienne (chaque jour, 6h)"),
+    el("option", { value: "weekly" }, "Hebdomadaire (chaque lundi, 6h)")
+  ]);
+  frequencySelect.value = "daily";
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
@@ -1245,6 +1268,10 @@ function openAddForm() {
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
+      el("div", { class: "form-field-row" }, [
+        el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
+        el("div", { class: "form-field" }, [el("label", {}, "Fréquence de mise à jour"), frequencySelect])
+      ]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -1256,7 +1283,8 @@ function openAddForm() {
             const now = new Date().toISOString();
             const col = {
               id: slugify(title), title, prompt,
-              resultCount: guessCount(prompt),
+              resultCount: clampResultCount(resultCountInput.value),
+              frequency: frequencySelect.value === "weekly" ? "weekly" : "daily",
               tags: parseTags(tagsInput.value),
               createdAt: now, updatedAt: now, lastRun: null
             };
@@ -1293,12 +1321,22 @@ function openEditForm(col) {
   const titleInput = el("input", { value: col.title });
   const promptInput = el("textarea", { rows: "4" }, col.prompt);
   const tagsInput = el("input", { value: (col.tags || []).join(", "), placeholder: "Ex : sport, suisse" });
+  const resultCountInput = el("input", { type: "number", min: "1", max: "30", value: String(col.resultCount || guessCount(col.prompt)) });
+  const frequencySelect = el("select", {}, [
+    el("option", { value: "daily" }, "Quotidienne (chaque jour, 6h)"),
+    el("option", { value: "weekly" }, "Hebdomadaire (chaque lundi, 6h)")
+  ]);
+  frequencySelect.value = col.frequency === "weekly" ? "weekly" : "daily";
 
   const form = el("div", { class: "column" }, [
     el("div", { class: "column-head" }, [
       el("div", { class: "form-field" }, [el("label", {}, "Titre"), titleInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Prompt"), promptInput]),
       el("div", { class: "form-field" }, [el("label", {}, "Tags (séparés par une virgule)"), tagsInput]),
+      el("div", { class: "form-field-row" }, [
+        el("div", { class: "form-field" }, [el("label", {}, "Nombre de résultats"), resultCountInput]),
+        el("div", { class: "form-field" }, [el("label", {}, "Fréquence de mise à jour"), frequencySelect])
+      ]),
       el("div", { class: "form-actions" }, [
         el("button", { class: "btn btn-ghost", onclick: render }, "Annuler"),
         el("button", {
@@ -1306,7 +1344,8 @@ function openEditForm(col) {
           onclick: async () => {
             col.title = titleInput.value.trim() || col.title;
             col.prompt = promptInput.value.trim() || col.prompt;
-            col.resultCount = guessCount(col.prompt);
+            col.resultCount = clampResultCount(resultCountInput.value);
+            col.frequency = frequencySelect.value === "weekly" ? "weekly" : "daily";
             col.tags = parseTags(tagsInput.value);
             col.updatedAt = new Date().toISOString();
             render();

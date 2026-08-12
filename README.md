@@ -18,8 +18,12 @@ affichés sous forme de tuiles (article, vidéo, recette...).
      uniquement dans le navigateur, jamais envoyé ailleurs qu'à l'API GitHub).
 - **Rafraîchir une colonne** : le bouton "🔄 Rafraîchir" indique la marche à
   suivre pour demander une mise à jour immédiate en session avec Claude.
-  La mise à jour automatique quotidienne se fait via une routine planifiée,
-  sans clé API séparée à payer.
+  La mise à jour automatique se fait via une routine planifiée (tous les
+  jours à 6h), sans clé API séparée à payer.
+- **Fréquence par colonne** : dans le formulaire d'édition, chaque colonne
+  peut être réglée sur "Quotidienne" (chaque jour) ou "Hebdomadaire"
+  (chaque lundi) — utile pour les sujets qui bougent lentement, avec un
+  nombre de résultats plus élevé sans multiplier les recherches.
 
 ## Structure
 

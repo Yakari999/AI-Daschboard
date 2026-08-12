@@ -10,7 +10,8 @@
     "tags": [
       "bike",
       "sport"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "presse",
@@ -22,7 +23,8 @@
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "event"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "recettes-avocat-saumon",
@@ -34,7 +36,8 @@
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "cuisine"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "youtube-ia-outils",
@@ -46,7 +49,8 @@
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "ia"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -55,19 +59,21 @@
     "resultCount": 3,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
-    "lastRun": "2026-08-12T09:50:00.000Z"
+    "lastRun": "2026-08-12T09:50:00.000Z",
+    "frequency": "daily"
   },
   {
     "id": "series-netflix",
     "title": "Top séries",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures séries de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "tags": [
       "ciné"
-    ]
+    ],
+    "frequency": "weekly"
   },
   {
     "id": "courses-au-large",
@@ -79,42 +85,46 @@
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "sport"
-    ]
+    ],
+    "frequency": "daily"
   },
   {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
     "lastRun": "2026-08-12T15:40:00.000Z",
     "tags": [
       "ciné"
-    ]
+    ],
+    "frequency": "weekly"
   },
   {
     "id": "top-films-sf",
     "title": "Top films SF",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures films SF de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "tags": [
       "ciné"
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-08-12T15:40:00.000Z"
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly"
   },
   {
     "id": "top-jeux",
     "title": "Top jeux",
     "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
+    "resultCount": 15,
     "tags": [
       "jeux"
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:06:43.136Z",
-    "lastRun": "2026-08-12T15:40:00.000Z"
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly"
   }
 ]
