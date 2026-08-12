@@ -53,58 +53,6 @@
       "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
-  "recettes-avocat-saumon": [
-    {
-      "id": "rec-c1",
-      "type": "recipe",
-      "title": "Salade de saumon à l'avocat et vinaigrette agrumée",
-      "summary": "Saumon riche en oméga-3, avocat crémeux et vinaigrette aux agrumes, prête en 15 minutes sans cuisson.",
-      "url": "https://www.mealbake.com/fr/recipes/salade-de-saumon-a-l-avocat-et-vinaigrette-agrumee",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mealbake.com%2Ffr%2Frecipes%2Fsalade-de-saumon-a-l-avocat-et-vinaigrette-agrumee?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c2",
-      "type": "recipe",
-      "title": "Salade au saumon fumé et avocat : recette et variantes",
-      "summary": "L'équilibre entre le goût délicat du saumon fumé et la texture crémeuse de l'avocat.",
-      "url": "https://www.epiceriedupatrimoine.com/salade-saumon-fume-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.epiceriedupatrimoine.com%2Fsalade-saumon-fume-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c3",
-      "type": "recipe",
-      "title": "Saumon fumé sur mousse à l'avocat",
-      "summary": "Une mousse d'avocat légère surmontée de fines tranches de saumon fumé, en entrée ou apéritif.",
-      "url": "https://www.recettes.com/recettes/saumon-fume-sur-mousse-a-l-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.recettes.com%2Frecettes%2Fsaumon-fume-sur-mousse-a-l-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c4",
-      "type": "recipe",
-      "title": "Salade saumon avocat",
-      "summary": "Une recette simple et gourmande, prête en quelques minutes.",
-      "url": "https://lesdelicesdestef.fr/salade-saumon-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flesdelicesdestef.fr%2Fsalade-saumon-avocat%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "rec-c5",
-      "type": "recipe",
-      "title": "Recette gourmande de salade au saumon et avocat",
-      "summary": "Une explosion de saveurs pour un repas léger et équilibré.",
-      "url": "https://www.actuniort.fr/art-de-vivre/14751",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.actuniort.fr%2Fart-de-vivre%2F14751?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    }
-  ],
   "presse": [
     {
       "id": "laus-c1",
