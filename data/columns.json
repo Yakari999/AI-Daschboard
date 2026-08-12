@@ -47,10 +47,10 @@
   {
     "id": "series-netflix",
     "title": "Séries Netflix",
-    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. pas besoin d'image.",
+    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. Avec vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T09:19:55.490Z",
+    "updatedAt": "2026-08-12T09:28:58.329Z",
     "lastRun": "2026-08-12T09:35:00.000Z"
   }
 ]
