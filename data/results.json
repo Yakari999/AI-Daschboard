@@ -209,38 +209,6 @@
       "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
-  "prochaines-competition-de-vtt-en-suisse": [
-    {
-      "id": "vtt-c1",
-      "type": "article",
-      "title": "Battistrada – Calendrier des événements VTT Suisse 2026-2027",
-      "summary": "Liste complète des cyclosportives et courses VTT en Suisse, avec dates et localisations.",
-      "url": "https://battistrada.com/fr/calendrier-cyclosportives/suisse/?biketype=2",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbattistrada.com%2Ffr%2Fcalendrier-cyclosportives%2Fsuisse%2F%3Fbiketype%3D2?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "vtt-c2",
-      "type": "article",
-      "title": "Cyclisme Romand – Calendrier des courses cyclistes 2026",
-      "summary": "Calendrier officiel des courses en Suisse romande, incluant les épreuves VTT.",
-      "url": "https://www.cyclismeromand.ch/calendrier/cal_gen.pdf",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cyclismeromand.ch%2Fcalendrier%2Fcal_gen.pdf?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "vtt-c3",
-      "type": "article",
-      "title": "GuideVTT.com – Calendrier des courses VTT officielles en Suisse",
-      "summary": "Agenda des courses organisées par les clubs cyclistes régionaux, surtout en Romandie.",
-      "url": "https://www.guidevtt.com/programme_courses_VTT.php",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.guidevtt.com%2Fprogramme_courses_VTT.php?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    }
-  ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
     {
       "id": "wing-c1",
