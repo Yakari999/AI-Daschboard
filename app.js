@@ -48,10 +48,10 @@ const FALLBACK_COLUMNS = [
   {
     "id": "series-netflix",
     "title": "Séries Netflix",
-    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. pas besoin d'image.",
+    "prompt": "J'aimerais la liste des 10 séries 2026, les plus appréciées sur Netflix, tout dans un seul widget avec liens vers les trailer youtube. Avec vignette youtube",
     "resultCount": 10,
     "createdAt": "2026-08-12T09:19:55.490Z",
-    "updatedAt": "2026-08-12T09:19:55.490Z",
+    "updatedAt": "2026-08-12T09:28:58.329Z",
     "lastRun": "2026-08-12T09:35:00.000Z"
   }
 ];
@@ -306,7 +306,7 @@ const FALLBACK_RESULTS = {
       "title": "Squid Game — Saison 3 (finale)",
       "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
       "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
-      "image": null,
+      "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -316,7 +316,7 @@ const FALLBACK_RESULTS = {
       "title": "One Piece — Saison 2 : Into the Grand Line",
       "summary": "L'adaptation live-action du manga culte, sortie le 10 mars 2026.",
       "url": "https://www.youtube.com/watch?v=wUi4E4IACfQ",
-      "image": null,
+      "image": "https://img.youtube.com/vi/wUi4E4IACfQ/hqdefault.jpg",
       "date": "2026-03-10T00:00:00.000Z",
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -326,7 +326,7 @@ const FALLBACK_RESULTS = {
       "title": "3 Body Problem — Saison 2",
       "summary": "Adaptation du roman de Liu Cixin, la saison 2 embrasse la théorie de la forêt sombre.",
       "url": "https://www.youtube.com/watch?v=5vqIIjcOps0",
-      "image": null,
+      "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -336,7 +336,7 @@ const FALLBACK_RESULTS = {
       "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
       "summary": "Sortie le 25 juin 2026, la suite de l'adaptation live-action.",
       "url": "https://www.youtube.com/watch?v=M_Las484swM",
-      "image": null,
+      "image": "https://img.youtube.com/vi/M_Las484swM/hqdefault.jpg",
       "date": "2026-06-25T00:00:00.000Z",
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -346,7 +346,7 @@ const FALLBACK_RESULTS = {
       "title": "Bandi",
       "summary": "Thriller social en créole/français tourné en Martinique, numéro 1 dans 22 pays dont la Suisse. Sorti le 9 avril 2026.",
       "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
-      "image": null,
+      "image": "https://img.youtube.com/vi/KyhR3g0wAsM/hqdefault.jpg",
       "date": "2026-04-09T00:00:00.000Z",
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -356,7 +356,7 @@ const FALLBACK_RESULTS = {
       "title": "The Empress — Saison 2",
       "summary": "La série historique la mieux notée de Netflix (83% Rotten Tomatoes), sur l'impératrice Sissi.",
       "url": "https://www.youtube.com/watch?v=cPSKEEC99gQ",
-      "image": null,
+      "image": "https://img.youtube.com/vi/cPSKEEC99gQ/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -366,7 +366,7 @@ const FALLBACK_RESULTS = {
       "title": "Bridgerton — Saison 4",
       "summary": "Le clan Bridgerton continue de faire fondre les cœurs, en tête des classements Netflix.",
       "url": "https://www.youtube.com/watch?v=IqaXNwAzSmQ",
-      "image": null,
+      "image": "https://img.youtube.com/vi/IqaXNwAzSmQ/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -376,7 +376,7 @@ const FALLBACK_RESULTS = {
       "title": "The Night Agent — Saison 3",
       "summary": "82% sur Rotten Tomatoes : Peter Sutherland traque un agent du Trésor en fuite à Istanbul.",
       "url": "https://www.youtube.com/watch?v=1F6BCHAfGDc",
-      "image": null,
+      "image": "https://img.youtube.com/vi/1F6BCHAfGDc/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -386,7 +386,7 @@ const FALLBACK_RESULTS = {
       "title": "The Lincoln Lawyer — Saison 4",
       "summary": "Mickey Haller doit prouver son innocence dans un procès pour meurtre.",
       "url": "https://www.youtube.com/watch?v=pVvVNbLf7Ig",
-      "image": null,
+      "image": "https://img.youtube.com/vi/pVvVNbLf7Ig/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     },
@@ -396,7 +396,7 @@ const FALLBACK_RESULTS = {
       "title": "Stranger Things — Saison 5 (finale)",
       "summary": "La saison finale de la série culte, l'un des événements Netflix les plus attendus.",
       "url": "https://www.youtube.com/watch?v=AfQ13jsLDms",
-      "image": null,
+      "image": "https://img.youtube.com/vi/AfQ13jsLDms/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T09:35:00.000Z"
     }
