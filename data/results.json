@@ -243,12 +243,56 @@
   ],
   "series-netflix": [
     {
-      "id": "ts-1",
+      "id": "series-adolescence",
       "type": "video",
-      "title": "The Pitt — Saison 2",
-      "summary": "Après avoir remporté l'Emmy de la meilleure série dramatique, la série médicale d'HBO Max revient pour une saison saluée par la critique.",
-      "url": "https://www.youtube.com/watch?v=cAZFgj2MwwI",
-      "image": "https://img.youtube.com/vi/cAZFgj2MwwI/hqdefault.jpg",
+      "title": "Adolescence",
+      "summary": "Mini-série Netflix multi-primée : 8 Emmy Awards (dont Meilleure mini-série) et 4 Golden Globes.",
+      "url": "https://www.youtube.com/watch?v=Wk5OxqtpBR4",
+      "image": "https://img.youtube.com/vi/Wk5OxqtpBR4/hqdefault.jpg",
+      "date": "2025-03-13T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "series-severance-s2",
+      "type": "video",
+      "title": "Severance — Saison 2",
+      "summary": "Retour très attendu du thriller psychologique Apple TV+, salué par la critique avec plusieurs nominations aux Emmy.",
+      "url": "https://www.youtube.com/watch?v=1cGJ92m1fYc",
+      "image": "https://img.youtube.com/vi/1cGJ92m1fYc/hqdefault.jpg",
+      "date": "2025-01-17T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "series-andor-s2",
+      "type": "video",
+      "title": "Andor — Saison 2",
+      "summary": "Conclusion de la série Star Wars, largement considérée par la critique comme la meilleure série de l'univers Star Wars.",
+      "url": "https://www.youtube.com/watch?v=AE4wxt70aUM",
+      "image": "https://img.youtube.com/vi/AE4wxt70aUM/hqdefault.jpg",
+      "date": "2025-04-22T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "series-tlou-s2",
+      "type": "video",
+      "title": "The Last of Us — Saison 2",
+      "summary": "Suite HBO du hit primé aux Emmy, avec l'arrivée du personnage d'Abby (Kaitlyn Dever) très commentée par la critique.",
+      "url": "https://www.youtube.com/watch?v=9VcGB3bym3g",
+      "image": "https://img.youtube.com/vi/9VcGB3bym3g/hqdefault.jpg",
+      "date": "2025-04-13T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "ts-3",
+      "type": "video",
+      "title": "Squid Game — Saison 3 (finale)",
+      "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
+      "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
+      "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
@@ -264,12 +308,12 @@
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
-      "id": "ts-3",
+      "id": "ts-1",
       "type": "video",
-      "title": "Squid Game — Saison 3 (finale)",
-      "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
-      "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
-      "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
+      "title": "The Pitt — Saison 2",
+      "summary": "Après avoir remporté l'Emmy de la meilleure série dramatique, la série médicale d'HBO Max revient pour une saison saluée par la critique.",
+      "url": "https://www.youtube.com/watch?v=cAZFgj2MwwI",
+      "image": "https://img.youtube.com/vi/cAZFgj2MwwI/hqdefault.jpg",
       "date": null,
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
@@ -358,6 +402,17 @@
   ],
   "films-sorties": [
     {
+      "id": "films-un-simple-accident",
+      "type": "video",
+      "title": "Un simple accident",
+      "summary": "Palme d'Or du Festival de Cannes 2025, réalisé par Jafar Panahi.",
+      "url": "https://www.youtube.com/watch?v=UZ0WhSvEero",
+      "image": "https://img.youtube.com/vi/UZ0WhSvEero/hqdefault.jpg",
+      "date": "2025-10-01T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
       "id": "tf-1",
       "type": "video",
       "title": "Valeur sentimentale",
@@ -368,6 +423,28 @@
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
+      "id": "films-une-bataille-apres-lautre",
+      "type": "video",
+      "title": "Une bataille après l'autre",
+      "summary": "Film de Paul Thomas Anderson avec Leonardo DiCaprio, l'un des mieux notés de l'année par la critique US, sérieux prétendant aux Oscars 2026.",
+      "url": "https://www.youtube.com/watch?v=hg8AGTyYMBA",
+      "image": "https://img.youtube.com/vi/hg8AGTyYMBA/hqdefault.jpg",
+      "date": "2025-09-26T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "films-echos-du-passe",
+      "type": "video",
+      "title": "Les Échos du passé",
+      "summary": "Prix du Jury au Festival de Cannes 2025 (Mascha Schilinski), sélectionné pour représenter l'Allemagne aux Oscars du meilleur film international.",
+      "url": "https://www.youtube.com/watch?v=O-jgGbvLgVo",
+      "image": "https://img.youtube.com/vi/O-jgGbvLgVo/hqdefault.jpg",
+      "date": "2026-01-07T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
       "id": "tf-2",
       "type": "video",
       "title": "Sirât",
@@ -376,6 +453,17 @@
       "image": "https://img.youtube.com/vi/hQSSygPH1CE/hqdefault.jpg",
       "date": "2025-09-10T00:00:00.000Z",
       "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "films-nouvelle-vague",
+      "type": "video",
+      "title": "Nouvelle Vague",
+      "summary": "Film de Richard Linklater présenté en compétition à Cannes 2025, lettre d'amour à la Nouvelle Vague française et au tournage d'À bout de souffle.",
+      "url": "https://www.youtube.com/watch?v=UufRzKVFseg",
+      "image": "https://img.youtube.com/vi/UufRzKVFseg/hqdefault.jpg",
+      "date": "2025-11-14T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
       "id": "tf-3",
@@ -420,6 +508,39 @@
   ],
   "top-films-sf": [
     {
+      "id": "sf-28-years-later",
+      "type": "video",
+      "title": "28 Years Later",
+      "summary": "95% sur Rotten Tomatoes (Certified Fresh) : suite post-apocalyptique de Danny Boyle saluée par la critique.",
+      "url": "https://www.youtube.com/watch?v=R6JVdxWtYjA",
+      "image": "https://img.youtube.com/vi/R6JVdxWtYjA/hqdefault.jpg",
+      "date": "2025-06-19T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "sf-companion",
+      "type": "video",
+      "title": "Companion",
+      "summary": "94% sur Rotten Tomatoes : thriller de science-fiction avec Sophie Thatcher et Jack Quaid, l'un des mieux notés du genre en 2025.",
+      "url": "https://www.youtube.com/watch?v=OiqObq3PEKI",
+      "image": "https://img.youtube.com/vi/OiqObq3PEKI/hqdefault.jpg",
+      "date": "2025-01-31T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "sf-bugonia",
+      "type": "video",
+      "title": "Bugonia",
+      "summary": "90% sur Rotten Tomatoes (87 Metacritic) : comédie noire de science-fiction de Yorgos Lanthimos avec Emma Stone et Jesse Plemons.",
+      "url": "https://www.youtube.com/watch?v=YBOVvUI0AJM",
+      "image": "https://img.youtube.com/vi/YBOVvUI0AJM/hqdefault.jpg",
+      "date": "2025-10-24T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
       "id": "sf-1",
       "type": "video",
       "title": "Disclosure Day",
@@ -440,6 +561,28 @@
       "fetchedAt": "2026-08-12T13:20:00.000Z"
     },
     {
+      "id": "sf-mickey-17",
+      "type": "video",
+      "title": "Mickey 17",
+      "summary": "89% sur Rotten Tomatoes : nouveau film de science-fiction de Bong Joon-ho (Parasite) avec Robert Pattinson.",
+      "url": "https://www.youtube.com/watch?v=TkEvgqguA_g",
+      "image": "https://img.youtube.com/vi/TkEvgqguA_g/hqdefault.jpg",
+      "date": "2025-01-31T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "sf-the-assessment",
+      "type": "video",
+      "title": "The Assessment",
+      "summary": "83% sur Rotten Tomatoes : drame de science-fiction sur la parentalité avec Elizabeth Olsen et Alicia Vikander.",
+      "url": "https://www.youtube.com/watch?v=8x5FZUERxzg",
+      "image": "https://img.youtube.com/vi/8x5FZUERxzg/hqdefault.jpg",
+      "date": "2025-05-08T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
       "id": "sf-3",
       "type": "video",
       "title": "The Running Man",
@@ -458,9 +601,53 @@
       "image": "https://img.youtube.com/vi/R2n_TZgmmPo/hqdefault.jpg",
       "date": "2025-11-05T00:00:00.000Z",
       "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "sf-ash",
+      "type": "video",
+      "title": "Ash",
+      "summary": "Horreur cosmique stylisée réalisée par Flying Lotus, avec Eiza González et Aaron Paul.",
+      "url": "https://www.youtube.com/watch?v=TZ5y2TqpJgg",
+      "image": "https://img.youtube.com/vi/TZ5y2TqpJgg/hqdefault.jpg",
+      "date": "2025-03-21T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
     }
   ],
   "top-jeux": [
+    {
+      "id": "jeux-clair-obscur",
+      "type": "video",
+      "title": "Clair Obscur: Expedition 33",
+      "summary": "Jeu de l'année 2025 aux The Game Awards, avec 9 récompenses — record du nombre de trophées remportés en une soirée.",
+      "url": "https://www.youtube.com/watch?v=wWGIakhqr5g",
+      "image": "https://img.youtube.com/vi/wWGIakhqr5g/hqdefault.jpg",
+      "date": "2025-04-24T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "jeux-silksong",
+      "type": "video",
+      "title": "Hollow Knight: Silksong",
+      "summary": "Suite la plus attendue de la décennie, accueil critique quasi unanime dès sa sortie.",
+      "url": "https://www.youtube.com/watch?v=EGfxuH-vUr4",
+      "image": "https://img.youtube.com/vi/EGfxuH-vUr4/hqdefault.jpg",
+      "date": "2025-09-04T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "jeux-death-stranding-2",
+      "type": "video",
+      "title": "Death Stranding 2: On the Beach",
+      "summary": "Suite très saluée du jeu de Hideo Kojima, exclusivité PS5 fortement notée par la critique.",
+      "url": "https://www.youtube.com/watch?v=8Aq_7OsgYLY",
+      "image": "https://img.youtube.com/vi/8Aq_7OsgYLY/hqdefault.jpg",
+      "date": "2025-06-26T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
     {
       "id": "jv-1",
       "type": "video",
@@ -500,6 +687,17 @@
       "image": "https://img.youtube.com/vi/MqLM4MV0Fls/hqdefault.jpg",
       "date": "2025-05-30T00:00:00.000Z",
       "fetchedAt": "2026-08-12T13:20:00.000Z"
+    },
+    {
+      "id": "jeux-kcd2",
+      "type": "video",
+      "title": "Kingdom Come: Deliverance II",
+      "summary": "RPG médiéval salué pour son ambition et sa fidélité historique, très bien noté par la presse spécialisée.",
+      "url": "https://www.youtube.com/watch?v=sXDoP90YkOc",
+      "image": "https://img.youtube.com/vi/sXDoP90YkOc/hqdefault.jpg",
+      "date": "2025-02-04T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T15:40:00.000Z",
+      "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
       "id": "jv-5",
