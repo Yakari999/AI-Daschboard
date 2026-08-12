@@ -7,34 +7,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T08:00:00.000Z",
     "updatedAt": "2026-08-11T22:34:13.200Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
-  },
-  {
-    "id": "youtube-ia-outils",
-    "title": "Vidéos outils IA",
-    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:35:14.382Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
-  },
-  {
-    "id": "presse",
-    "title": "Evénements culturels Lausanne",
-    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T21:39:53.869Z",
-    "updatedAt": "2026-08-11T22:36:28.310Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
-  },
-  {
-    "id": "recettes-avocat-saumon",
-    "title": "Recettes avocat & saumon",
-    "prompt": "5 recettes faciles avec avocat et saumon",
-    "resultCount": 5,
-    "createdAt": "2026-08-11T08:00:00.000Z",
-    "updatedAt": "2026-08-11T22:36:56.618Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
+    "lastRun": "2026-08-12T09:15:00.000Z"
   },
   {
     "id": "prochaines-competition-de-vtt-en-suisse",
@@ -43,16 +16,34 @@ const FALLBACK_COLUMNS = [
     "resultCount": 3,
     "createdAt": "2026-08-11T22:37:48.168Z",
     "updatedAt": "2026-08-11T22:37:57.921Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
+    "lastRun": "2026-08-12T09:15:00.000Z"
   },
   {
-    "id": "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy",
-    "title": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
-    "prompt": "Prévision de vent pour les prochains jour à St-Prex suisse avec Windy",
+    "id": "presse",
+    "title": "Evénements culturels Lausanne",
+    "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
     "resultCount": 5,
-    "createdAt": "2026-08-11T22:39:16.268Z",
-    "updatedAt": "2026-08-11T22:39:16.268Z",
-    "lastRun": "2026-08-11T23:00:00.000Z"
+    "createdAt": "2026-08-11T21:39:53.869Z",
+    "updatedAt": "2026-08-11T22:36:28.310Z",
+    "lastRun": "2026-08-12T09:15:00.000Z"
+  },
+  {
+    "id": "recettes-avocat-saumon",
+    "title": "Recettes avocat & saumon",
+    "prompt": "5 recettes faciles avec avocat et saumon",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T22:36:56.618Z",
+    "lastRun": "2026-08-12T09:15:00.000Z"
+  },
+  {
+    "id": "youtube-ia-outils",
+    "title": "Vidéos outils IA",
+    "prompt": "5 liens vers les dernières vidéos Youtube qui parle des derniers outils IA.",
+    "resultCount": 5,
+    "createdAt": "2026-08-11T08:00:00.000Z",
+    "updatedAt": "2026-08-11T22:35:14.382Z",
+    "lastRun": "2026-08-12T09:15:00.000Z"
   },
   {
     "id": "idee-de-vacances-wingfoil-en-europe-en-automne",
@@ -61,76 +52,76 @@ const FALLBACK_COLUMNS = [
     "resultCount": 3,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-11T22:50:30.590Z",
-    "lastRun": "2026-08-11T23:20:00.000Z"
+    "lastRun": "2026-08-12T09:15:00.000Z"
   }
 ];
 
 const FALLBACK_RESULTS = {
   "ebike-avinox": [
     {
-      "id": "mg1-a1",
+      "id": "mg1-c1",
       "type": "article",
       "title": "Eurobike 2026 | Avinox MG1 : un moteur avec boîte de vitesses intégrée",
-      "summary": "Trois mois après le lancement des M2 et M2S, Avinox dévoile ce concept en collaboration avec Canyon, Commencal, Forbidden, Mondraker et Megamo.",
+      "summary": "Concept très compact intégrant directement une boîte de vitesses ou un variateur de couple, déjà testé sur des prototypes Canyon, Commencal, Forbidden, Mondraker et Megamo.",
       "url": "https://www.vojomag.com/news/eurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.vojomag.com%2Fnews%2Feurobike-2026-avinox-mg1-et-maintenant-un-moteur-avec-boite-de-vitesses-integree%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "mg1-a2",
-      "type": "article",
-      "title": "DJI Avinox MG1 : ce nouveau moteur change de vitesse en 0,1 seconde",
-      "summary": "Transmission intégrée, changements de rapport sous forte charge ou à l'arrêt, plusieurs modes de conduite dont un mode automatique.",
-      "url": "https://www.cleanrider.com/actus/dji-avinox-mg1-moteur-velo-electrique-transmission-automatique/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cleanrider.com%2Factus%2Fdji-avinox-mg1-moteur-velo-electrique-transmission-automatique%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "mg1-a3",
+      "id": "mg1-c2",
       "type": "article",
       "title": "Avinox dévoile le concept produit Avinox MG1 à l'Eurobike 2026",
-      "summary": "Aucune date de commercialisation annoncée ; le moteur ne devrait pas être disponible cette année.",
+      "summary": "Présenté comme un concept, sans date de commercialisation annoncée pour l'instant.",
       "url": "https://www.prnewswire.com/news-releases/avinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.prnewswire.com%2Fnews-releases%2Favinox-devoile-le-concept-produit-avinox-mg1-a-leurobike-2026-302807706.html?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "mg1-a4",
+      "id": "mg1-c3",
       "type": "article",
       "title": "New Avinox MG gearbox motor prototype: is this the end of the classic drivetrain?",
-      "summary": "E-MOUNTAINBIKE Magazine teste le prototype et s'interroge sur l'avenir de la transmission classique en VTTAE.",
+      "summary": "E-MOUNTAINBIKE Magazine analyse l'objectif du concept : ressenti plus naturel, changements de vitesse fluides, entretien réduit.",
       "url": "https://ebike-mtb.com/en/avinox-mg-gearbox-motor/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Febike-mtb.com%2Fen%2Favinox-mg-gearbox-motor%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "mg1-a5",
+      "id": "mg1-c4",
       "type": "article",
-      "title": "Avinox MG Concept: Lightweight, Full-Power Combined eBike Motor & Gearbox",
-      "summary": "Bikerumor détaille le concept présenté à l'Eurobike 2026 : moteur et boîte de vitesses combinés en un seul ensemble léger.",
-      "url": "https://bikerumor.com/avinox-mg-concept-combined-ebike-motor-and-gearbox-at-eurobike-2026/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbikerumor.com%2Favinox-mg-concept-combined-ebike-motor-and-gearbox-at-eurobike-2026%2F?w=400&h=225",
+      "title": "Avinox MG1, moteur à transmission intégrée qui redéfinit le VTTAE",
+      "summary": "Plus de dérailleur ni de cassette : une simple chaîne mono-vitesse ou courroie remplace la transmission classique.",
+      "url": "https://www.shcycles.fr/moteur-transmission-avinox-mg1/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.shcycles.fr%2Fmoteur-transmission-avinox-mg1%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
+    },
+    {
+      "id": "mg1-c5",
+      "type": "article",
+      "title": "DJI Avinox MG1 : ce nouveau moteur change de vitesse en 0,1 seconde",
+      "summary": "Transmission intégrée, changements de rapport possibles même à l'arrêt ou sous forte charge.",
+      "url": "https://www.cleanrider.com/actus/dji-avinox-mg1-moteur-velo-electrique-transmission-automatique/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cleanrider.com%2Factus%2Fdji-avinox-mg1-moteur-velo-electrique-transmission-automatique%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
   "youtube-ia-outils": [
     {
-      "id": "yt-b1",
+      "id": "yt-c1",
       "type": "video",
       "title": "Les meilleurs outils IA à utiliser en 2026",
       "summary": "Un tour d'horizon rapide en format short des outils IA à connaître cette année.",
       "url": "https://www.youtube.com/shorts/ziMfHt9hnlw",
       "image": "https://img.youtube.com/vi/ziMfHt9hnlw/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "yt-b2",
+      "id": "yt-c2",
       "type": "video",
       "title": "TOP 5 des générateurs de vidéo IA : les meilleurs outils de 2026 (+ bonus nouveauté)",
       "summary": "Comparatif des générateurs de vidéo IA les plus performants du moment.",
@@ -138,10 +129,10 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/UG5KPcaQrGA/hqdefault.jpg",
       "date": "2026-02-01T00:00:00.000Z",
       "datePrecision": "month",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "yt-b3",
+      "id": "yt-c3",
       "type": "video",
       "title": "Génération de vidéos avec l'IA : quel est le meilleur outil en 2026 ?",
       "summary": "Analyse comparative pour choisir le bon outil de génération vidéo par IA.",
@@ -149,247 +140,195 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/OTIrzJED6Ns/hqdefault.jpg",
       "date": "2026-04-01T00:00:00.000Z",
       "datePrecision": "month",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "yt-b4",
+      "id": "yt-c4",
       "type": "video",
       "title": "Comprendre l'IA en 2026 (ce que vous devez VRAIMENT savoir)",
       "summary": "Un point complet sur l'état de l'IA et de ses outils cette année.",
       "url": "https://www.youtube.com/watch?v=uonQawqg8N4",
       "image": "https://img.youtube.com/vi/uonQawqg8N4/hqdefault.jpg",
       "date": "2026-07-10T00:00:00.000Z",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "yt-b5",
+      "id": "yt-c5",
       "type": "video",
       "title": "Intelligence artificielle 2026-2028 : se préparer au vertige qui vient",
       "summary": "Une projection sur l'évolution des outils IA dans les prochaines années.",
       "url": "https://www.youtube.com/watch?v=RatJ6UDm98U",
       "image": "https://img.youtube.com/vi/RatJ6UDm98U/hqdefault.jpg",
       "date": "2026-03-06T00:00:00.000Z",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
   "recettes-avocat-saumon": [
     {
-      "id": "rec-b1",
+      "id": "rec-c1",
       "type": "recipe",
-      "title": "Saumon grillé et salsa d'avocat (BBQ)",
-      "summary": "Avocat, oignon, coriandre et jus de lime en salsa fraîche, saumon cuit 3-4 minutes de chaque côté sur le barbecue.",
-      "url": "https://chefcuisto.com/recette/saumon-grille-avec-une-salsa-davocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchefcuisto.com%2Frecette%2Fsaumon-grille-avec-une-salsa-davocat%2F?w=400&h=225",
+      "title": "Salade de saumon à l'avocat et vinaigrette agrumée",
+      "summary": "Saumon riche en oméga-3, avocat crémeux et vinaigrette aux agrumes, prête en 15 minutes sans cuisson.",
+      "url": "https://www.mealbake.com/fr/recipes/salade-de-saumon-a-l-avocat-et-vinaigrette-agrumee",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mealbake.com%2Ffr%2Frecipes%2Fsalade-de-saumon-a-l-avocat-et-vinaigrette-agrumee?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "rec-b2",
+      "id": "rec-c2",
       "type": "recipe",
-      "title": "Saumon & avocat, tout simplement",
-      "summary": "Saumon zesté d'agrumes, avocat en dés sur lit de jeunes pousses d'épinards, crème de mascarpone aux herbes fraîches.",
-      "url": "https://www.jcdavid.fr/recette-saumon-avocat/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.jcdavid.fr%2Frecette-saumon-avocat%2F?w=400&h=225",
+      "title": "Salade au saumon fumé et avocat : recette et variantes",
+      "summary": "L'équilibre entre le goût délicat du saumon fumé et la texture crémeuse de l'avocat.",
+      "url": "https://www.epiceriedupatrimoine.com/salade-saumon-fume-avocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.epiceriedupatrimoine.com%2Fsalade-saumon-fume-avocat%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "rec-b3",
+      "id": "rec-c3",
       "type": "recipe",
-      "title": "Bowl de saumon fumé, avocat & grenailles",
-      "summary": "Prêt en 20 minutes : grenailles, salade, miettes de saumon fumé et avocat, mélangés à la vinaigrette.",
-      "url": "https://www.hellofresh.fr/recipes/bowl-de-saumon-fume-avocat-and-grenailles-646cad1222f7f34e1f95d07d",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.hellofresh.fr%2Frecipes%2Fbowl-de-saumon-fume-avocat-and-grenailles-646cad1222f7f34e1f95d07d?w=400&h=225",
+      "title": "Saumon fumé sur mousse à l'avocat",
+      "summary": "Une mousse d'avocat légère surmontée de fines tranches de saumon fumé, en entrée ou apéritif.",
+      "url": "https://www.recettes.com/recettes/saumon-fume-sur-mousse-a-l-avocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.recettes.com%2Frecettes%2Fsaumon-fume-sur-mousse-a-l-avocat%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "rec-b4",
+      "id": "rec-c4",
       "type": "recipe",
-      "title": "Avocats au saumon fumé, citron vert, aneth et ciboulette",
-      "summary": "Un classique revisité avec des saveurs fraîches d'agrumes et d'herbes.",
-      "url": "https://www.recette-healthy.com/recette/avocats-au-saumon-fume/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.recette-healthy.com%2Frecette%2Favocats-au-saumon-fume%2F?w=400&h=225",
+      "title": "Salade saumon avocat",
+      "summary": "Une recette simple et gourmande, prête en quelques minutes.",
+      "url": "https://lesdelicesdestef.fr/salade-saumon-avocat/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flesdelicesdestef.fr%2Fsalade-saumon-avocat%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "rec-b5",
+      "id": "rec-c5",
       "type": "recipe",
-      "title": "Tartare de saumon et avocat",
-      "summary": "Saumon mariné au citron vert, gingembre et soja, mélangé à l'avocat en dés. Servi avec des chips wonton ou toasts croustillants.",
-      "url": "https://chefsquare.fr/recette-tartare-saumon-avocat",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fchefsquare.fr%2Frecette-tartare-saumon-avocat?w=400&h=225",
+      "title": "Recette gourmande de salade au saumon et avocat",
+      "summary": "Une explosion de saveurs pour un repas léger et équilibré.",
+      "url": "https://www.actuniort.fr/art-de-vivre/14751",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.actuniort.fr%2Fart-de-vivre%2F14751?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
   "presse": [
     {
-      "id": "laus-1",
+      "id": "laus-c1",
       "type": "article",
       "title": "Athletissima : saut à la perche à Ouchy",
-      "summary": "Compétition masculine de saut à la perche le jeudi 20 août 2026 à 18h, Place de la Navigation à Ouchy, accès libre.",
-      "url": "https://www.cityzeum.com/evenement/lausanne",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cityzeum.com%2Fevenement%2Flausanne?w=400&h=225",
-      "date": "2026-08-20T00:00:00.000Z",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "laus-2",
-      "type": "article",
-      "title": "Lausanne Judo Grand Slam",
-      "summary": "Du 28 au 30 août 2026, la Vaudoise arena accueille pour la première fois une étape du World Judo Tour, avec près de 900 athlètes de plus de 50 nations.",
-      "url": "https://www.tempslibre.ch/ou-sortir/lausanne-104",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tempslibre.ch%2Fou-sortir%2Flausanne-104?w=400&h=225",
-      "date": "2026-08-28T00:00:00.000Z",
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "laus-3",
-      "type": "article",
-      "title": "Agenda officiel des manifestations – Ville de Lausanne",
-      "summary": "Agenda municipal officiel, mis à jour en continu avec tous les événements culturels à venir dans la ville.",
-      "url": "https://www.lausanne.ch/agenda-et-actualites/agenda.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne.ch%2Fagenda-et-actualites%2Fagenda.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "laus-4",
-      "type": "article",
-      "title": "Lausanne Tourisme – Événements",
-      "summary": "Sélection d'événements à venir par l'office du tourisme : expositions, concerts, festivals.",
+      "summary": "Compétition masculine de saut à la perche le 20 août 2026, Place de la Navigation à Ouchy, accès libre.",
       "url": "https://www.lausanne-tourisme.ch/en/events/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Fen%2Fevents%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "date": "2026-08-20T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "laus-5",
+      "id": "laus-c2",
       "type": "article",
-      "title": "Leprogramme.ch – Agenda culturel Lausanne",
-      "summary": "Concerts, spectacles, soirées et sorties dans la région lausannoise.",
-      "url": "https://vd.leprogramme.ch/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvd.leprogramme.ch%2F?w=400&h=225",
+      "title": "Wolfmother en concert aux Docks",
+      "summary": "Le groupe de rock australien se produit à la salle des Docks à Lausanne le 26 août 2026.",
+      "url": "https://www.docks.ch/en/programme/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docks.ch%2Fen%2Fprogramme%2F?w=400&h=225",
+      "date": "2026-08-26T00:00:00.000Z",
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
+    },
+    {
+      "id": "laus-c3",
+      "type": "article",
+      "title": "Lausanne sur Mer : activités sportives gratuites au bord de l'eau",
+      "summary": "Badminton, freeboard, kayak, paddle, slackline et tennis en accès libre en août.",
+      "url": "https://lausanne.evous.ch/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne.evous.ch%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
+    },
+    {
+      "id": "laus-c4",
+      "type": "article",
+      "title": "Agenda des manifestations – Ville de Lausanne",
+      "summary": "Agenda municipal officiel, mis à jour en continu avec tous les événements culturels à venir.",
+      "url": "https://www.lausanne.ch/agenda-et-actualites/agenda",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne.ch%2Fagenda-et-actualites%2Fagenda?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
+    },
+    {
+      "id": "laus-c5",
+      "type": "article",
+      "title": "Tempslibre.ch – Concerts, spectacles et sorties en Romandie",
+      "summary": "Agenda régional des concerts et spectacles à Lausanne et environs.",
+      "url": "https://www.tempslibre.ch/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tempslibre.ch%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
   "prochaines-competition-de-vtt-en-suisse": [
     {
-      "id": "vtt-1",
-      "type": "article",
-      "title": "Swiss Cycling – Calendrier VTT officiel",
-      "summary": "Calendrier officiel des compétitions VTT en Suisse, filtrable par catégorie et période.",
-      "url": "https://www.swiss-cycling.ch/fr/vtt/calendrier.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.swiss-cycling.ch%2Ffr%2Fvtt%2Fcalendrier.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vtt-2",
+      "id": "vtt-c1",
       "type": "article",
       "title": "Battistrada – Calendrier des événements VTT Suisse 2026-2027",
       "summary": "Liste complète des cyclosportives et courses VTT en Suisse, avec dates et localisations.",
-      "url": "https://battistrada.com/fr/calendrier-cyclosportives/suisse/velo-tout-terrain/?biketype=2",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbattistrada.com%2Ffr%2Fcalendrier-cyclosportives%2Fsuisse%2Fvelo-tout-terrain%2F%3Fbiketype%3D2?w=400&h=225",
+      "url": "https://battistrada.com/fr/calendrier-cyclosportives/suisse/?biketype=2",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbattistrada.com%2Ffr%2Fcalendrier-cyclosportives%2Fsuisse%2F%3Fbiketype%3D2?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "vtt-3",
+      "id": "vtt-c2",
       "type": "article",
-      "title": "Ahotu – Calendrier VTT Suisse",
-      "summary": "Calendrier international filtrable par pays et discipline, incluant les prochaines courses VTT suisses.",
-      "url": "https://www.ahotu.com/calendar/mountain-biking/switzerland",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.ahotu.com%2Fcalendar%2Fmountain-biking%2Fswitzerland?w=400&h=225",
+      "title": "Cyclisme Romand – Calendrier des courses cyclistes 2026",
+      "summary": "Calendrier officiel des courses en Suisse romande, incluant les épreuves VTT.",
+      "url": "https://www.cyclismeromand.ch/calendrier/cal_gen.pdf",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cyclismeromand.ch%2Fcalendrier%2Fcal_gen.pdf?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    }
-  ],
-  "prevision-de-vent-pour-les-prochains-jour-a-st-prex-suisse-avec-windy": [
-    {
-      "id": "vent-1",
-      "type": "link",
-      "title": "Windfinder – Prévisions de vent Saint-Prex",
-      "summary": "Prévisions par intervalles de 3h jusqu'à 10 jours (vitesse, direction, rafales).",
-      "url": "https://fr.windfinder.com/forecast/saint-prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffr.windfinder.com%2Fforecast%2Fsaint-prex?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "vent-2",
-      "type": "link",
-      "title": "Windfinder – Rapport météo temps réel Saint-Prex",
-      "summary": "Conditions de vent actuelles mesurées en temps réel à Saint-Prex.",
-      "url": "https://fr.windfinder.com/report/saint-prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffr.windfinder.com%2Freport%2Fsaint-prex?w=400&h=225",
+      "id": "vtt-c3",
+      "type": "article",
+      "title": "GuideVTT.com – Calendrier des courses VTT officielles en Suisse",
+      "summary": "Agenda des courses organisées par les clubs cyclistes régionaux, surtout en Romandie.",
+      "url": "https://www.guidevtt.com/programme_courses_VTT.php",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.guidevtt.com%2Fprogramme_courses_VTT.php?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-3",
-      "type": "link",
-      "title": "Windy.app – Saint-Prex, vent, vagues et météo",
-      "summary": "Prévisions basées sur le modèle GFS, mises à jour 4 fois par jour, avec info spéciales voile/kitesurf.",
-      "url": "https://windy.app/fr/forecast2/spot/603444/Saint-Prex",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwindy.app%2Ffr%2Fforecast2%2Fspot%2F603444%2FSaint-Prex?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-4",
-      "type": "link",
-      "title": "Meteo Suisse – Saint-Prex en temps réel",
-      "summary": "Prévisions météo locales pour Saint-Prex.",
-      "url": "https://meteo-ch.ch/fr/cities/saint-prex.html",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmeteo-ch.ch%2Ffr%2Fcities%2Fsaint-prex.html?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
-    },
-    {
-      "id": "vent-5",
-      "type": "link",
-      "title": "MétéoMédia – Prévisions du vent Saint-Prex",
-      "summary": "Prévisions du vent pour Saint-Prex, canton de Vaud.",
-      "url": "https://www.meteomedia.com/fr/ville/ch/vaud/saint-prex/vents",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.meteomedia.com%2Ffr%2Fville%2Fch%2Fvaud%2Fsaint-prex%2Fvents?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:00:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
     {
-      "id": "wing-1",
-      "type": "article",
-      "title": "Où et quand partir faire du wing ?",
-      "summary": "Guide saisonnier par spot : Tarifa et Fuerteventura restent ventés et cléments en automne, quand la météo continentale se dégrade.",
-      "url": "https://wingfoil.voyages-adekua.fr/infos-adekua/ou-quand-partir-wing-foil-sejour-stage-croisiere-cours",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwingfoil.voyages-adekua.fr%2Finfos-adekua%2Fou-quand-partir-wing-foil-sejour-stage-croisiere-cours?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-11T23:20:00.000Z"
-    },
-    {
-      "id": "wing-2",
+      "id": "wing-c1",
       "type": "article",
       "title": "Plus beaux spots wingfoil en Europe : destinations incontournables",
-      "summary": "Leucate et sa Tramontane régulière, Tarifa au vent constant, L'Almanarre à Hyères : les spots européens qui tiennent la route à l'automne.",
+      "summary": "Leucate et sa Tramontane régulière, Tarifa au vent constant, L'Almanarre à Hyères : les incontournables européens.",
       "url": "https://www.tourismorama.com/plus-beaux-spots-wingfoil-europe-destinations-incontournables-riders/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tourismorama.com%2Fplus-beaux-spots-wingfoil-europe-destinations-incontournables-riders%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:20:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     },
     {
-      "id": "wing-3",
+      "id": "wing-c2",
       "type": "article",
-      "title": "Voyage Wingfoil : meilleures destinations et spots pour séjour Wing",
-      "summary": "Sélection de séjours organisés, dont Fuerteventura, réputée pour son ambiance détendue et son vent fiable hors saison estivale.",
-      "url": "https://fun-and-fly.com/sejour-wingfoil/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffun-and-fly.com%2Fsejour-wingfoil%2F?w=400&h=225",
+      "title": "Où et quand partir faire du wing ?",
+      "summary": "Guide saisonnier par spot : Tarifa et Fuerteventura restent ventés et cléments en automne.",
+      "url": "https://wingfoil.voyages-adekua.fr/infos-adekua/ou-quand-partir-wing-foil-sejour-stage-croisiere-cours",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwingfoil.voyages-adekua.fr%2Finfos-adekua%2Fou-quand-partir-wing-foil-sejour-stage-croisiere-cours?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-11T23:20:00.000Z"
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
+    },
+    {
+      "id": "wing-c3",
+      "type": "article",
+      "title": "Meilleurs spots de Wing Foil et SUP de Corse",
+      "summary": "Printemps et automne restent doux en Corse (12-18°C), un bon compromis météo pour la pratique hors saison estivale.",
+      "url": "https://srokacompany.com/blogs/actualites/les-meilleurs-spots-de-wing-foil-et-sup-en-corse",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsrokacompany.com%2Fblogs%2Factualites%2Fles-meilleurs-spots-de-wing-foil-et-sup-en-corse?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-12T09:15:00.000Z"
     }
   ]
 };
