@@ -110,11 +110,11 @@
     "prompt": "Idées de vacances wingfoil en europe en automne",
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-12T17:48:27.004Z",
+    "updatedAt": "2026-08-13T06:47:01.307Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "frequency": "weekly",
     "tags": [
-      "Wing"
+      "wing"
     ],
     "layout": "tiles",
     "sourceType": "prompt"
@@ -146,7 +146,22 @@
       "wing"
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
-    "updatedAt": "2026-08-13T06:46:07.770Z",
+    "updatedAt": "2026-08-13T06:46:36.738Z",
+    "lastRun": null
+  },
+  {
+    "id": "restaurant-lausanne",
+    "title": "Restaurant Lausanne",
+    "prompt": "Idées de restaurants Lausanne et environs appréciés",
+    "sourceType": "prompt",
+    "resultCount": 10,
+    "frequency": "daily",
+    "layout": "list",
+    "tags": [
+      "cuisine"
+    ],
+    "createdAt": "2026-08-13T06:49:14.630Z",
+    "updatedAt": "2026-08-13T06:49:14.630Z",
     "lastRun": null
   }
 ]
