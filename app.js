@@ -156,13 +156,13 @@ const FALLBACK_COLUMNS = [
     "prompt": "Idées de restaurants Lausanne et environs appréciés",
     "sourceType": "prompt",
     "resultCount": 10,
-    "frequency": "daily",
+    "frequency": "weekly",
     "layout": "list",
     "tags": [
       "cuisine"
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
-    "updatedAt": "2026-08-13T06:49:14.630Z",
+    "updatedAt": "2026-08-13T07:10:52.931Z",
     "lastRun": "2026-08-13T06:51:42.000Z"
   }
 ];
@@ -1179,7 +1179,9 @@ const state = {
   sha: { columns: null, results: null },
   gh: loadGhConfig(),
   pendingSaves: 0,
-  activeTags: loadActiveTags()
+  activeTags: loadActiveTags(),
+  seen: loadSeenSet(),
+  searchQuery: ""
 };
 
 const dragState = { id: null };
@@ -1193,6 +1195,33 @@ function loadActiveTags() {
 }
 function saveActiveTags() {
   localStorage.setItem("dashboard-active-tags", JSON.stringify([...state.activeTags]));
+}
+
+function loadSeenSet() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("dashboard-seen-urls") || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+function saveSeenSet() {
+  localStorage.setItem("dashboard-seen-urls", JSON.stringify([...state.seen]));
+}
+function markSeen(url, node, cssClass) {
+  if (!url || state.seen.has(url)) return;
+  state.seen.add(url);
+  saveSeenSet();
+  if (node) node.classList.add(cssClass);
+}
+
+function normalizeSearch(s) {
+  return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+}
+function filteredItemsFor(col) {
+  const items = state.results[col.id] || [];
+  const q = normalizeSearch(state.searchQuery);
+  if (!q) return items;
+  return items.filter(it => normalizeSearch((it.title || "") + " " + (it.summary || "")).includes(q));
 }
 
 function $(sel, root = document) { return root.querySelector(sel); }
@@ -1361,13 +1390,25 @@ function renderTile(item, opts = {}) {
     ? el("div", { class: "tile-media-wrap" }, [media, el("span", { class: "new-badge", title: "Apparu dans les dernières 24h" }, "Nouveau")])
     : media;
   const tag = item.url ? "a" : "div";
-  const attrs = item.url ? { class: "tile", href: item.url, target: "_blank", rel: "noopener" } : { class: "tile" };
+  const seenClass = item.url && state.seen.has(item.url) ? " tile-seen" : "";
+  const attrs = item.url
+    ? {
+        class: "tile" + seenClass, href: item.url, target: "_blank", rel: "noopener",
+        onclick: (e) => markSeen(item.url, e.currentTarget, "tile-seen")
+      }
+    : { class: "tile" };
   return el(tag, attrs, [mediaWrap, body]);
 }
 
 function renderListItem(item, opts = {}) {
   const tag = item.url ? "a" : "div";
-  const attrs = item.url ? { class: "list-item", href: item.url, target: "_blank", rel: "noopener" } : { class: "list-item" };
+  const seenClass = item.url && state.seen.has(item.url) ? " list-item-seen" : "";
+  const attrs = item.url
+    ? {
+        class: "list-item" + seenClass, href: item.url, target: "_blank", rel: "noopener",
+        onclick: (e) => markSeen(item.url, e.currentTarget, "list-item-seen")
+      }
+    : { class: "list-item" };
   const nameChildren = [el("span", { class: "list-item-name" }, item.title || "Sans titre")];
   const pubDate = opts.showDate ? formatDate(item.date, item.datePrecision) : null;
   if (pubDate) nameChildren.push(el("span", { class: "list-item-date" }, pubDate));
@@ -1396,7 +1437,7 @@ function compareListByDate(a, b) {
 }
 
 function renderColumn(col, idx, total) {
-  const items = state.results[col.id] || [];
+  const items = filteredItemsFor(col);
   const isList = col.layout === "list" || col.layout === "list-date";
   const bodyClass = isList ? "column-list" : "column-body";
   let bodyChildren;
@@ -1484,7 +1525,9 @@ function renderAddColumn() {
 function render() {
   const board = $("#board");
   board.innerHTML = "";
-  const visible = visibleColumns();
+  const tagFiltered = visibleColumns();
+  const query = normalizeSearch(state.searchQuery);
+  const visible = query ? tagFiltered.filter(col => filteredItemsFor(col).length > 0) : tagFiltered;
   const total = visible.length;
   visible.forEach((col, idx) => board.appendChild(renderColumn(col, idx, total)));
   board.appendChild(renderAddColumn());
@@ -1532,8 +1575,7 @@ function updateScrollButtons() {
   const toolbar = $("#boardToolbar");
   if (!board || !toolbar) return;
   const hasOverflow = board.scrollWidth > board.clientWidth + 4;
-  const hasTags = getAllTags().length > 0;
-  toolbar.classList.toggle("visible", hasOverflow || hasTags);
+  toolbar.classList.toggle("visible", state.columns.length > 0);
   $("#scrollControls").style.display = hasOverflow ? "flex" : "none";
   if (!hasOverflow) return;
   $("#scrollLeftBtn").disabled = board.scrollLeft <= 4;
@@ -1835,6 +1877,19 @@ function toggleTheme() {
   updateThemeIcon();
 }
 
+// ---- Compact mode ----
+function initCompactMode() {
+  const on = localStorage.getItem("dashboard-compact") === "1";
+  document.body.classList.toggle("compact", on);
+  $("#compactToggle").classList.toggle("active", on);
+}
+function toggleCompactMode() {
+  const next = !document.body.classList.contains("compact");
+  document.body.classList.toggle("compact", next);
+  localStorage.setItem("dashboard-compact", next ? "1" : "0");
+  $("#compactToggle").classList.toggle("active", next);
+}
+
 // ---- Prevent leaving/reloading while a save is still in flight ----
 window.addEventListener("beforeunload", (e) => {
   if (state.pendingSaves > 0) {
@@ -1846,6 +1901,12 @@ window.addEventListener("beforeunload", (e) => {
 // ---- Wiring ----
 document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
+  initCompactMode();
+  $("#compactToggle").addEventListener("click", toggleCompactMode);
+  $("#searchInput").addEventListener("input", (e) => {
+    state.searchQuery = e.target.value;
+    render();
+  });
   $("#themeToggle").addEventListener("click", toggleTheme);
   $("#settingsBtn").addEventListener("click", openSettings);
   $("#settingsBackdrop").addEventListener("click", (e) => { if (e.target.id === "settingsBackdrop") closeSettings(); });

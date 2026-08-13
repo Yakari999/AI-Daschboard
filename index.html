@@ -98,12 +98,19 @@
   .icon-btn:disabled { opacity: .35; cursor: not-allowed; }
   .icon-btn:disabled:hover { box-shadow: none; transform: none; }
   .icon-btn svg { width: 18px; height: 18px; }
+  .icon-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
   .board-toolbar {
-    display: none; align-items: center; justify-content: space-between; gap: 10px;
+    display: none; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
     padding: 12px clamp(16px, 4vw, 40px) 0;
   }
   .board-toolbar.visible { display: flex; }
+  .search-bar { flex-shrink: 0; }
+  .search-bar input {
+    font: inherit; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 999px; padding: 7px 14px; color: var(--text); width: 220px; max-width: 100%;
+  }
+  .search-bar input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
   .tag-filter-bar { display: flex; flex-wrap: wrap; gap: 6px; }
   .scroll-controls { display: flex; gap: 8px; flex-shrink: 0; }
   .tag-pill {
@@ -249,6 +256,25 @@
     text-transform: uppercase; letter-spacing: .03em; padding: 2px 8px; border-radius: 999px; flex-shrink: 0;
   }
 
+  .tile.tile-seen { opacity: .5; }
+  a.tile.tile-seen:hover { opacity: .85; }
+  a.list-item.list-item-seen { opacity: .5; }
+  a.list-item.list-item-seen:hover { opacity: .85; }
+
+  /* ---- Compact mode ---- */
+  body.compact main.board { gap: 12px; }
+  body.compact .column { width: 230px; flex-basis: 230px; }
+  body.compact .column-head { padding: 10px 10px 8px; }
+  body.compact .column-title { font-size: .86rem; }
+  body.compact .column-prompt { -webkit-line-clamp: 1; margin: 4px 0 0; }
+  body.compact .column-body { padding: 8px; gap: 8px; }
+  body.compact .tile-media.placeholder { height: 80px; font-size: 1.2rem; }
+  body.compact .tile-body { padding: 8px; }
+  body.compact .tile-title { font-size: .78rem; }
+  body.compact .tile-summary { font-size: .7rem; -webkit-line-clamp: 2; }
+  body.compact .tile-summary-long { -webkit-line-clamp: 3; }
+  body.compact .tile-footer { margin-top: 4px; }
+
   .column.add-column {
     background: transparent;
     border: 2px dashed var(--border);
@@ -311,12 +337,16 @@
       <p id="statusLine"><span class="status-dot ro"></span>Lecture seule — configure ton accès pour éditer</p>
     </div>
     <div class="top-actions">
+      <button class="icon-btn" id="compactToggle" title="Mode compact">▦</button>
       <button class="icon-btn" id="themeToggle" title="Changer le thème"></button>
       <button class="icon-btn" id="settingsBtn" title="Réglages">⚙️</button>
     </div>
   </header>
 
   <div class="board-toolbar" id="boardToolbar">
+    <div class="search-bar">
+      <input type="search" id="searchInput" placeholder="Rechercher dans les résultats..." />
+    </div>
     <div class="tag-filter-bar" id="tagFilterBar"></div>
     <div class="scroll-controls" id="scrollControls">
       <button class="icon-btn" id="scrollLeftBtn" title="Défiler vers la gauche">
@@ -365,6 +395,6 @@
 
   <div class="toast-wrap" id="toastWrap"></div>
 
-<script src="app.js?v=14"></script>
+<script src="app.js?v=15"></script>
 </body>
 </html>
