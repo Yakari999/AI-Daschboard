@@ -19,14 +19,14 @@ const FALLBACK_COLUMNS = [
     "id": "courses-au-large",
     "title": "Courses au large",
     "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
-    "resultCount": 5,
+    "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T20:40:00.000Z",
+    "updatedAt": "2026-08-12T19:10:21.724Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "tags": [
       "sport"
     ],
-    "frequency": "daily",
+    "frequency": "weekly",
     "layout": "list-date",
     "sourceType": "prompt"
   },
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-12T09:50:00.000Z",
+    "lastRun": "2026-08-13T04:05:50.000Z",
     "tags": [
       "event"
     ],
@@ -125,15 +125,15 @@ const FALLBACK_COLUMNS = [
     "title": "Presse-citron",
     "prompt": "Presse-citron",
     "sourceType": "site",
-    "resultCount": 5,
+    "resultCount": 15,
     "frequency": "daily",
     "layout": "tiles",
     "tags": [
       "actu"
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
-    "updatedAt": "2026-08-12T21:10:00.000Z",
-    "lastRun": "2026-08-12T21:10:00.000Z"
+    "updatedAt": "2026-08-12T19:09:04.649Z",
+    "lastRun": "2026-08-13T04:05:50.000Z"
   }
 ];
 
@@ -201,7 +201,18 @@ const FALLBACK_RESULTS = {
       "url": "https://www.lausanne-tourisme.ch/en/events/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Fen%2Fevents%2F?w=400&h=225",
       "date": "2026-08-20T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
+      "fetchedAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "laus-c6",
+      "type": "article",
+      "title": "Festival Cinémas d'Afrique - 20e édition",
+      "summary": "Du 13 au 16 août 2026 au Casino de Montbenon : plus de 50 films (fictions, documentaires, animation, courts métrages) venus ou traitant du continent africain.",
+      "url": "https://www.cine-afrique.ch/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cine-afrique.ch%2F?w=400&h=225",
+      "date": "2026-08-13T00:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
       "id": "laus-c2",
@@ -211,37 +222,28 @@ const FALLBACK_RESULTS = {
       "url": "https://www.docks.ch/en/programme/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docks.ch%2Fen%2Fprogramme%2F?w=400&h=225",
       "date": "2026-08-26T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
+      "fetchedAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "laus-c7",
+      "type": "article",
+      "title": "Lausanne Judo Grand Slam 2026",
+      "summary": "Du 28 au 30 août 2026 à la Vaudoise arena : première étape Grand Slam en Suisse, combinant pour la première fois judo et para-judo, avec près de 900 athlètes de plus de 50 nations.",
+      "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
+      "date": "2026-08-28T00:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
       "id": "laus-c3",
       "type": "article",
       "title": "Lausanne sur Mer : activités sportives gratuites au bord de l'eau",
-      "summary": "Badminton, freeboard, kayak, paddle, slackline et tennis en accès libre en août.",
+      "summary": "Programme estival d'activités sportives et de loisirs gratuites au bord du lac, à Lausanne.",
       "url": "https://lausanne.evous.ch/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne.evous.ch%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "laus-c4",
-      "type": "article",
-      "title": "Agenda des manifestations – Ville de Lausanne",
-      "summary": "Agenda municipal officiel, mis à jour en continu avec tous les événements culturels à venir.",
-      "url": "https://www.lausanne.ch/agenda-et-actualites/agenda",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne.ch%2Fagenda-et-actualites%2Fagenda?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
-    },
-    {
-      "id": "laus-c5",
-      "type": "article",
-      "title": "Tempslibre.ch – Concerts, spectacles et sorties en Romandie",
-      "summary": "Agenda régional des concerts et spectacles à Lausanne et environs.",
-      "url": "https://www.tempslibre.ch/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tempslibre.ch%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-12T09:15:00.000Z"
+      "fetchedAt": "2026-08-13T04:05:50.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -867,7 +869,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:45:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -878,7 +880,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:45:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -889,7 +891,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
       "date": "2026-07-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T21:45:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -900,7 +902,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-12T21:45:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -911,8 +913,74 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
       "date": "2026-07-22T00:00:00.000Z",
-      "fetchedAt": "2026-08-12T21:45:00.000Z",
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-6",
+      "type": "article",
+      "title": "L'avenir de l'IA se joue dans cette île de 36 197 km²",
+      "summary": "Nvidia investit actuellement 100 milliards de dollars par an à Taïwan pour la production de puces d'intelligence artificielle, un montant qui pourrait grimper jusqu'à 150 milliards par an. L'île, qui concentre une grande partie de la chaîne de production mondiale des semi-conducteurs avancés, devient un point stratégique central pour l'avenir de l'IA.",
+      "url": "https://www.presse-citron.net/ia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-7",
+      "type": "article",
+      "title": "Ce nouveau métier payé jusqu'à 300 000€/an n'exige pas de diplôme",
+      "summary": "Apparu il y a environ trois ans, le «prompt engineering» — l'art d'obtenir une réponse exacte d'une IA — est devenu un métier à part entière. Aux États-Unis, certaines offres pour ce poste dépassent les 300 000 dollars par an, sans exiger de diplôme particulier.",
+      "url": "https://www.presse-citron.net/invente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Finvente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-8",
+      "type": "article",
+      "title": "+58 % en 9 jours : comment Trump, Musk, Google et Nvidia ont sauvé Intel",
+      "summary": "Le titre d'Intel a bondi de 58% en seulement 9 jours, porté par une série de soutiens stratégiques : investissements de Donald Trump, Elon Musk, Google et Nvidia dans le fondeur américain, en difficulté face à la concurrence.",
+      "url": "https://www.presse-citron.net/donald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdonald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-9",
+      "type": "article",
+      "title": "Pas d'IA, pas de promotion",
+      "summary": "Une entreprise impose désormais à ses cadres l'utilisation de l'intelligence artificielle comme condition pour obtenir une promotion, illustrant la pression croissante des employeurs pour accélérer l'adoption de l'IA en interne.",
+      "url": "https://www.presse-citron.net/ia-promotion-entreprise-forcer-cadres-intelligence-artificielle/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-promotion-entreprise-forcer-cadres-intelligence-artificielle%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-10",
+      "type": "article",
+      "title": "L'IA fait exploser les bénéfices de Google de 298 %",
+      "summary": "Dopés par l'intelligence artificielle, les résultats trimestriels de Google affichent un bond spectaculaire de 298% des bénéfices — une performance qui n'a pourtant pas empêché l'action du groupe de chuter en bourse dans la foulée.",
+      "url": "https://www.presse-citron.net/ia-fait-exploser-benefices-google-298-action-degringole-foulee/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-fait-exploser-benefices-google-298-action-degringole-foulee%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-11",
+      "type": "article",
+      "title": "Apple et l'intelligence artificielle : racheter ou mourir",
+      "summary": "Face à son retard perçu dans la course à l'intelligence artificielle, Apple serait confronté à un choix stratégique radical : multiplier les rachats de start-ups spécialisées ou risquer de décrocher durablement face à ses concurrents.",
+      "url": "https://www.presse-citron.net/apple-et-lintelligence-artificielle-racheter-ou-mourir/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fapple-et-lintelligence-artificielle-racheter-ou-mourir%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "firstSeenAt": "2026-08-13T04:05:50.000Z"
     }
   ]
 };
