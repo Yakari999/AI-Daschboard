@@ -155,13 +155,13 @@
     "prompt": "Idées de restaurants Lausanne et environs appréciés",
     "sourceType": "prompt",
     "resultCount": 10,
-    "frequency": "daily",
+    "frequency": "weekly",
     "layout": "list",
     "tags": [
       "cuisine"
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
-    "updatedAt": "2026-08-13T06:49:14.630Z",
+    "updatedAt": "2026-08-13T07:10:52.931Z",
     "lastRun": "2026-08-13T06:51:42.000Z"
   }
 ]
