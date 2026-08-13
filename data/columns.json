@@ -133,5 +133,20 @@
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
     "lastRun": "2026-08-13T04:05:50.000Z"
+  },
+  {
+    "id": "wing-freefly",
+    "title": "Wing Freefly",
+    "prompt": "dernières vidéos de wingfoil freefly youtube",
+    "sourceType": "prompt",
+    "resultCount": 5,
+    "frequency": "daily",
+    "layout": "tiles",
+    "tags": [
+      "wing"
+    ],
+    "createdAt": "2026-08-13T06:46:07.770Z",
+    "updatedAt": "2026-08-13T06:46:07.770Z",
+    "lastRun": null
   }
 ]
