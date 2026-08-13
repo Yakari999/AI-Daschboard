@@ -111,11 +111,11 @@ const FALLBACK_COLUMNS = [
     "prompt": "Idées de vacances wingfoil en europe en automne",
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
-    "updatedAt": "2026-08-12T17:48:27.004Z",
+    "updatedAt": "2026-08-13T06:47:01.307Z",
     "lastRun": "2026-08-12T09:50:00.000Z",
     "frequency": "weekly",
     "tags": [
-      "Wing"
+      "wing"
     ],
     "layout": "tiles",
     "sourceType": "prompt"
@@ -134,6 +134,36 @@ const FALLBACK_COLUMNS = [
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
     "lastRun": "2026-08-13T04:05:50.000Z"
+  },
+  {
+    "id": "wing-freefly",
+    "title": "Wing Freefly",
+    "prompt": "dernières vidéos de wingfoil freefly youtube",
+    "sourceType": "prompt",
+    "resultCount": 5,
+    "frequency": "daily",
+    "layout": "tiles",
+    "tags": [
+      "wing"
+    ],
+    "createdAt": "2026-08-13T06:46:07.770Z",
+    "updatedAt": "2026-08-13T06:46:36.738Z",
+    "lastRun": "2026-08-13T06:51:42.000Z"
+  },
+  {
+    "id": "restaurant-lausanne",
+    "title": "Restaurant Lausanne",
+    "prompt": "Idées de restaurants Lausanne et environs appréciés",
+    "sourceType": "prompt",
+    "resultCount": 10,
+    "frequency": "daily",
+    "layout": "list",
+    "tags": [
+      "cuisine"
+    ],
+    "createdAt": "2026-08-13T06:49:14.630Z",
+    "updatedAt": "2026-08-13T06:49:14.630Z",
+    "lastRun": "2026-08-13T06:51:42.000Z"
   }
 ];
 
@@ -981,6 +1011,153 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-08-13T04:05:50.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    }
+  ],
+  "wing-freefly": [
+    {
+      "id": "wing-1",
+      "type": "video",
+      "title": "2025 FreeFly-Slalom Highlights – GWA Wingfoil World Cup Fuerteventura",
+      "summary": "Temps forts de la discipline FreeFly-Slalom lors de la 37e édition du World Cup de Fuerteventura.",
+      "url": "https://www.youtube.com/watch?v=CZfLD3H_G1U",
+      "image": "https://img.youtube.com/vi/CZfLD3H_G1U/hqdefault.jpg",
+      "date": "2025-08-02T00:00:00.000Z",
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "wing-2",
+      "type": "video",
+      "title": "WINGFOIL - FREEFLY avec les copains",
+      "summary": "Session freefly conviviale entre riders, ambiance décontractée.",
+      "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
+      "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "wing-3",
+      "type": "video",
+      "title": "[Tuto Wing foil] Les secrets du surf ou freefly en wingfoil",
+      "summary": "Tutoriel expliquant les bases techniques du freefly / wingsurf.",
+      "url": "https://www.youtube.com/watch?v=bDwl4a4AqBE",
+      "image": "https://img.youtube.com/vi/bDwl4a4AqBE/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "wing-4",
+      "type": "video",
+      "title": "Tech Talk : Float & Float SLS 2026",
+      "summary": "Présentation par Ken Winner et Klaas Voget des ailes Float et Float SLS 2026, pensées pour la vague et le freefly.",
+      "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
+      "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "wing-5",
+      "type": "video",
+      "title": "C'est quoi le FreeFly-Slalom ?",
+      "summary": "Format court expliquant la discipline FreeFly-Slalom du circuit mondial GWA.",
+      "url": "https://www.youtube.com/watch?v=vLrjWDDlEgY",
+      "image": "https://img.youtube.com/vi/vLrjWDDlEgY/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    }
+  ],
+  "restaurant-lausanne": [
+    {
+      "id": "resto-1",
+      "type": "link",
+      "title": "Le Berceau des Sens",
+      "summary": "",
+      "url": "https://www.berceau-des-sens.ch/en/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-2",
+      "type": "link",
+      "title": "Pic au Beau-Rivage Palace",
+      "summary": "",
+      "url": "https://www.brp.ch/en/restaurants-bars/pic-at-beau-rivage-palace/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-3",
+      "type": "link",
+      "title": "La Table (Lausanne Palace)",
+      "summary": "",
+      "url": "https://www.lausanne-palace.ch/en/restaurants-bars/la-table-du-lausanne-palace/le-restaurant/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-4",
+      "type": "link",
+      "title": "Osteria Balsamico",
+      "summary": "",
+      "url": "https://osteriabalsamico.ch",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-5",
+      "type": "link",
+      "title": "La Pergola",
+      "summary": "",
+      "url": "https://www.restaurant-la-pergola.ch",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-6",
+      "type": "link",
+      "title": "L'Echo",
+      "summary": "",
+      "url": "https://www.restaurant-lecho.com/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-7",
+      "type": "link",
+      "title": "Binôm'",
+      "summary": "",
+      "url": "https://restaurant-binom.ch",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-8",
+      "type": "link",
+      "title": "Café de Grancy",
+      "summary": "",
+      "url": "https://www.cafedegrancy.ch/",
+      "image": null,
+      "date": null,
+      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ]
 };
