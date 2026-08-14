@@ -31,6 +31,21 @@ const FALLBACK_COLUMNS = [
     "sourceType": "prompt"
   },
   {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
+    "lastRun": "2026-08-12T15:40:00.000Z",
+    "frequency": "weekly",
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -76,28 +91,13 @@ const FALLBACK_COLUMNS = [
     "sourceType": "prompt"
   },
   {
-    "id": "top-jeux",
-    "title": "Top jeux",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
-    "tags": [
-      "jeux"
-    ],
-    "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-12T15:40:00.000Z",
-    "frequency": "weekly",
-    "layout": "tiles",
-    "sourceType": "prompt"
-  },
-  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-13T04:05:50.000Z",
+    "lastRun": "2026-08-14T04:12:37.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-13T04:05:50.000Z"
+    "lastRun": "2026-08-14T04:12:37.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-13T06:51:42.000Z"
+    "lastRun": "2026-08-14T04:12:37.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -224,14 +224,15 @@ const FALLBACK_RESULTS = {
   ],
   "presse": [
     {
-      "id": "laus-c1",
+      "id": "laus-c8",
       "type": "article",
-      "title": "Athletissima : saut à la perche à Ouchy",
-      "summary": "Compétition masculine de saut à la perche le 20 août 2026, Place de la Navigation à Ouchy, accès libre.",
-      "url": "https://www.lausanne-tourisme.ch/en/events/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Fen%2Fevents%2F?w=400&h=225",
-      "date": "2026-08-20T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z"
+      "title": "FIBA 3x3 World Tour Lausanne Masters",
+      "summary": "14-15 août 2026, Place de la Navigation à Ouchy : étape du circuit mondial FIBA 3x3, avec qualifications et poules le vendredi puis phases finales le samedi. Festival de culture urbaine associé (danseurs, DJs).",
+      "url": "https://www.lausanne-tourisme.ch/en/event/fiba-33-world-tour-lausanne-masters/",
+      "date": "2026-08-14T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Fen%2Fevent%2Ffiba-33-world-tour-lausanne-masters%2F?w=400&h=225",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
+      "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
       "id": "laus-c6",
@@ -239,20 +240,32 @@ const FALLBACK_RESULTS = {
       "title": "Festival Cinémas d'Afrique - 20e édition",
       "summary": "Du 13 au 16 août 2026 au Casino de Montbenon : plus de 50 films (fictions, documentaires, animation, courts métrages) venus ou traitant du continent africain.",
       "url": "https://www.cine-afrique.ch/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cine-afrique.ch%2F?w=400&h=225",
       "date": "2026-08-13T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cine-afrique.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
-      "id": "laus-c2",
+      "id": "laus-c9",
       "type": "article",
-      "title": "Wolfmother en concert aux Docks",
-      "summary": "Le groupe de rock australien se produit à la salle des Docks à Lausanne le 26 août 2026.",
-      "url": "https://www.docks.ch/en/programme/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docks.ch%2Fen%2Fprogramme%2F?w=400&h=225",
-      "date": "2026-08-26T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z"
+      "title": "Lausanne Afro Fusions Festival (LAFF)",
+      "summary": "Du 20 au 23 août 2026, Esplanade et Casino de Montbenon : plus grand festival africain en plein air de Suisse romande. Accueille aussi la 1ère édition du FILAA (festival international du livre et des arts africains). Accès libre aux concerts, certains spectacles payants.",
+      "url": "https://lausaff.org/en/",
+      "date": "2026-08-20T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausaff.org%2Fen%2F?w=400&h=225",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
+      "firstSeenAt": "2026-08-14T04:12:37.000Z"
+    },
+    {
+      "id": "laus-c10",
+      "type": "article",
+      "title": "Athletissima",
+      "summary": "51e édition le 21 août 2026 au Stade olympique de la Pontaise : 17 disciplines de la Ligue de diamant. La veille, concours de perche masculine en accès libre sur les quais d'Ouchy.",
+      "url": "https://athletissima.ch/en/",
+      "date": "2026-08-21T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fathletissima.ch%2Fen%2F?w=400&h=225",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
+      "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
       "id": "laus-c7",
@@ -260,20 +273,10 @@ const FALLBACK_RESULTS = {
       "title": "Lausanne Judo Grand Slam 2026",
       "summary": "Du 28 au 30 août 2026 à la Vaudoise arena : première étape Grand Slam en Suisse, combinant pour la première fois judo et para-judo, avec près de 900 athlètes de plus de 50 nations.",
       "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
       "date": "2026-08-28T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
-    },
-    {
-      "id": "laus-c3",
-      "type": "article",
-      "title": "Lausanne sur Mer : activités sportives gratuites au bord de l'eau",
-      "summary": "Programme estival d'activités sportives et de loisirs gratuites au bord du lac, à Lausanne.",
-      "url": "https://lausanne.evous.ch/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne.evous.ch%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -899,7 +902,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -910,7 +913,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -921,7 +924,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
       "date": "2026-07-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -932,7 +935,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -943,7 +946,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
       "date": "2026-07-22T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -954,7 +957,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -965,7 +968,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/invente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Finvente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -976,7 +979,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/donald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdonald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -987,7 +990,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-promotion-entreprise-forcer-cadres-intelligence-artificielle/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-promotion-entreprise-forcer-cadres-intelligence-artificielle%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -998,7 +1001,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-fait-exploser-benefices-google-298-action-degringole-foulee/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-fait-exploser-benefices-google-298-action-degringole-foulee%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1009,8 +1012,30 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/apple-et-lintelligence-artificielle-racheter-ou-mourir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fapple-et-lintelligence-artificielle-racheter-ou-mourir%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-13T04:05:50.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
+    },
+    {
+      "id": "presse-citron-12",
+      "type": "article",
+      "title": "La superintelligence pour tous : la vision de l'IA de Zuckerberg inquiète",
+      "summary": "Mark Zuckerberg défend une vision où la «superintelligence personnelle» serait accessible à tous via les produits Meta, chacun disposant de son propre assistant IA individuel. Cette ambition suscite des inquiétudes chez les experts, qui pointent les risques d'une IA aussi puissante déployée à grande échelle sans garde-fous suffisants.",
+      "url": "https://www.presse-citron.net/superintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsuperintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
+      "firstSeenAt": "2026-08-14T04:12:37.000Z"
+    },
+    {
+      "id": "presse-citron-13",
+      "type": "article",
+      "title": "Elon Musk tient sa revanche : son IA Grok rattrape ChatGPT",
+      "summary": "Grok, l'intelligence artificielle développée par xAI d'Elon Musk, aurait comblé son retard technique sur ChatGPT selon plusieurs comparatifs récents. Une avancée qui rebat les cartes de la compétition entre grands modèles de langage, jusque-là dominée par OpenAI.",
+      "url": "https://www.presse-citron.net/elon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Felon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
+      "firstSeenAt": "2026-08-14T04:12:37.000Z"
     }
   ],
   "wing-freefly": [
@@ -1022,7 +1047,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=CZfLD3H_G1U",
       "image": "https://img.youtube.com/vi/CZfLD3H_G1U/hqdefault.jpg",
       "date": "2025-08-02T00:00:00.000Z",
-      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1033,7 +1058,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1044,7 +1069,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=bDwl4a4AqBE",
       "image": "https://img.youtube.com/vi/bDwl4a4AqBE/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1055,7 +1080,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1066,7 +1091,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=vLrjWDDlEgY",
       "image": "https://img.youtube.com/vi/vLrjWDDlEgY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-13T06:51:42.000Z",
+      "fetchedAt": "2026-08-14T04:12:37.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
