@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-15T04:06:06.000Z",
+    "lastRun": "2026-08-16T04:06:21.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-15T04:06:06.000Z"
+    "lastRun": "2026-08-16T04:06:21.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-15T04:06:06.000Z"
+    "lastRun": "2026-08-16T04:06:21.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -224,26 +224,15 @@ const FALLBACK_RESULTS = {
   ],
   "presse": [
     {
-      "id": "laus-c8",
+      "id": "laus-c11",
       "type": "article",
-      "title": "FIBA 3x3 World Tour Lausanne Masters",
-      "summary": "14-15 août 2026, Place de la Navigation à Ouchy : étape du circuit mondial FIBA 3x3, avec qualifications et poules le vendredi puis phases finales le samedi. Festival de culture urbaine associé (danseurs, DJs).",
-      "url": "https://www.lausanne-tourisme.ch/en/event/fiba-33-world-tour-lausanne-masters/",
-      "date": "2026-08-14T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Fen%2Fevent%2Ffiba-33-world-tour-lausanne-masters%2F?w=400&h=225",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
-      "firstSeenAt": "2026-08-14T04:12:37.000Z"
-    },
-    {
-      "id": "laus-c6",
-      "type": "article",
-      "title": "Festival Cinémas d'Afrique - 20e édition",
-      "summary": "Du 13 au 16 août 2026 au Casino de Montbenon : plus de 50 films (fictions, documentaires, animation, courts métrages) venus ou traitant du continent africain.",
-      "url": "https://www.cine-afrique.ch/",
-      "date": "2026-08-13T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cine-afrique.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
-      "firstSeenAt": "2026-08-13T04:05:50.000Z"
+      "title": "Otobong Nkanga. I dreamt of you in colours",
+      "summary": "Jusqu'au 23 août 2026 au MCBA : grande exposition consacrée à l'artiste nigériane Otobong Nkanga (installations, céramiques, tapisseries, dessins inédits), autour de l'écologie et de la mémoire.",
+      "url": "https://www.mcba.ch/en/exhibitions/otobong-nkanga/",
+      "date": "2026-08-23T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fotobong-nkanga%2F?w=400&h=225",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
+      "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
       "id": "laus-c9",
@@ -253,7 +242,7 @@ const FALLBACK_RESULTS = {
       "url": "https://lausaff.org/en/",
       "date": "2026-08-20T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausaff.org%2Fen%2F?w=400&h=225",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -264,8 +253,19 @@ const FALLBACK_RESULTS = {
       "url": "https://athletissima.ch/en/",
       "date": "2026-08-21T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fathletissima.ch%2Fen%2F?w=400&h=225",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
+    },
+    {
+      "id": "laus-c12",
+      "type": "article",
+      "title": "Vernissage – Lucas Erin, Prix Culturel Manor Vaud 2026",
+      "summary": "Jeudi 27 août 2026, Espace Projet du MCBA, entrée libre de 18h à 21h : exposition de l'artiste lausannois Lucas Erin, lauréat du Prix Culturel Manor Vaud 2026, autour du jardin et de ses temporalités.",
+      "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
+      "date": "2026-08-27T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
+      "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
       "id": "laus-c7",
@@ -275,7 +275,7 @@ const FALLBACK_RESULTS = {
       "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     }
   ],
@@ -902,7 +902,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -913,7 +913,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -924,7 +924,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
       "date": "2026-07-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -935,7 +935,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -946,7 +946,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
       "date": "2026-07-22T00:00:00.000Z",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -957,7 +957,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -968,7 +968,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/invente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Finvente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -979,7 +979,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/donald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdonald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -990,7 +990,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-promotion-entreprise-forcer-cadres-intelligence-artificielle/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-promotion-entreprise-forcer-cadres-intelligence-artificielle%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1001,7 +1001,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-fait-exploser-benefices-google-298-action-degringole-foulee/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-fait-exploser-benefices-google-298-action-degringole-foulee%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1012,7 +1012,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/apple-et-lintelligence-artificielle-racheter-ou-mourir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fapple-et-lintelligence-artificielle-racheter-ou-mourir%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1023,7 +1023,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/superintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsuperintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -1034,7 +1034,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/elon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Felon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -1045,7 +1045,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/spacex-reconversion-nouvelle-activite-depassera-starlink-fusees/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fspacex-reconversion-nouvelle-activite-depassera-starlink-fusees%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1056,21 +1056,21 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/nouvelle-pepite-google-gratuite-transforme-iphone-outil-notes/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnouvelle-pepite-google-gratuite-transforme-iphone-outil-notes%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     }
   ],
   "wing-freefly": [
     {
-      "id": "wing-1",
+      "id": "wing-8",
       "type": "video",
-      "title": "2025 FreeFly-Slalom Highlights – GWA Wingfoil World Cup Fuerteventura",
-      "summary": "Temps forts de la discipline FreeFly-Slalom lors de la 37e édition du World Cup de Fuerteventura.",
-      "url": "https://www.youtube.com/watch?v=CZfLD3H_G1U",
-      "image": "https://img.youtube.com/vi/CZfLD3H_G1U/hqdefault.jpg",
-      "date": "2025-08-02T00:00:00.000Z",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
-      "firstSeenAt": "2026-08-13T06:51:42.000Z"
+      "title": "GWA Wingfoil World Cup Fuerteventura 2026 – Day 3 Livestream",
+      "summary": "Replay du 3e jour de l'étape 2026 du World Cup de Fuerteventura, avec les épreuves FreeFly-Slalom.",
+      "url": "https://www.youtube.com/watch?v=NV1kU9ccbu0",
+      "image": "https://img.youtube.com/vi/NV1kU9ccbu0/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
+      "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
       "id": "wing-2",
@@ -1080,7 +1080,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1091,19 +1091,19 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=808vRAA3ygg",
       "image": "https://img.youtube.com/vi/808vRAA3ygg/hqdefault.jpg",
       "date": "2026-01-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
-      "id": "wing-7",
+      "id": "wing-9",
       "type": "video",
-      "title": "Session WingFoil Freefly",
-      "summary": "Session freefly filmée, illustrant les figures et enchaînements typiques de la discipline.",
-      "url": "https://www.youtube.com/watch?v=fIiUCUxxAho",
-      "image": "https://img.youtube.com/vi/fIiUCUxxAho/hqdefault.jpg",
-      "date": "2025-04-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
-      "firstSeenAt": "2026-08-15T04:06:06.000Z"
+      "title": "WINGFOIL CRAZY SESSION !",
+      "summary": "Récit d'une session intense en wingfoil, entre sensations fortes et conditions engagées.",
+      "url": "https://www.youtube.com/watch?v=cx1n10_g5_E",
+      "image": "https://img.youtube.com/vi/cx1n10_g5_E/hqdefault.jpg",
+      "date": null,
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
+      "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
       "id": "wing-4",
@@ -1113,7 +1113,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-15T04:06:06.000Z",
+      "fetchedAt": "2026-08-16T04:06:21.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
