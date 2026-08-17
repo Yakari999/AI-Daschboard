@@ -30,21 +30,6 @@
     "sourceType": "prompt"
   },
   {
-    "id": "top-jeux",
-    "title": "Top jeux",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
-    "tags": [
-      "jeux"
-    ],
-    "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-17T04:09:02.000Z",
-    "frequency": "weekly",
-    "layout": "tiles",
-    "sourceType": "prompt"
-  },
-  {
     "id": "films-sorties",
     "title": "Top films",
     "prompt": "J'aimerais que tu me maintiennes une liste des 20 meilleures films de l'année en cours et de l'année précédent, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
@@ -69,6 +54,21 @@
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
+    "lastRun": "2026-08-17T04:09:02.000Z",
+    "frequency": "weekly",
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
     "lastRun": "2026-08-17T04:09:02.000Z",
     "frequency": "weekly",
     "layout": "tiles",
