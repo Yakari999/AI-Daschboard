@@ -18,31 +18,16 @@ const FALLBACK_COLUMNS = [
   {
     "id": "courses-au-large",
     "title": "Courses au large",
-    "prompt": "liste des 5 prochaines course de voile au large, imoca, ultime etc avec lien vers les site web des course",
+    "prompt": "liste des prochaines courses de voile au large, imoca, ultime etc avec lien vers les site web des course",
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
-    "updatedAt": "2026-08-12T19:10:21.724Z",
+    "updatedAt": "2026-08-17T11:51:20.402Z",
     "lastRun": "2026-08-17T04:09:02.000Z",
     "tags": [
       "sport"
     ],
     "frequency": "weekly",
     "layout": "list-date",
-    "sourceType": "prompt"
-  },
-  {
-    "id": "top-jeux",
-    "title": "Top jeux",
-    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
-    "resultCount": 10,
-    "tags": [
-      "jeux"
-    ],
-    "createdAt": "2026-08-12T13:06:43.136Z",
-    "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-17T04:09:02.000Z",
-    "frequency": "weekly",
-    "layout": "tiles",
     "sourceType": "prompt"
   },
   {
@@ -91,13 +76,28 @@ const FALLBACK_COLUMNS = [
     "sourceType": "prompt"
   },
   {
+    "id": "top-jeux",
+    "title": "Top jeux",
+    "prompt": "J'aimerais que tu me maintiennes une liste des 10 meilleures jeux vidéos de l'année en cours et de l'année précédente, encensées par les critiques et toutes plateformes confondues avec un lien vers le trailer youtube et une vignette youtube, dans l'ordre, soit les meilleures en haut.",
+    "resultCount": 10,
+    "tags": [
+      "jeux"
+    ],
+    "createdAt": "2026-08-12T13:06:43.136Z",
+    "updatedAt": "2026-08-12T13:56:42.401Z",
+    "lastRun": "2026-08-17T04:09:02.000Z",
+    "frequency": "weekly",
+    "layout": "tiles",
+    "sourceType": "prompt"
+  },
+  {
     "id": "presse",
     "title": "Evénements culturels Lausanne",
     "prompt": "5 prochains événements culturels proches de Lausanne à partir d'aujourd'hui",
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-17T04:09:02.000Z",
+    "lastRun": "2026-08-18T04:04:36.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-17T04:09:02.000Z"
+    "lastRun": "2026-08-18T04:04:36.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-17T04:09:02.000Z"
+    "lastRun": "2026-08-18T04:04:36.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -231,7 +231,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.mcba.ch/en/exhibitions/otobong-nkanga/",
       "date": "2026-08-23T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fotobong-nkanga%2F?w=400&h=225",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -242,7 +242,7 @@ const FALLBACK_RESULTS = {
       "url": "https://lausaff.org/en/",
       "date": "2026-08-20T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausaff.org%2Fen%2F?w=400&h=225",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -253,7 +253,7 @@ const FALLBACK_RESULTS = {
       "url": "https://athletissima.ch/en/",
       "date": "2026-08-21T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fathletissima.ch%2Fen%2F?w=400&h=225",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -264,7 +264,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
       "date": "2026-08-27T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -275,7 +275,7 @@ const FALLBACK_RESULTS = {
       "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     }
   ],
@@ -939,17 +939,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-1",
-      "type": "article",
-      "title": "Voici les 5 nouvelles règles de l'IA qui s'appliquent en France depuis hier",
-      "summary": "Nouvelles obligations de transparence pour les fournisseurs et déployeurs de systèmes d'IA en Europe, en vigueur depuis le 2 août. L'objectif : mieux identifier les contenus générés par IA et informer clairement les internautes lorsqu'ils interagissent avec un système automatisé.",
-      "url": "https://www.presse-citron.net/voici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvoici-les-5-nouvelles-regles-de-lia-qui-sappliquent-en-france-depuis-hier%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
-      "firstSeenAt": "2026-08-12T21:10:00.000Z"
-    },
-    {
       "id": "presse-citron-2",
       "type": "article",
       "title": "La nouvelle IA d'OpenAI fait peur à son propre créateur",
@@ -957,7 +946,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -968,7 +957,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/souverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsouverainete-cybersecurite-quantique-discute-ia-avec-2-experts-7-points-retenir%2F?w=400&h=225",
       "date": "2026-07-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -979,7 +968,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/une-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-en-france-ovhcloud-annonce-a-paris-se-lancer-dans-les-llm%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -990,7 +979,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/france-accord-xxl-entre-mistral-et-microsoft/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrance-accord-xxl-entre-mistral-et-microsoft%2F?w=400&h=225",
       "date": "2026-07-22T00:00:00.000Z",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-12T21:10:00.000Z"
     },
     {
@@ -1001,7 +990,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-ile-nvidia-y-investit-massivement-jusqua-150-milliards-de-dollars-par-an%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1012,7 +1001,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/invente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Finvente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1023,7 +1012,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/donald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdonald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1034,7 +1023,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-promotion-entreprise-forcer-cadres-intelligence-artificielle/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-promotion-entreprise-forcer-cadres-intelligence-artificielle%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1045,7 +1034,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-fait-exploser-benefices-google-298-action-degringole-foulee/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-fait-exploser-benefices-google-298-action-degringole-foulee%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1056,7 +1045,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/apple-et-lintelligence-artificielle-racheter-ou-mourir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fapple-et-lintelligence-artificielle-racheter-ou-mourir%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -1067,7 +1056,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/superintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsuperintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -1078,7 +1067,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/elon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Felon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -1089,7 +1078,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/spacex-reconversion-nouvelle-activite-depassera-starlink-fusees/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fspacex-reconversion-nouvelle-activite-depassera-starlink-fusees%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1100,8 +1089,19 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/nouvelle-pepite-google-gratuite-transforme-iphone-outil-notes/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnouvelle-pepite-google-gratuite-transforme-iphone-outil-notes%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
+    },
+    {
+      "id": "presse-citron-16",
+      "type": "article",
+      "title": "Ce détail caché trahira les textes générés par l'IA",
+      "summary": "Les textes rédigés par une intelligence artificielle contiennent une signature technique cachée qui permet de les identifier. Une astuce existe pour l'effacer, mais elle reste fastidieuse et chronophage à appliquer manuellement.",
+      "url": "https://www.presse-citron.net/detail-trahira-les-textes-ia-astuce-pour-debarrasser/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdetail-trahira-les-textes-ia-astuce-pour-debarrasser%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
+      "firstSeenAt": "2026-08-18T04:04:36.000Z"
     }
   ],
   "wing-freefly": [
@@ -1113,7 +1113,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=NV1kU9ccbu0",
       "image": "https://img.youtube.com/vi/NV1kU9ccbu0/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1124,7 +1124,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1135,7 +1135,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=808vRAA3ygg",
       "image": "https://img.youtube.com/vi/808vRAA3ygg/hqdefault.jpg",
       "date": "2026-01-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1146,7 +1146,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=cx1n10_g5_E",
       "image": "https://img.youtube.com/vi/cx1n10_g5_E/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1157,7 +1157,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-17T04:09:02.000Z",
+      "fetchedAt": "2026-08-18T04:04:36.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
