@@ -62,7 +62,7 @@
       "url": "https://www.docks.ch/en/programme/",
       "date": "2026-08-26T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.docks.ch%2Fen%2Fprogramme%2F?w=400&h=225",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
       "date": "2026-08-27T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -84,7 +84,7 @@
       "url": "https://trilausanne.ch/",
       "date": "2026-08-29T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftrilausanne.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
@@ -95,7 +95,7 @@
       "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     }
   ],
@@ -794,39 +794,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-7",
-      "type": "article",
-      "title": "Ce nouveau métier payé jusqu'à 300 000€/an n'exige pas de diplôme",
-      "summary": "Apparu il y a environ trois ans, le «prompt engineering» — l'art d'obtenir une réponse exacte d'une IA — est devenu un métier à part entière. Aux États-Unis, certaines offres pour ce poste dépassent les 300 000 dollars par an, sans exiger de diplôme particulier.",
-      "url": "https://www.presse-citron.net/invente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Finvente-il-y-a-3-ans-ce-nouveau-metier-paye-jusqua-300-000e-an-etonne-car-il-nexige-pas-de-diplome%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
-      "firstSeenAt": "2026-08-13T04:05:50.000Z"
-    },
-    {
-      "id": "presse-citron-8",
-      "type": "article",
-      "title": "+58 % en 9 jours : comment Trump, Musk, Google et Nvidia ont sauvé Intel",
-      "summary": "Le titre d'Intel a bondi de 58% en seulement 9 jours, porté par une série de soutiens stratégiques : investissements de Donald Trump, Elon Musk, Google et Nvidia dans le fondeur américain, en difficulté face à la concurrence.",
-      "url": "https://www.presse-citron.net/donald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdonald-trump-elon-musk-google-et-nvidia-ont-sauve-le-soldat-intel%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
-      "firstSeenAt": "2026-08-13T04:05:50.000Z"
-    },
-    {
-      "id": "presse-citron-9",
-      "type": "article",
-      "title": "Pas d'IA, pas de promotion",
-      "summary": "Une entreprise impose désormais à ses cadres l'utilisation de l'intelligence artificielle comme condition pour obtenir une promotion, illustrant la pression croissante des employeurs pour accélérer l'adoption de l'IA en interne.",
-      "url": "https://www.presse-citron.net/ia-promotion-entreprise-forcer-cadres-intelligence-artificielle/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-promotion-entreprise-forcer-cadres-intelligence-artificielle%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
-      "firstSeenAt": "2026-08-13T04:05:50.000Z"
-    },
-    {
       "id": "presse-citron-10",
       "type": "article",
       "title": "L'IA fait exploser les bénéfices de Google de 298 %",
@@ -834,7 +801,7 @@
       "url": "https://www.presse-citron.net/ia-fait-exploser-benefices-google-298-action-degringole-foulee/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-fait-exploser-benefices-google-298-action-degringole-foulee%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -845,7 +812,7 @@
       "url": "https://www.presse-citron.net/apple-et-lintelligence-artificielle-racheter-ou-mourir/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fapple-et-lintelligence-artificielle-racheter-ou-mourir%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
@@ -856,7 +823,7 @@
       "url": "https://www.presse-citron.net/superintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsuperintelligence-pour-tous-pourquoi-vision-ia-mark-zuckerberg-vraiment-pas-rassurante%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -867,7 +834,7 @@
       "url": "https://www.presse-citron.net/elon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Felon-musk-tient-sa-revanche-son-ia-grok-vient-de-rattraper-chatgpt%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-14T04:12:37.000Z"
     },
     {
@@ -878,7 +845,7 @@
       "url": "https://www.presse-citron.net/spacex-reconversion-nouvelle-activite-depassera-starlink-fusees/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fspacex-reconversion-nouvelle-activite-depassera-starlink-fusees%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -889,7 +856,7 @@
       "url": "https://www.presse-citron.net/nouvelle-pepite-google-gratuite-transforme-iphone-outil-notes/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnouvelle-pepite-google-gratuite-transforme-iphone-outil-notes%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -900,7 +867,7 @@
       "url": "https://www.presse-citron.net/detail-trahira-les-textes-ia-astuce-pour-debarrasser/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdetail-trahira-les-textes-ia-astuce-pour-debarrasser%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-18T04:04:36.000Z"
     },
     {
@@ -911,7 +878,7 @@
       "url": "https://www.presse-citron.net/ia-openai-est-trop-forte-en-piratage-developpement-suspendu/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-est-trop-forte-en-piratage-developpement-suspendu%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -922,7 +889,7 @@
       "url": "https://www.presse-citron.net/les-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -933,7 +900,7 @@
       "url": "https://www.presse-citron.net/les-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-21T04:04:22.000Z"
     },
     {
@@ -944,7 +911,7 @@
       "url": "https://www.presse-citron.net/leur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fleur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-22T04:04:07.000Z"
     },
     {
@@ -955,8 +922,41 @@
       "url": "https://www.presse-citron.net/ia-espace-pari-elon-musk-spacexai/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-espace-pari-elon-musk-spacexai%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
+    },
+    {
+      "id": "presse-citron-22",
+      "type": "article",
+      "title": "Les agents IA utilisent déjà 5 fois plus de ressources que les humains",
+      "summary": "Selon les données de la plateforme OpenRouter, les agents d'intelligence artificielle consomment désormais bien plus de tokens que les humains eux-mêmes, un basculement qui illustre la montée en puissance de l'automatisation dans l'usage quotidien de l'IA.",
+      "url": "https://www.presse-citron.net/les-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
+      "firstSeenAt": "2026-08-25T04:05:40.000Z"
+    },
+    {
+      "id": "presse-citron-23",
+      "type": "article",
+      "title": "Se loger devient plus difficile à cause de l'IA",
+      "summary": "La ruée des géants de la tech vers la construction de centres de données aux États-Unis aspire une main-d'œuvre qualifiée normalement affectée à la construction de logements, aggravant la pénurie immobilière dans certaines régions.",
+      "url": "https://www.presse-citron.net/se-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fse-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
+      "firstSeenAt": "2026-08-25T04:05:40.000Z"
+    },
+    {
+      "id": "presse-citron-24",
+      "type": "article",
+      "title": "Dans les simulations de guerre, l'IA appuie presque toujours sur le bouton nucléaire",
+      "summary": "Des simulations de conflits pilotées par intelligence artificielle montrent que les modèles ont quasi systématiquement recours à l'arme nucléaire lorsqu'elle est disponible, une tendance qui inquiète les chercheurs en sécurité.",
+      "url": "https://www.presse-citron.net/le-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fle-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
+      "firstSeenAt": "2026-08-25T04:05:40.000Z"
     }
   ],
   "wing-freefly": [
@@ -968,7 +968,7 @@
       "url": "https://www.youtube.com/watch?v=NV1kU9ccbu0",
       "image": "https://img.youtube.com/vi/NV1kU9ccbu0/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -979,7 +979,7 @@
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -990,7 +990,7 @@
       "url": "https://www.youtube.com/watch?v=808vRAA3ygg",
       "image": "https://img.youtube.com/vi/808vRAA3ygg/hqdefault.jpg",
       "date": "2026-01-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1001,7 +1001,7 @@
       "url": "https://www.youtube.com/watch?v=cx1n10_g5_E",
       "image": "https://img.youtube.com/vi/cx1n10_g5_E/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1012,7 +1012,7 @@
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-25T04:05:40.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
