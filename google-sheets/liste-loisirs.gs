@@ -10,15 +10,28 @@
  *   2  Rando en montagne  ☐      Marché de Noël        ☐
  *   3  Baignade au lac    ☐      Ski de fond            ☐
  *
- * Installation :
+ * Les périodes ne sont PAS déclarées dans le script : il repère tout seul,
+ * dans la ligne d'en-têtes, chaque colonne dont le titre vaut exactement
+ * "Fait ?" (voir CHECKBOX_HEADER) — la colonne juste à sa gauche est alors
+ * traitée comme la liste de loisirs de cette période.
+ *
+ * Ajouter une nouvelle période directement dans le Sheet :
+ * 1. Ajouter deux nouvelles colonnes à droite des colonnes existantes.
+ * 2. Taper le nom de la période dans la première (ex. "Vacances mars 2027")
+ *    et "Fait ?" dans la seconde, en ligne 1.
+ * 3. C'est tout : dès que tu valides l'en-tête "Fait ?", la case à cocher
+ *    et la mise en forme barrée s'installent automatiquement sur la colonne.
+ *
+ * Installation initiale :
  * 1. Ouvrir le Google Sheet -> Extensions -> Apps Script.
  * 2. Coller ce fichier (remplacer le contenu de Code.gs, ou l'ajouter tel quel).
- * 3. Adapter SHEET_NAME et le tableau PERIODS ci-dessous à ta feuille.
- * 4. Dans l'éditeur Apps Script, sélectionner la fonction "setupSheet" dans
- *    le menu déroulant en haut et cliquer sur Exécuter (une seule fois) :
- *    ça installe les cases à cocher et la mise en forme "barré" automatique.
- * 5. Enregistrer. Le déclencheur onEdit se lance automatiquement à chaque
- *    modification de la feuille, aucun déclencheur manuel à créer.
+ * 3. Adapter SHEET_NAME ci-dessous si ton onglet ne s'appelle pas "Loisirs".
+ * 4. Enregistrer. Aucun déclencheur manuel à créer, onEdit(e) est appelé
+ *    automatiquement par Google Sheets à chaque modification.
+ * 5. Si des périodes existent déjà dans la feuille au moment de coller le
+ *    script, sélectionner "setupAllPeriods" dans le menu déroulant en haut
+ *    de l'éditeur et cliquer sur Exécuter (une seule fois) pour les
+ *    initialiser toutes d'un coup.
  *
  * Comportement : quand tu coches un loisir, son texte devient barré et la
  * ligne se déplace juste sous les loisirs non cochés (et au-dessus des
@@ -29,13 +42,7 @@
 const SHEET_NAME = 'Loisirs';
 const HEADER_ROW = 1;
 const FIRST_DATA_ROW = HEADER_ROW + 1;
-
-// Une entrée par colonne de période : adapter les lettres de colonnes.
-const PERIODS = [
-  { name: 'Été 2026', textCol: 'A', checkCol: 'B' },
-  { name: 'Hiver 2026-2027', textCol: 'C', checkCol: 'D' },
-  { name: 'Vacances mars 2027', textCol: 'E', checkCol: 'F' },
-];
+const CHECKBOX_HEADER = 'Fait ?';
 
 function onEdit(e) {
   const sheet = e.range.getSheet();
@@ -44,25 +51,56 @@ function onEdit(e) {
 
   const editedRow = e.range.getRow();
   const editedCol = e.range.getColumn();
+
+  if (editedRow === HEADER_ROW) {
+    // Un nouvel en-tête "Fait ?" vient d'être tapé -> on installe la case
+    // à cocher et la mise en forme barrée pour cette nouvelle période.
+    const value = String(e.range.getValue()).trim();
+    if (value === CHECKBOX_HEADER && editedCol >= 2) {
+      setupPeriod(sheet, { textCol: editedCol - 1, checkCol: editedCol });
+    }
+    return;
+  }
+
   if (editedRow < FIRST_DATA_ROW) return;
 
-  const period = PERIODS.find(
-    (p) => sheet.getRange(p.checkCol + '1').getColumn() === editedCol
-  );
+  const period = getPeriods(sheet).find((p) => p.checkCol === editedCol);
   if (!period) return;
 
   reorderPeriod(sheet, period, editedRow);
 }
 
+/**
+ * Détecte les périodes directement depuis la ligne d'en-têtes : toute
+ * colonne titrée "Fait ?" désigne une case à cocher, la colonne juste à
+ * gauche porte le texte des loisirs de cette période.
+ */
+function getPeriods(sheet) {
+  const lastCol = sheet.getLastColumn();
+  if (lastCol < 2) return [];
+
+  const headers = sheet.getRange(HEADER_ROW, 1, 1, lastCol).getValues()[0];
+  const periods = [];
+  for (let col = 2; col <= lastCol; col++) {
+    const header = String(headers[col - 1]).trim();
+    if (header === CHECKBOX_HEADER) {
+      periods.push({
+        name: String(headers[col - 2]).trim(),
+        textCol: col - 1,
+        checkCol: col,
+      });
+    }
+  }
+  return periods;
+}
+
 function reorderPeriod(sheet, period, editedRow) {
-  const textColIdx = sheet.getRange(period.textCol + '1').getColumn();
-  const checkColIdx = sheet.getRange(period.checkCol + '1').getColumn();
   const lastRow = sheet.getLastRow();
   if (lastRow < FIRST_DATA_ROW) return;
 
   const numRows = lastRow - FIRST_DATA_ROW + 1;
-  const textRange = sheet.getRange(FIRST_DATA_ROW, textColIdx, numRows, 1);
-  const checkRange = sheet.getRange(FIRST_DATA_ROW, checkColIdx, numRows, 1);
+  const textRange = sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1);
+  const checkRange = sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1);
   const texts = textRange.getValues();
   const checks = checkRange.getValues();
 
@@ -95,41 +133,55 @@ function reorderPeriod(sheet, period, editedRow) {
 }
 
 /**
- * A exécuter une seule fois (menu déroulant Apps Script -> setupSheet ->
- * Exécuter) pour installer les cases à cocher et la mise en forme barrée
- * automatique sur toutes les colonnes définies dans PERIODS.
+ * Installe la case à cocher et la mise en forme barrée pour une période.
+ * Appelé automatiquement dès qu'un en-tête "Fait ?" est tapé, ou à la main
+ * via setupAllPeriods() pour des périodes déjà présentes dans la feuille.
  */
-function setupSheet() {
+function setupPeriod(sheet, period) {
+  const maxRows = Math.max(sheet.getMaxRows(), 200);
+  const numRows = maxRows - FIRST_DATA_ROW + 1;
+
+  const checkRange = sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1);
+  checkRange.insertCheckboxes();
+
+  const textRange = sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1);
+  const checkColLetter = columnToLetter(period.checkCol);
+  const formula = `=$${checkColLetter}${FIRST_DATA_ROW}=TRUE`;
+
+  const rules = sheet.getConditionalFormatRules().filter((rule) =>
+    !rule.getRanges().some((r) => r.getColumn() === period.textCol)
+  );
+  const rule = SpreadsheetApp.newConditionalFormatRule()
+    .whenFormulaSatisfied(formula)
+    .setStrikethrough(true)
+    .setFontColor('#999999')
+    .setRanges([textRange])
+    .build();
+  rules.push(rule);
+  sheet.setConditionalFormatRules(rules);
+}
+
+/**
+ * A exécuter une seule fois (menu déroulant Apps Script -> setupAllPeriods
+ * -> Exécuter) pour initialiser d'un coup toutes les périodes déjà
+ * présentes dans la feuille. Utile uniquement au premier collage du script
+ * si des colonnes "Fait ?" existent déjà ; les nouvelles périodes ajoutées
+ * ensuite sont initialisées automatiquement par onEdit.
+ */
+function setupAllPeriods() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
   if (!sheet) {
     throw new Error(`Feuille "${SHEET_NAME}" introuvable. Vérifie SHEET_NAME.`);
   }
+  getPeriods(sheet).forEach((period) => setupPeriod(sheet, period));
+}
 
-  const maxRows = Math.max(sheet.getMaxRows(), 200);
-  const numRows = maxRows - FIRST_DATA_ROW + 1;
-
-  const rules = sheet.getConditionalFormatRules().filter((rule) => {
-    // On garde les règles qui ne concernent pas les colonnes gérées ici.
-    return !PERIODS.some((p) =>
-      rule.getRanges().some((r) => r.getColumn() === sheet.getRange(p.textCol + '1').getColumn())
-    );
-  });
-
-  PERIODS.forEach((period) => {
-    const checkRange = sheet.getRange(FIRST_DATA_ROW, sheet.getRange(period.checkCol + '1').getColumn(), numRows, 1);
-    checkRange.insertCheckboxes();
-
-    const textRange = sheet.getRange(FIRST_DATA_ROW, sheet.getRange(period.textCol + '1').getColumn(), numRows, 1);
-    const formula = `=$${period.checkCol}${FIRST_DATA_ROW}=TRUE`;
-
-    const rule = SpreadsheetApp.newConditionalFormatRule()
-      .whenFormulaSatisfied(formula)
-      .setStrikethrough(true)
-      .setFontColor('#999999')
-      .setRanges([textRange])
-      .build();
-    rules.push(rule);
-  });
-
-  sheet.setConditionalFormatRules(rules);
+function columnToLetter(column) {
+  let letter = '';
+  while (column > 0) {
+    const remainder = (column - 1) % 26;
+    letter = String.fromCharCode(65 + remainder) + letter;
+    column = Math.floor((column - remainder) / 26);
+  }
+  return letter;
 }
