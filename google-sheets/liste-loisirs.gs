@@ -26,7 +26,9 @@
  * Ajouter un loisir : la ligne 2 de chaque colonne de texte est une case
  * d'ajout, toujours vide. Tape un loisir dedans et valide (Entrée) -> il
  * rejoint aussitôt le haut de la liste des loisirs non cochés (juste
- * ligne 3), et la ligne 2 redevient vide pour le prochain ajout.
+ * ligne 3), la ligne 2 redevient vide et le curseur y revient
+ * automatiquement : tu peux enchaîner les ajouts en tapant puis Entrée,
+ * sans souris ni flèches.
  *
  * Cases à cocher : une case n'apparaît que sur une ligne de la liste (à
  * partir de la ligne 3) qui contient un loisir. Si tu effaces le texte
@@ -154,6 +156,9 @@ function addNewItem(sheet, period, newText) {
   const lastRow = sheet.getLastRow();
   const numRows = Math.max(lastRow - FIRST_LIST_ROW + 1, ordered.length);
   applyOrdering(sheet, period, ordered, numRows);
+
+  // Ramène le curseur sur la ligne d'ajout pour enchaîner sans souris/flèches.
+  sheet.setActiveRange(sheet.getRange(INPUT_ROW, period.textCol));
 }
 
 /**
