@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-29T04:04:30.000Z",
+    "lastRun": "2026-08-30T04:05:42.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-29T04:04:30.000Z"
+    "lastRun": "2026-08-30T04:05:42.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-29T04:04:30.000Z"
+    "lastRun": "2026-08-30T04:05:42.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -231,19 +231,8 @@ const FALLBACK_RESULTS = {
       "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
-    },
-    {
-      "id": "laus-c14",
-      "type": "article",
-      "title": "Triathlon de Lausanne",
-      "summary": "29-30 août 2026, site de Bellerive/Ouchy : distance olympique (1,5km natation, 40km vélo, 10km course), plus formats découverte et relais famille dès 6 ans.",
-      "url": "https://trilausanne.ch/",
-      "date": "2026-08-29T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ftrilausanne.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
-      "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
       "id": "laus-c7",
@@ -253,29 +242,40 @@ const FALLBACK_RESULTS = {
       "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
-      "id": "laus-c15",
+      "id": "laus-c17",
       "type": "article",
-      "title": "Festival 4 Saisons - Casino de Montbenon",
-      "summary": "Du 28 au 30 août 2026 au Casino de Montbenon, Lausanne : 12e édition, concerts de musique classique portés par la relève musicale suisse, entièrement gratuits. Ouverture le 28 août à 19h avec un ensemble vocal a cappella consacré à des compositrices oubliées.",
-      "url": "https://www.festival4saisons.ch/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.festival4saisons.ch%2F?w=400&h=225",
-      "date": "2026-08-28T00:00:00.000Z",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
-      "firstSeenAt": "2026-08-26T04:07:59.000Z"
+      "title": "Ensemble Vocal de Lausanne - Hommage à Michel Corboz",
+      "summary": "Mercredi 2 septembre 2026 : concert hommage de l'Ensemble Vocal de Lausanne à son fondateur Michel Corboz, dirigé aujourd'hui par Pierre-Fabien Roubaty.",
+      "url": "https://offres-culturelles.epfl.ch/ensemble-vocal-de-lausanne-evl-hommage-michel/",
+      "date": "2026-09-02T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Foffres-culturelles.epfl.ch%2Fensemble-vocal-de-lausanne-evl-hommage-michel%2F?w=400&h=225",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "firstSeenAt": "2026-08-30T04:05:42.000Z"
+    },
+    {
+      "id": "laus-c18",
+      "type": "article",
+      "title": "L'art de la transcription - Anne Chollet (orgue)",
+      "summary": "Vendredi 4 septembre 2026, Cathédrale de Lausanne : récital d'orgue consacré à l'art de la transcription des œuvres de Jean-Sébastien Bach, par Anne Chollet.",
+      "url": "https://www.cathedrale-lausanne.ch/accueil/agenda/",
+      "date": "2026-09-04T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cathedrale-lausanne.ch%2Faccueil%2Fagenda%2F?w=400&h=225",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "firstSeenAt": "2026-08-30T04:05:42.000Z"
     },
     {
       "id": "laus-c16",
       "type": "article",
-      "title": "Festival international d'orgue - Récital du dimanche",
-      "summary": "Dimanche 30 août 2026 à 17h, Cathédrale de Lausanne : récital dans le cadre du Festival international d'orgue, qui propose des concerts chaque vendredi et dimanche jusqu'au 31 août.",
+      "title": "Festival international d'orgue",
+      "summary": "Vendredi 11 septembre 2026 à 20h, Cathédrale de Lausanne : nouveau récital du Festival international d'orgue.",
       "url": "https://concerts-cathedrale.ch/category/festival-intl-orgue/",
+      "date": "2026-09-11T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
-      "date": "2026-08-30T00:00:00.000Z",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     }
   ],
@@ -974,28 +974,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-14",
-      "type": "article",
-      "title": "SpaceX en pleine reconversion : l'IA doit rapporter plus que les fusées",
-      "summary": "Selon Elon Musk, les revenus générés par l'intelligence artificielle chez SpaceX dépasseront dès septembre ceux des autres activités du groupe, fusées et Starlink compris — un virage stratégique majeur pour l'entreprise.",
-      "url": "https://www.presse-citron.net/spacex-reconversion-nouvelle-activite-depassera-starlink-fusees/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fspacex-reconversion-nouvelle-activite-depassera-starlink-fusees%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
-      "firstSeenAt": "2026-08-15T04:06:06.000Z"
-    },
-    {
-      "id": "presse-citron-15",
-      "type": "article",
-      "title": "Cette pépite gratuite de Google transforme l'iPhone en outil de prise de notes",
-      "summary": "Google propose un nouvel outil gratuit basé sur l'IA qui permet de transformer l'iPhone en un puissant assistant de prise de notes, avec reconnaissance vocale et organisation automatique du contenu.",
-      "url": "https://www.presse-citron.net/nouvelle-pepite-google-gratuite-transforme-iphone-outil-notes/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnouvelle-pepite-google-gratuite-transforme-iphone-outil-notes%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
-      "firstSeenAt": "2026-08-15T04:06:06.000Z"
-    },
-    {
       "id": "presse-citron-16",
       "type": "article",
       "title": "Ce détail caché trahira les textes générés par l'IA",
@@ -1003,7 +981,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/detail-trahira-les-textes-ia-astuce-pour-debarrasser/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdetail-trahira-les-textes-ia-astuce-pour-debarrasser%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-18T04:04:36.000Z"
     },
     {
@@ -1014,7 +992,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-est-trop-forte-en-piratage-developpement-suspendu/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-est-trop-forte-en-piratage-developpement-suspendu%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -1025,7 +1003,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -1036,7 +1014,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-21T04:04:22.000Z"
     },
     {
@@ -1047,7 +1025,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/leur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fleur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-22T04:04:07.000Z"
     },
     {
@@ -1058,7 +1036,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-espace-pari-elon-musk-spacexai/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-espace-pari-elon-musk-spacexai%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
@@ -1069,7 +1047,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1080,7 +1058,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/se-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fse-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1091,7 +1069,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/le-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fle-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1102,7 +1080,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/en-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fen-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-26T04:07:59.000Z"
     },
     {
@@ -1113,7 +1091,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/nvidia-valide-projet-fou-elon-musk-processeur-ia-espace/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnvidia-valide-projet-fou-elon-musk-processeur-ia-espace%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     },
     {
@@ -1124,7 +1102,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     },
     {
@@ -1135,8 +1113,30 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/56-milliards-euros-mega-data-center-europe-projet-pharaonique-maison-mere-lidl/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F56-milliards-euros-mega-data-center-europe-projet-pharaonique-maison-mere-lidl%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-28T04:05:44.000Z"
+    },
+    {
+      "id": "presse-citron-29",
+      "type": "article",
+      "title": "Google lance Gemini Omni 1.1 Flash pour des vidéos \"qualité studio\"",
+      "summary": "Google dévoile Gemini Omni 1.1 Flash, une nouvelle version de son modèle de génération vidéo qui permettrait à n'importe qui de produire des vidéos jugées «qualité studio», avec une série de nouveautés destinées aux créateurs de contenu.",
+      "url": "https://www.presse-citron.net/videos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvideos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "firstSeenAt": "2026-08-30T04:05:42.000Z"
+    },
+    {
+      "id": "presse-citron-30",
+      "type": "article",
+      "title": "«Un non-sens écologique» : un datacenter IA géant prévu en Île-de-France",
+      "summary": "Un projet de datacenter dédié à l'intelligence artificielle doit voir le jour en Île-de-France, suscitant la mobilisation de militants écologistes qui dénoncent son empreinte environnementale et énergétique.",
+      "url": "https://www.presse-citron.net/un-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fun-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "firstSeenAt": "2026-08-30T04:05:42.000Z"
     }
   ],
   "wing-freefly": [
@@ -1148,7 +1148,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=NV1kU9ccbu0",
       "image": "https://img.youtube.com/vi/NV1kU9ccbu0/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1159,7 +1159,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1170,7 +1170,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=808vRAA3ygg",
       "image": "https://img.youtube.com/vi/808vRAA3ygg/hqdefault.jpg",
       "date": "2026-01-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1181,7 +1181,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=cx1n10_g5_E",
       "image": "https://img.youtube.com/vi/cx1n10_g5_E/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1192,7 +1192,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-29T04:04:30.000Z",
+      "fetchedAt": "2026-08-30T04:05:42.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
