@@ -19,8 +19,13 @@
  * 1. Ajouter deux nouvelles colonnes à droite des colonnes existantes.
  * 2. Taper le nom de la période dans la première (ex. "Vacances mars 2027")
  *    et "Fait ?" dans la seconde, en ligne 1.
- * 3. C'est tout : dès que tu valides l'en-tête "Fait ?", la case à cocher
- *    et la mise en forme barrée s'installent automatiquement sur la colonne.
+ * 3. C'est tout : dès que tu valides l'en-tête "Fait ?", la mise en forme
+ *    barrée s'installe automatiquement sur la colonne.
+ *
+ * Cases à cocher : une case n'apparaît que sur une ligne où tu as écrit un
+ * loisir. Tape un texte -> la case apparaît sur cette ligne. Efface le
+ * texte -> la case disparaît et la liste se compacte automatiquement (plus
+ * aucun trou ni case orpheline au milieu de la liste).
  *
  * Installation initiale :
  * 1. Ouvrir le Google Sheet -> Extensions -> Apps Script.
@@ -28,15 +33,15 @@
  * 3. Adapter SHEET_NAME ci-dessous si ton onglet ne s'appelle pas "Loisirs".
  * 4. Enregistrer. Aucun déclencheur manuel à créer, onEdit(e) est appelé
  *    automatiquement par Google Sheets à chaque modification.
- * 5. Si des périodes existent déjà dans la feuille au moment de coller le
- *    script, sélectionner "setupAllPeriods" dans le menu déroulant en haut
- *    de l'éditeur et cliquer sur Exécuter (une seule fois) pour les
- *    initialiser toutes d'un coup.
+ * 5. Si des périodes et/ou des loisirs existent déjà dans la feuille au
+ *    moment de coller le script, sélectionner "setupAllPeriods" dans le
+ *    menu déroulant en haut de l'éditeur et cliquer sur Exécuter (une
+ *    seule fois) pour tout initialiser d'un coup.
  *
- * Comportement : quand tu coches un loisir, son texte devient barré et la
- * ligne se déplace juste sous les loisirs non cochés (et au-dessus des
- * loisirs déjà cochés). Décocher fait l'inverse : la ligne revient tout en
- * bas du groupe des non-cochés.
+ * Comportement des coches : quand tu coches un loisir, son texte devient
+ * barré et la ligne se déplace juste sous les loisirs non cochés (et
+ * au-dessus des loisirs déjà cochés). Décocher fait l'inverse : la ligne
+ * revient tout en bas du groupe des non-cochés.
  */
 
 const SHEET_NAME = 'Loisirs';
@@ -53,21 +58,29 @@ function onEdit(e) {
   const editedCol = e.range.getColumn();
 
   if (editedRow === HEADER_ROW) {
-    // Un nouvel en-tête "Fait ?" vient d'être tapé -> on installe la case
-    // à cocher et la mise en forme barrée pour cette nouvelle période.
     const value = String(e.range.getValue()).trim();
     if (value === CHECKBOX_HEADER && editedCol >= 2) {
-      setupPeriod(sheet, { textCol: editedCol - 1, checkCol: editedCol });
+      const period = { textCol: editedCol - 1, checkCol: editedCol };
+      ensureConditionalFormatting(sheet, period);
+      syncPeriod(sheet, period, null, false);
     }
     return;
   }
 
   if (editedRow < FIRST_DATA_ROW) return;
 
-  const period = getPeriods(sheet).find((p) => p.checkCol === editedCol);
-  if (!period) return;
+  const periods = getPeriods(sheet);
 
-  reorderPeriod(sheet, period, editedRow);
+  const checkPeriod = periods.find((p) => p.checkCol === editedCol);
+  if (checkPeriod) {
+    syncPeriod(sheet, checkPeriod, editedRow, true);
+    return;
+  }
+
+  const textPeriod = periods.find((p) => p.textCol === editedCol);
+  if (textPeriod) {
+    syncPeriod(sheet, textPeriod, editedRow, false);
+  }
 }
 
 /**
@@ -94,63 +107,89 @@ function getPeriods(sheet) {
   return periods;
 }
 
-function reorderPeriod(sheet, period, editedRow) {
+/**
+ * Recalcule l'état d'une période : liste compactée (pas de trous), case à
+ * cocher présente uniquement sur les lignes ayant un loisir, et si l'édit
+ * vient d'une case cochée/décochée, la ligne est replacée juste à la
+ * frontière entre non-cochés et cochés.
+ */
+function syncPeriod(sheet, period, editedRow, isCheckboxEdit) {
   const lastRow = sheet.getLastRow();
-  if (lastRow < FIRST_DATA_ROW) return;
-
   const numRows = lastRow - FIRST_DATA_ROW + 1;
-  const textRange = sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1);
-  const checkRange = sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1);
-  const texts = textRange.getValues();
-  const checks = checkRange.getValues();
+  if (numRows <= 0) return;
 
-  const editedIdx = editedRow - FIRST_DATA_ROW;
+  const texts = sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1).getValues();
+  const checks = sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1).getValues();
+
+  const editedIdx = editedRow ? editedRow - FIRST_DATA_ROW : -1;
   const all = texts.map((t, i) => ({
-    text: t[0],
+    text: String(t[0]),
     checked: checks[i][0] === true,
     isEdited: i === editedIdx,
   }));
 
-  const moved = all.find((it) => it.isEdited);
-  if (!moved) return;
+  const nonBlank = all.filter((it) => it.text.trim() !== '');
 
-  const rest = all.filter((it) => !it.isEdited);
-  // Les lignes vides (jamais utilisées) restent en fin de liste.
-  const nonBlankRest = rest.filter((it) => it.text !== '' || it.checked);
-  const blankRest = rest.filter((it) => it.text === '' && !it.checked);
+  let ordered = nonBlank;
+  if (isCheckboxEdit) {
+    const idx = nonBlank.findIndex((it) => it.isEdited);
+    if (idx !== -1) {
+      const [moved] = nonBlank.splice(idx, 1);
+      // Frontière entre non-cochés et cochés : la ligne qui vient d'être
+      // (dé)cochée y atterrit, qu'elle rejoigne le haut des cochés ou le
+      // bas des non-cochés.
+      const boundary = nonBlank.filter((it) => !it.checked).length;
+      nonBlank.splice(boundary, 0, moved);
+      ordered = nonBlank;
+    }
+  }
 
-  // Position juste après le dernier loisir non coché, juste avant le
-  // premier déjà coché : c'est là que la ligne modifiée doit atterrir,
-  // qu'elle vienne d'être cochée (rejoint le haut des cochés) ou décochée
-  // (rejoint le bas des non-cochés).
-  const boundary = nonBlankRest.filter((it) => !it.checked).length;
-  nonBlankRest.splice(boundary, 0, moved);
-
-  const ordered = nonBlankRest.concat(blankRest);
-
-  textRange.setValues(ordered.map((it) => [it.text]));
-  checkRange.setValues(ordered.map((it) => [it.checked]));
+  applyOrdering(sheet, period, ordered, numRows);
 }
 
 /**
- * Installe la case à cocher et la mise en forme barrée pour une période.
- * Appelé automatiquement dès qu'un en-tête "Fait ?" est tapé, ou à la main
- * via setupAllPeriods() pour des périodes déjà présentes dans la feuille.
+ * Écrit la liste réordonnée et (dés)installe les cases à cocher : une case
+ * uniquement sur les lignes qui contiennent effectivement un loisir.
  */
-function setupPeriod(sheet, period) {
+function applyOrdering(sheet, period, ordered, numRows) {
+  if (ordered.length > 0) {
+    sheet.getRange(FIRST_DATA_ROW, period.checkCol, ordered.length, 1).insertCheckboxes();
+  }
+  if (numRows > ordered.length) {
+    sheet
+      .getRange(FIRST_DATA_ROW + ordered.length, period.checkCol, numRows - ordered.length, 1)
+      .clearDataValidations();
+  }
+
+  const texts = [];
+  const checks = [];
+  for (let i = 0; i < numRows; i++) {
+    if (i < ordered.length) {
+      texts.push([ordered[i].text]);
+      checks.push([ordered[i].checked]);
+    } else {
+      texts.push(['']);
+      checks.push(['']);
+    }
+  }
+  sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1).setValues(texts);
+  sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1).setValues(checks);
+}
+
+/**
+ * Installe la mise en forme barrée (texte grisé + barré quand la case est
+ * cochée) pour une période. Appelé automatiquement dès qu'un en-tête
+ * "Fait ?" est tapé, ou à la main via setupAllPeriods().
+ */
+function ensureConditionalFormatting(sheet, period) {
   const maxRows = Math.max(sheet.getMaxRows(), 200);
-  const numRows = maxRows - FIRST_DATA_ROW + 1;
-
-  const checkRange = sheet.getRange(FIRST_DATA_ROW, period.checkCol, numRows, 1);
-  checkRange.insertCheckboxes();
-
-  const textRange = sheet.getRange(FIRST_DATA_ROW, period.textCol, numRows, 1);
+  const textRange = sheet.getRange(FIRST_DATA_ROW, period.textCol, maxRows - FIRST_DATA_ROW + 1, 1);
   const checkColLetter = columnToLetter(period.checkCol);
   const formula = `=$${checkColLetter}${FIRST_DATA_ROW}=TRUE`;
 
-  const rules = sheet.getConditionalFormatRules().filter((rule) =>
-    !rule.getRanges().some((r) => r.getColumn() === period.textCol)
-  );
+  const rules = sheet
+    .getConditionalFormatRules()
+    .filter((rule) => !rule.getRanges().some((r) => r.getColumn() === period.textCol));
   const rule = SpreadsheetApp.newConditionalFormatRule()
     .whenFormulaSatisfied(formula)
     .setStrikethrough(true)
@@ -164,16 +203,21 @@ function setupPeriod(sheet, period) {
 /**
  * A exécuter une seule fois (menu déroulant Apps Script -> setupAllPeriods
  * -> Exécuter) pour initialiser d'un coup toutes les périodes déjà
- * présentes dans la feuille. Utile uniquement au premier collage du script
- * si des colonnes "Fait ?" existent déjà ; les nouvelles périodes ajoutées
- * ensuite sont initialisées automatiquement par onEdit.
+ * présentes dans la feuille (mise en forme + compactage + cases à cocher
+ * sur les lignes déjà remplies). Utile uniquement au premier collage du
+ * script sur une feuille qui contient déjà des données ; les nouvelles
+ * périodes et les nouveaux loisirs ajoutés ensuite sont gérés
+ * automatiquement par onEdit.
  */
 function setupAllPeriods() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
   if (!sheet) {
     throw new Error(`Feuille "${SHEET_NAME}" introuvable. Vérifie SHEET_NAME.`);
   }
-  getPeriods(sheet).forEach((period) => setupPeriod(sheet, period));
+  getPeriods(sheet).forEach((period) => {
+    ensureConditionalFormatting(sheet, period);
+    syncPeriod(sheet, period, null, false);
+  });
 }
 
 function columnToLetter(column) {
