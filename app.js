@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-30T04:05:42.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-08-24T04:06:48.000Z",
+    "lastRun": "2026-08-31T04:05:23.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-30T04:05:42.000Z"
+    "lastRun": "2026-08-31T04:05:23.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-30T04:05:42.000Z"
+    "lastRun": "2026-08-31T04:05:23.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-08-24T04:06:48.000Z"
+    "lastRun": "2026-08-31T04:05:23.000Z"
   }
 ];
 
@@ -231,19 +231,8 @@ const FALLBACK_RESULTS = {
       "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
       "date": "2026-08-28T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
-    },
-    {
-      "id": "laus-c7",
-      "type": "article",
-      "title": "Lausanne Judo Grand Slam 2026",
-      "summary": "Du 28 au 30 août 2026 à la Vaudoise arena : première étape Grand Slam en Suisse, combinant pour la première fois judo et para-judo, avec près de 900 athlètes de plus de 50 nations.",
-      "url": "https://vaudoisearena.ch/en/events/lausanne-judo-grand-slam",
-      "date": "2026-08-28T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fvaudoisearena.ch%2Fen%2Fevents%2Flausanne-judo-grand-slam?w=400&h=225",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
-      "firstSeenAt": "2026-08-13T04:05:50.000Z"
     },
     {
       "id": "laus-c17",
@@ -253,7 +242,7 @@ const FALLBACK_RESULTS = {
       "url": "https://offres-culturelles.epfl.ch/ensemble-vocal-de-lausanne-evl-hommage-michel/",
       "date": "2026-09-02T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Foffres-culturelles.epfl.ch%2Fensemble-vocal-de-lausanne-evl-hommage-michel%2F?w=400&h=225",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-30T04:05:42.000Z"
     },
     {
@@ -264,7 +253,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.cathedrale-lausanne.ch/accueil/agenda/",
       "date": "2026-09-04T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cathedrale-lausanne.ch%2Faccueil%2Fagenda%2F?w=400&h=225",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-30T04:05:42.000Z"
     },
     {
@@ -275,7 +264,7 @@ const FALLBACK_RESULTS = {
       "url": "https://concerts-cathedrale.ch/category/festival-intl-orgue/",
       "date": "2026-09-11T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     }
   ],
@@ -288,7 +277,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.tourismorama.com/plus-beaux-spots-wingfoil-europe-destinations-incontournables-riders/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.tourismorama.com%2Fplus-beaux-spots-wingfoil-europe-destinations-incontournables-riders%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "wing-c2",
@@ -298,7 +287,7 @@ const FALLBACK_RESULTS = {
       "url": "https://wingfoil.voyages-adekua.fr/infos-adekua/ou-quand-partir-wing-foil-sejour-stage-croisiere-cours",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwingfoil.voyages-adekua.fr%2Finfos-adekua%2Fou-quand-partir-wing-foil-sejour-stage-croisiere-cours?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "wing-c3",
@@ -308,7 +297,7 @@ const FALLBACK_RESULTS = {
       "url": "https://srokacompany.com/blogs/actualites/les-meilleurs-spots-de-wing-foil-et-sup-en-corse",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsrokacompany.com%2Fblogs%2Factualites%2Fles-meilleurs-spots-de-wing-foil-et-sup-en-corse?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     }
   ],
   "series-netflix": [
@@ -320,7 +309,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=Wk5OxqtpBR4",
       "image": "https://img.youtube.com/vi/Wk5OxqtpBR4/hqdefault.jpg",
       "date": "2025-03-13T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -331,7 +320,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=1cGJ92m1fYc",
       "image": "https://img.youtube.com/vi/1cGJ92m1fYc/hqdefault.jpg",
       "date": "2025-01-17T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -342,7 +331,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=AE4wxt70aUM",
       "image": "https://img.youtube.com/vi/AE4wxt70aUM/hqdefault.jpg",
       "date": "2025-04-22T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -353,7 +342,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=9VcGB3bym3g",
       "image": "https://img.youtube.com/vi/9VcGB3bym3g/hqdefault.jpg",
       "date": "2025-04-13T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -364,7 +353,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
       "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "ts-2",
@@ -375,7 +364,7 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
       "date": "2026-04-01T00:00:00.000Z",
       "datePrecision": "month",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "ts-1",
@@ -385,7 +374,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=cAZFgj2MwwI",
       "image": "https://img.youtube.com/vi/cAZFgj2MwwI/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "ts-4",
@@ -395,7 +384,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=cPSKEEC99gQ",
       "image": "https://img.youtube.com/vi/cPSKEEC99gQ/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "ts-5",
@@ -405,7 +394,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=M_Las484swM",
       "image": "https://img.youtube.com/vi/M_Las484swM/hqdefault.jpg",
       "date": "2026-06-25T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "ts-6",
@@ -415,7 +404,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
       "image": "https://img.youtube.com/vi/KyhR3g0wAsM/hqdefault.jpg",
       "date": "2026-04-09T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "series-cent-ans-solitude-2",
@@ -425,7 +414,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=F7iKrcc5L3M",
       "image": "https://img.youtube.com/vi/F7iKrcc5L3M/hqdefault.jpg",
       "date": "2026-08-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
     },
     {
@@ -436,8 +425,19 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=3qBfO0xQ1eY",
       "image": "https://img.youtube.com/vi/3qBfO0xQ1eY/hqdefault.jpg",
       "date": "2026-06-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
+    },
+    {
+      "id": "series-dark-matter-s2",
+      "type": "video",
+      "title": "Dark Matter — Saison 2",
+      "summary": "81% sur Rotten Tomatoes : suite du thriller de science-fiction Apple TV+ avec Joel Edgerton, Jennifer Connelly et Alice Braga. Premier épisode diffusé le 28 août 2026, un nouvel épisode chaque vendredi jusqu'au 30 octobre.",
+      "url": "https://www.youtube.com/watch?v=iPv_VvFYG0k",
+      "image": "https://img.youtube.com/vi/iPv_VvFYG0k/hqdefault.jpg",
+      "date": "2026-08-28T00:00:00.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
+      "firstSeenAt": "2026-08-31T04:05:23.000Z"
     }
   ],
   "courses-au-large": [
@@ -449,7 +449,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.imoca.org/fr/news/news/une-saison-2026-dense-et-strategique-pour-la-flotte-imoca",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.imoca.org%2Ffr%2Fnews%2Fnews%2Fune-saison-2026-dense-et-strategique-pour-la-flotte-imoca?w=400&h=225",
       "date": "2026-09-02T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "voile-2",
@@ -459,7 +459,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.classeultim.org/calendrier-2026",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.classeultim.org%2Fcalendrier-2026?w=400&h=225",
       "date": "2026-09-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "voile-3",
@@ -469,7 +469,7 @@ const FALLBACK_RESULTS = {
       "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-courses/2026-06-02/84568-calendrier-des-grandes-courses-a-la-voile-en-2026",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffigaronautisme.meteoconsult.fr%2Factus-nautisme-courses%2F2026-06-02%2F84568-calendrier-des-grandes-courses-a-la-voile-en-2026?w=400&h=225",
       "date": "2026-11-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "voile-4",
@@ -479,10 +479,21 @@ const FALLBACK_RESULTS = {
       "url": "https://www.defi-azimut.net/fr",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
       "date": "2026-09-15T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     }
   ],
   "films-sorties": [
+    {
+      "id": "films-soudain",
+      "type": "video",
+      "title": "Soudain",
+      "summary": "Premier film en langue française de Ryūsuke Hamaguchi, présenté en compétition officielle au Festival de Cannes 2026, avec Virginie Efira. Sorti en salles le 12 août 2026, déjà vu par plus de 160 000 spectateurs en France.",
+      "url": "https://www.youtube.com/watch?v=kSIUCql5wEw",
+      "image": "https://img.youtube.com/vi/kSIUCql5wEw/hqdefault.jpg",
+      "date": "2026-08-12T00:00:00.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
+      "firstSeenAt": "2026-08-31T04:05:23.000Z"
+    },
     {
       "id": "films-fmsb",
       "type": "video",
@@ -491,7 +502,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=4QQPBo-MaKM",
       "image": "https://img.youtube.com/vi/4QQPBo-MaKM/hqdefault.jpg",
       "date": "2026-01-07T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
@@ -502,7 +513,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=jHyO5oGIFFs",
       "image": "https://img.youtube.com/vi/jHyO5oGIFFs/hqdefault.jpg",
       "date": "2026-08-19T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
     },
     {
@@ -513,7 +524,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=UZ0WhSvEero",
       "image": "https://img.youtube.com/vi/UZ0WhSvEero/hqdefault.jpg",
       "date": "2025-10-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -524,7 +535,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=u4a6nRFwcV8",
       "image": "https://img.youtube.com/vi/u4a6nRFwcV8/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "films-une-bataille-apres-lautre",
@@ -534,7 +545,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=hg8AGTyYMBA",
       "image": "https://img.youtube.com/vi/hg8AGTyYMBA/hqdefault.jpg",
       "date": "2025-09-26T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -545,7 +556,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=O-jgGbvLgVo",
       "image": "https://img.youtube.com/vi/O-jgGbvLgVo/hqdefault.jpg",
       "date": "2026-01-07T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -556,7 +567,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=hQSSygPH1CE",
       "image": "https://img.youtube.com/vi/hQSSygPH1CE/hqdefault.jpg",
       "date": "2025-09-10T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "films-nouvelle-vague",
@@ -566,7 +577,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=UufRzKVFseg",
       "image": "https://img.youtube.com/vi/UufRzKVFseg/hqdefault.jpg",
       "date": "2025-11-14T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -577,7 +588,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=yn1MTvX4iYc",
       "image": "https://img.youtube.com/vi/yn1MTvX4iYc/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "tf-4",
@@ -587,7 +598,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=FAaL2uJgscc",
       "image": "https://img.youtube.com/vi/FAaL2uJgscc/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "tf-5",
@@ -597,7 +608,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=zEuBewFxgaA",
       "image": "https://img.youtube.com/vi/zEuBewFxgaA/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "tf-6",
@@ -607,7 +618,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=wBPYOYBt6Vc",
       "image": "https://img.youtube.com/vi/wBPYOYBt6Vc/hqdefault.jpg",
       "date": "2026-07-15T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     }
   ],
   "top-films-sf": [
@@ -619,7 +630,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=R6JVdxWtYjA",
       "image": "https://img.youtube.com/vi/R6JVdxWtYjA/hqdefault.jpg",
       "date": "2025-06-19T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -630,7 +641,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=OiqObq3PEKI",
       "image": "https://img.youtube.com/vi/OiqObq3PEKI/hqdefault.jpg",
       "date": "2025-01-31T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -641,7 +652,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=YBOVvUI0AJM",
       "image": "https://img.youtube.com/vi/YBOVvUI0AJM/hqdefault.jpg",
       "date": "2025-10-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -652,7 +663,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=Nc5HRNpq82k",
       "image": "https://img.youtube.com/vi/Nc5HRNpq82k/hqdefault.jpg",
       "date": "2026-06-10T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "sf-2",
@@ -662,7 +673,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=zEuBewFxgaA",
       "image": "https://img.youtube.com/vi/zEuBewFxgaA/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "sf-mickey-17",
@@ -672,7 +683,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=TkEvgqguA_g",
       "image": "https://img.youtube.com/vi/TkEvgqguA_g/hqdefault.jpg",
       "date": "2025-01-31T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -683,7 +694,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8x5FZUERxzg",
       "image": "https://img.youtube.com/vi/8x5FZUERxzg/hqdefault.jpg",
       "date": "2025-05-08T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -694,7 +705,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=KD18ddeFuyM",
       "image": "https://img.youtube.com/vi/KD18ddeFuyM/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "sf-4",
@@ -704,7 +715,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=R2n_TZgmmPo",
       "image": "https://img.youtube.com/vi/R2n_TZgmmPo/hqdefault.jpg",
       "date": "2025-11-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "sf-ash",
@@ -714,7 +725,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=TZ5y2TqpJgg",
       "image": "https://img.youtube.com/vi/TZ5y2TqpJgg/hqdefault.jpg",
       "date": "2025-03-21T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     }
   ],
@@ -727,7 +738,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=wWGIakhqr5g",
       "image": "https://img.youtube.com/vi/wWGIakhqr5g/hqdefault.jpg",
       "date": "2025-04-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -738,7 +749,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=EGfxuH-vUr4",
       "image": "https://img.youtube.com/vi/EGfxuH-vUr4/hqdefault.jpg",
       "date": "2025-09-04T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -749,7 +760,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8Aq_7OsgYLY",
       "image": "https://img.youtube.com/vi/8Aq_7OsgYLY/hqdefault.jpg",
       "date": "2025-06-26T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -760,7 +771,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=tQ4lXF8a-TE",
       "image": "https://img.youtube.com/vi/tQ4lXF8a-TE/hqdefault.jpg",
       "date": "2025-02-12T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "jv-2",
@@ -770,7 +781,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=f2s4cgHsnTA",
       "image": "https://img.youtube.com/vi/f2s4cgHsnTA/hqdefault.jpg",
       "date": "2025-03-20T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "jv-3",
@@ -780,7 +791,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=S7IEg0_qNXs",
       "image": "https://img.youtube.com/vi/S7IEg0_qNXs/hqdefault.jpg",
       "date": "2025-05-15T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "jv-4",
@@ -790,7 +801,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=MqLM4MV0Fls",
       "image": "https://img.youtube.com/vi/MqLM4MV0Fls/hqdefault.jpg",
       "date": "2025-05-30T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z"
+      "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
       "id": "jeux-kcd2",
@@ -800,7 +811,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=sXDoP90YkOc",
       "image": "https://img.youtube.com/vi/sXDoP90YkOc/hqdefault.jpg",
       "date": "2025-02-04T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
@@ -811,7 +822,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=tA3bjy23XoQ",
       "image": "https://img.youtube.com/vi/tA3bjy23XoQ/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z",
       "datePrecision": "month"
     },
@@ -823,7 +834,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=yClDiMKcPl8",
       "image": "https://img.youtube.com/vi/yClDiMKcPl8/hqdefault.jpg",
       "date": "2026-02-27T00:00:00.000Z",
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     }
   ],
@@ -836,7 +847,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.amflowbikes.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -847,7 +858,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.canyon.com/en-us/mountain-bikes/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -858,7 +869,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.commencal.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -869,7 +880,7 @@ const FALLBACK_RESULTS = {
       "url": "https://forbiddenbike.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -880,7 +891,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.megamo.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -891,7 +902,7 @@ const FALLBACK_RESULTS = {
       "url": "https://mondraker.com/us/en",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -902,7 +913,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.orbea.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -913,7 +924,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.pivotcycles.com/en/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -924,7 +935,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.rotwild.com/en",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -935,7 +946,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.unno.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -946,7 +957,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.yt-industries.com/en-us",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T20:05:00.000Z"
     },
     {
@@ -957,7 +968,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.athertonbikes.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
     },
     {
@@ -968,22 +979,11 @@ const FALLBACK_RESULTS = {
       "url": "https://www.crussis.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
     }
   ],
   "presse-citron": [
-    {
-      "id": "presse-citron-16",
-      "type": "article",
-      "title": "Ce détail caché trahira les textes générés par l'IA",
-      "summary": "Les textes rédigés par une intelligence artificielle contiennent une signature technique cachée qui permet de les identifier. Une astuce existe pour l'effacer, mais elle reste fastidieuse et chronophage à appliquer manuellement.",
-      "url": "https://www.presse-citron.net/detail-trahira-les-textes-ia-astuce-pour-debarrasser/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fdetail-trahira-les-textes-ia-astuce-pour-debarrasser%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
-      "firstSeenAt": "2026-08-18T04:04:36.000Z"
-    },
     {
       "id": "presse-citron-17",
       "type": "article",
@@ -992,7 +992,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-openai-est-trop-forte-en-piratage-developpement-suspendu/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-est-trop-forte-en-piratage-developpement-suspendu%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -1003,7 +1003,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-20T04:04:15.000Z"
     },
     {
@@ -1014,7 +1014,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-21T04:04:22.000Z"
     },
     {
@@ -1025,7 +1025,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/leur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fleur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-22T04:04:07.000Z"
     },
     {
@@ -1036,7 +1036,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-espace-pari-elon-musk-spacexai/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-espace-pari-elon-musk-spacexai%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
     },
     {
@@ -1047,7 +1047,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/les-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1058,7 +1058,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/se-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fse-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1069,7 +1069,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/le-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fle-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-25T04:05:40.000Z"
     },
     {
@@ -1080,7 +1080,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/en-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fen-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-26T04:07:59.000Z"
     },
     {
@@ -1091,7 +1091,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/nvidia-valide-projet-fou-elon-musk-processeur-ia-espace/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnvidia-valide-projet-fou-elon-musk-processeur-ia-espace%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     },
     {
@@ -1102,7 +1102,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/ia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
     },
     {
@@ -1113,7 +1113,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/56-milliards-euros-mega-data-center-europe-projet-pharaonique-maison-mere-lidl/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F56-milliards-euros-mega-data-center-europe-projet-pharaonique-maison-mere-lidl%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-28T04:05:44.000Z"
     },
     {
@@ -1124,7 +1124,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/videos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvideos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-30T04:05:42.000Z"
     },
     {
@@ -1135,8 +1135,19 @@ const FALLBACK_RESULTS = {
       "url": "https://www.presse-citron.net/un-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent/",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fun-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent%2F?w=400&h=225",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-30T04:05:42.000Z"
+    },
+    {
+      "id": "presse-citron-31",
+      "type": "article",
+      "title": "Moins de télétravail à cause de l'IA ?",
+      "summary": "Certaines entreprises justifient un retour au bureau plus fréquent en invoquant l'intelligence artificielle, arguant que la collaboration humaine directe resterait nécessaire pour encadrer et superviser les outils d'IA au quotidien.",
+      "url": "https://www.presse-citron.net/teletravail-ia-argument-revenir-sur-site/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fteletravail-ia-argument-revenir-sur-site%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
+      "firstSeenAt": "2026-08-31T04:05:23.000Z"
     }
   ],
   "wing-freefly": [
@@ -1148,7 +1159,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=NV1kU9ccbu0",
       "image": "https://img.youtube.com/vi/NV1kU9ccbu0/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1159,7 +1170,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=aXOlKUkmWGo",
       "image": "https://img.youtube.com/vi/aXOlKUkmWGo/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1170,7 +1181,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=808vRAA3ygg",
       "image": "https://img.youtube.com/vi/808vRAA3ygg/hqdefault.jpg",
       "date": "2026-01-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-15T04:06:06.000Z"
     },
     {
@@ -1181,7 +1192,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=cx1n10_g5_E",
       "image": "https://img.youtube.com/vi/cx1n10_g5_E/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-16T04:06:21.000Z"
     },
     {
@@ -1192,7 +1203,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.youtube.com/watch?v=8dF9cpS-YdY",
       "image": "https://img.youtube.com/vi/8dF9cpS-YdY/hqdefault.jpg",
       "date": null,
-      "fetchedAt": "2026-08-30T04:05:42.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ],
@@ -1205,7 +1216,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.berceau-des-sens.ch/en/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1216,7 +1227,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.brp.ch/en/restaurants-bars/pic-at-beau-rivage-palace/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1227,7 +1238,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.lausanne-palace.ch/en/restaurants-bars/la-table-du-lausanne-palace/le-restaurant/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1238,7 +1249,7 @@ const FALLBACK_RESULTS = {
       "url": "https://osteriabalsamico.ch",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1249,7 +1260,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.restaurant-la-pergola.ch",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1260,7 +1271,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.restaurant-lecho.com/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1271,7 +1282,7 @@ const FALLBACK_RESULTS = {
       "url": "https://restaurant-binom.ch",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     },
     {
@@ -1282,7 +1293,7 @@ const FALLBACK_RESULTS = {
       "url": "https://www.cafedegrancy.ch/",
       "image": null,
       "date": null,
-      "fetchedAt": "2026-08-24T04:06:48.000Z",
+      "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
     }
   ]
