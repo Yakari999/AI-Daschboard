@@ -266,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-27T04:04:32.000Z"
+    },
+    {
+      "id": "laus-c19",
+      "type": "article",
+      "title": "Jazz au Peuple, 12e édition",
+      "summary": "Festival de jazz au Parc du Conservatoire de Nyon, les 4 et 5 septembre 2026 de 18h30 à 23h30. Douzième édition mettant à l'honneur de jeunes talents et des artistes de renommée internationale autour de l'improvisation et de l'expérimentation.",
+      "url": "https://www.myswitzerland.com/fr-ch/decouvrir/manifestations/jazz-au-peuple-12e-edition/",
+      "date": "2026-09-04T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.myswitzerland.com%2Ffr-ch%2Fdecouvrir%2Fmanifestations%2Fjazz-au-peuple-12e-edition%2F?w=400&h=225",
+      "fetchedAt": "2026-09-01T04:07:59.000Z",
+      "firstSeenAt": "2026-09-01T04:07:59.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -985,17 +996,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-17",
-      "type": "article",
-      "title": "La prochaine IA d'OpenAI trop forte en piratage, son développement suspendu",
-      "summary": "OpenAI suspend le développement de son prochain modèle, nom de code «Astra», après avoir constaté qu'il était anormalement performant en cybersécurité offensive. L'entreprise se donne le temps de renforcer ses garde-fous avant de poursuivre.",
-      "url": "https://www.presse-citron.net/ia-openai-est-trop-forte-en-piratage-developpement-suspendu/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-openai-est-trop-forte-en-piratage-developpement-suspendu%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-20T04:04:15.000Z"
-    },
-    {
       "id": "presse-citron-18",
       "type": "article",
       "title": "Claude peut désormais envoyer des e-mails sans ouvrir Gmail",
@@ -1148,6 +1148,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-31T04:05:23.000Z"
+    },
+    {
+      "id": "presse-citron-32",
+      "type": "article",
+      "title": "Mark Zuckerberg veut virer tous ses employés pour les remplacer par des IA, il se prend un mur",
+      "summary": "Mark Zuckerberg rêvait de remplacer une large part des employés de Meta par de l'intelligence artificielle, mais le projet, surnommé Model Capability Initiative, se heurte à la résistance du personnel. Selon Reuters, la direction visait à supprimer 60% des postes ; elle a finalement fait marche arrière le 19 mai dernier, après avoir déjà licencié 10% des effectifs (8 000 personnes) et annulé la seconde vague de suppressions prévue en novembre. Le moral des équipes s'est tellement dégradé que Meta a dû annuler un hackathon interne en juillet.",
+      "url": "https://www.presse-citron.net/mark-zuckerberg-veut-virer-tous-ses-employes-pour-les-remplacer-par-des-ia-il-se-prend-un-mur/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fmark-zuckerberg-veut-virer-tous-ses-employes-pour-les-remplacer-par-des-ia-il-se-prend-un-mur%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-01T04:07:59.000Z",
+      "firstSeenAt": "2026-09-01T04:07:59.000Z"
     }
   ],
   "wing-freefly": [
