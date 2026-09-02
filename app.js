@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-02T04:04:09.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-08-31T04:05:23.000Z"
+    "lastRun": "2026-09-02T04:04:09.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-08-31T04:05:23.000Z"
+    "lastRun": "2026-09-02T04:04:09.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -996,17 +996,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-18",
-      "type": "article",
-      "title": "Claude peut désormais envoyer des e-mails sans ouvrir Gmail",
-      "summary": "Les utilisateurs de l'assistant IA Claude peuvent maintenant envoyer, répondre ou transférer un e-mail et gérer leurs fichiers Google Drive directement depuis le chatbot, sans avoir à ouvrir Gmail séparément.",
-      "url": "https://www.presse-citron.net/les-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-utilisateurs-de-claude-nont-plus-besoin-douvrir-gmail-pour-envoyer-un-e-mail%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-20T04:04:15.000Z"
-    },
-    {
       "id": "presse-citron-19",
       "type": "article",
       "title": "Les chiffres de l'IA en France en 2026 : 4 changements impressionnants",
@@ -1159,6 +1148,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-01T04:07:59.000Z",
       "firstSeenAt": "2026-09-01T04:07:59.000Z"
+    },
+    {
+      "id": "presse-citron-33",
+      "type": "article",
+      "title": "Le pourcentage de Français qui draguent avec l'IA vient d'être révélé : ils sont bien plus nombreux que vous le pensez",
+      "summary": "Selon une étude menée par Nation.fr durant l'été 2026 et relayée par plusieurs médias dont Sud Radio, 37% des Français affirment utiliser une IA comme ChatGPT, Gemini ou Claude pour les aider à séduire, et 29% supplémentaires disent pourraient le faire. L'IA sert surtout à rédiger des messages, mais aussi à décrypter les interactions (49% des utilisateurs concernés), préparer des rendez-vous ou améliorer une photo de profil. Au total, près des deux tiers des personnes interrogées jugent normal de recourir à l'intelligence artificielle dans leur vie amoureuse en ligne.",
+      "url": "https://www.presse-citron.net/francais-qui-draguent-avec-ia-revele/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrancais-qui-draguent-avec-ia-revele%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-02T04:04:09.000Z",
+      "firstSeenAt": "2026-09-02T04:04:09.000Z"
     }
   ],
   "wing-freefly": [
