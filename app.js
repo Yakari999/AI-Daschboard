@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-02T04:04:09.000Z",
+    "lastRun": "2026-09-03T04:04:40.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-02T04:04:09.000Z"
+    "lastRun": "2026-09-03T04:04:40.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-02T04:04:09.000Z"
+    "lastRun": "2026-09-03T04:04:40.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -224,48 +224,15 @@ const FALLBACK_RESULTS = {
   ],
   "presse": [
     {
-      "id": "laus-c12",
-      "type": "article",
-      "title": "La ronde - Lucas Erin",
-      "summary": "Du 28 août 2026 au 14 février 2027, Espace Projet du MCBA, entrée libre : exposition de Lucas Erin (Prix Culturel Manor Vaud 2026) autour du jardin, entre objets trouvés et sculptures façonnées, avec une dimension sonore.",
-      "url": "https://www.mcba.ch/en/exhibitions/lucas-erin/",
-      "date": "2026-08-28T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Flucas-erin%2F?w=400&h=225",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-16T04:06:21.000Z"
-    },
-    {
       "id": "laus-c17",
-      "type": "article",
-      "title": "Ensemble Vocal de Lausanne - Hommage à Michel Corboz",
-      "summary": "Mercredi 2 septembre 2026 : concert hommage de l'Ensemble Vocal de Lausanne à son fondateur Michel Corboz, dirigé aujourd'hui par Pierre-Fabien Roubaty.",
-      "url": "https://offres-culturelles.epfl.ch/ensemble-vocal-de-lausanne-evl-hommage-michel/",
-      "date": "2026-09-02T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Foffres-culturelles.epfl.ch%2Fensemble-vocal-de-lausanne-evl-hommage-michel%2F?w=400&h=225",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-30T04:05:42.000Z"
-    },
-    {
-      "id": "laus-c18",
       "type": "article",
       "title": "L'art de la transcription - Anne Chollet (orgue)",
       "summary": "Vendredi 4 septembre 2026, Cathédrale de Lausanne : récital d'orgue consacré à l'art de la transcription des œuvres de Jean-Sébastien Bach, par Anne Chollet.",
       "url": "https://www.cathedrale-lausanne.ch/accueil/agenda/",
       "date": "2026-09-04T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cathedrale-lausanne.ch%2Faccueil%2Fagenda%2F?w=400&h=225",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
       "firstSeenAt": "2026-08-30T04:05:42.000Z"
-    },
-    {
-      "id": "laus-c16",
-      "type": "article",
-      "title": "Festival international d'orgue",
-      "summary": "Vendredi 11 septembre 2026 à 20h, Cathédrale de Lausanne : nouveau récital du Festival international d'orgue.",
-      "url": "https://concerts-cathedrale.ch/category/festival-intl-orgue/",
-      "date": "2026-09-11T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-27T04:04:32.000Z"
     },
     {
       "id": "laus-c19",
@@ -275,8 +242,41 @@ const FALLBACK_RESULTS = {
       "url": "https://www.myswitzerland.com/fr-ch/decouvrir/manifestations/jazz-au-peuple-12e-edition/",
       "date": "2026-09-04T00:00:00.000Z",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.myswitzerland.com%2Ffr-ch%2Fdecouvrir%2Fmanifestations%2Fjazz-au-peuple-12e-edition%2F?w=400&h=225",
-      "fetchedAt": "2026-09-01T04:07:59.000Z",
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
       "firstSeenAt": "2026-09-01T04:07:59.000Z"
+    },
+    {
+      "id": "laus-c16",
+      "type": "article",
+      "title": "Festival international d'orgue",
+      "summary": "Vendredi 11 septembre 2026 à 20h, Cathédrale de Lausanne : nouveau récital du Festival international d'orgue.",
+      "url": "https://concerts-cathedrale.ch/category/festival-intl-orgue/",
+      "date": "2026-09-11T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
+      "firstSeenAt": "2026-08-27T04:04:32.000Z"
+    },
+    {
+      "id": "laus-c20",
+      "type": "article",
+      "title": "Label Suisse 2026, festival de la scène musicale suisse",
+      "summary": "Du 18 au 20 septembre 2026, Lausanne devient la capitale d'une scène musicale suisse aussi riche qu'imprévisible : plus de 60 concerts et créations, du ländler à l'électro, du yodel au trap, dans divers lieux du centre-ville. Entrée gratuite dans la limite des places disponibles.",
+      "url": "https://labelsuisse.ch/",
+      "date": "2026-09-18T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flabelsuisse.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
+      "firstSeenAt": "2026-09-03T04:04:40.000Z"
+    },
+    {
+      "id": "laus-c21",
+      "type": "article",
+      "title": "Charles Blanc-Gatti. Les couleurs du son",
+      "summary": "Du 25 septembre 2026 au 17 janvier 2027 au MCBA (Place de la Gare 16, Lausanne), entrée libre : rétrospective consacrée au peintre, cinéaste et musicien lausannois Charles Blanc-Gatti (1890-1966), figure de la « musicalisation » des arts visuels. Plus de quarante peintures, œuvres sur papier et carnets, dont un ensemble de neuf tableaux acquis en 2023.",
+      "url": "https://www.mcba.ch/en/exhibitions/blanc-gatti/",
+      "date": "2026-09-25T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fblanc-gatti%2F?w=400&h=225",
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
+      "firstSeenAt": "2026-09-03T04:04:40.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -996,17 +996,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-19",
-      "type": "article",
-      "title": "Les chiffres de l'IA en France en 2026 : 4 changements impressionnants",
-      "summary": "En 2023, seul un cinquième de la population française utilisait l'IA générative ; en 2025, ce taux atteint 48 %, soit une progression de 28 points en deux ans seulement. L'article détaille les principaux changements d'usage observés en France sur cette période.",
-      "url": "https://www.presse-citron.net/les-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-chiffres-de-lia-en-france-en-2026-4-changements-impressionnants%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-21T04:04:22.000Z"
-    },
-    {
       "id": "presse-citron-20",
       "type": "article",
       "title": "Pourquoi OpenAI aurait dissous sa \"preparedness team\"",
@@ -1159,6 +1148,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-02T04:04:09.000Z",
       "firstSeenAt": "2026-09-02T04:04:09.000Z"
+    },
+    {
+      "id": "presse-citron-34",
+      "type": "article",
+      "title": "SoftBank pourrait s'inviter dans votre salon en rachetant 1X, le fabricant de robots humanoïdes pour les tâches ménagères",
+      "summary": "Selon plusieurs sources, SoftBank serait en négociation pour racheter une participation majoritaire dans 1X Technologies, l'entreprise américano-norvégienne derrière le robot domestique 1X Neo, sans qu'aucune annonce officielle n'ait encore été faite. 1X Neo, déjà proposé à la précommande à 20 000 dollars à l'achat ou 499 dollars par mois, vise à s'occuper de tâches ménagères comme le ménage ou le rangement. Un rachat par SoftBank, déjà très investi dans la robotique et l'IA via des participations comme celle dans OpenAI, accélérerait l'arrivée de ces robots humanoïdes dans les foyers.",
+      "url": "https://www.presse-citron.net/softbank-rachetant-1x-fabricant-robots-humanoide-taches-menageres/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsoftbank-rachetant-1x-fabricant-robots-humanoide-taches-menageres%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-03T04:04:40.000Z",
+      "firstSeenAt": "2026-09-03T04:04:40.000Z"
     }
   ],
   "wing-freefly": [
