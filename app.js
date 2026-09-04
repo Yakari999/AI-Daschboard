@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-03T04:04:40.000Z",
+    "lastRun": "2026-09-04T04:04:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-03T04:04:40.000Z"
+    "lastRun": "2026-09-04T04:04:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-03T04:04:40.000Z"
+    "lastRun": "2026-09-04T04:04:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -996,17 +996,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-20",
-      "type": "article",
-      "title": "Pourquoi OpenAI aurait dissous sa \"preparedness team\"",
-      "summary": "L'équipe chargée d'analyser et d'anticiper les risques liés aux modèles d'IA d'OpenAI aurait été dissoute, suscitant des inquiétudes chez d'anciens employés et experts en sécurité sur le ralentissement des efforts de surveillance interne des risques.",
-      "url": "https://www.presse-citron.net/leur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fleur-boulot-etait-de-surveiller-lia-pour-votre-bien-voici-pourquoi-openai-aurait-dissout-la-preparedness-team-chargee-danalyser-les-risques%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-22T04:04:07.000Z"
-    },
-    {
       "id": "presse-citron-21",
       "type": "article",
       "title": "Dominer l'IA grâce à l'espace : le nouveau pari d'Elon Musk, SpaceXAI",
@@ -1159,6 +1148,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-03T04:04:40.000Z",
       "firstSeenAt": "2026-09-03T04:04:40.000Z"
+    },
+    {
+      "id": "presse-citron-35",
+      "type": "article",
+      "title": "1 650 milliards de dette : l'explosion de la bulle IA n'a jamais fait aussi peur",
+      "summary": "Selon une analyse de Nikkei Asia, les géants américains de la tech Alphabet, Amazon, Meta, Oracle et Microsoft accumuleraient à eux cinq environ 1 650 milliards d'euros de dette cachée liée à leurs investissements massifs dans l'intelligence artificielle. Cette dette, souvent logée dans des structures hors bilan pour financer data centers et puces, inquiète des économistes qui redoutent une bulle spéculative comparable à celle des dot-com. Le scénario catastrophe évoqué : un ralentissement de la croissance de l'IA qui rendrait ces investissements colossaux impossibles à rentabiliser.",
+      "url": "https://www.presse-citron.net/1650-milliards-dette-explosion-bulle-ia-jamais-fait-aussi-peur/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F1650-milliards-dette-explosion-bulle-ia-jamais-fait-aussi-peur%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-04T04:04:00.000Z",
+      "firstSeenAt": "2026-09-04T04:04:00.000Z"
     }
   ],
   "wing-freefly": [
