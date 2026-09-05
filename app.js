@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-04T04:04:00.000Z",
+    "lastRun": "2026-09-05T04:04:15.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-04T04:04:00.000Z"
+    "lastRun": "2026-09-05T04:04:15.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-04T04:04:00.000Z"
+    "lastRun": "2026-09-05T04:04:15.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -224,28 +224,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse": [
     {
-      "id": "laus-c17",
-      "type": "article",
-      "title": "L'art de la transcription - Anne Chollet (orgue)",
-      "summary": "Vendredi 4 septembre 2026, Cathédrale de Lausanne : récital d'orgue consacré à l'art de la transcription des œuvres de Jean-Sébastien Bach, par Anne Chollet.",
-      "url": "https://www.cathedrale-lausanne.ch/accueil/agenda/",
-      "date": "2026-09-04T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cathedrale-lausanne.ch%2Faccueil%2Fagenda%2F?w=400&h=225",
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-08-30T04:05:42.000Z"
-    },
-    {
-      "id": "laus-c19",
-      "type": "article",
-      "title": "Jazz au Peuple, 12e édition",
-      "summary": "Festival de jazz au Parc du Conservatoire de Nyon, les 4 et 5 septembre 2026 de 18h30 à 23h30. Douzième édition mettant à l'honneur de jeunes talents et des artistes de renommée internationale autour de l'improvisation et de l'expérimentation.",
-      "url": "https://www.myswitzerland.com/fr-ch/decouvrir/manifestations/jazz-au-peuple-12e-edition/",
-      "date": "2026-09-04T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.myswitzerland.com%2Ffr-ch%2Fdecouvrir%2Fmanifestations%2Fjazz-au-peuple-12e-edition%2F?w=400&h=225",
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-09-01T04:07:59.000Z"
-    },
-    {
       "id": "laus-c16",
       "type": "article",
       "title": "Festival international d'orgue",
@@ -277,6 +255,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fblanc-gatti%2F?w=400&h=225",
       "fetchedAt": "2026-09-03T04:04:40.000Z",
       "firstSeenAt": "2026-09-03T04:04:40.000Z"
+    },
+    {
+      "id": "laus-c22",
+      "type": "article",
+      "title": "Lausanne Méditerranées, 7e édition : cap sur l'Andalousie",
+      "summary": "Du 25 septembre au 11 octobre 2026, la quinzaine culturelle Lausanne Méditerranées met l'Andalousie à l'honneur pour sa 7e édition : spectacles, rencontres, ateliers et autres événements culturels dans divers lieux de la ville, entrée libre, avec informations en français et en espagnol. La manifestation promeut l'interculturalité et les liens entre Lausanne et les pays et régions du pourtour méditerranéen.",
+      "url": "https://lausanne-mediterranees.ch/",
+      "date": "2026-09-25T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne-mediterranees.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-09-05T04:04:15.000Z",
+      "firstSeenAt": "2026-09-05T04:04:15.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -996,17 +985,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-21",
-      "type": "article",
-      "title": "Dominer l'IA grâce à l'espace : le nouveau pari d'Elon Musk, SpaceXAI",
-      "summary": "Elon Musk lance SpaceXAI, une nouvelle entité destinée à exploiter les infrastructures spatiales de SpaceX au service de l'intelligence artificielle, dans la continuité de ses annonces sur les revenus IA qui devraient dépasser ceux des fusées et de Starlink.",
-      "url": "https://www.presse-citron.net/ia-espace-pari-elon-musk-spacexai/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-espace-pari-elon-musk-spacexai%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-24T04:06:48.000Z"
-    },
-    {
       "id": "presse-citron-22",
       "type": "article",
       "title": "Les agents IA utilisent déjà 5 fois plus de ressources que les humains",
@@ -1159,6 +1137,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-04T04:04:00.000Z",
       "firstSeenAt": "2026-09-04T04:04:00.000Z"
+    },
+    {
+      "id": "presse-citron-36",
+      "type": "article",
+      "title": "Qira : l'IA façon Apple Intelligence de Lenovo",
+      "summary": "À l'IFA 2026 de Berlin, Lenovo a détaillé Qira, son agent IA maison censé unifier l'expérience entre PC et smartphones Motorola, un peu à la manière d'Apple Intelligence. Grâce à un partenariat avec Workato, l'agent se connecte désormais à Gmail, Google Calendar, Slack, Outlook ou encore Notion pour centraliser messages, rendez-vous et documents dans une seule interface. Techniquement, Qira fonctionne en mode hybride : les tâches légères (résumer un fichier, reformuler un e-mail) tournent localement sur le NPU du processeur, tandis que les tâches plus lourdes sont envoyées dans le cloud via Azure. Son API est ouverte depuis le troisième trimestre 2026, et Expedia en était jusqu'ici le seul partenaire annoncé.",
+      "url": "https://www.presse-citron.net/qira-lia-apple-intelligence-lenovo/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fqira-lia-apple-intelligence-lenovo%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-05T04:04:15.000Z",
+      "firstSeenAt": "2026-09-05T04:04:15.000Z"
     }
   ],
   "wing-freefly": [
