@@ -816,17 +816,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-22",
-      "type": "article",
-      "title": "Les agents IA utilisent déjà 5 fois plus de ressources que les humains",
-      "summary": "Selon les données de la plateforme OpenRouter, les agents d'intelligence artificielle consomment désormais bien plus de tokens que les humains eux-mêmes, un basculement qui illustre la montée en puissance de l'automatisation dans l'usage quotidien de l'IA.",
-      "url": "https://www.presse-citron.net/les-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fles-humains-utilisent-5-fois-moins-lia-que-les-agents-ia-la-machine-prend-la-main-sur-la-machine%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-25T04:05:40.000Z"
-    },
-    {
       "id": "presse-citron-23",
       "type": "article",
       "title": "Se loger devient plus difficile à cause de l'IA",
@@ -979,6 +968,17 @@
       "date": null,
       "fetchedAt": "2026-09-05T04:04:15.000Z",
       "firstSeenAt": "2026-09-05T04:04:15.000Z"
+    },
+    {
+      "id": "presse-citron-37",
+      "type": "article",
+      "title": "ChatGPT vient de franchir un point de non-retour : GPT-6 Astra peut tout faire à votre place sur un ordinateur, selon OpenAI",
+      "summary": "OpenAI a lancé GPT-6 Astra, disponible dans les prochains jours pour les abonnés ChatGPT Plus, Pro, Business et Enterprise, en le présentant comme le meilleur modèle de l'entreprise pour piloter un ordinateur et automatiser des tâches administratives. Selon OpenAI, \"tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous, rapidement\", le modèle se distinguant aussi en codage et dans des domaines de recherche comme les mathématiques ou la santé. Greg Brockman, président et cofondateur d'OpenAI, estime que l'entreprise serait enfin parvenue à développer une AGI. Le modèle a obtenu un score de 100% sur ExploitBench, un test d'exploitation de failles informatiques, mais la version publique sur ChatGPT a été bridée pour refuser ce type de demandes.",
+      "url": "https://www.presse-citron.net/chatgpt-gpt-6-astra-peut-tout-faire-a-votre-place/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fchatgpt-gpt-6-astra-peut-tout-faire-a-votre-place%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-06T04:04:07.000Z",
+      "firstSeenAt": "2026-09-06T04:04:07.000Z"
     }
   ],
   "wing-freefly": [
