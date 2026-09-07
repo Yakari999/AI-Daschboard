@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-06T04:04:07.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-08-31T04:05:23.000Z",
+    "lastRun": "2026-09-07T04:07:43.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-06T04:04:07.000Z"
+    "lastRun": "2026-09-07T04:07:43.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-06T04:04:07.000Z"
+    "lastRun": "2026-09-07T04:07:43.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-08-31T04:05:23.000Z"
+    "lastRun": "2026-09-07T04:07:43.000Z"
   }
 ];
 
@@ -266,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne-mediterranees.ch%2F?w=400&h=225",
       "fetchedAt": "2026-09-05T04:04:15.000Z",
       "firstSeenAt": "2026-09-05T04:04:15.000Z"
+    },
+    {
+      "id": "laus-c23",
+      "type": "article",
+      "title": "Biennale In Situ : Iphigénie en Tauride",
+      "summary": "Du 10 au 19 septembre 2026 à l'Espace Amaretto (ancienne gare de marchandises, Rue de Genève 97B, Lausanne), la 2e édition de la Biennale In Situ met l'hospitalité à l'honneur autour d'une mise en scène d'Iphigénie en Tauride par Benjamin David, avec récitals, projections et cabaret queer. Billets dès 10 francs pour les moins de 25 ans, dès 49 francs plein tarif.",
+      "url": "https://www.biennaleinsitu.ch/",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.biennaleinsitu.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -298,6 +309,39 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsrokacompany.com%2Fblogs%2Factualites%2Fles-meilleurs-spots-de-wing-foil-et-sup-en-corse?w=400&h=225",
       "date": null,
       "fetchedAt": "2026-08-31T04:05:23.000Z"
+    },
+    {
+      "id": "wing-c4",
+      "type": "article",
+      "title": "Europe : les plus beaux spots pour progresser en wingfoil",
+      "summary": "Tour d'horizon des spots européens (Tarifa, Leucate, L'Almanarre...) réputés pour progresser en wingfoil, avec vent régulier et conditions adaptées en automne.",
+      "url": "https://spots-evasion.com/le-blog-des-experts-billet/les-plus-beaux-spots-europeens-pour-progresser-en-wingfoil/",
+      "date": null,
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fspots-evasion.com%2Fle-blog-des-experts-billet%2Fles-plus-beaux-spots-europeens-pour-progresser-en-wingfoil%2F?w=400&h=225",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "wing-c5",
+      "type": "article",
+      "title": "Top 5 des spots pour faire du Wingfoil dans le monde",
+      "summary": "Sélection ION Club des meilleurs spots wingfoil, dont plusieurs destinations européennes accessibles en automne comme les Canaries ou la Grèce.",
+      "url": "https://www.ion-club.net/top-5-wingfoil-spots/",
+      "date": null,
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.ion-club.net%2Ftop-5-wingfoil-spots%2F?w=400&h=225",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "wing-c6",
+      "type": "article",
+      "title": "Kitesurf, windsurf, wingfoil : meilleurs spots à moins de 6h de vol",
+      "summary": "Sélection de spots de glisse accessibles en moins de 6h de vol depuis la France, utile pour organiser un court séjour wingfoil en automne.",
+      "url": "https://fun-and-fly.com/blog/kitesurf-windsurf-wingfoil-les-meilleurs-spots-a-moins-de-6h-de-vol-depuis-la-france/",
+      "date": null,
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffun-and-fly.com%2Fblog%2Fkitesurf-windsurf-wingfoil-les-meilleurs-spots-a-moins-de-6h-de-vol-depuis-la-france%2F?w=400&h=225",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ],
   "series-netflix": [
@@ -438,19 +482,31 @@ const FALLBACK_RESULTS = {
       "date": "2026-08-28T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-31T04:05:23.000Z"
+    },
+    {
+      "id": "series-wonder-man",
+      "type": "video",
+      "title": "Wonder Man",
+      "summary": "Série Marvel Television sur Disney+ avec Yahya Abdul-Mateen II et Ben Kingsley, mise en abyme du tournage d'un film Wonder Man dans les coulisses d'Hollywood.",
+      "url": "https://www.youtube.com/watch?v=qNJTy7GZeUg",
+      "image": "https://img.youtube.com/vi/qNJTy7GZeUg/hqdefault.jpg",
+      "date": "2026-01-27T00:00:00.000Z",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "series-widows-bay",
+      "type": "video",
+      "title": "Widow's Bay",
+      "summary": "Série horrifique-comique Apple TV créée par Katie Dippold avec Matthew Rhys, saluée par la critique pour son mélange élégant d'humour et d'épouvante sur une île maudite de Nouvelle-Angleterre.",
+      "url": "https://www.youtube.com/watch?v=Nmc2RYm6PUE",
+      "image": "https://img.youtube.com/vi/Nmc2RYm6PUE/hqdefault.jpg",
+      "date": "2026-04-29T00:00:00.000Z",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ],
   "courses-au-large": [
-    {
-      "id": "voile-1",
-      "type": "article",
-      "title": "The Ocean Race Atlantic",
-      "summary": "Transatlantique en équipage reliant New York à Barcelone, départ le 2 septembre 2026. Lancement de cette nouvelle épreuve du calendrier IMOCA.",
-      "url": "https://www.imoca.org/fr/news/news/une-saison-2026-dense-et-strategique-pour-la-flotte-imoca",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.imoca.org%2Ffr%2Fnews%2Fnews%2Fune-saison-2026-dense-et-strategique-pour-la-flotte-imoca?w=400&h=225",
-      "date": "2026-09-02T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
     {
       "id": "voile-2",
       "type": "article",
@@ -619,6 +675,28 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/wBPYOYBt6Vc/hqdefault.jpg",
       "date": "2026-07-15T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z"
+    },
+    {
+      "id": "films-the-invite",
+      "type": "video",
+      "title": "The Invite",
+      "summary": "Comédie dramatique A24 réalisée par Olivia Wilde, avec Seth Rogen, Penélope Cruz et Edward Norton — 96% sur Rotten Tomatoes.",
+      "url": "https://www.youtube.com/watch?v=JK-Jmvo8FHc",
+      "image": "https://img.youtube.com/vi/JK-Jmvo8FHc/hqdefault.jpg",
+      "date": "2026-06-26T00:00:00.000Z",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "films-backrooms",
+      "type": "video",
+      "title": "Backrooms",
+      "summary": "Adaptation A24 de la série YouTube culte, réalisée par Kane Parsons avec Chiwetel Ejiofor et Renate Reinsve — 84% sur Rotten Tomatoes et plus gros succès en salles de l'histoire d'A24.",
+      "url": "https://www.youtube.com/watch?v=0HjdiohVOik",
+      "image": "https://img.youtube.com/vi/0HjdiohVOik/hqdefault.jpg",
+      "date": "2026-05-29T00:00:00.000Z",
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ],
   "top-films-sf": [
@@ -981,6 +1059,39 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
+    },
+    {
+      "id": "avinox-brand-14",
+      "type": "link",
+      "title": "BH Bikes",
+      "summary": null,
+      "url": "https://www.bhbikes.com/index.php?lang=en",
+      "date": null,
+      "image": null,
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "avinox-brand-15",
+      "type": "link",
+      "title": "Lee Cougan",
+      "summary": null,
+      "url": "https://leecougan.com/en",
+      "date": null,
+      "image": null,
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "avinox-brand-16",
+      "type": "link",
+      "title": "Whistle",
+      "summary": null,
+      "url": "https://www.whistlebikes.com/",
+      "date": null,
+      "image": null,
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ],
   "presse-citron": [
@@ -1295,6 +1406,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-13T06:51:42.000Z"
+    },
+    {
+      "id": "resto-9",
+      "type": "link",
+      "title": "Restaurant Bellevue Lac",
+      "summary": null,
+      "url": "https://bellevue-restaurant.ch/",
+      "date": null,
+      "image": null,
+      "fetchedAt": "2026-09-07T04:07:43.000Z",
+      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     }
   ]
 };
