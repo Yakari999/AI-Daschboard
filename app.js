@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-08T04:03:51.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-07T04:07:43.000Z"
+    "lastRun": "2026-09-08T04:03:51.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-07T04:07:43.000Z"
+    "lastRun": "2026-09-08T04:03:51.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1096,17 +1096,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-23",
-      "type": "article",
-      "title": "Se loger devient plus difficile à cause de l'IA",
-      "summary": "La ruée des géants de la tech vers la construction de centres de données aux États-Unis aspire une main-d'œuvre qualifiée normalement affectée à la construction de logements, aggravant la pénurie immobilière dans certaines régions.",
-      "url": "https://www.presse-citron.net/se-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fse-loger-devient-plus-difficile-a-cause-de-lia-la-penurie-frappe-la-ou-on-lattendait-le-moins%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-25T04:05:40.000Z"
-    },
-    {
       "id": "presse-citron-24",
       "type": "article",
       "title": "Dans les simulations de guerre, l'IA appuie presque toujours sur le bouton nucléaire",
@@ -1259,6 +1248,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-06T04:04:07.000Z",
       "firstSeenAt": "2026-09-06T04:04:07.000Z"
+    },
+    {
+      "id": "presse-citron-38",
+      "type": "article",
+      "title": "Aussi utile que dangereuse : la sécurité de l'IA se décide entre Washington et Pékin (en oubliant la France et l'Europe)",
+      "summary": "Alors que les incidents impliquant l'intelligence artificielle se multiplient, Washington et Pékin, qui dominent le marché mondial de l'IA, prévoiraient des discussions bilatérales sur la sécurité de la technologie. Les États-Unis viseraient une forme de coopération avec la Chine pour surveiller les risques de cyberattaques menées par des agents IA autonomes. L'article souligne que la France et l'Europe, absentes de ces discussions stratégiques, risquent de se retrouver à la marge des règles de sécurité qui façonneront l'avenir de l'IA.",
+      "url": "https://www.presse-citron.net/aussi-utile-que-dangereuse-la-securite-de-lia-se-decide-entre-washington-et-pekin-en-oubliant-la-france-et-leurope/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Faussi-utile-que-dangereuse-la-securite-de-lia-se-decide-entre-washington-et-pekin-en-oubliant-la-france-et-leurope%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-08T04:03:51.000Z",
+      "firstSeenAt": "2026-09-08T04:03:51.000Z"
     }
   ],
   "wing-freefly": [
