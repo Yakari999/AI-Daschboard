@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-08T04:03:51.000Z",
+    "lastRun": "2026-09-09T04:04:02.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-08T04:03:51.000Z"
+    "lastRun": "2026-09-09T04:04:02.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-08T04:03:51.000Z"
+    "lastRun": "2026-09-09T04:04:02.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1096,17 +1096,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-24",
-      "type": "article",
-      "title": "Dans les simulations de guerre, l'IA appuie presque toujours sur le bouton nucléaire",
-      "summary": "Des simulations de conflits pilotées par intelligence artificielle montrent que les modèles ont quasi systématiquement recours à l'arme nucléaire lorsqu'elle est disponible, une tendance qui inquiète les chercheurs en sécurité.",
-      "url": "https://www.presse-citron.net/le-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fle-recours-a-larme-nucleaire-est-quasi-systematique-dans-les-simulations-de-guerre-lia-ne-peut-sempecher-dappuyer-sur-le-bouton-rouge%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-25T04:05:40.000Z"
-    },
-    {
       "id": "presse-citron-25",
       "type": "article",
       "title": "Apple présente un Mac mini 4 fois plus puissant en IA",
@@ -1259,6 +1248,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-08T04:03:51.000Z",
       "firstSeenAt": "2026-09-08T04:03:51.000Z"
+    },
+    {
+      "id": "presse-citron-39",
+      "type": "article",
+      "title": "Mistral a un plan : voici comment l'IA française contourne les géants américains pour percer à l'international",
+      "summary": "Mistral AI vient de boucler une levée de fonds de 3 milliards de dollars menée par Samsung, portant sa valorisation à 21 milliards d'euros. Ces fonds serviront à augmenter les capacités de calcul pour l'entraînement de modèles d'IA puissants, ainsi qu'à investir dans l'infrastructure et accélérer la croissance internationale de la pépite française. Face à la domination du marché par les géants américains et chinois, Mistral mise sur son positionnement d'IA souveraine, pour laquelle la demande progresse à l'international.",
+      "url": "https://www.presse-citron.net/mistral-plan-ia-francaise-contourne-geants-americains-international/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fmistral-plan-ia-francaise-contourne-geants-americains-international%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-09T04:04:02.000Z",
+      "firstSeenAt": "2026-09-09T04:04:02.000Z"
     }
   ],
   "wing-freefly": [
