@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-09T04:04:02.000Z",
+    "lastRun": "2026-09-10T04:04:13.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-09T04:04:02.000Z"
+    "lastRun": "2026-09-10T04:04:13.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-09T04:04:02.000Z"
+    "lastRun": "2026-09-10T04:04:13.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -246,17 +246,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-03T04:04:40.000Z"
     },
     {
-      "id": "laus-c21",
-      "type": "article",
-      "title": "Charles Blanc-Gatti. Les couleurs du son",
-      "summary": "Du 25 septembre 2026 au 17 janvier 2027 au MCBA (Place de la Gare 16, Lausanne), entrée libre : rétrospective consacrée au peintre, cinéaste et musicien lausannois Charles Blanc-Gatti (1890-1966), figure de la « musicalisation » des arts visuels. Plus de quarante peintures, œuvres sur papier et carnets, dont un ensemble de neuf tableaux acquis en 2023.",
-      "url": "https://www.mcba.ch/en/exhibitions/blanc-gatti/",
-      "date": "2026-09-25T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fblanc-gatti%2F?w=400&h=225",
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-09-03T04:04:40.000Z"
-    },
-    {
       "id": "laus-c22",
       "type": "article",
       "title": "Lausanne Méditerranées, 7e édition : cap sur l'Andalousie",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.biennaleinsitu.ch%2F?w=400&h=225",
       "fetchedAt": "2026-09-07T04:07:43.000Z",
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "laus-c24",
+      "type": "article",
+      "title": "Festival des 50 ans de Musique à Saint-Sulpice",
+      "summary": "Le samedi 12 septembre 2026, l'église romane de Saint-Sulpice (à deux pas de Lausanne) fête les 50 ans du programme \"Musique à Saint-Sulpice\" avec six rendez-vous dans la journée : concert de l'aube à 6h (Denitsa Kazakova, violon), quartet jazz-manouche à 11h, spectacle jeune public à 15h, et concert du Quatuor Sine Nomine avec Pascal Moraguès (clarinette) à 18h.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/festival-50-ans-de-musique-a-saint-sulpice/",
+      "date": "2026-09-12T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Ffestival-50-ans-de-musique-a-saint-sulpice%2F?w=400&h=225",
+      "fetchedAt": "2026-09-10T04:04:13.000Z",
+      "firstSeenAt": "2026-09-10T04:04:13.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -1096,17 +1096,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-25",
-      "type": "article",
-      "title": "Apple présente un Mac mini 4 fois plus puissant en IA",
-      "summary": "Le nouveau Mac mini M6 embarque la toute première puce gravée en 2 nm d'Apple, offrant des performances en intelligence artificielle 4 fois supérieures à celles de son prédécesseur — une annonce qui précède le lancement attendu de l'iPhone 18 Pro.",
-      "url": "https://www.presse-citron.net/en-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fen-attendant-liphone-18-pro-apple-presente-un-mac-mini-4-fois-plus-puissant-en-ia%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-26T04:07:59.000Z"
-    },
-    {
       "id": "presse-citron-26",
       "type": "article",
       "title": "Nvidia valide le projet spatial fou d'Elon Musk pour l'IA",
@@ -1259,6 +1248,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-09T04:04:02.000Z",
       "firstSeenAt": "2026-09-09T04:04:02.000Z"
+    },
+    {
+      "id": "presse-citron-40",
+      "type": "article",
+      "title": "OpenAI accusé d'avoir téléchargé des milliers de livres piratés pour entraîner ChatGPT",
+      "summary": "Plusieurs auteurs américains, dont George R.R. Martin, ont déposé une nouvelle requête devant un tribunal fédéral de New York affirmant qu'OpenAI a directement téléchargé des milliers de livres via torrent depuis Library Genesis (LibGen), un site pirate notoire, pour entraîner ChatGPT. Selon l'article, les compilations internes auraient même été renommées de \"Libgen1\"/\"Libgen2\" vers \"Books1\"/\"Books2\" pour en effacer l'origine illégale. Un ancien employé d'OpenAI chargé de la qualité éditoriale des modèles GPT a par ailleurs affirmé sur les réseaux sociaux qu'une de ses missions consistait à faire écrire par l'IA les deux derniers tomes de la saga de George R.R. Martin.",
+      "url": "https://www.presse-citron.net/openai-accuse-davoir-telecharge-des-milliers-de-livres-pirates-pour-entrainer-chatgpt/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fopenai-accuse-davoir-telecharge-des-milliers-de-livres-pirates-pour-entrainer-chatgpt%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-10T04:04:13.000Z",
+      "firstSeenAt": "2026-09-10T04:04:13.000Z"
     }
   ],
   "wing-freefly": [
