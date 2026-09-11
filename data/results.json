@@ -927,17 +927,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-26",
-      "type": "article",
-      "title": "Nvidia valide le projet spatial fou d'Elon Musk pour l'IA",
-      "summary": "Nvidia a validé le projet de SpaceX visant à traiter des calculs d'intelligence artificielle directement depuis l'espace via des satellites dédiés. Elon Musk prévoit un premier lancement de ces satellites de calcul IA au dernier trimestre 2027.",
-      "url": "https://www.presse-citron.net/nvidia-valide-projet-fou-elon-musk-processeur-ia-espace/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnvidia-valide-projet-fou-elon-musk-processeur-ia-espace%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-27T04:04:32.000Z"
-    },
-    {
       "id": "presse-citron-27",
       "type": "article",
       "title": "Le Royaume-Uni signe un accord IA militaire historique avec l'Ukraine",
@@ -1090,6 +1079,17 @@
       "date": null,
       "fetchedAt": "2026-09-10T04:04:13.000Z",
       "firstSeenAt": "2026-09-10T04:04:13.000Z"
+    },
+    {
+      "id": "presse-citron-41",
+      "type": "article",
+      "title": "Une première mondiale : en Chine, une chirurgie cardiaque complexe a été réalisée par un mini-robot piloté par IA",
+      "summary": "Le 6 septembre, au sixième centre médical de l'Hôpital général de l'Armée populaire de libération chinoise, une équipe de cardiologie a réalisé la fermeture percutanée d'une malformation cardiaque congénitale sur un homme de 48 ans en s'appuyant sur un système robotique échographique piloté par intelligence artificielle. La procédure, largement automatisée, s'est appuyée sur une imagerie échographique en temps réel pour traiter la malformation avec une grande précision, une première mondiale selon l'hôpital.",
+      "url": "https://www.presse-citron.net/premiere-mondiale-chine-chirurgie-cardiaque-complexe-realisee-mini-robot-pilote-ia/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fpremiere-mondiale-chine-chirurgie-cardiaque-complexe-realisee-mini-robot-pilote-ia%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-11T04:03:45.000Z",
+      "firstSeenAt": "2026-09-11T04:03:45.000Z"
     }
   ],
   "wing-freefly": [
