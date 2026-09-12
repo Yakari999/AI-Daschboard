@@ -55,17 +55,6 @@
   ],
   "presse": [
     {
-      "id": "laus-c16",
-      "type": "article",
-      "title": "Festival international d'orgue",
-      "summary": "Vendredi 11 septembre 2026 à 20h, Cathédrale de Lausanne : nouveau récital du Festival international d'orgue.",
-      "url": "https://concerts-cathedrale.ch/category/festival-intl-orgue/",
-      "date": "2026-09-11T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fconcerts-cathedrale.ch%2Fcategory%2Ffestival-intl-orgue%2F?w=400&h=225",
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-08-27T04:04:32.000Z"
-    },
-    {
       "id": "laus-c20",
       "type": "article",
       "title": "Label Suisse 2026, festival de la scène musicale suisse",
@@ -88,26 +77,37 @@
       "firstSeenAt": "2026-09-05T04:04:15.000Z"
     },
     {
-      "id": "laus-c23",
+      "id": "laus-c25",
       "type": "article",
-      "title": "Biennale In Situ : Iphigénie en Tauride",
-      "summary": "Du 10 au 19 septembre 2026 à l'Espace Amaretto (ancienne gare de marchandises, Rue de Genève 97B, Lausanne), la 2e édition de la Biennale In Situ met l'hospitalité à l'honneur autour d'une mise en scène d'Iphigénie en Tauride par Benjamin David, avec récitals, projections et cabaret queer. Billets dès 10 francs pour les moins de 25 ans, dès 49 francs plein tarif.",
-      "url": "https://www.biennaleinsitu.ch/",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.biennaleinsitu.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-09-07T04:07:43.000Z",
-      "firstSeenAt": "2026-09-07T04:07:43.000Z"
+      "title": "Lire à Lausanne, 5e édition",
+      "summary": "Du 16 au 26 septembre 2026, le festival Lire à Lausanne investit le centre-ville pour fêter la rentrée littéraire : librairie éphémère 100% lausannoise au Forum de l'Hôtel de Ville, soirées littéraires gratuites, animations pour enfants et séances de dédicaces, avec une offre 2 livres achetés = 1 offert.",
+      "url": "https://www.lausanne.ch/programme-culturel-lire-a-lausanne",
+      "date": "2026-09-16T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne.ch%2Fprogramme-culturel-lire-a-lausanne?w=400&h=225",
+      "fetchedAt": "2026-09-12T04:03:53.000Z",
+      "firstSeenAt": "2026-09-12T04:03:53.000Z"
     },
     {
-      "id": "laus-c24",
+      "id": "laus-c26",
       "type": "article",
-      "title": "Festival des 50 ans de Musique à Saint-Sulpice",
-      "summary": "Le samedi 12 septembre 2026, l'église romane de Saint-Sulpice (à deux pas de Lausanne) fête les 50 ans du programme \"Musique à Saint-Sulpice\" avec six rendez-vous dans la journée : concert de l'aube à 6h (Denitsa Kazakova, violon), quartet jazz-manouche à 11h, spectacle jeune public à 15h, et concert du Quatuor Sine Nomine avec Pascal Moraguès (clarinette) à 18h.",
-      "url": "https://www.lausanne-tourisme.ch/fr/evenement/festival-50-ans-de-musique-a-saint-sulpice/",
-      "date": "2026-09-12T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Ffestival-50-ans-de-musique-a-saint-sulpice%2F?w=400&h=225",
-      "fetchedAt": "2026-09-10T04:04:13.000Z",
-      "firstSeenAt": "2026-09-10T04:04:13.000Z"
+      "title": "Le Grand Récital 26/27 — concert d'ouverture",
+      "summary": "Le 16 septembre 2026 à 19h à la Salle Métropole de Lausanne, la pianiste vénézuélienne Gabriela Montero ouvre la 2e saison du Grand Récital, série de récitals invitant les plus grands solistes de la musique classique dans un cadre intime et convivial.",
+      "url": "https://legrandrecital.ch/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flegrandrecital.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-09-12T04:03:53.000Z",
+      "firstSeenAt": "2026-09-12T04:03:53.000Z"
+    },
+    {
+      "id": "laus-c27",
+      "type": "article",
+      "title": "Stomp, au Théâtre de Beaulieu",
+      "summary": "Du 24 au 27 septembre 2026, le spectacle percussif STOMP revient à Lausanne pour 6 représentations au Théâtre de Beaulieu, mêlant rythme, humour et performances physiques avec des objets du quotidien. Déconseillé aux moins de 6 ans.",
+      "url": "https://beaulieu-lausanne.com/agenda/stomp/",
+      "date": "2026-09-24T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbeaulieu-lausanne.com%2Fagenda%2Fstomp%2F?w=400&h=225",
+      "fetchedAt": "2026-09-12T04:03:53.000Z",
+      "firstSeenAt": "2026-09-12T04:03:53.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -927,17 +927,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-27",
-      "type": "article",
-      "title": "Le Royaume-Uni signe un accord IA militaire historique avec l'Ukraine",
-      "summary": "Le Royaume-Uni devient le premier pays étranger à accéder à la base de données Avengers AI Labs de l'armée ukrainienne, avec 5 millions d'images de champ de bataille, afin d'entraîner ses algorithmes et développer des puces IA basse consommation pour les drones.",
-      "url": "https://www.presse-citron.net/ia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-militaire-cables-intelligents-puces-royaume-uni-signe-accord-historique-avec-ukraine-pour-preparer-guerre-3-0%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-27T04:04:32.000Z"
-    },
-    {
       "id": "presse-citron-28",
       "type": "article",
       "title": "5,6 milliards d'euros pour un méga data center européen : le projet de la maison mère de Lidl",
@@ -1090,6 +1079,17 @@
       "date": null,
       "fetchedAt": "2026-09-11T04:03:45.000Z",
       "firstSeenAt": "2026-09-11T04:03:45.000Z"
+    },
+    {
+      "id": "presse-citron-42",
+      "type": "article",
+      "title": "Achats en ligne : le plan de Visa et Mastercard pour éviter que des agents IA volent votre argent",
+      "summary": "Ant International, Mastercard et Visa ont annoncé une collaboration inédite pour créer un cadre d'interopérabilité baptisé \"Know-Your-Agent\" (KYA), un standard universel dédié aux agents IA autonomes capables d'effectuer des transactions financières pour le compte d'un utilisateur (commander un café tous les matins, réserver un trajet, etc.) sans validation manuelle à chaque étape. Selon Jiang-Ming Yang, directeur de l'innovation chez Ant International, un agent enregistré chez un des trois partenaires n'aura pas besoin de se réenregistrer chez les autres, une approche jugée \"essentielle pour que le commerce agentique fonctionne à grande échelle\". Selon les projections de McKinsey, les agents autonomes pourraient orchestrer entre 3 000 et 5 000 milliards de dollars d'achats mondiaux d'ici 2030.",
+      "url": "https://www.presse-citron.net/achats-en-ligne-le-plan-de-visa-et-mastercard-pour-eviter-que-des-agents-ia-volent-votre-argent/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fachats-en-ligne-le-plan-de-visa-et-mastercard-pour-eviter-que-des-agents-ia-volent-votre-argent%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-12T04:03:53.000Z",
+      "firstSeenAt": "2026-09-12T04:03:53.000Z"
     }
   ],
   "wing-freefly": [
