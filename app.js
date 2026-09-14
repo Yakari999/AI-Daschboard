@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-13T04:03:12.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-09-07T04:07:43.000Z",
+    "lastRun": "2026-09-14T04:04:51.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-13T04:03:12.000Z"
+    "lastRun": "2026-09-14T04:04:51.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-13T04:03:12.000Z"
+    "lastRun": "2026-09-14T04:04:51.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-09-07T04:07:43.000Z"
+    "lastRun": "2026-09-14T04:04:51.000Z"
   }
 ];
 
@@ -421,16 +421,6 @@ const FALLBACK_RESULTS = {
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
-      "id": "ts-4",
-      "type": "video",
-      "title": "The Empress — Saison 2",
-      "summary": "La série historique la mieux notée de Netflix (83% Rotten Tomatoes), sur l'impératrice Sissi.",
-      "url": "https://www.youtube.com/watch?v=cPSKEEC99gQ",
-      "image": "https://img.youtube.com/vi/cPSKEEC99gQ/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "ts-5",
       "type": "video",
       "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
@@ -504,6 +494,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-04-29T00:00:00.000Z",
       "fetchedAt": "2026-09-07T04:07:43.000Z",
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "series-heated-rivalry",
+      "type": "video",
+      "title": "Heated Rivalry",
+      "summary": "Série HBO Max sur la rivalité amoureuse secrète entre deux stars du hockey professionnel, Shane Hollander et Ilya Rozanov, récompensée en 2026 par le GLAAD Media Award de la meilleure nouvelle série et un Canadian Screen Award.",
+      "url": "https://www.youtube.com/watch?v=oQ7W7W8Qm24",
+      "image": "https://img.youtube.com/vi/oQ7W7W8Qm24/hqdefault.jpg",
+      "date": "2025-11-28T00:00:00.000Z",
+      "fetchedAt": "2026-09-14T04:04:51.000Z",
+      "firstSeenAt": "2026-09-14T04:04:51.000Z"
     }
   ],
   "courses-au-large": [
@@ -536,6 +537,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
       "date": "2026-09-15T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z"
+    },
+    {
+      "id": "voile-5",
+      "type": "article",
+      "title": "National Figaro (Lorient)",
+      "summary": "Course en équipage sur Figaro Bénéteau 3, organisée par la Classe Figaro Bénéteau et le Centre Nautique de Lorient, du 8 au 11 octobre 2026.",
+      "url": "https://www.classefigarobeneteau.fr/fr/calendrier",
+      "date": "2026-10-08T00:00:00.000Z",
+      "image": null,
+      "fetchedAt": "2026-09-14T04:04:51.000Z",
+      "firstSeenAt": "2026-09-14T04:04:51.000Z"
     }
   ],
   "films-sorties": [
@@ -1096,17 +1108,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-29",
-      "type": "article",
-      "title": "Google lance Gemini Omni 1.1 Flash pour des vidéos \"qualité studio\"",
-      "summary": "Google dévoile Gemini Omni 1.1 Flash, une nouvelle version de son modèle de génération vidéo qui permettrait à n'importe qui de produire des vidéos jugées «qualité studio», avec une série de nouveautés destinées aux créateurs de contenu.",
-      "url": "https://www.presse-citron.net/videos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fvideos-de-qualite-studio-ia-google-lance-gemini-omni-1-1-flash%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-30T04:05:42.000Z"
-    },
-    {
       "id": "presse-citron-30",
       "type": "article",
       "title": "«Un non-sens écologique» : un datacenter IA géant prévu en Île-de-France",
@@ -1259,6 +1260,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-13T04:03:12.000Z",
       "firstSeenAt": "2026-09-13T04:03:12.000Z"
+    },
+    {
+      "id": "presse-citron-44",
+      "type": "article",
+      "title": "L'IA menace les salaires : Anthropic révèle le scénario \"extrême\" qui les ferait baisser de 10 % pour certains métiers",
+      "summary": "Anthropic a imaginé plusieurs scénarios sur l'évolution de l'économie américaine selon le rythme d'adoption de l'IA. Dans le scénario le plus extrême, une IA capable de s'auto-améliorer de manière récursive et adoptée plus vite que prévu ferait grimper le chômage des métiers intellectuels aux États-Unis jusqu'à 17,9%, avec des salaires en baisse de plus de 10% d'ici 2030. En contrepartie, ce même scénario verrait le PIB américain croître de 10% par an, doublant tous les 4,5 ans. Anthropic détaille aussi des scénarios plus modérés pour comparer les trajectoires possibles.",
+      "url": "https://www.presse-citron.net/ia-menace-salaire-anthropic-extreme-2030/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-menace-salaire-anthropic-extreme-2030%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-14T04:04:51.000Z",
+      "firstSeenAt": "2026-09-14T04:04:51.000Z"
     }
   ],
   "wing-freefly": [
