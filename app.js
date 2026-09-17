@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-16T04:03:23.000Z",
+    "lastRun": "2026-09-17T04:03:18.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-16T04:03:23.000Z"
+    "lastRun": "2026-09-17T04:03:18.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-16T04:03:23.000Z"
+    "lastRun": "2026-09-17T04:03:18.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -257,17 +257,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-12T04:03:53.000Z"
     },
     {
-      "id": "laus-c26",
-      "type": "article",
-      "title": "Le Grand Récital 26/27 — concert d'ouverture",
-      "summary": "Le 16 septembre 2026 à 19h à la Salle Métropole de Lausanne, la pianiste vénézuélienne Gabriela Montero ouvre la 2e saison du Grand Récital, série de récitals invitant les plus grands solistes de la musique classique dans un cadre intime et convivial.",
-      "url": "https://legrandrecital.ch/",
-      "date": "2026-09-16T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flegrandrecital.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-09-12T04:03:53.000Z",
-      "firstSeenAt": "2026-09-12T04:03:53.000Z"
-    },
-    {
       "id": "laus-c27",
       "type": "article",
       "title": "Stomp, au Théâtre de Beaulieu",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbeaulieu-lausanne.com%2Fagenda%2Fstomp%2F?w=400&h=225",
       "fetchedAt": "2026-09-12T04:03:53.000Z",
       "firstSeenAt": "2026-09-12T04:03:53.000Z"
+    },
+    {
+      "id": "laus-c28",
+      "type": "article",
+      "title": "Cuno Amiet. Les Quatre saisons",
+      "summary": "Du 18 septembre 2026 au 10 janvier 2027 au Musée d'art de Pully, une exposition consacrée au peintre suisse Cuno Amiet (1868-1961), figure majeure de l'art suisse du tournant du XXe siècle, présente une soixantaine de peintures et de nombreuses œuvres sur papier autour du thème des quatre saisons.",
+      "url": "https://www.museedartdepully.ch/",
+      "date": "2026-09-18T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.museedartdepully.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-09-17T04:03:18.000Z",
+      "firstSeenAt": "2026-09-17T04:03:18.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -1108,17 +1108,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-30",
-      "type": "article",
-      "title": "«Un non-sens écologique» : un datacenter IA géant prévu en Île-de-France",
-      "summary": "Un projet de datacenter dédié à l'intelligence artificielle doit voir le jour en Île-de-France, suscitant la mobilisation de militants écologistes qui dénoncent son empreinte environnementale et énergétique.",
-      "url": "https://www.presse-citron.net/un-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fun-non-sens-ecologique-lile-de-france-va-accueillir-un-datacenter-ia-geant-les-militants-se-mobilisent%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-30T04:05:42.000Z"
-    },
-    {
       "id": "presse-citron-31",
       "type": "article",
       "title": "Moins de télétravail à cause de l'IA ?",
@@ -1271,6 +1260,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-14T04:04:51.000Z",
       "firstSeenAt": "2026-09-14T04:04:51.000Z"
+    },
+    {
+      "id": "presse-citron-45",
+      "type": "article",
+      "title": "« À quel point es-tu dangereux ? » : le Time dédie sa une au point de bascule de l'IA, qui pourrait prendre le contrôle d'internet d'ici 6 à 12 mois",
+      "summary": "Publiée le 15 septembre, la nouvelle une du Time n'est pas consacrée à une personnalité mais à l'intelligence artificielle et au point de bascule qu'elle pourrait avoir atteint : l'image montre le champ de texte de Claude avec la question \"How dangerous are you?\". Le magazine évoque la crainte que des essaims d'agents IA autonomes puissent, d'ici six à douze mois, prendre le contrôle de pans entiers d'internet et causer des centaines de milliards de dollars de dégâts.",
+      "url": "https://www.presse-citron.net/time-une-point-de-bascule-de-ia-internet/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ftime-une-point-de-bascule-de-ia-internet%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-17T04:03:18.000Z",
+      "firstSeenAt": "2026-09-17T04:03:18.000Z"
     }
   ],
   "wing-freefly": [
