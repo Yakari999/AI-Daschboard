@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-17T04:03:18.000Z",
+    "lastRun": "2026-09-18T04:03:24.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-17T04:03:18.000Z"
+    "lastRun": "2026-09-18T04:03:24.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-17T04:03:18.000Z"
+    "lastRun": "2026-09-18T04:03:24.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1108,17 +1108,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-31",
-      "type": "article",
-      "title": "Moins de télétravail à cause de l'IA ?",
-      "summary": "Certaines entreprises justifient un retour au bureau plus fréquent en invoquant l'intelligence artificielle, arguant que la collaboration humaine directe resterait nécessaire pour encadrer et superviser les outils d'IA au quotidien.",
-      "url": "https://www.presse-citron.net/teletravail-ia-argument-revenir-sur-site/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fteletravail-ia-argument-revenir-sur-site%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "presse-citron-32",
       "type": "article",
       "title": "Mark Zuckerberg veut virer tous ses employés pour les remplacer par des IA, il se prend un mur",
@@ -1271,6 +1260,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-17T04:03:18.000Z",
       "firstSeenAt": "2026-09-17T04:03:18.000Z"
+    },
+    {
+      "id": "presse-citron-46",
+      "type": "article",
+      "title": "L'un des créateurs de ChatGPT sort de l'ombre et lance sa propre IA : elle n'est pas conçue pour les humains",
+      "summary": "Diogo Almeida, ancien employé d'OpenAI qui a cocréé ChatGPT, sort de l'ombre après deux ans de travail sur un nouveau projet : il présente sa société Typesafe et son premier modèle, Jev, annoncé le 15 septembre 2026. Contrairement à un chatbot classique, Jev n'a pas été conçu pour discuter avec des humains mais pour produire des réponses de code informatique structurées, sans jamais halluciner selon ses créateurs, avec un coût d'exploitation nettement inférieur à celui des grands modèles de langage généralistes.",
+      "url": "https://www.presse-citron.net/createur-chatgpt-lance-sa-propre-ia/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcreateur-chatgpt-lance-sa-propre-ia%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-18T04:03:24.000Z",
+      "firstSeenAt": "2026-09-18T04:03:24.000Z"
     }
   ],
   "wing-freefly": [
