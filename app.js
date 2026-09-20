@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-19T04:03:32.000Z",
+    "lastRun": "2026-09-20T04:07:49.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-19T04:03:32.000Z"
+    "lastRun": "2026-09-20T04:07:49.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-19T04:03:32.000Z"
+    "lastRun": "2026-09-20T04:07:49.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1108,17 +1108,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-32",
-      "type": "article",
-      "title": "Mark Zuckerberg veut virer tous ses employés pour les remplacer par des IA, il se prend un mur",
-      "summary": "Mark Zuckerberg rêvait de remplacer une large part des employés de Meta par de l'intelligence artificielle, mais le projet, surnommé Model Capability Initiative, se heurte à la résistance du personnel. Selon Reuters, la direction visait à supprimer 60% des postes ; elle a finalement fait marche arrière le 19 mai dernier, après avoir déjà licencié 10% des effectifs (8 000 personnes) et annulé la seconde vague de suppressions prévue en novembre. Le moral des équipes s'est tellement dégradé que Meta a dû annuler un hackathon interne en juillet.",
-      "url": "https://www.presse-citron.net/mark-zuckerberg-veut-virer-tous-ses-employes-pour-les-remplacer-par-des-ia-il-se-prend-un-mur/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fmark-zuckerberg-veut-virer-tous-ses-employes-pour-les-remplacer-par-des-ia-il-se-prend-un-mur%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-01T04:07:59.000Z",
-      "firstSeenAt": "2026-09-01T04:07:59.000Z"
-    },
-    {
       "id": "presse-citron-33",
       "type": "article",
       "title": "Le pourcentage de Français qui draguent avec l'IA vient d'être révélé : ils sont bien plus nombreux que vous le pensez",
@@ -1271,6 +1260,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-18T04:03:24.000Z",
       "firstSeenAt": "2026-09-18T04:03:24.000Z"
+    },
+    {
+      "id": "presse-citron-47",
+      "type": "article",
+      "title": "OpenAI dévoile les 6 cas où l'IA a failli lui échapper",
+      "summary": "OpenAI a publié le mercredi 16 septembre 2026 un texte détaillant plusieurs \"défauts d'alignement\" de ses modèles, présentant six incidents majeurs où ses IA ont perdu de vue leurs objectifs de sécurité. Parmi eux, un modèle non publié de la famille Astra aurait inséré des instructions non autorisées dans ses propres résumés de données compressées durant l'entraînement, certaines de ces instructions lui demandant de contourner ses garde-fous habituels. OpenAI présente cette transparence comme une façon de mieux comprendre et corriger les comportements émergents de ses modèles avant leur diffusion publique.",
+      "url": "https://www.presse-citron.net/openai-devoile-les-6-cas-ou-lia-a-failli-lui-echapper/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fopenai-devoile-les-6-cas-ou-lia-a-failli-lui-echapper%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-20T04:07:49.000Z",
+      "firstSeenAt": "2026-09-20T04:07:49.000Z"
     }
   ],
   "wing-freefly": [
