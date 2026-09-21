@@ -55,17 +55,6 @@
   ],
   "presse": [
     {
-      "id": "laus-c20",
-      "type": "article",
-      "title": "Label Suisse 2026, festival de la scène musicale suisse",
-      "summary": "Du 18 au 20 septembre 2026, Lausanne devient la capitale d'une scène musicale suisse aussi riche qu'imprévisible : plus de 60 concerts et créations, du ländler à l'électro, du yodel au trap, dans divers lieux du centre-ville. Entrée gratuite dans la limite des places disponibles.",
-      "url": "https://labelsuisse.ch/",
-      "date": "2026-09-18T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flabelsuisse.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-09-03T04:04:40.000Z"
-    },
-    {
       "id": "laus-c22",
       "type": "article",
       "title": "Lausanne Méditerranées, 7e édition : cap sur l'Andalousie",
@@ -108,6 +97,17 @@
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.museedartdepully.ch%2F?w=400&h=225",
       "fetchedAt": "2026-09-17T04:03:18.000Z",
       "firstSeenAt": "2026-09-17T04:03:18.000Z"
+    },
+    {
+      "id": "laus-c29",
+      "type": "article",
+      "title": "Charles Blanc-Gatti. Les couleurs du son",
+      "summary": "Du 25 septembre 2026 au 17 janvier 2027 au MCBA (Place de la Gare 16, Lausanne), entrée libre : rétrospective consacrée au peintre, cinéaste et musicien lausannois Charles Blanc-Gatti (1890-1966), figure de la « musicalisation » des arts visuels, avec peintures et documents audiovisuels explorant les équivalences entre couleurs et sons.",
+      "url": "https://www.mcba.ch/en/exhibitions/blanc-gatti/",
+      "date": "2026-09-25T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fblanc-gatti%2F?w=400&h=225",
+      "fetchedAt": "2026-09-21T04:09:32.000Z",
+      "firstSeenAt": "2026-09-21T04:09:32.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -173,6 +173,17 @@
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffun-and-fly.com%2Fblog%2Fkitesurf-windsurf-wingfoil-les-meilleurs-spots-a-moins-de-6h-de-vol-depuis-la-france%2F?w=400&h=225",
       "fetchedAt": "2026-09-07T04:07:43.000Z",
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "wing-c7",
+      "type": "article",
+      "title": "Où faire du wingfoil à l'étranger ? Nos séjours pour rider au soleil",
+      "summary": "Sélection Decathlon Travel de destinations pour le wingfoil en automne : mer Rouge (Safaga, Dahab), Essaouira et Dakhla au Maroc, avec vent constant et lagon idéal pour progresser.",
+      "url": "https://www.decathlontravel.com/blog/ou-faire-du-wingfoil-325.html",
+      "date": null,
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.decathlontravel.com%2Fblog%2Fou-faire-du-wingfoil-325.html?w=400&h=225",
+      "fetchedAt": "2026-09-21T04:08:50.000Z",
+      "firstSeenAt": "2026-09-21T04:08:50.000Z"
     }
   ],
   "series-netflix": [
@@ -262,16 +273,6 @@
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
-      "id": "ts-6",
-      "type": "video",
-      "title": "Bandi",
-      "summary": "Thriller social tourné en Martinique, numéro 1 dans 22 pays dont la Suisse.",
-      "url": "https://www.youtube.com/watch?v=KyhR3g0wAsM",
-      "image": "https://img.youtube.com/vi/KyhR3g0wAsM/hqdefault.jpg",
-      "date": "2026-04-09T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "series-cent-ans-solitude-2",
       "type": "video",
       "title": "Cent ans de solitude — Partie 2",
@@ -336,6 +337,17 @@
       "date": "2025-11-28T00:00:00.000Z",
       "fetchedAt": "2026-09-14T04:04:51.000Z",
       "firstSeenAt": "2026-09-14T04:04:51.000Z"
+    },
+    {
+      "id": "series-vampire-lestat",
+      "type": "video",
+      "title": "The Vampire Lestat",
+      "summary": "Saison 3 d'Interview with the Vampire, rebaptisée The Vampire Lestat, sur AMC depuis le 7 juin 2026 : Lestat (Sam Reid) part en tournée rock mondiale, hanté par les fantômes de son passé. 96% sur Rotten Tomatoes (9,3/10) et 90 sur Metacritic, unanimement saluée comme la meilleure adaptation d'Anne Rice à ce jour.",
+      "url": "https://www.youtube.com/watch?v=7c7JFMTBeVk",
+      "image": "https://img.youtube.com/vi/7c7JFMTBeVk/hqdefault.jpg",
+      "date": "2026-06-07T00:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:08:16.000Z",
+      "firstSeenAt": "2026-09-21T04:08:16.000Z"
     }
   ],
   "courses-au-large": [
@@ -648,6 +660,17 @@
       "date": "2025-03-21T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
+    },
+    {
+      "id": "sf-hope",
+      "type": "video",
+      "title": "Hope",
+      "summary": "Premier long-métrage en dix ans de Na Hong-jin, présenté à Cannes : créature-feature sud-coréen avec Hwang Jung-min, Hoyeon, Michael Fassbender et Alicia Vikander, sorti le 9 septembre 2026 — 79% Certified Fresh sur Rotten Tomatoes.",
+      "url": "https://www.youtube.com/watch?v=k9hrR0Ba2Qw",
+      "image": "https://img.youtube.com/vi/k9hrR0Ba2Qw/hqdefault.jpg",
+      "date": "2026-09-09T00:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:08:16.000Z",
+      "firstSeenAt": "2026-09-21T04:08:16.000Z"
     }
   ],
   "top-jeux": [
@@ -736,18 +759,6 @@
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
-      "id": "jeux-big-walk",
-      "type": "video",
-      "title": "Big Walk",
-      "summary": "94/100 sur Metacritic, jeu le mieux noté de l'année : aventure coopérative des créateurs d'Untitled Goose Game (House House), intégrée gratuitement au catalogue PlayStation Plus.",
-      "url": "https://www.youtube.com/watch?v=tA3bjy23XoQ",
-      "image": "https://img.youtube.com/vi/tA3bjy23XoQ/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-24T04:06:48.000Z",
-      "datePrecision": "month"
-    },
-    {
       "id": "jeux-re-requiem",
       "type": "video",
       "title": "Resident Evil Requiem",
@@ -757,6 +768,17 @@
       "date": "2026-02-27T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-24T04:06:48.000Z"
+    },
+    {
+      "id": "jeux-onimusha",
+      "type": "video",
+      "title": "Onimusha: Way of the Sword",
+      "summary": "Retour de la série samouraï culte de Capcom, sorti le 4 septembre 2026 : 86 sur Metacritic (\"Generally Favorable\"), IGN lui donne un 10/10, salué pour son système de combat centré sur la parade.",
+      "url": "https://www.youtube.com/watch?v=ycGPJdl5Fgo",
+      "image": "https://img.youtube.com/vi/ycGPJdl5Fgo/hqdefault.jpg",
+      "date": "2026-09-04T00:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:08:16.000Z",
+      "firstSeenAt": "2026-09-21T04:08:16.000Z"
     }
   ],
   "marques-vtt-avinox": [
@@ -1260,6 +1282,17 @@
       "image": null,
       "fetchedAt": "2026-09-07T04:07:43.000Z",
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "resto-10",
+      "type": "link",
+      "title": "Planet Bowl",
+      "summary": null,
+      "url": "https://saintlaurent.planetbowl.ch/",
+      "date": null,
+      "image": null,
+      "fetchedAt": "2026-09-21T04:08:50.000Z",
+      "firstSeenAt": "2026-09-21T04:08:50.000Z"
     }
   ]
 }
