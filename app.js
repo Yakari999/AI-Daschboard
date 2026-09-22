@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-22T04:07:47.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-21T04:09:32.000Z"
+    "lastRun": "2026-09-22T04:07:47.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-21T04:09:32.000Z"
+    "lastRun": "2026-09-22T04:07:47.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1130,17 +1130,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-33",
-      "type": "article",
-      "title": "Le pourcentage de Français qui draguent avec l'IA vient d'être révélé : ils sont bien plus nombreux que vous le pensez",
-      "summary": "Selon une étude menée par Nation.fr durant l'été 2026 et relayée par plusieurs médias dont Sud Radio, 37% des Français affirment utiliser une IA comme ChatGPT, Gemini ou Claude pour les aider à séduire, et 29% supplémentaires disent pourraient le faire. L'IA sert surtout à rédiger des messages, mais aussi à décrypter les interactions (49% des utilisateurs concernés), préparer des rendez-vous ou améliorer une photo de profil. Au total, près des deux tiers des personnes interrogées jugent normal de recourir à l'intelligence artificielle dans leur vie amoureuse en ligne.",
-      "url": "https://www.presse-citron.net/francais-qui-draguent-avec-ia-revele/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ffrancais-qui-draguent-avec-ia-revele%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-02T04:04:09.000Z",
-      "firstSeenAt": "2026-09-02T04:04:09.000Z"
-    },
-    {
       "id": "presse-citron-34",
       "type": "article",
       "title": "SoftBank pourrait s'inviter dans votre salon en rachetant 1X, le fabricant de robots humanoïdes pour les tâches ménagères",
@@ -1293,6 +1282,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-20T04:07:49.000Z",
       "firstSeenAt": "2026-09-20T04:07:49.000Z"
+    },
+    {
+      "id": "presse-citron-48",
+      "type": "article",
+      "title": "Le parrain français de l'IA rejoint Cellular Intelligence, une startup qui veut révolutionner la médecine avec ses modèles",
+      "summary": "Yann Le Cun, l'un des \"parrains\" de l'intelligence artificielle et ancien chef IA de Meta, rejoint le conseil scientifique de Cellular Intelligence, une startup développant une nouvelle forme d'IA pour étudier le fonctionnement des cellules. L'entreprise mise sur des modèles capables de modéliser la biologie cellulaire pour accélérer la recherche médicale, un domaine jugé prometteur pour appliquer les architectures d'apprentissage profond au-delà du texte et de l'image.",
+      "url": "https://www.presse-citron.net/parrain-francais-ia-rejoint-cellular-intelligence/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fparrain-francais-ia-rejoint-cellular-intelligence%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-22T04:07:47.000Z",
+      "firstSeenAt": "2026-09-22T04:07:47.000Z"
     }
   ],
   "wing-freefly": [
