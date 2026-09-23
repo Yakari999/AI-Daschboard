@@ -961,17 +961,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-34",
-      "type": "article",
-      "title": "SoftBank pourrait s'inviter dans votre salon en rachetant 1X, le fabricant de robots humanoïdes pour les tâches ménagères",
-      "summary": "Selon plusieurs sources, SoftBank serait en négociation pour racheter une participation majoritaire dans 1X Technologies, l'entreprise américano-norvégienne derrière le robot domestique 1X Neo, sans qu'aucune annonce officielle n'ait encore été faite. 1X Neo, déjà proposé à la précommande à 20 000 dollars à l'achat ou 499 dollars par mois, vise à s'occuper de tâches ménagères comme le ménage ou le rangement. Un rachat par SoftBank, déjà très investi dans la robotique et l'IA via des participations comme celle dans OpenAI, accélérerait l'arrivée de ces robots humanoïdes dans les foyers.",
-      "url": "https://www.presse-citron.net/softbank-rachetant-1x-fabricant-robots-humanoide-taches-menageres/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fsoftbank-rachetant-1x-fabricant-robots-humanoide-taches-menageres%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-03T04:04:40.000Z",
-      "firstSeenAt": "2026-09-03T04:04:40.000Z"
-    },
-    {
       "id": "presse-citron-35",
       "type": "article",
       "title": "1 650 milliards de dette : l'explosion de la bulle IA n'a jamais fait aussi peur",
@@ -1124,6 +1113,17 @@
       "date": null,
       "fetchedAt": "2026-09-22T04:07:47.000Z",
       "firstSeenAt": "2026-09-22T04:07:47.000Z"
+    },
+    {
+      "id": "presse-citron-49",
+      "type": "article",
+      "title": "IA et restructuration : en pleine bourre, la Société Générale poursuit son incroyable transformation",
+      "summary": "Dans le cadre de sa feuille de route stratégique 2026-2029 présentée par le PDG Slawomir Krupa, la Société Générale a annoncé un partenariat avec Anthropic pour déployer massivement l'outil Claude à tous les niveaux de la banque. En automatisant des tâches administratives complexes et en simplifiant le travail quotidien des équipes, l'établissement prévoit de générer entre 500 et 600 millions d'euros de gains de productivité.",
+      "url": "https://www.presse-citron.net/ia-et-restructuration-en-pleine-bourre-la-societe-generale-poursuit-son-incroyable-transformation/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-et-restructuration-en-pleine-bourre-la-societe-generale-poursuit-son-incroyable-transformation%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-23T04:13:35.000Z",
+      "firstSeenAt": "2026-09-23T04:13:35.000Z"
     }
   ],
   "wing-freefly": [
