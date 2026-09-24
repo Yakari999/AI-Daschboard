@@ -961,17 +961,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-35",
-      "type": "article",
-      "title": "1 650 milliards de dette : l'explosion de la bulle IA n'a jamais fait aussi peur",
-      "summary": "Selon une analyse de Nikkei Asia, les géants américains de la tech Alphabet, Amazon, Meta, Oracle et Microsoft accumuleraient à eux cinq environ 1 650 milliards d'euros de dette cachée liée à leurs investissements massifs dans l'intelligence artificielle. Cette dette, souvent logée dans des structures hors bilan pour financer data centers et puces, inquiète des économistes qui redoutent une bulle spéculative comparable à celle des dot-com. Le scénario catastrophe évoqué : un ralentissement de la croissance de l'IA qui rendrait ces investissements colossaux impossibles à rentabiliser.",
-      "url": "https://www.presse-citron.net/1650-milliards-dette-explosion-bulle-ia-jamais-fait-aussi-peur/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F1650-milliards-dette-explosion-bulle-ia-jamais-fait-aussi-peur%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-04T04:04:00.000Z",
-      "firstSeenAt": "2026-09-04T04:04:00.000Z"
-    },
-    {
       "id": "presse-citron-36",
       "type": "article",
       "title": "Qira : l'IA façon Apple Intelligence de Lenovo",
@@ -1124,6 +1113,17 @@
       "date": null,
       "fetchedAt": "2026-09-23T04:13:35.000Z",
       "firstSeenAt": "2026-09-23T04:13:35.000Z"
+    },
+    {
+      "id": "presse-citron-50",
+      "type": "article",
+      "title": "De nouvelles IA plus de 40 % moins chères : Anthropic dévoile Claude Opus 5.5, OpenAI lance GPT-6 Sol et Luna",
+      "summary": "Anthropic a dévoilé Claude Opus 5.5, plus de 40% moins cher que Claude Opus 5 à performances comparables. De son côté, OpenAI a présenté GPT-6 Sol et GPT-6 Luna, des versions allégées et moins onéreuses de GPT-6 Astra destinées aux tâches ne nécessitant pas le plus haut niveau de raisonnement, avec un coût par jeton réduit de 50% pour GPT-6 Sol et GPT-6 Terra. Ces annonces traduisent une course à la baisse des coûts d'exploitation entre les deux géants de l'IA, sans sacrifier les performances.",
+      "url": "https://www.presse-citron.net/ia-moins-cheres-anthropic-claude-openai-gpt/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-moins-cheres-anthropic-claude-openai-gpt%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-24T04:13:39.000Z",
+      "firstSeenAt": "2026-09-24T04:13:39.000Z"
     }
   ],
   "wing-freefly": [
