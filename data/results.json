@@ -77,17 +77,6 @@
       "firstSeenAt": "2026-09-12T04:03:53.000Z"
     },
     {
-      "id": "laus-c27",
-      "type": "article",
-      "title": "Stomp, au Théâtre de Beaulieu",
-      "summary": "Du 24 au 27 septembre 2026, le spectacle percussif STOMP revient à Lausanne pour 6 représentations au Théâtre de Beaulieu, mêlant rythme, humour et performances physiques avec des objets du quotidien. Déconseillé aux moins de 6 ans.",
-      "url": "https://beaulieu-lausanne.com/agenda/stomp/",
-      "date": "2026-09-24T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbeaulieu-lausanne.com%2Fagenda%2Fstomp%2F?w=400&h=225",
-      "fetchedAt": "2026-09-12T04:03:53.000Z",
-      "firstSeenAt": "2026-09-12T04:03:53.000Z"
-    },
-    {
       "id": "laus-c28",
       "type": "article",
       "title": "Cuno Amiet. Les Quatre saisons",
@@ -961,17 +950,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-36",
-      "type": "article",
-      "title": "Qira : l'IA façon Apple Intelligence de Lenovo",
-      "summary": "À l'IFA 2026 de Berlin, Lenovo a détaillé Qira, son agent IA maison censé unifier l'expérience entre PC et smartphones Motorola, un peu à la manière d'Apple Intelligence. Grâce à un partenariat avec Workato, l'agent se connecte désormais à Gmail, Google Calendar, Slack, Outlook ou encore Notion pour centraliser messages, rendez-vous et documents dans une seule interface. Techniquement, Qira fonctionne en mode hybride : les tâches légères (résumer un fichier, reformuler un e-mail) tournent localement sur le NPU du processeur, tandis que les tâches plus lourdes sont envoyées dans le cloud via Azure. Son API est ouverte depuis le troisième trimestre 2026, et Expedia en était jusqu'ici le seul partenaire annoncé.",
-      "url": "https://www.presse-citron.net/qira-lia-apple-intelligence-lenovo/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fqira-lia-apple-intelligence-lenovo%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-05T04:04:15.000Z",
-      "firstSeenAt": "2026-09-05T04:04:15.000Z"
-    },
-    {
       "id": "presse-citron-37",
       "type": "article",
       "title": "ChatGPT vient de franchir un point de non-retour : GPT-6 Astra peut tout faire à votre place sur un ordinateur, selon OpenAI",
@@ -1124,6 +1102,17 @@
       "date": null,
       "fetchedAt": "2026-09-24T04:13:39.000Z",
       "firstSeenAt": "2026-09-24T04:13:39.000Z"
+    },
+    {
+      "id": "presse-citron-51",
+      "type": "article",
+      "title": "Un nouveau CRISPR ? L'IA Claude découvre un système inédit qui pourrait aussi modifier les gènes des êtres vivants",
+      "summary": "Anthropic a confirmé disposer d'un laboratoire de biologie où ses recherches sont pilotées par Claude, et annonce un premier résultat significatif : selon Dario Amodei, PDG d'Anthropic, l'IA a identifié en analysant des données ce qui ressemble à une séquence répétée de type CRISPR, une possible \"machine moléculaire\" représentant un nouveau mécanisme d'édition génétique. Le système présenterait un ensemble de caractéristiques observées seulement chez une poignée d'autres systèmes programmables, capables de couper, copier et coller de l'ADN, même si Anthropic ignore encore sa fonction exacte. L'IA a elle-même proposé des expériences de laboratoire pour vérifier la découverte, menées par des employés d'Anthropic, et des recherches sont en cours pour en identifier la fonction précise.",
+      "url": "https://www.presse-citron.net/nouveau-crispr-ia-claude-decouvre-systeme-modifier-genes/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fnouveau-crispr-ia-claude-decouvre-systeme-modifier-genes%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-25T04:07:22.000Z",
+      "firstSeenAt": "2026-09-25T04:07:22.000Z"
     }
   ],
   "wing-freefly": [
