@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-25T04:07:22.000Z",
+    "lastRun": "2026-09-26T04:07:26.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-25T04:07:22.000Z"
+    "lastRun": "2026-09-26T04:07:26.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-25T04:07:22.000Z"
+    "lastRun": "2026-09-26T04:07:26.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1119,17 +1119,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-37",
-      "type": "article",
-      "title": "ChatGPT vient de franchir un point de non-retour : GPT-6 Astra peut tout faire à votre place sur un ordinateur, selon OpenAI",
-      "summary": "OpenAI a lancé GPT-6 Astra, disponible dans les prochains jours pour les abonnés ChatGPT Plus, Pro, Business et Enterprise, en le présentant comme le meilleur modèle de l'entreprise pour piloter un ordinateur et automatiser des tâches administratives. Selon OpenAI, \"tout ce que vous pouvez faire sur un ordinateur, Astra peut le faire pour vous, rapidement\", le modèle se distinguant aussi en codage et dans des domaines de recherche comme les mathématiques ou la santé. Greg Brockman, président et cofondateur d'OpenAI, estime que l'entreprise serait enfin parvenue à développer une AGI. Le modèle a obtenu un score de 100% sur ExploitBench, un test d'exploitation de failles informatiques, mais la version publique sur ChatGPT a été bridée pour refuser ce type de demandes.",
-      "url": "https://www.presse-citron.net/chatgpt-gpt-6-astra-peut-tout-faire-a-votre-place/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fchatgpt-gpt-6-astra-peut-tout-faire-a-votre-place%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-06T04:04:07.000Z",
-      "firstSeenAt": "2026-09-06T04:04:07.000Z"
-    },
-    {
       "id": "presse-citron-38",
       "type": "article",
       "title": "Aussi utile que dangereuse : la sécurité de l'IA se décide entre Washington et Pékin (en oubliant la France et l'Europe)",
@@ -1282,6 +1271,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-25T04:07:22.000Z",
       "firstSeenAt": "2026-09-25T04:07:22.000Z"
+    },
+    {
+      "id": "presse-citron-52",
+      "type": "article",
+      "title": "La puce qui fait tourner Gemini part en orbite dans quelques jours : Google annonce un test imminent et en dit plus sur ses futurs centres de données dans l'espace",
+      "summary": "Dans le cadre de son projet Suncatcher, Google va envoyer ses premières puces TPU (qui font tourner son IA Gemini) en orbite basse dès la semaine prochaine, via une mission développée avec Planet et lancée par une fusée SpaceX. L'objectif de ce test est de vérifier que les puces IA peuvent survivre au lancement et aux conditions spatiales. En orbite, les centres de données bénéficieraient de jusqu'à 8 fois plus d'énergie solaire qu'au sol, un argument clé pour Google qui discuterait par ailleurs avec SpaceX d'Elon Musk pour de futurs lancements.",
+      "url": "https://www.presse-citron.net/puce-gemini-orbite-google-centres-de-donnees-espace/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fpuce-gemini-orbite-google-centres-de-donnees-espace%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-26T04:07:26.000Z",
+      "firstSeenAt": "2026-09-26T04:07:26.000Z"
     }
   ],
   "wing-freefly": [
