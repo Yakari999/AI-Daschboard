@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-26T04:07:26.000Z",
+    "lastRun": "2026-09-27T04:07:24.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-26T04:07:26.000Z"
+    "lastRun": "2026-09-27T04:07:24.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-26T04:07:26.000Z"
+    "lastRun": "2026-09-27T04:07:24.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1119,17 +1119,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-38",
-      "type": "article",
-      "title": "Aussi utile que dangereuse : la sécurité de l'IA se décide entre Washington et Pékin (en oubliant la France et l'Europe)",
-      "summary": "Alors que les incidents impliquant l'intelligence artificielle se multiplient, Washington et Pékin, qui dominent le marché mondial de l'IA, prévoiraient des discussions bilatérales sur la sécurité de la technologie. Les États-Unis viseraient une forme de coopération avec la Chine pour surveiller les risques de cyberattaques menées par des agents IA autonomes. L'article souligne que la France et l'Europe, absentes de ces discussions stratégiques, risquent de se retrouver à la marge des règles de sécurité qui façonneront l'avenir de l'IA.",
-      "url": "https://www.presse-citron.net/aussi-utile-que-dangereuse-la-securite-de-lia-se-decide-entre-washington-et-pekin-en-oubliant-la-france-et-leurope/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Faussi-utile-que-dangereuse-la-securite-de-lia-se-decide-entre-washington-et-pekin-en-oubliant-la-france-et-leurope%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-08T04:03:51.000Z",
-      "firstSeenAt": "2026-09-08T04:03:51.000Z"
-    },
-    {
       "id": "presse-citron-39",
       "type": "article",
       "title": "Mistral a un plan : voici comment l'IA française contourne les géants américains pour percer à l'international",
@@ -1282,6 +1271,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-26T04:07:26.000Z",
       "firstSeenAt": "2026-09-26T04:07:26.000Z"
+    },
+    {
+      "id": "presse-citron-53",
+      "type": "article",
+      "title": "Adieu Microsoft 365 : OVHcloud annonce une suite de productivité française dans quelques semaines. Voici ce qu'on sait déjà sur ce nouveau produit",
+      "summary": "OVHcloud a confirmé le lancement prochain d'OVHai Workspace, une suite de productivité \"souveraine\" concurrente de Microsoft 365, déjà évoquée en juin et juillet lors de VivaTech 2026 et officialisée à l'occasion de l'OVH Summit du 19 septembre à Paris. Le produit inclura les principaux usages collaboratifs, un moteur de recherche, des agents d'IA, ainsi qu'un chiffrement de bout en bout des données, avec l'ambition de proposer une alternative française et souveraine aux solutions cloud américaines.",
+      "url": "https://www.presse-citron.net/adieu-microsoft-365-ovhcloud-solution-francaise/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fadieu-microsoft-365-ovhcloud-solution-francaise%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-27T04:07:24.000Z",
+      "firstSeenAt": "2026-09-27T04:07:24.000Z"
     }
   ],
   "wing-freefly": [
