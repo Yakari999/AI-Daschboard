@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-27T04:07:24.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-09-21T04:09:32.000Z",
+    "lastRun": "2026-09-28T04:09:45.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-27T04:07:24.000Z"
+    "lastRun": "2026-09-28T04:09:45.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-27T04:07:24.000Z"
+    "lastRun": "2026-09-28T04:09:45.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-09-21T04:09:32.000Z"
+    "lastRun": "2026-09-28T04:09:45.000Z"
   }
 ];
 
@@ -442,17 +442,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-08-17T04:09:02.000Z"
     },
     {
-      "id": "series-cape-fear",
-      "type": "video",
-      "title": "Cape Fear",
-      "summary": "Série événement Apple TV+ avec Javier Bardem, Amy Adams et Patrick Wilson, produite par Martin Scorsese et Steven Spielberg. Premiers épisodes diffusés dès le 5 juin 2026.",
-      "url": "https://www.youtube.com/watch?v=3qBfO0xQ1eY",
-      "image": "https://img.youtube.com/vi/3qBfO0xQ1eY/hqdefault.jpg",
-      "date": "2026-06-05T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-24T04:06:48.000Z"
-    },
-    {
       "id": "series-dark-matter-s2",
       "type": "video",
       "title": "Dark Matter — Saison 2",
@@ -506,6 +495,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-06-07T00:00:00.000Z",
       "fetchedAt": "2026-09-21T04:08:16.000Z",
       "firstSeenAt": "2026-09-21T04:08:16.000Z"
+    },
+    {
+      "id": "series-lanterns",
+      "type": "video",
+      "title": "Lanterns",
+      "summary": "Nouvelle pierre angulaire de l'univers DC sur HBO Max, avec Kyle Chandler et Aaron Pierre en Hal Jordan et John Stewart, deux policiers intergalactiques qui enquêtent sur un meurtre au cœur de l'Amérique rurale. Diffusée du 16 août au 4 octobre 2026 — 95% \"Fresh\" sur Rotten Tomatoes.",
+      "url": "https://www.youtube.com/watch?v=THq3riWv9bk",
+      "image": "https://img.youtube.com/vi/THq3riWv9bk/hqdefault.jpg",
+      "date": "2026-08-16T00:00:00.000Z",
+      "fetchedAt": "2026-09-28T04:09:45.000Z",
+      "firstSeenAt": "2026-09-28T04:09:45.000Z"
     }
   ],
   "courses-au-large": [
@@ -660,16 +660,6 @@ const FALLBACK_RESULTS = {
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
-      "id": "tf-4",
-      "type": "video",
-      "title": "Résurrection",
-      "summary": "Bi Gan, Prix spécial du jury à Cannes 2025. Un jeune rêveur qui se réincarne à travers cinq époques.",
-      "url": "https://www.youtube.com/watch?v=FAaL2uJgscc",
-      "image": "https://img.youtube.com/vi/FAaL2uJgscc/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "tf-5",
       "type": "video",
       "title": "Projet Dernière Chance (Project Hail Mary)",
@@ -710,6 +700,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-05-29T00:00:00.000Z",
       "fetchedAt": "2026-09-07T04:07:43.000Z",
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
+    },
+    {
+      "id": "films-la-grazia",
+      "type": "video",
+      "title": "La Grazia",
+      "summary": "Film d'ouverture de la Mostra de Venise 2025, réalisé par Paolo Sorrentino avec Toni Servillo (Coupe Volpi du meilleur acteur), sorti en France le 28 janvier 2026 — accueil critique très favorable, salué comme un retour en forme du réalisateur oscarisé.",
+      "url": "https://www.youtube.com/watch?v=lyyzUH9v_8M",
+      "image": "https://img.youtube.com/vi/lyyzUH9v_8M/hqdefault.jpg",
+      "date": "2026-01-28T00:00:00.000Z",
+      "fetchedAt": "2026-09-28T04:08:59.000Z",
+      "firstSeenAt": "2026-09-28T04:08:59.000Z"
     }
   ],
   "top-films-sf": [
@@ -906,17 +907,6 @@ const FALLBACK_RESULTS = {
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
-      "id": "jeux-kcd2",
-      "type": "video",
-      "title": "Kingdom Come: Deliverance II",
-      "summary": "RPG médiéval salué pour son ambition et sa fidélité historique, très bien noté par la presse spécialisée.",
-      "url": "https://www.youtube.com/watch?v=sXDoP90YkOc",
-      "image": "https://img.youtube.com/vi/sXDoP90YkOc/hqdefault.jpg",
-      "date": "2025-02-04T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z",
-      "firstSeenAt": "2026-08-12T15:40:00.000Z"
-    },
-    {
       "id": "jeux-re-requiem",
       "type": "video",
       "title": "Resident Evil Requiem",
@@ -937,6 +927,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-09-04T00:00:00.000Z",
       "fetchedAt": "2026-09-21T04:08:16.000Z",
       "firstSeenAt": "2026-09-21T04:08:16.000Z"
+    },
+    {
+      "id": "jeux-forza-horizon-6",
+      "type": "video",
+      "title": "Forza Horizon 6",
+      "summary": "Jeu de course en monde ouvert de Playground Games situé au Japon, sorti le 19 mai 2026 avec plus de 550 voitures — environ 90 sur Metacritic, salué pour ses graphismes et son gameplay addictif.",
+      "url": "https://www.youtube.com/watch?v=c6O5J-8dz90",
+      "image": "https://img.youtube.com/vi/c6O5J-8dz90/hqdefault.jpg",
+      "date": "2026-05-19T00:00:00.000Z",
+      "fetchedAt": "2026-09-28T04:08:59.000Z",
+      "firstSeenAt": "2026-09-28T04:08:59.000Z"
     }
   ],
   "marques-vtt-avinox": [
