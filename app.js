@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-09-29T04:08:31.000Z",
+    "lastRun": "2026-09-30T04:07:53.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-09-29T04:08:31.000Z"
+    "lastRun": "2026-09-30T04:07:53.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-09-29T04:08:31.000Z"
+    "lastRun": "2026-09-30T04:07:53.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1120,17 +1120,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-40",
-      "type": "article",
-      "title": "OpenAI accusé d'avoir téléchargé des milliers de livres piratés pour entraîner ChatGPT",
-      "summary": "Plusieurs auteurs américains, dont George R.R. Martin, ont déposé une nouvelle requête devant un tribunal fédéral de New York affirmant qu'OpenAI a directement téléchargé des milliers de livres via torrent depuis Library Genesis (LibGen), un site pirate notoire, pour entraîner ChatGPT. Selon l'article, les compilations internes auraient même été renommées de \"Libgen1\"/\"Libgen2\" vers \"Books1\"/\"Books2\" pour en effacer l'origine illégale. Un ancien employé d'OpenAI chargé de la qualité éditoriale des modèles GPT a par ailleurs affirmé sur les réseaux sociaux qu'une de ses missions consistait à faire écrire par l'IA les deux derniers tomes de la saga de George R.R. Martin.",
-      "url": "https://www.presse-citron.net/openai-accuse-davoir-telecharge-des-milliers-de-livres-pirates-pour-entrainer-chatgpt/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fopenai-accuse-davoir-telecharge-des-milliers-de-livres-pirates-pour-entrainer-chatgpt%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-10T04:04:13.000Z",
-      "firstSeenAt": "2026-09-10T04:04:13.000Z"
-    },
-    {
       "id": "presse-citron-41",
       "type": "article",
       "title": "Une première mondiale : en Chine, une chirurgie cardiaque complexe a été réalisée par un mini-robot piloté par IA",
@@ -1283,6 +1272,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-09-29T04:08:31.000Z",
       "firstSeenAt": "2026-09-29T04:08:31.000Z"
+    },
+    {
+      "id": "presse-citron-55",
+      "type": "article",
+      "title": "Oubliez l'ancien ChatGPT, OpenAI lance \"Dot\" : une nouvelle IA qui travaille 24/7 et presque comme une vraie personne",
+      "summary": "Lors de son DevDay 2026, OpenAI a présenté les \"Dots\", une nouvelle forme d'IA personnelle et proactive qui travaille en continu, 24 heures sur 24 et 7 jours sur 7, plutôt que de simplement répondre à des requêtes ponctuelles comme ChatGPT. Chaque utilisateur dispose d'un Dot avec sa propre identité, qui s'adapte automatiquement à ses préférences et à ses objectifs au fil du temps. Cette annonce marque un tournant dans l'approche d'OpenAI, qui passe d'un assistant réactif à un agent autonome censé anticiper les besoins de l'utilisateur.",
+      "url": "https://www.presse-citron.net/chatgpt-openai-lance-dot-ia-24-7/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fchatgpt-openai-lance-dot-ia-24-7%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-09-30T04:07:53.000Z",
+      "firstSeenAt": "2026-09-30T04:07:53.000Z"
     }
   ],
   "wing-freefly": [
