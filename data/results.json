@@ -951,17 +951,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-41",
-      "type": "article",
-      "title": "Une première mondiale : en Chine, une chirurgie cardiaque complexe a été réalisée par un mini-robot piloté par IA",
-      "summary": "Le 6 septembre, au sixième centre médical de l'Hôpital général de l'Armée populaire de libération chinoise, une équipe de cardiologie a réalisé la fermeture percutanée d'une malformation cardiaque congénitale sur un homme de 48 ans en s'appuyant sur un système robotique échographique piloté par intelligence artificielle. La procédure, largement automatisée, s'est appuyée sur une imagerie échographique en temps réel pour traiter la malformation avec une grande précision, une première mondiale selon l'hôpital.",
-      "url": "https://www.presse-citron.net/premiere-mondiale-chine-chirurgie-cardiaque-complexe-realisee-mini-robot-pilote-ia/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fpremiere-mondiale-chine-chirurgie-cardiaque-complexe-realisee-mini-robot-pilote-ia%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-11T04:03:45.000Z",
-      "firstSeenAt": "2026-09-11T04:03:45.000Z"
-    },
-    {
       "id": "presse-citron-42",
       "type": "article",
       "title": "Achats en ligne : le plan de Visa et Mastercard pour éviter que des agents IA volent votre argent",
@@ -1114,6 +1103,17 @@
       "date": null,
       "fetchedAt": "2026-09-30T04:07:53.000Z",
       "firstSeenAt": "2026-09-30T04:07:53.000Z"
+    },
+    {
+      "id": "presse-citron-56",
+      "type": "article",
+      "title": "Claude vient de faire baisser le coût de vos requêtes : la nouvelle IA Sonnet 5.5 est 30 % moins chère, mais presque aussi puissante qu'Opus 5.5",
+      "summary": "Anthropic a lancé Claude Sonnet 5.5, un nouveau modèle positionné comme un complément plus rapide et moins cher à Claude Opus 5.5, tout en restant proche de ses performances. Le modèle serait environ 30% moins cher à l'usage que son prédécesseur Sonnet 5, tout en se classant comme le second meilleur modèle du marché selon le classement d'Artificial Analysis, juste derrière Opus 5.5. Cette sortie illustre la stratégie d'Anthropic de proposer des modèles intermédiaires performants à moindre coût, dans un contexte de concurrence accrue avec OpenAI sur les prix des API.",
+      "url": "https://www.presse-citron.net/claude-cout-requetes-nouvelle-ia-sonnet-5-5/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fclaude-cout-requetes-nouvelle-ia-sonnet-5-5%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-10-01T04:07:48.000Z",
+      "firstSeenAt": "2026-10-01T04:07:48.000Z"
     }
   ],
   "wing-freefly": [
