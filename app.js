@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-02T04:08:34.000Z",
+    "lastRun": "2026-10-03T04:07:24.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-02T04:08:34.000Z"
+    "lastRun": "2026-10-03T04:07:24.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-02T04:08:34.000Z"
+    "lastRun": "2026-10-03T04:07:24.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1120,17 +1120,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-43",
-      "type": "article",
-      "title": "Payer sans contrôle humain : cette jeune pousse française veut colmater la plus grosse faille des agents IA",
-      "summary": "La startup française Aurel a développé un pare-feu de sécurité dédié aux agents IA qui intercepte leurs décisions avant exécution, afin de stopper les opérations frauduleuses ou erronées avant qu'elles ne deviennent irréparables. L'enjeu : alors que les agents IA sont de plus en plus autorisés à effectuer des paiements et transactions sans validation humaine systématique (voir le standard KYA de Visa, Mastercard et Ant International), Aurel veut combler ce qu'elle présente comme la plus grosse faille de sécurité de ces agents autonomes.",
-      "url": "https://www.presse-citron.net/payer-sans-controle-humain-cette-jeune-pousse-francaise-veut-colmater-la-plus-grosse-faille-des-agents-ia/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fpayer-sans-controle-humain-cette-jeune-pousse-francaise-veut-colmater-la-plus-grosse-faille-des-agents-ia%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-13T04:03:12.000Z",
-      "firstSeenAt": "2026-09-13T04:03:12.000Z"
-    },
-    {
       "id": "presse-citron-44",
       "type": "article",
       "title": "L'IA menace les salaires : Anthropic révèle le scénario \"extrême\" qui les ferait baisser de 10 % pour certains métiers",
@@ -1283,6 +1272,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-10-02T04:08:34.000Z",
       "firstSeenAt": "2026-10-02T04:08:34.000Z"
+    },
+    {
+      "id": "presse-citron-58",
+      "type": "article",
+      "title": "Avant de capturer le président du Venezuela, Donald Trump a demandé l'avis de… Grok",
+      "summary": "Selon Presse-citron, Donald Trump aurait suivi les conseils de l'IA Grok (xAI, Elon Musk) avant de faire capturer Nicolás Maduro, alors président du Venezuela, le 3 janvier. Trump aurait demandé au chatbot comment les Venezueliens réagiraient si Maduro était capturé, et Grok lui aurait répondu que Maduro était un dictateur impopulaire et que la population réagirait positivement à sa chute. L'épisode illustre le recours croissant de dirigeants politiques à des IA conversationnelles pour évaluer l'impact de décisions géopolitiques sensibles.",
+      "url": "https://www.presse-citron.net/avant-de-capturer-le-president-du-venezuela-donald-trump-a-demande-lavis-de-grok/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Favant-de-capturer-le-president-du-venezuela-donald-trump-a-demande-lavis-de-grok%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-10-03T04:07:24.000Z",
+      "firstSeenAt": "2026-10-03T04:07:24.000Z"
     }
   ],
   "wing-freefly": [
