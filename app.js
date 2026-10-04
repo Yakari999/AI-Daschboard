@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-03T04:07:24.000Z",
+    "lastRun": "2026-10-04T04:07:32.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-03T04:07:24.000Z"
+    "lastRun": "2026-10-04T04:07:32.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-03T04:07:24.000Z"
+    "lastRun": "2026-10-04T04:07:32.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1120,17 +1120,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-44",
-      "type": "article",
-      "title": "L'IA menace les salaires : Anthropic révèle le scénario \"extrême\" qui les ferait baisser de 10 % pour certains métiers",
-      "summary": "Anthropic a imaginé plusieurs scénarios sur l'évolution de l'économie américaine selon le rythme d'adoption de l'IA. Dans le scénario le plus extrême, une IA capable de s'auto-améliorer de manière récursive et adoptée plus vite que prévu ferait grimper le chômage des métiers intellectuels aux États-Unis jusqu'à 17,9%, avec des salaires en baisse de plus de 10% d'ici 2030. En contrepartie, ce même scénario verrait le PIB américain croître de 10% par an, doublant tous les 4,5 ans. Anthropic détaille aussi des scénarios plus modérés pour comparer les trajectoires possibles.",
-      "url": "https://www.presse-citron.net/ia-menace-salaire-anthropic-extreme-2030/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-menace-salaire-anthropic-extreme-2030%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-14T04:04:51.000Z",
-      "firstSeenAt": "2026-09-14T04:04:51.000Z"
-    },
-    {
       "id": "presse-citron-45",
       "type": "article",
       "title": "« À quel point es-tu dangereux ? » : le Time dédie sa une au point de bascule de l'IA, qui pourrait prendre le contrôle d'internet d'ici 6 à 12 mois",
@@ -1283,6 +1272,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-10-03T04:07:24.000Z",
       "firstSeenAt": "2026-10-03T04:07:24.000Z"
+    },
+    {
+      "id": "presse-citron-59",
+      "type": "article",
+      "title": "Alibaba dévoile deux IA révolutionnaires capables de détecter des cancers sur de simples scanners",
+      "summary": "L'académie de recherche DAMO d'Alibaba a présenté deux systèmes d'IA dédiés à l'imagerie médicale : EAGLE, destiné au dépistage du cancer de l'œsophage, et RADAR, capable d'analyser globalement jusqu'à 146 anomalies abdominales différentes à partir de scanners de routine. Ces outils visent à améliorer le diagnostic précoce de pathologies souvent détectées trop tardivement, en identifiant des signes cachés que l'œil humain pourrait manquer sur des examens d'imagerie standards.",
+      "url": "https://www.presse-citron.net/alibaba-devoile-deux-ia-revolutionnaires-capables-de-detecter-des-cancers-sur-de-simples-scanners/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Falibaba-devoile-deux-ia-revolutionnaires-capables-de-detecter-des-cancers-sur-de-simples-scanners%2F?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-10-04T04:07:32.000Z",
+      "firstSeenAt": "2026-10-04T04:07:32.000Z"
     }
   ],
   "wing-freefly": [
