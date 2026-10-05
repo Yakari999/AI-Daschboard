@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-04T04:07:32.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-09-28T04:09:45.000Z",
+    "lastRun": "2026-10-05T04:08:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-04T04:07:32.000Z"
+    "lastRun": "2026-10-05T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-04T04:07:32.000Z"
+    "lastRun": "2026-10-05T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-09-28T04:09:45.000Z"
+    "lastRun": "2026-10-05T04:08:00.000Z"
   }
 ];
 
@@ -235,17 +235,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-05T04:04:15.000Z"
     },
     {
-      "id": "laus-c25",
-      "type": "article",
-      "title": "Lire à Lausanne, 5e édition",
-      "summary": "Du 16 au 26 septembre 2026, le festival Lire à Lausanne investit le centre-ville pour fêter la rentrée littéraire : librairie éphémère 100% lausannoise au Forum de l'Hôtel de Ville, soirées littéraires gratuites, animations pour enfants et séances de dédicaces, avec une offre 2 livres achetés = 1 offert.",
-      "url": "https://www.lausanne.ch/programme-culturel-lire-a-lausanne",
-      "date": "2026-09-16T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne.ch%2Fprogramme-culturel-lire-a-lausanne?w=400&h=225",
-      "fetchedAt": "2026-09-12T04:03:53.000Z",
-      "firstSeenAt": "2026-09-12T04:03:53.000Z"
-    },
-    {
       "id": "laus-c28",
       "type": "article",
       "title": "Cuno Amiet. Les Quatre saisons",
@@ -266,6 +255,28 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mcba.ch%2Fen%2Fexhibitions%2Fblanc-gatti%2F?w=400&h=225",
       "fetchedAt": "2026-09-21T04:09:32.000Z",
       "firstSeenAt": "2026-09-21T04:09:32.000Z"
+    },
+    {
+      "id": "laus-c30",
+      "type": "article",
+      "title": "Stephan Eicher — Poussière d'Or",
+      "summary": "Concert de Stephan Eicher au Théâtre de Beaulieu à Lausanne le 16 octobre 2026 (ouverture des portes 18h30, concert 20h), dans le cadre de sa tournée \"Poussière d'Or\".",
+      "url": "https://beaulieu-lausanne.com/en/calendar/stephan-eicher-poussiere-dor/",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbeaulieu-lausanne.com%2Fen%2Fcalendar%2Fstephan-eicher-poussiere-dor%2F?w=400&h=225",
+      "fetchedAt": "2026-10-05T04:08:00.000Z",
+      "firstSeenAt": "2026-10-05T04:08:00.000Z"
+    },
+    {
+      "id": "laus-c31",
+      "type": "article",
+      "title": "JazzOnze+, 39e édition",
+      "summary": "Du 27 octobre au 1er novembre 2026, le festival JazzOnze+ investit sept lieux du centre-ville de Lausanne (dont le Casino de Montbenon) avec une programmation jazz internationale réunissant notamment Hiromi, Kenny Barron, Nate Smith, Kurt Rosenwinkel et Joe Armon-Jones.",
+      "url": "https://jazzonzeplus.ch/",
+      "date": "2026-10-27T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fjazzonzeplus.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-10-05T04:08:00.000Z",
+      "firstSeenAt": "2026-10-05T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -510,16 +521,6 @@ const FALLBACK_RESULTS = {
   ],
   "courses-au-large": [
     {
-      "id": "voile-2",
-      "type": "article",
-      "title": "24H ULTIM (Lorient)",
-      "summary": "Épreuve d'endurance disputée à Lorient le 24 septembre 2026, qui confronte les trimarans géants sur 24 heures.",
-      "url": "https://www.classeultim.org/calendrier-2026",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.classeultim.org%2Fcalendrier-2026?w=400&h=225",
-      "date": "2026-09-24T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "voile-3",
       "type": "article",
       "title": "Route du Rhum – Destination Guadeloupe",
@@ -527,16 +528,6 @@ const FALLBACK_RESULTS = {
       "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-courses/2026-06-02/84568-calendrier-des-grandes-courses-a-la-voile-en-2026",
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffigaronautisme.meteoconsult.fr%2Factus-nautisme-courses%2F2026-06-02%2F84568-calendrier-des-grandes-courses-a-la-voile-en-2026?w=400&h=225",
       "date": "2026-11-01T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
-      "id": "voile-4",
-      "type": "article",
-      "title": "Défi Azimut-Lorient",
-      "summary": "Temps fort de la saison IMOCA qui sert de préparation directe aux grandes échéances transocéaniques.",
-      "url": "https://www.defi-azimut.net/fr",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.polefinistere.com%2Fcalendrier-2026%2F?w=400&h=225",
-      "date": "2026-09-15T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
@@ -549,6 +540,28 @@ const FALLBACK_RESULTS = {
       "image": null,
       "fetchedAt": "2026-09-14T04:04:51.000Z",
       "firstSeenAt": "2026-09-14T04:04:51.000Z"
+    },
+    {
+      "id": "voile-6",
+      "type": "article",
+      "title": "Cannes – Malta Race",
+      "summary": "Nouvelle course au large d'environ 600 milles nautiques, organisée conjointement par le Cannes Yacht Club et le Royal Malta Yacht Club. Départ de Cannes le 5 octobre 2026, remise des prix à Malte le 12 octobre.",
+      "url": "https://rmyc.org/?p=63368",
+      "image": null,
+      "date": "2026-10-05T00:00:00.000Z",
+      "fetchedAt": "2026-10-05T04:08:00.000Z",
+      "firstSeenAt": "2026-10-05T04:08:00.000Z"
+    },
+    {
+      "id": "voile-7",
+      "type": "article",
+      "title": "Rolex Middle Sea Race",
+      "summary": "47e édition de cette classique méditerranéenne de 606 milles nautiques au départ du Grand Harbour de Malte, le 17 octobre 2026, avec un parcours incluant deux volcans actifs et plusieurs détroits.",
+      "url": "https://www.rolexmiddlesearace.com/",
+      "image": null,
+      "date": "2026-10-17T00:00:00.000Z",
+      "fetchedAt": "2026-10-05T04:08:00.000Z",
+      "firstSeenAt": "2026-10-05T04:08:00.000Z"
     }
   ],
   "films-sorties": [
