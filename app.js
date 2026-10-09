@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-08T04:09:00.000Z",
+    "lastRun": "2026-10-09T04:09:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-08T04:09:00.000Z"
+    "lastRun": "2026-10-09T04:09:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-08T04:09:00.000Z"
+    "lastRun": "2026-10-09T04:09:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -235,17 +235,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-05T04:04:15.000Z"
     },
     {
-      "id": "laus-c28",
-      "type": "article",
-      "title": "Cuno Amiet. Les Quatre saisons",
-      "summary": "Du 18 septembre 2026 au 10 janvier 2027 au Musée d'art de Pully, une exposition consacrée au peintre suisse Cuno Amiet (1868-1961), figure majeure de l'art suisse du tournant du XXe siècle, présente une soixantaine de peintures et de nombreuses œuvres sur papier autour du thème des quatre saisons.",
-      "url": "https://www.museedartdepully.ch/",
-      "date": "2026-09-18T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.museedartdepully.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-09-17T04:03:18.000Z",
-      "firstSeenAt": "2026-09-17T04:03:18.000Z"
-    },
-    {
       "id": "laus-c29",
       "type": "article",
       "title": "Charles Blanc-Gatti. Les couleurs du son",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fjazzonzeplus.ch%2F?w=400&h=225",
       "fetchedAt": "2026-10-05T04:08:00.000Z",
       "firstSeenAt": "2026-10-05T04:08:00.000Z"
+    },
+    {
+      "id": "laus-c32",
+      "type": "article",
+      "title": "LUFF — Lausanne Underground Film & Music Festival, 25e édition",
+      "summary": "Du 14 au 18 octobre 2026, le LUFF investit plusieurs lieux lausannois (dont le Casino de Montbenon, l'EJMA et le cinéma Bellevaux) avec une programmation de cinéma expérimental et de musiques underground. Un pass hebdomadaire donne accès à l'ensemble des événements hors ateliers, et un nouveau pass nocturne couvre les séances de courts et longs métrages de la programmation tardive.",
+      "url": "https://www.luff.ch/",
+      "date": "2026-10-14T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.luff.ch%2F?w=400&h=225",
+      "fetchedAt": "2026-10-09T04:09:00.000Z",
+      "firstSeenAt": "2026-10-09T04:09:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -1133,17 +1133,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-45",
-      "type": "article",
-      "title": "« À quel point es-tu dangereux ? » : le Time dédie sa une au point de bascule de l'IA, qui pourrait prendre le contrôle d'internet d'ici 6 à 12 mois",
-      "summary": "Publiée le 15 septembre, la nouvelle une du Time n'est pas consacrée à une personnalité mais à l'intelligence artificielle et au point de bascule qu'elle pourrait avoir atteint : l'image montre le champ de texte de Claude avec la question \"How dangerous are you?\". Le magazine évoque la crainte que des essaims d'agents IA autonomes puissent, d'ici six à douze mois, prendre le contrôle de pans entiers d'internet et causer des centaines de milliards de dollars de dégâts.",
-      "url": "https://www.presse-citron.net/time-une-point-de-bascule-de-ia-internet/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ftime-une-point-de-bascule-de-ia-internet%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-17T04:03:18.000Z",
-      "firstSeenAt": "2026-09-17T04:03:18.000Z"
-    },
-    {
       "id": "presse-citron-46",
       "type": "article",
       "title": "L'un des créateurs de ChatGPT sort de l'ombre et lance sa propre IA : elle n'est pas conçue pour les humains",
@@ -1296,6 +1285,17 @@ const FALLBACK_RESULTS = {
       "date": null,
       "fetchedAt": "2026-10-04T04:07:32.000Z",
       "firstSeenAt": "2026-10-04T04:07:32.000Z"
+    },
+    {
+      "id": "presse-citron-60",
+      "type": "article",
+      "title": "Votre compte Gemini gratuit perd une importante fonctionnalité le 9 octobre : voici tous les changements que Google vient d'annoncer",
+      "summary": "À partir du 9 octobre 2026, les comptes Gemini gratuits perdent l'accès aux modèles Flash et Pro et ne conservent que la version Flash-Lite, la moins performante. Les abonnés Google AI Plus perdent eux aussi l'accès à Pro ce mois-ci et ne gardent que Flash-Lite et Flash, tandis que les abonnés AI Pro ne subissent aucune restriction et récupèrent en prime le mode Deep Think, jusque-là réservé aux formules supérieures. Pour retrouver un accès complet aux modèles les plus avancés, il faudra donc souscrire à un abonnement Google AI Pro ou AI Ultra.",
+      "url": "https://www.presse-citron.net/gemini-gratuit-perd-fonctionnalite-google/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fgemini-gratuit-perd-fonctionnalite-google%2F?w=400&h=225",
+      "date": "2026-10-09T00:00:00.000Z",
+      "fetchedAt": "2026-10-09T04:09:00.000Z",
+      "firstSeenAt": "2026-10-09T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
