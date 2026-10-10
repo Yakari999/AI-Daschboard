@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-09T04:09:00.000Z",
+    "lastRun": "2026-10-10T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-09T04:09:00.000Z"
+    "lastRun": "2026-10-10T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-09T04:09:00.000Z"
+    "lastRun": "2026-10-10T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1133,17 +1133,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-46",
-      "type": "article",
-      "title": "L'un des créateurs de ChatGPT sort de l'ombre et lance sa propre IA : elle n'est pas conçue pour les humains",
-      "summary": "Diogo Almeida, ancien employé d'OpenAI qui a cocréé ChatGPT, sort de l'ombre après deux ans de travail sur un nouveau projet : il présente sa société Typesafe et son premier modèle, Jev, annoncé le 15 septembre 2026. Contrairement à un chatbot classique, Jev n'a pas été conçu pour discuter avec des humains mais pour produire des réponses de code informatique structurées, sans jamais halluciner selon ses créateurs, avec un coût d'exploitation nettement inférieur à celui des grands modèles de langage généralistes.",
-      "url": "https://www.presse-citron.net/createur-chatgpt-lance-sa-propre-ia/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcreateur-chatgpt-lance-sa-propre-ia%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-18T04:03:24.000Z",
-      "firstSeenAt": "2026-09-18T04:03:24.000Z"
-    },
-    {
       "id": "presse-citron-47",
       "type": "article",
       "title": "OpenAI dévoile les 6 cas où l'IA a failli lui échapper",
@@ -1296,6 +1285,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-09T00:00:00.000Z",
       "fetchedAt": "2026-10-09T04:09:00.000Z",
       "firstSeenAt": "2026-10-09T04:09:00.000Z"
+    },
+    {
+      "id": "presse-citron-61",
+      "type": "article",
+      "title": "Mistral Large 4 est officiel : la France rattrape enfin la Chine en proposant l'un des meilleurs modèles d'IA ouverts du monde entier",
+      "summary": "Mistral AI a dévoilé le 6 octobre 2026 son nouveau modèle Large 4, qui compte environ 1,05 billion de paramètres au total (dont 49 milliards actifs à la fois grâce à une architecture en mélange d'experts), un encodeur de vision de 1,6 milliard de paramètres et une fenêtre de contexte d'un million de tokens. Le modèle est disponible dès maintenant en préversion via l'API de Mistral, au tarif de 1,36 dollar par million de tokens en entrée et 4,18 dollars par million en sortie, mais ses poids ouverts ne seront publiés que fin octobre, après des tests de sécurité menés par des experts en cybersécurité et des autorités publiques.",
+      "url": "https://www.presse-citron.net/mistral-large-4-france-rattrape-chine-ia-ouverts/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fmistral-large-4-france-rattrape-chine-ia-ouverts%2F?w=400&h=225",
+      "date": "2026-10-06T00:00:00.000Z",
+      "fetchedAt": "2026-10-10T04:08:00.000Z",
+      "firstSeenAt": "2026-10-10T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
