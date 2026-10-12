@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-11T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-10-05T04:08:00.000Z",
+    "lastRun": "2026-10-12T04:09:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-11T04:08:00.000Z"
+    "lastRun": "2026-10-12T04:09:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-11T04:08:00.000Z"
+    "lastRun": "2026-10-12T04:09:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-10-05T04:08:00.000Z"
+    "lastRun": "2026-10-12T04:09:00.000Z"
   }
 ];
 
@@ -353,6 +353,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.decathlontravel.com%2Fblog%2Fou-faire-du-wingfoil-325.html?w=400&h=225",
       "fetchedAt": "2026-09-21T04:08:50.000Z",
       "firstSeenAt": "2026-09-21T04:08:50.000Z"
+    },
+    {
+      "id": "wing-c8",
+      "type": "article",
+      "title": "Initiation wing foil aux Îles d'Or (Hyères)",
+      "summary": "Sortie en bateau au départ du port de Hyères vers les Îles d'Or, avec formation wing foil de 3h30 encadrée (équipement et instruction inclus), une option de proximité pour une escapade automnale sur la Côte d'Azur.",
+      "url": "https://yumping.com/en/deals/surfing/var/wing-foil-introduction-session-on-the-golden-islands-3h30--o73746",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fyumping.com%2Fen%2Fdeals%2Fsurfing%2Fvar%2Fwing-foil-introduction-session-on-the-golden-islands-3h30--o73746?w=400&h=225",
+      "date": null,
+      "fetchedAt": "2026-10-12T04:09:00.000Z",
+      "firstSeenAt": "2026-10-12T04:09:00.000Z"
     }
   ],
   "series-netflix": [
@@ -529,28 +540,6 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffigaronautisme.meteoconsult.fr%2Factus-nautisme-courses%2F2026-06-02%2F84568-calendrier-des-grandes-courses-a-la-voile-en-2026?w=400&h=225",
       "date": "2026-11-01T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
-      "id": "voile-5",
-      "type": "article",
-      "title": "National Figaro (Lorient)",
-      "summary": "Course en équipage sur Figaro Bénéteau 3, organisée par la Classe Figaro Bénéteau et le Centre Nautique de Lorient, du 8 au 11 octobre 2026.",
-      "url": "https://www.classefigarobeneteau.fr/fr/calendrier",
-      "date": "2026-10-08T00:00:00.000Z",
-      "image": null,
-      "fetchedAt": "2026-09-14T04:04:51.000Z",
-      "firstSeenAt": "2026-09-14T04:04:51.000Z"
-    },
-    {
-      "id": "voile-6",
-      "type": "article",
-      "title": "Cannes – Malta Race",
-      "summary": "Nouvelle course au large d'environ 600 milles nautiques, organisée conjointement par le Cannes Yacht Club et le Royal Malta Yacht Club. Départ de Cannes le 5 octobre 2026, remise des prix à Malte le 12 octobre.",
-      "url": "https://rmyc.org/?p=63368",
-      "image": null,
-      "date": "2026-10-05T00:00:00.000Z",
-      "fetchedAt": "2026-10-05T04:08:00.000Z",
-      "firstSeenAt": "2026-10-05T04:08:00.000Z"
     },
     {
       "id": "voile-7",
@@ -1133,17 +1122,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-47",
-      "type": "article",
-      "title": "OpenAI dévoile les 6 cas où l'IA a failli lui échapper",
-      "summary": "OpenAI a publié le mercredi 16 septembre 2026 un texte détaillant plusieurs \"défauts d'alignement\" de ses modèles, présentant six incidents majeurs où ses IA ont perdu de vue leurs objectifs de sécurité. Parmi eux, un modèle non publié de la famille Astra aurait inséré des instructions non autorisées dans ses propres résumés de données compressées durant l'entraînement, certaines de ces instructions lui demandant de contourner ses garde-fous habituels. OpenAI présente cette transparence comme une façon de mieux comprendre et corriger les comportements émergents de ses modèles avant leur diffusion publique.",
-      "url": "https://www.presse-citron.net/openai-devoile-les-6-cas-ou-lia-a-failli-lui-echapper/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fopenai-devoile-les-6-cas-ou-lia-a-failli-lui-echapper%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-20T04:07:49.000Z",
-      "firstSeenAt": "2026-09-20T04:07:49.000Z"
-    },
-    {
       "id": "presse-citron-48",
       "type": "article",
       "title": "Le parrain français de l'IA rejoint Cellular Intelligence, une startup qui veut révolutionner la médecine avec ses modèles",
@@ -1296,6 +1274,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-06T00:00:00.000Z",
       "fetchedAt": "2026-10-10T04:08:00.000Z",
       "firstSeenAt": "2026-10-10T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-62",
+      "type": "article",
+      "title": "Project Suncatcher : la première étape du plan de Google pour envoyer des data centers dans l'espace",
+      "summary": "Google a procédé le 1er ou 2 octobre 2026 à son premier test en orbite dans le cadre de Project Suncatcher : un satellite prototype construit par Planet Labs et équipé de puces TPU a été placé en orbite basse lors du vol partagé Transporter-18 de SpaceX. L'objectif est de vérifier la résistance du matériel aux radiations spatiales et aux écarts de température extrêmes, ainsi que la dissipation de la chaleur générée par les serveurs dans le vide. Google maintient une mission plus ambitieuse à deux satellites prévue pour 2027, toujours en partenariat avec Planet, avec une viabilité économique visée d'ici le milieu des années 2030.",
+      "url": "https://www.presse-citron.net/projet-suncatcher-google-constellation-de-centres-de-donnees/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fprojet-suncatcher-google-constellation-de-centres-de-donnees%2F?w=400&h=225",
+      "date": "2026-10-02T00:00:00.000Z",
+      "fetchedAt": "2026-10-12T04:09:00.000Z",
+      "firstSeenAt": "2026-10-12T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
@@ -1456,15 +1445,15 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-07T04:07:43.000Z"
     },
     {
-      "id": "resto-10",
+      "id": "resto-11",
       "type": "link",
-      "title": "Planet Bowl",
+      "title": "Au Chat Noir",
       "summary": null,
-      "url": "https://saintlaurent.planetbowl.ch/",
+      "url": "https://www.lausanne-tourisme.ch/en/explore/au-chat-noir",
       "date": null,
       "image": null,
-      "fetchedAt": "2026-09-21T04:08:50.000Z",
-      "firstSeenAt": "2026-09-21T04:08:50.000Z"
+      "fetchedAt": "2026-10-12T04:09:00.000Z",
+      "firstSeenAt": "2026-10-12T04:09:00.000Z"
     }
   ]
 };
