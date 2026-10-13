@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-13T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-12T04:09:00.000Z"
+    "lastRun": "2026-10-13T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-12T04:09:00.000Z"
+    "lastRun": "2026-10-13T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1122,17 +1122,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-48",
-      "type": "article",
-      "title": "Le parrain français de l'IA rejoint Cellular Intelligence, une startup qui veut révolutionner la médecine avec ses modèles",
-      "summary": "Yann Le Cun, l'un des \"parrains\" de l'intelligence artificielle et ancien chef IA de Meta, rejoint le conseil scientifique de Cellular Intelligence, une startup développant une nouvelle forme d'IA pour étudier le fonctionnement des cellules. L'entreprise mise sur des modèles capables de modéliser la biologie cellulaire pour accélérer la recherche médicale, un domaine jugé prometteur pour appliquer les architectures d'apprentissage profond au-delà du texte et de l'image.",
-      "url": "https://www.presse-citron.net/parrain-francais-ia-rejoint-cellular-intelligence/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fparrain-francais-ia-rejoint-cellular-intelligence%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-22T04:07:47.000Z",
-      "firstSeenAt": "2026-09-22T04:07:47.000Z"
-    },
-    {
       "id": "presse-citron-49",
       "type": "article",
       "title": "IA et restructuration : en pleine bourre, la Société Générale poursuit son incroyable transformation",
@@ -1285,6 +1274,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-02T00:00:00.000Z",
       "fetchedAt": "2026-10-12T04:09:00.000Z",
       "firstSeenAt": "2026-10-12T04:09:00.000Z"
+    },
+    {
+      "id": "presse-citron-63",
+      "type": "article",
+      "title": "Canal+ : voici les nouveautés qui arrivent sur l'application",
+      "summary": "Lors de la présentation 2026 de son application, Canal+ a dévoilé quatre nouveautés pour ses abonnés : un fil vidéo en page d'accueil, un lecteur vertical, un moteur de recherche propulsé par l'IA d'OpenAI permettant de formuler des requêtes en langage naturel, ainsi que des calendriers sportifs avec un mode anti-spoil. Le groupe a aussi annoncé le lancement, le 9 octobre 2026, de Sport+, une nouvelle plateforme sportive gratuite.",
+      "url": "https://www.presse-citron.net/canal-voici-les-nouveautes-qui-arrivent-sur-lapplication/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcanal-voici-les-nouveautes-qui-arrivent-sur-lapplication%2F?w=400&h=225",
+      "date": "2026-10-12T00:00:00.000Z",
+      "fetchedAt": "2026-10-13T04:08:00.000Z",
+      "firstSeenAt": "2026-10-13T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
