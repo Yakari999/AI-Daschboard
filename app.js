@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-14T04:09:00.000Z",
+    "lastRun": "2026-10-15T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-14T04:09:00.000Z"
+    "lastRun": "2026-10-15T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-14T04:09:00.000Z"
+    "lastRun": "2026-10-15T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1122,17 +1122,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-49",
-      "type": "article",
-      "title": "IA et restructuration : en pleine bourre, la Société Générale poursuit son incroyable transformation",
-      "summary": "Dans le cadre de sa feuille de route stratégique 2026-2029 présentée par le PDG Slawomir Krupa, la Société Générale a annoncé un partenariat avec Anthropic pour déployer massivement l'outil Claude à tous les niveaux de la banque. En automatisant des tâches administratives complexes et en simplifiant le travail quotidien des équipes, l'établissement prévoit de générer entre 500 et 600 millions d'euros de gains de productivité.",
-      "url": "https://www.presse-citron.net/ia-et-restructuration-en-pleine-bourre-la-societe-generale-poursuit-son-incroyable-transformation/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-et-restructuration-en-pleine-bourre-la-societe-generale-poursuit-son-incroyable-transformation%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-23T04:13:35.000Z",
-      "firstSeenAt": "2026-09-23T04:13:35.000Z"
-    },
-    {
       "id": "presse-citron-50",
       "type": "article",
       "title": "De nouvelles IA plus de 40 % moins chères : Anthropic dévoile Claude Opus 5.5, OpenAI lance GPT-6 Sol et Luna",
@@ -1285,6 +1274,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-12T00:00:00.000Z",
       "fetchedAt": "2026-10-13T04:08:00.000Z",
       "firstSeenAt": "2026-10-13T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-64",
+      "type": "article",
+      "title": "Meta dépasse OpenAI et Google grâce à son nouveau modèle d'IA « Muse Wonder Full »",
+      "summary": "Meta a présenté le 12 octobre 2026 ses nouveaux modèles Muse Wonder et Muse Wonder Full, décrits comme les plus capables de l'entreprise à ce jour. Selon le classement d'Artificial Analysis, Muse Wonder Full obtient un score de 56, le plaçant parmi les tout premiers modèles mondiaux, à égalité avec Claude Sonnet 5.5 et juste derrière Claude Opus 5.5 (58). Le modèle de base Muse Wonder, accessible via API, est facturé 4 dollars par million de jetons en entrée et 20 dollars en sortie, soit le même tarif qu'Opus 5.5, tandis que la version Full n'est pas vendue au jeton.",
+      "url": "https://presse-citron.net/meta-depasse-openai-et-google-grace-a-son-nouveau-modele-dia-muse-wonder-full",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpresse-citron.net%2Fmeta-depasse-openai-et-google-grace-a-son-nouveau-modele-dia-muse-wonder-full?w=400&h=225",
+      "date": "2026-10-12T00:00:00.000Z",
+      "fetchedAt": "2026-10-15T04:08:00.000Z",
+      "firstSeenAt": "2026-10-15T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
