@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-15T04:08:00.000Z",
+    "lastRun": "2026-10-16T04:09:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-15T04:08:00.000Z"
+    "lastRun": "2026-10-16T04:09:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-15T04:08:00.000Z"
+    "lastRun": "2026-10-16T04:09:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1122,17 +1122,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-50",
-      "type": "article",
-      "title": "De nouvelles IA plus de 40 % moins chères : Anthropic dévoile Claude Opus 5.5, OpenAI lance GPT-6 Sol et Luna",
-      "summary": "Anthropic a dévoilé Claude Opus 5.5, plus de 40% moins cher que Claude Opus 5 à performances comparables. De son côté, OpenAI a présenté GPT-6 Sol et GPT-6 Luna, des versions allégées et moins onéreuses de GPT-6 Astra destinées aux tâches ne nécessitant pas le plus haut niveau de raisonnement, avec un coût par jeton réduit de 50% pour GPT-6 Sol et GPT-6 Terra. Ces annonces traduisent une course à la baisse des coûts d'exploitation entre les deux géants de l'IA, sans sacrifier les performances.",
-      "url": "https://www.presse-citron.net/ia-moins-cheres-anthropic-claude-openai-gpt/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fia-moins-cheres-anthropic-claude-openai-gpt%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-24T04:13:39.000Z",
-      "firstSeenAt": "2026-09-24T04:13:39.000Z"
-    },
-    {
       "id": "presse-citron-51",
       "type": "article",
       "title": "Un nouveau CRISPR ? L'IA Claude découvre un système inédit qui pourrait aussi modifier les gènes des êtres vivants",
@@ -1285,6 +1274,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-12T00:00:00.000Z",
       "fetchedAt": "2026-10-15T04:08:00.000Z",
       "firstSeenAt": "2026-10-15T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-65",
+      "type": "article",
+      "title": "C'est une première : l'UE brandit sa loi sur l'IA contre les \"agents\" hors de contrôle",
+      "summary": "Lors de l'International AI Summit organisé le 14 octobre 2026 à Dublin, dans le cadre de la présidence irlandaise du Conseil de l'UE, Henna Virkkunen, vice-présidente exécutive de la Commission européenne pour la souveraineté technologique, a annoncé que Bruxelles commence à mobiliser les pouvoirs de l'AI Act contre les laboratoires développant des modèles de pointe et leurs agents autonomes. La Commission précise qu'aucune procédure formelle n'a encore été ouverte et qu'un porte-parole a indiqué que la loi ne serait pas appliquée strictement pendant une phase de test.",
+      "url": "https://www.presse-citron.net/ue-loi-ia-agents-hors-de-controle/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fue-loi-ia-agents-hors-de-controle%2F?w=400&h=225",
+      "date": "2026-10-15T00:00:00.000Z",
+      "fetchedAt": "2026-10-16T04:09:00.000Z",
+      "firstSeenAt": "2026-10-16T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
