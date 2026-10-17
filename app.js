@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-16T04:09:00.000Z",
+    "lastRun": "2026-10-17T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-16T04:09:00.000Z"
+    "lastRun": "2026-10-17T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-16T04:09:00.000Z"
+    "lastRun": "2026-10-17T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -246,17 +246,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-21T04:09:32.000Z"
     },
     {
-      "id": "laus-c30",
-      "type": "article",
-      "title": "Stephan Eicher — Poussière d'Or",
-      "summary": "Concert de Stephan Eicher au Théâtre de Beaulieu à Lausanne le 16 octobre 2026 (ouverture des portes 18h30, concert 20h), dans le cadre de sa tournée \"Poussière d'Or\".",
-      "url": "https://beaulieu-lausanne.com/en/calendar/stephan-eicher-poussiere-dor/",
-      "date": "2026-10-16T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbeaulieu-lausanne.com%2Fen%2Fcalendar%2Fstephan-eicher-poussiere-dor%2F?w=400&h=225",
-      "fetchedAt": "2026-10-05T04:08:00.000Z",
-      "firstSeenAt": "2026-10-05T04:08:00.000Z"
-    },
-    {
       "id": "laus-c31",
       "type": "article",
       "title": "JazzOnze+, 39e édition",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.luff.ch%2F?w=400&h=225",
       "fetchedAt": "2026-10-09T04:09:00.000Z",
       "firstSeenAt": "2026-10-09T04:09:00.000Z"
+    },
+    {
+      "id": "laus-c33",
+      "type": "article",
+      "title": "Portugal. The Man en concert à Lausanne",
+      "summary": "Le groupe américain Portugal. The Man se produit aux Docks à Lausanne le 17 novembre 2026 à 19h30, dans le cadre d'une date reportée depuis le 14 mars 2026 (les billets déjà achetés restent valables).",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/portugal-the-man",
+      "date": "2026-11-17T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fportugal-the-man?w=400&h=225",
+      "fetchedAt": "2026-10-17T04:08:00.000Z",
+      "firstSeenAt": "2026-10-17T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
