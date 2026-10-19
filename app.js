@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-18T04:07:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-10-12T04:09:00.000Z",
+    "lastRun": "2026-10-19T04:10:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-18T04:07:00.000Z"
+    "lastRun": "2026-10-19T04:10:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-18T04:07:00.000Z"
+    "lastRun": "2026-10-19T04:10:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-10-12T04:09:00.000Z"
+    "lastRun": "2026-10-19T04:10:00.000Z"
   }
 ];
 
@@ -412,16 +412,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
-      "id": "ts-3",
-      "type": "video",
-      "title": "Squid Game — Saison 3 (finale)",
-      "summary": "La saison finale du phénomène coréen, la série la plus regardée de l'histoire de Netflix.",
-      "url": "https://www.youtube.com/watch?v=bLlqGBiI2WE",
-      "image": "https://img.youtube.com/vi/bLlqGBiI2WE/hqdefault.jpg",
-      "date": null,
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "ts-2",
       "type": "video",
       "title": "3 Body Problem — Saison 2",
@@ -430,16 +420,6 @@ const FALLBACK_RESULTS = {
       "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
       "date": "2026-04-01T00:00:00.000Z",
       "datePrecision": "month",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
-      "id": "ts-1",
-      "type": "video",
-      "title": "The Pitt — Saison 2",
-      "summary": "Après avoir remporté l'Emmy de la meilleure série dramatique, la série médicale d'HBO Max revient pour une saison saluée par la critique.",
-      "url": "https://www.youtube.com/watch?v=cAZFgj2MwwI",
-      "image": "https://img.youtube.com/vi/cAZFgj2MwwI/hqdefault.jpg",
-      "date": null,
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
@@ -473,17 +453,6 @@ const FALLBACK_RESULTS = {
       "date": "2026-08-28T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z",
       "firstSeenAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
-      "id": "series-wonder-man",
-      "type": "video",
-      "title": "Wonder Man",
-      "summary": "Série Marvel Television sur Disney+ avec Yahya Abdul-Mateen II et Ben Kingsley, mise en abyme du tournage d'un film Wonder Man dans les coulisses d'Hollywood.",
-      "url": "https://www.youtube.com/watch?v=qNJTy7GZeUg",
-      "image": "https://img.youtube.com/vi/qNJTy7GZeUg/hqdefault.jpg",
-      "date": "2026-01-27T00:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:07:43.000Z",
-      "firstSeenAt": "2026-09-07T04:07:43.000Z"
     },
     {
       "id": "series-widows-bay",
@@ -528,6 +497,42 @@ const FALLBACK_RESULTS = {
       "date": "2026-08-16T00:00:00.000Z",
       "fetchedAt": "2026-09-28T04:09:45.000Z",
       "firstSeenAt": "2026-09-28T04:09:45.000Z"
+    },
+    {
+      "id": "series-adults-s2",
+      "type": "video",
+      "title": "Adults — Saison 2",
+      "summary": "Comédie FX/Hulu sur un groupe d'amis de la génération Z, 100% sur Rotten Tomatoes côté critique et 96% côté public — l'une des séries les mieux notées de 2026.",
+      "url": "https://www.youtube.com/results?search_query=Adults+season+2+FX+trailer",
+      "image": null,
+      "date": "2026-01-01T00:00:00.000Z",
+      "datePrecision": "month",
+      "fetchedAt": "2026-10-19T04:10:00.000Z",
+      "firstSeenAt": "2026-10-19T04:10:00.000Z"
+    },
+    {
+      "id": "series-colin-from-accounts-s3",
+      "type": "video",
+      "title": "Colin from Accounts — Saison 3",
+      "summary": "Comédie romantique australienne diffusée sur Paramount+, 100% sur Rotten Tomatoes côté critique et 96% côté public en 2026.",
+      "url": "https://www.youtube.com/results?search_query=Colin+from+Accounts+season+3+trailer",
+      "image": null,
+      "date": "2026-01-01T00:00:00.000Z",
+      "datePrecision": "month",
+      "fetchedAt": "2026-10-19T04:10:00.000Z",
+      "firstSeenAt": "2026-10-19T04:10:00.000Z"
+    },
+    {
+      "id": "series-slow-horses-s6",
+      "type": "video",
+      "title": "Slow Horses — Saison 6",
+      "summary": "Série d'espionnage Apple TV+ avec Gary Oldman, 100% sur Rotten Tomatoes côté critique et 93% côté public — la série reste en forme saison après saison.",
+      "url": "https://www.youtube.com/results?search_query=Slow+Horses+season+6+trailer",
+      "image": null,
+      "date": "2026-01-01T00:00:00.000Z",
+      "datePrecision": "month",
+      "fetchedAt": "2026-10-19T04:10:00.000Z",
+      "firstSeenAt": "2026-10-19T04:10:00.000Z"
     }
   ],
   "courses-au-large": [
@@ -540,17 +545,6 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffigaronautisme.meteoconsult.fr%2Factus-nautisme-courses%2F2026-06-02%2F84568-calendrier-des-grandes-courses-a-la-voile-en-2026?w=400&h=225",
       "date": "2026-11-01T00:00:00.000Z",
       "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
-      "id": "voile-7",
-      "type": "article",
-      "title": "Rolex Middle Sea Race",
-      "summary": "47e édition de cette classique méditerranéenne de 606 milles nautiques au départ du Grand Harbour de Malte, le 17 octobre 2026, avec un parcours incluant deux volcans actifs et plusieurs détroits.",
-      "url": "https://www.rolexmiddlesearace.com/",
-      "image": null,
-      "date": "2026-10-17T00:00:00.000Z",
-      "fetchedAt": "2026-10-05T04:08:00.000Z",
-      "firstSeenAt": "2026-10-05T04:08:00.000Z"
     }
   ],
   "films-sorties": [
@@ -1122,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-52",
-      "type": "article",
-      "title": "La puce qui fait tourner Gemini part en orbite dans quelques jours : Google annonce un test imminent et en dit plus sur ses futurs centres de données dans l'espace",
-      "summary": "Dans le cadre de son projet Suncatcher, Google va envoyer ses premières puces TPU (qui font tourner son IA Gemini) en orbite basse dès la semaine prochaine, via une mission développée avec Planet et lancée par une fusée SpaceX. L'objectif de ce test est de vérifier que les puces IA peuvent survivre au lancement et aux conditions spatiales. En orbite, les centres de données bénéficieraient de jusqu'à 8 fois plus d'énergie solaire qu'au sol, un argument clé pour Google qui discuterait par ailleurs avec SpaceX d'Elon Musk pour de futurs lancements.",
-      "url": "https://www.presse-citron.net/puce-gemini-orbite-google-centres-de-donnees-espace/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fpuce-gemini-orbite-google-centres-de-donnees-espace%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-26T04:07:26.000Z",
-      "firstSeenAt": "2026-09-26T04:07:26.000Z"
-    },
-    {
       "id": "presse-citron-53",
       "type": "article",
       "title": "Adieu Microsoft 365 : OVHcloud annonce une suite de productivité française dans quelques semaines. Voici ce qu'on sait déjà sur ce nouveau produit",
@@ -1285,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-13T00:00:00.000Z",
       "fetchedAt": "2026-10-18T04:07:00.000Z",
       "firstSeenAt": "2026-10-18T04:07:00.000Z"
+    },
+    {
+      "id": "presse-citron-67",
+      "type": "article",
+      "title": "La solution aux déserts médicaux ? Cette IA prescrit des médicaments seule et à distance, une première mondiale",
+      "summary": "Dans l'Utah, l'application Nolla Derm a été autorisée à émettre des prescriptions générées par IA pour traiter l'acné, dans le cadre d'un test en trois phases encadré par des garde-fous stricts : deux médecins valident chaque ordonnance au départ, et l'État doit donner son accord écrit à chaque étape. La start-up doit garantir zéro incident grave et un taux de concordance d'au moins 95% entre les décisions de l'IA et celles des médecins, pour un service facturé à partir de 4,99 dollars par mois.",
+      "url": "https://www.presse-citron.net/la-solution-aux-deserts-medicaux-cette-ia-prescrit-des-medicaments-seule-et-a-distance-une-premiere-mondiale/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fla-solution-aux-deserts-medicaux-cette-ia-prescrit-des-medicaments-seule-et-a-distance-une-premiere-mondiale%2F?w=400&h=225",
+      "date": "2026-10-15T00:00:00.000Z",
+      "fetchedAt": "2026-10-19T04:10:00.000Z",
+      "firstSeenAt": "2026-10-19T04:10:00.000Z"
     }
   ],
   "wing-freefly": [
