@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-20T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-19T04:10:00.000Z"
+    "lastRun": "2026-10-20T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-19T04:10:00.000Z"
+    "lastRun": "2026-10-20T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -257,17 +257,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-10-05T04:08:00.000Z"
     },
     {
-      "id": "laus-c32",
-      "type": "article",
-      "title": "LUFF — Lausanne Underground Film & Music Festival, 25e édition",
-      "summary": "Du 14 au 18 octobre 2026, le LUFF investit plusieurs lieux lausannois (dont le Casino de Montbenon, l'EJMA et le cinéma Bellevaux) avec une programmation de cinéma expérimental et de musiques underground. Un pass hebdomadaire donne accès à l'ensemble des événements hors ateliers, et un nouveau pass nocturne couvre les séances de courts et longs métrages de la programmation tardive.",
-      "url": "https://www.luff.ch/",
-      "date": "2026-10-14T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.luff.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-10-09T04:09:00.000Z",
-      "firstSeenAt": "2026-10-09T04:09:00.000Z"
-    },
-    {
       "id": "laus-c33",
       "type": "article",
       "title": "Portugal. The Man en concert à Lausanne",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fportugal-the-man?w=400&h=225",
       "fetchedAt": "2026-10-17T04:08:00.000Z",
       "firstSeenAt": "2026-10-17T04:08:00.000Z"
+    },
+    {
+      "id": "laus-c34",
+      "type": "article",
+      "title": "Festival Bach de Lausanne, 28e édition « Aimez-vous Bach… »",
+      "summary": "Du 6 novembre au 4 décembre 2026, le Festival Bach de Lausanne propose dix concerts exceptionnels dans divers lieux de la ville, consacrés à l'interprétation de l'œuvre de Jean-Sébastien Bach.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/festival-bach-de-lausanne",
+      "date": "2026-11-06T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Ffestival-bach-de-lausanne?w=400&h=225",
+      "fetchedAt": "2026-10-20T04:08:00.000Z",
+      "firstSeenAt": "2026-10-20T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-53",
-      "type": "article",
-      "title": "Adieu Microsoft 365 : OVHcloud annonce une suite de productivité française dans quelques semaines. Voici ce qu'on sait déjà sur ce nouveau produit",
-      "summary": "OVHcloud a confirmé le lancement prochain d'OVHai Workspace, une suite de productivité \"souveraine\" concurrente de Microsoft 365, déjà évoquée en juin et juillet lors de VivaTech 2026 et officialisée à l'occasion de l'OVH Summit du 19 septembre à Paris. Le produit inclura les principaux usages collaboratifs, un moteur de recherche, des agents d'IA, ainsi qu'un chiffrement de bout en bout des données, avec l'ambition de proposer une alternative française et souveraine aux solutions cloud américaines.",
-      "url": "https://www.presse-citron.net/adieu-microsoft-365-ovhcloud-solution-francaise/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fadieu-microsoft-365-ovhcloud-solution-francaise%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-27T04:07:24.000Z",
-      "firstSeenAt": "2026-09-27T04:07:24.000Z"
-    },
-    {
       "id": "presse-citron-54",
       "type": "article",
       "title": "OpenAI stoppe l'entraînement d'une de ses IA devenue incontrôlable",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-15T00:00:00.000Z",
       "fetchedAt": "2026-10-19T04:10:00.000Z",
       "firstSeenAt": "2026-10-19T04:10:00.000Z"
+    },
+    {
+      "id": "presse-citron-68",
+      "type": "article",
+      "title": "Céline Dion à Paris : cette IA française a aidé à sublimer sa voix pendant ses concerts",
+      "summary": "Pour la résidence parisienne de Céline Dion au Plenitude Arena (Nanterre), débutée le 12 septembre 2026 devant environ 35 000 spectateurs, la société française L-Acoustics a déployé sa technologie Source Intelligence, basée sur l'apprentissage automatique, pour isoler la voix de la chanteuse des bruits parasites (autres instruments, public, réverbération de la salle), avec une réduction des signaux non vocaux pouvant atteindre 40 décibels. L'enjeu est de préserver la voix de l'artiste, qui se remet d'une maladie neurologique rare, en misant sur la précision plutôt que sur la puissance du système de sonorisation.",
+      "url": "https://www.presse-citron.net/celine-dion-a-paris-cette-ia-francaise-a-aide-a-sublimer-sa-voix-pendant-ses-concerts/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fceline-dion-a-paris-cette-ia-francaise-a-aide-a-sublimer-sa-voix-pendant-ses-concerts%2F?w=400&h=225",
+      "date": "2026-10-07T00:00:00.000Z",
+      "fetchedAt": "2026-10-20T04:08:00.000Z",
+      "firstSeenAt": "2026-10-20T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
