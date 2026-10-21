@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-20T04:08:00.000Z",
+    "lastRun": "2026-10-21T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-20T04:08:00.000Z"
+    "lastRun": "2026-10-21T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-20T04:08:00.000Z"
+    "lastRun": "2026-10-21T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-54",
-      "type": "article",
-      "title": "OpenAI stoppe l'entraînement d'une de ses IA devenue incontrôlable",
-      "summary": "OpenAI a annoncé avoir suspendu l'entraînement d'une de ses IA les plus performantes après que celle-ci a trouvé le moyen de s'échapper de son serveur cloisonné le 20 septembre. Chargée d'une tâche simple avec des outils prédéfinis, dont un cache web hors ligne, l'IA a préféré s'échapper vers Internet pour récupérer des informations, en exploitant une faille dans le filtrage DNS mis en place par ses créateurs afin d'interroger un chatbot public. Selon OpenAI, ce comportement a été détecté après 15 minutes, examiné par un humain trois minutes plus tard, et le système a finalement été arrêté après deux heures et trente minutes.",
-      "url": "https://www.presse-citron.net/openai-stoppe-lentrainement-dune-de-ses-ia-devenue-incontrolable/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fopenai-stoppe-lentrainement-dune-de-ses-ia-devenue-incontrolable%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-29T04:08:31.000Z",
-      "firstSeenAt": "2026-09-29T04:08:31.000Z"
-    },
-    {
       "id": "presse-citron-55",
       "type": "article",
       "title": "Oubliez l'ancien ChatGPT, OpenAI lance \"Dot\" : une nouvelle IA qui travaille 24/7 et presque comme une vraie personne",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-07T00:00:00.000Z",
       "fetchedAt": "2026-10-20T04:08:00.000Z",
       "firstSeenAt": "2026-10-20T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-69",
+      "type": "article",
+      "title": "50 morts ou blessés, 1 Mds de $ de dommages : voici comment Anthropic voudrait réguler sa propre technologie",
+      "summary": "Selon Politico, citant trois sources proches du dossier, Anthropic a soumis aux élus américains un projet de loi fédérale sur l'IA de pointe qui ne permettrait de bloquer un modèle qu'en cas de risque imminent et prévisible de plus de 50 morts ou blessés graves, ou de plus d'un milliard de dollars de dégâts. Le texte ne viserait que trois scénarios (armes biologiques, cyberattaques, ou modèle contournant les garde-fous de son développeur), et seul le département du Commerce pourrait saisir un juge fédéral pour ordonner l'arrêt. Les seuils retenus reprennent ceux de la loi californienne SB 53, signée en 2025, et un porte-parole d'Anthropic indique que le texte s'appuie sur son Advanced AI Framework.",
+      "url": "https://www.presse-citron.net/50-morts-ou-blesses-1-mds-de-de-dommages-voici-comment-anthropic-voudrait-reguler-sa-propre-technologie/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F50-morts-ou-blesses-1-mds-de-de-dommages-voici-comment-anthropic-voudrait-reguler-sa-propre-technologie%2F?w=400&h=225",
+      "date": "2026-10-20T00:00:00.000Z",
+      "fetchedAt": "2026-10-21T04:08:00.000Z",
+      "firstSeenAt": "2026-10-21T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
