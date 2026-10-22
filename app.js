@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-21T04:08:00.000Z",
+    "lastRun": "2026-10-22T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-21T04:08:00.000Z"
+    "lastRun": "2026-10-22T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-21T04:08:00.000Z"
+    "lastRun": "2026-10-22T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-55",
-      "type": "article",
-      "title": "Oubliez l'ancien ChatGPT, OpenAI lance \"Dot\" : une nouvelle IA qui travaille 24/7 et presque comme une vraie personne",
-      "summary": "Lors de son DevDay 2026, OpenAI a présenté les \"Dots\", une nouvelle forme d'IA personnelle et proactive qui travaille en continu, 24 heures sur 24 et 7 jours sur 7, plutôt que de simplement répondre à des requêtes ponctuelles comme ChatGPT. Chaque utilisateur dispose d'un Dot avec sa propre identité, qui s'adapte automatiquement à ses préférences et à ses objectifs au fil du temps. Cette annonce marque un tournant dans l'approche d'OpenAI, qui passe d'un assistant réactif à un agent autonome censé anticiper les besoins de l'utilisateur.",
-      "url": "https://www.presse-citron.net/chatgpt-openai-lance-dot-ia-24-7/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fchatgpt-openai-lance-dot-ia-24-7%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-09-30T04:07:53.000Z",
-      "firstSeenAt": "2026-09-30T04:07:53.000Z"
-    },
-    {
       "id": "presse-citron-56",
       "type": "article",
       "title": "Claude vient de faire baisser le coût de vos requêtes : la nouvelle IA Sonnet 5.5 est 30 % moins chère, mais presque aussi puissante qu'Opus 5.5",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-20T00:00:00.000Z",
       "fetchedAt": "2026-10-21T04:08:00.000Z",
       "firstSeenAt": "2026-10-21T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-70",
+      "type": "article",
+      "title": "Une nouvelle IA française arrive fin novembre : après Mistral, c'est OVHCloud qui se lance dans la course",
+      "summary": "Octave Klaba, le patron d'OVHcloud, a révélé à La Tribune que la v1 du grand modèle de langage maison de l'entreprise française est en fin d'entraînement et pourrait être publiée en open source fin novembre 2026. Ce projet s'appuie notamment sur le rachat de Dragon LLM finalisé en mars 2026, à la base de l'AI Lab d'OVHcloud, la division dédiée à la conception et à l'optimisation de ses futurs modèles, avec l'ambition de s'imposer comme un acteur souverain européen face à OpenAI, Anthropic et Google.",
+      "url": "https://www.presse-citron.net/une-nouvelle-ia-francaise-arrive-fin-novembre-apres-mistral-cest-ovhcloud-qui-se-lance-dans-la-course/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fune-nouvelle-ia-francaise-arrive-fin-novembre-apres-mistral-cest-ovhcloud-qui-se-lance-dans-la-course%2F?w=400&h=225",
+      "date": "2026-10-20T00:00:00.000Z",
+      "fetchedAt": "2026-10-22T04:08:00.000Z",
+      "firstSeenAt": "2026-10-22T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
