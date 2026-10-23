@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-22T04:08:00.000Z",
+    "lastRun": "2026-10-23T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-22T04:08:00.000Z"
+    "lastRun": "2026-10-23T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-22T04:08:00.000Z"
+    "lastRun": "2026-10-23T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-56",
-      "type": "article",
-      "title": "Claude vient de faire baisser le coût de vos requêtes : la nouvelle IA Sonnet 5.5 est 30 % moins chère, mais presque aussi puissante qu'Opus 5.5",
-      "summary": "Anthropic a lancé Claude Sonnet 5.5, un nouveau modèle positionné comme un complément plus rapide et moins cher à Claude Opus 5.5, tout en restant proche de ses performances. Le modèle serait environ 30% moins cher à l'usage que son prédécesseur Sonnet 5, tout en se classant comme le second meilleur modèle du marché selon le classement d'Artificial Analysis, juste derrière Opus 5.5. Cette sortie illustre la stratégie d'Anthropic de proposer des modèles intermédiaires performants à moindre coût, dans un contexte de concurrence accrue avec OpenAI sur les prix des API.",
-      "url": "https://www.presse-citron.net/claude-cout-requetes-nouvelle-ia-sonnet-5-5/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fclaude-cout-requetes-nouvelle-ia-sonnet-5-5%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-10-01T04:07:48.000Z",
-      "firstSeenAt": "2026-10-01T04:07:48.000Z"
-    },
-    {
       "id": "presse-citron-57",
       "type": "article",
       "title": "Google vient de présenter Gemini 4 Argon : voici les 4 métiers dans lesquels cette IA excelle",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-20T00:00:00.000Z",
       "fetchedAt": "2026-10-22T04:08:00.000Z",
       "firstSeenAt": "2026-10-22T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-71",
+      "type": "article",
+      "title": "Google Maps : la bonne nouvelle est tombée, Gemini débarque sur CarPlay pour le plus grand bonheur des utilisateurs d'iPhone",
+      "summary": "Les utilisateurs de Google Maps sur Apple CarPlay peuvent désormais accéder à l'assistant Gemini de Google directement depuis l'écran de leur voiture, une fonctionnalité repérée dans le code de l'application iOS depuis plusieurs mois mais restée indisponible jusqu'ici. Gemini devient ainsi le quatrième chatbot IA accessible sur CarPlay, après ChatGPT, Perplexity et Grok, grâce au nouveau framework d'iOS qui autorise les applications conversationnelles vocales tierces à interagir avec l'interface voiture d'Apple.",
+      "url": "https://presse-citron.net/google-maps-gemini-carplay-iphone",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpresse-citron.net%2Fgoogle-maps-gemini-carplay-iphone?w=400&h=225",
+      "date": "2026-10-22T00:00:00.000Z",
+      "fetchedAt": "2026-10-23T04:08:00.000Z",
+      "firstSeenAt": "2026-10-23T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
