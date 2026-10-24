@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-23T04:08:00.000Z",
+    "lastRun": "2026-10-24T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-23T04:08:00.000Z"
+    "lastRun": "2026-10-24T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-23T04:08:00.000Z"
+    "lastRun": "2026-10-24T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-57",
-      "type": "article",
-      "title": "Google vient de présenter Gemini 4 Argon : voici les 4 métiers dans lesquels cette IA excelle",
-      "summary": "Google a dévoilé Gemini 4 Argon, un nouveau modèle présenté comme aussi puissant que GPT-6 Astra d'OpenAI. L'IA se distingue particulièrement dans quatre domaines : le codage, où elle affiche des performances record sur le benchmark DeepSWE v1.1 ; la cybersécurité, où elle arrive en tête du classement CWE-bench et peut trouver, valider et corriger automatiquement des vulnérabilités logicielles critiques ; ainsi que l'automatisation de tâches intellectuelles complexes dans la finance et le droit.",
-      "url": "https://www.presse-citron.net/google-gemini-4-argon-metiers-ia/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fgoogle-gemini-4-argon-metiers-ia%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-10-02T04:08:34.000Z",
-      "firstSeenAt": "2026-10-02T04:08:34.000Z"
-    },
-    {
       "id": "presse-citron-58",
       "type": "article",
       "title": "Avant de capturer le président du Venezuela, Donald Trump a demandé l'avis de… Grok",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-22T00:00:00.000Z",
       "fetchedAt": "2026-10-23T04:08:00.000Z",
       "firstSeenAt": "2026-10-23T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-72",
+      "type": "article",
+      "title": "Impôt : après les piscines, le Fisc a décidé de cibler ces 2 constructions très répandues chez les Français",
+      "summary": "Après avoir détecté environ 140 000 piscines non déclarées grâce à son dispositif « Foncier innovant » (développé avec Google et Capgemini), générant près de 40 millions d'euros supplémentaires de taxe foncière, la DGFiP étend désormais cette analyse d'images aériennes par IA aux vérandas et aux abris de jardin. Les algorithmes croisent images aériennes et plan cadastral pour repérer les constructions absentes des bases fiscales, mais chaque cas détecté est ensuite analysé individuellement par un agent des finances publiques avant toute régularisation. Des demandes de déclaration seront envoyées aux propriétaires concernés dans les prochaines semaines.",
+      "url": "https://www.presse-citron.net/impot-apres-les-piscines-le-fisc-a-decide-de-cibler-ces-2-constructions-tres-repandues-chez-les-francais/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fimpot-apres-les-piscines-le-fisc-a-decide-de-cibler-ces-2-constructions-tres-repandues-chez-les-francais%2F?w=400&h=225",
+      "date": "2026-10-23T00:00:00.000Z",
+      "fetchedAt": "2026-10-24T04:08:00.000Z",
+      "firstSeenAt": "2026-10-24T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
