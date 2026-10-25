@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-24T04:08:00.000Z",
+    "lastRun": "2026-10-25T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-24T04:08:00.000Z"
+    "lastRun": "2026-10-25T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-24T04:08:00.000Z"
+    "lastRun": "2026-10-25T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-58",
-      "type": "article",
-      "title": "Avant de capturer le président du Venezuela, Donald Trump a demandé l'avis de… Grok",
-      "summary": "Selon Presse-citron, Donald Trump aurait suivi les conseils de l'IA Grok (xAI, Elon Musk) avant de faire capturer Nicolás Maduro, alors président du Venezuela, le 3 janvier. Trump aurait demandé au chatbot comment les Venezueliens réagiraient si Maduro était capturé, et Grok lui aurait répondu que Maduro était un dictateur impopulaire et que la population réagirait positivement à sa chute. L'épisode illustre le recours croissant de dirigeants politiques à des IA conversationnelles pour évaluer l'impact de décisions géopolitiques sensibles.",
-      "url": "https://www.presse-citron.net/avant-de-capturer-le-president-du-venezuela-donald-trump-a-demande-lavis-de-grok/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Favant-de-capturer-le-president-du-venezuela-donald-trump-a-demande-lavis-de-grok%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-10-03T04:07:24.000Z",
-      "firstSeenAt": "2026-10-03T04:07:24.000Z"
-    },
-    {
       "id": "presse-citron-59",
       "type": "article",
       "title": "Alibaba dévoile deux IA révolutionnaires capables de détecter des cancers sur de simples scanners",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-23T00:00:00.000Z",
       "fetchedAt": "2026-10-24T04:08:00.000Z",
       "firstSeenAt": "2026-10-24T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-73",
+      "type": "article",
+      "title": "ChatGPT lance ses codes secrets pour masquer vos questions embarrassantes : voici comment activer cette nouvelle fonctionnalité",
+      "summary": "OpenAI a déployé la fonctionnalité « Locked Chats » sur ChatGPT, qui permet de verrouiller certaines conversations derrière un code PIN à 4 chiffres (ou Face ID / Touch ID sur mobile compatible). Les conversations verrouillées sont rangées dans une section dédiée sous Projects, à l'écart de l'historique classique, des conversations épinglées et de la recherche, et disposent de leur propre mémoire indépendante. Attention toutefois : il ne s'agit pas d'un chiffrement de bout en bout, et réinitialiser le code PIN supprime définitivement toutes les conversations verrouillées. La fonctionnalité est disponible sur tous les forfaits, du gratuit à Enterprise, sur ordinateur comme sur mobile.",
+      "url": "https://www.presse-citron.net/chatgpt-codes-secrets-questions-embarrassantes-fonctionnalite/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fchatgpt-codes-secrets-questions-embarrassantes-fonctionnalite%2F?w=400&h=225",
+      "date": "2026-10-22T00:00:00.000Z",
+      "fetchedAt": "2026-10-25T04:08:00.000Z",
+      "firstSeenAt": "2026-10-25T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
