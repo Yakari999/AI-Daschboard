@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-25T04:08:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-10-19T04:10:00.000Z",
+    "lastRun": "2026-10-26T04:09:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-25T04:08:00.000Z"
+    "lastRun": "2026-10-26T04:09:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-25T04:08:00.000Z"
+    "lastRun": "2026-10-26T04:09:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-10-19T04:10:00.000Z"
+    "lastRun": "2026-10-26T04:09:00.000Z"
   }
 ];
 
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-59",
-      "type": "article",
-      "title": "Alibaba dévoile deux IA révolutionnaires capables de détecter des cancers sur de simples scanners",
-      "summary": "L'académie de recherche DAMO d'Alibaba a présenté deux systèmes d'IA dédiés à l'imagerie médicale : EAGLE, destiné au dépistage du cancer de l'œsophage, et RADAR, capable d'analyser globalement jusqu'à 146 anomalies abdominales différentes à partir de scanners de routine. Ces outils visent à améliorer le diagnostic précoce de pathologies souvent détectées trop tardivement, en identifiant des signes cachés que l'œil humain pourrait manquer sur des examens d'imagerie standards.",
-      "url": "https://www.presse-citron.net/alibaba-devoile-deux-ia-revolutionnaires-capables-de-detecter-des-cancers-sur-de-simples-scanners/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Falibaba-devoile-deux-ia-revolutionnaires-capables-de-detecter-des-cancers-sur-de-simples-scanners%2F?w=400&h=225",
-      "date": null,
-      "fetchedAt": "2026-10-04T04:07:32.000Z",
-      "firstSeenAt": "2026-10-04T04:07:32.000Z"
-    },
-    {
       "id": "presse-citron-60",
       "type": "article",
       "title": "Votre compte Gemini gratuit perd une importante fonctionnalité le 9 octobre : voici tous les changements que Google vient d'annoncer",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-22T00:00:00.000Z",
       "fetchedAt": "2026-10-25T04:08:00.000Z",
       "firstSeenAt": "2026-10-25T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-74",
+      "type": "article",
+      "title": "La bulle de l'IA menace d'exploser et l'économie mondiale pourrait couler avec elle, alerte le FMI",
+      "summary": "Dans son actualisation des Perspectives de l'économie mondiale publiée le 13 octobre 2026 à Bangkok, le FMI table sur une croissance mondiale de 3,1% en 2026 (+0,1 point par rapport à juillet) et 3,4% en 2027, mais son économiste en chef Silvana Tenreyro met en garde contre un possible arrêt brutal de la dynamique liée à l'IA si les bénéfices et gains de productivité attendus du secteur étaient révisés à la baisse. Le Fonds décrit une économie mondiale fragmentée, tiraillée entre le choc énergétique lié à la guerre en Iran et le boom technologique de l'IA, avec une inflation mondiale projetée à 4,7% en 2026.",
+      "url": "https://www.presse-citron.net/la-bulle-de-lia-menace-dexploser-et-leconomie-mondiale-pourrait-couler-avec-elle-alerte-le-fmi/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fla-bulle-de-lia-menace-dexploser-et-leconomie-mondiale-pourrait-couler-avec-elle-alerte-le-fmi%2F?w=400&h=225",
+      "date": "2026-10-13T00:00:00.000Z",
+      "fetchedAt": "2026-10-26T04:09:00.000Z",
+      "firstSeenAt": "2026-10-26T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
