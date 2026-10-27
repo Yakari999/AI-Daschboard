@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-10-27T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-26T04:09:00.000Z"
+    "lastRun": "2026-10-27T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-26T04:09:00.000Z"
+    "lastRun": "2026-10-27T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-60",
-      "type": "article",
-      "title": "Votre compte Gemini gratuit perd une importante fonctionnalité le 9 octobre : voici tous les changements que Google vient d'annoncer",
-      "summary": "À partir du 9 octobre 2026, les comptes Gemini gratuits perdent l'accès aux modèles Flash et Pro et ne conservent que la version Flash-Lite, la moins performante. Les abonnés Google AI Plus perdent eux aussi l'accès à Pro ce mois-ci et ne gardent que Flash-Lite et Flash, tandis que les abonnés AI Pro ne subissent aucune restriction et récupèrent en prime le mode Deep Think, jusque-là réservé aux formules supérieures. Pour retrouver un accès complet aux modèles les plus avancés, il faudra donc souscrire à un abonnement Google AI Pro ou AI Ultra.",
-      "url": "https://www.presse-citron.net/gemini-gratuit-perd-fonctionnalite-google/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fgemini-gratuit-perd-fonctionnalite-google%2F?w=400&h=225",
-      "date": "2026-10-09T00:00:00.000Z",
-      "fetchedAt": "2026-10-09T04:09:00.000Z",
-      "firstSeenAt": "2026-10-09T04:09:00.000Z"
-    },
-    {
       "id": "presse-citron-61",
       "type": "article",
       "title": "Mistral Large 4 est officiel : la France rattrape enfin la Chine en proposant l'un des meilleurs modèles d'IA ouverts du monde entier",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-13T00:00:00.000Z",
       "fetchedAt": "2026-10-26T04:09:00.000Z",
       "firstSeenAt": "2026-10-26T04:09:00.000Z"
+    },
+    {
+      "id": "presse-citron-75",
+      "type": "article",
+      "title": "Oubliez Claude et ChatGPT : les vrais assistants personnels sont là. Ils sont autonomes et travaillent même pendant votre sommeil",
+      "summary": "Anthropic a annoncé le 21 octobre 2026 Claude Duet, un agent proactif en préversion de recherche, disponible en application autonome sur iOS et Android ainsi que via claude.ai, pour l'instant réservé aux utilisateurs américains sur liste d'attente avec un abonnement Pro ou Max. Construit sur le modèle Claude Opus 5.5, Duet fonctionne sur sa propre machine virtuelle dans le cloud avec son propre navigateur, ce qui lui permet de continuer à travailler sans que l'ordinateur ou le téléphone reste allumé, et peut se connecter à plus de 6 000 connecteurs et extensions du Claude Marketplace pour des tâches allant de la planification de réunions à la création de prévisions financières ou au prototypage d'applications web. Avant d'envoyer un message, d'effectuer un paiement, de signer un document ou de supprimer quelque chose, l'application affiche son intention et attend une validation, certaines actions comme les transferts d'argent restant interdites même avec approbation.",
+      "url": "https://www.presse-citron.net/claude-chatgpt-vrais-assistants-personnels/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fclaude-chatgpt-vrais-assistants-personnels%2F?w=400&h=225",
+      "date": "2026-10-21T00:00:00.000Z",
+      "fetchedAt": "2026-10-27T04:08:00.000Z",
+      "firstSeenAt": "2026-10-27T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
