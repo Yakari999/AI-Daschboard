@@ -947,17 +947,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-62",
-      "type": "article",
-      "title": "Project Suncatcher : la première étape du plan de Google pour envoyer des data centers dans l'espace",
-      "summary": "Google a procédé le 1er ou 2 octobre 2026 à son premier test en orbite dans le cadre de Project Suncatcher : un satellite prototype construit par Planet Labs et équipé de puces TPU a été placé en orbite basse lors du vol partagé Transporter-18 de SpaceX. L'objectif est de vérifier la résistance du matériel aux radiations spatiales et aux écarts de température extrêmes, ainsi que la dissipation de la chaleur générée par les serveurs dans le vide. Google maintient une mission plus ambitieuse à deux satellites prévue pour 2027, toujours en partenariat avec Planet, avec une viabilité économique visée d'ici le milieu des années 2030.",
-      "url": "https://www.presse-citron.net/projet-suncatcher-google-constellation-de-centres-de-donnees/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fprojet-suncatcher-google-constellation-de-centres-de-donnees%2F?w=400&h=225",
-      "date": "2026-10-02T00:00:00.000Z",
-      "fetchedAt": "2026-10-12T04:09:00.000Z",
-      "firstSeenAt": "2026-10-12T04:09:00.000Z"
-    },
-    {
       "id": "presse-citron-63",
       "type": "article",
       "title": "Canal+ : voici les nouveautés qui arrivent sur l'application",
@@ -1110,6 +1099,17 @@
       "date": "2026-10-26T00:00:00.000Z",
       "fetchedAt": "2026-10-28T04:08:00.000Z",
       "firstSeenAt": "2026-10-28T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-77",
+      "type": "article",
+      "title": "Elle conteste ses impôts à l'aide d'une IA : la justice la condamne à 500 € d'amende",
+      "summary": "Le tribunal administratif de Rennes a condamné une contribuable à 500 euros d'amende pour recours abusif, dans une ordonnance rendue le 19 août 2026 : sa contestation fiscale avait été déposée sans réclamation préalable, avec des moyens insuffisants pour en apprécier le bien-fondé, une rédaction manifestement assistée par IA, et la répétition d'une demande déjà rejetée. Le Conseil d'État alerte sur la multiplication de ce type de requêtes facilitées par l'IA, souvent inutilement longues, alors que le tribunal de Rennes se dirige vers 10 000 requêtes en 2026, un afflux en partie attribué à l'intelligence artificielle selon un entretien publié le 13 octobre 2026.",
+      "url": "https://www.presse-citron.net/elle-conteste-ses-impots-a-laide-dune-ia-la-justice-la-condamne-a-500-e-damende/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Felle-conteste-ses-impots-a-laide-dune-ia-la-justice-la-condamne-a-500-e-damende%2F?w=400&h=225",
+      "date": "2026-10-28T00:00:00.000Z",
+      "fetchedAt": "2026-10-29T04:08:00.000Z",
+      "firstSeenAt": "2026-10-29T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
