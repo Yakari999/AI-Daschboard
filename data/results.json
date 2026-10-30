@@ -55,17 +55,6 @@
   ],
   "presse": [
     {
-      "id": "laus-c22",
-      "type": "article",
-      "title": "Lausanne Méditerranées, 7e édition : cap sur l'Andalousie",
-      "summary": "Du 25 septembre au 11 octobre 2026, la quinzaine culturelle Lausanne Méditerranées met l'Andalousie à l'honneur pour sa 7e édition : spectacles, rencontres, ateliers et autres événements culturels dans divers lieux de la ville, entrée libre, avec informations en français et en espagnol. La manifestation promeut l'interculturalité et les liens entre Lausanne et les pays et régions du pourtour méditerranéen.",
-      "url": "https://lausanne-mediterranees.ch/",
-      "date": "2026-09-25T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Flausanne-mediterranees.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-09-05T04:04:15.000Z",
-      "firstSeenAt": "2026-09-05T04:04:15.000Z"
-    },
-    {
       "id": "laus-c29",
       "type": "article",
       "title": "Charles Blanc-Gatti. Les couleurs du son",
@@ -108,6 +97,17 @@
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Ffestival-bach-de-lausanne?w=400&h=225",
       "fetchedAt": "2026-10-20T04:08:00.000Z",
       "firstSeenAt": "2026-10-20T04:08:00.000Z"
+    },
+    {
+      "id": "laus-c35",
+      "type": "article",
+      "title": "Le Grand Récital — Grigory Sokolov",
+      "summary": "Le pianiste Grigory Sokolov se produit à la Salle Métropole de Lausanne le 7 novembre 2026, avec un apéro gratuit et une présentation du programme dès 18h avant le récital à 19h (Sonate n°21 D.960 de Schubert, suite du programme à annoncer). Billets dès 24 CHF.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/le-grand-recital-grigory-sokolov",
+      "date": "2026-11-07T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fle-grand-recital-grigory-sokolov?w=400&h=225",
+      "fetchedAt": "2026-10-30T04:09:00.000Z",
+      "firstSeenAt": "2026-10-30T04:09:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -947,17 +947,6 @@
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-63",
-      "type": "article",
-      "title": "Canal+ : voici les nouveautés qui arrivent sur l'application",
-      "summary": "Lors de la présentation 2026 de son application, Canal+ a dévoilé quatre nouveautés pour ses abonnés : un fil vidéo en page d'accueil, un lecteur vertical, un moteur de recherche propulsé par l'IA d'OpenAI permettant de formuler des requêtes en langage naturel, ainsi que des calendriers sportifs avec un mode anti-spoil. Le groupe a aussi annoncé le lancement, le 9 octobre 2026, de Sport+, une nouvelle plateforme sportive gratuite.",
-      "url": "https://www.presse-citron.net/canal-voici-les-nouveautes-qui-arrivent-sur-lapplication/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcanal-voici-les-nouveautes-qui-arrivent-sur-lapplication%2F?w=400&h=225",
-      "date": "2026-10-12T00:00:00.000Z",
-      "fetchedAt": "2026-10-13T04:08:00.000Z",
-      "firstSeenAt": "2026-10-13T04:08:00.000Z"
-    },
-    {
       "id": "presse-citron-64",
       "type": "article",
       "title": "Meta dépasse OpenAI et Google grâce à son nouveau modèle d'IA « Muse Wonder Full »",
@@ -1110,6 +1099,17 @@
       "date": "2026-10-28T00:00:00.000Z",
       "fetchedAt": "2026-10-29T04:08:00.000Z",
       "firstSeenAt": "2026-10-29T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-78",
+      "type": "article",
+      "title": "Mathématiques, physique quantique et informatique : OpenAI revendique 3 percées majeures, et affole la communauté scientifique",
+      "summary": "OpenAI a annoncé le 26 octobre 2026 trois résultats scientifiques distincts obtenus par ses modèles : une preuve en mathématiques portant sur la conjecture du lissage local de Sogge (générée le 18 octobre et formalisée dans l'assistant de preuve Lean le lendemain), une réfutation de l'hypothèse du temps exponentiel (ETH) en informatique théorique (produite le 16 octobre, sans toutefois prouver P=NP ni menacer le chiffrement moderne), et des preuves d'existence rigoureuses pour certaines théories quantiques des champs en quatre dimensions dont la chromodynamique quantique. Ces annonces font suite à la publication le 6 octobre d'un vaste ensemble de résultats mathématiques produits par un modèle interne de pointe. Les résultats n'ont pas encore été validés de façon indépendante par la communauté scientifique, la formalisation Lean réduisant le risque d'erreur logique sans garantir que l'énoncé formalisé corresponde exactement aux conjectures annoncées.",
+      "url": "https://www.presse-citron.net/mathematiques-physique-quantique-et-informatique-openai-revendique-3-percees-majeures-et-affole-la-communaute-scientifique/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fmathematiques-physique-quantique-et-informatique-openai-revendique-3-percees-majeures-et-affole-la-communaute-scientifique%2F?w=400&h=225",
+      "date": "2026-10-26T00:00:00.000Z",
+      "fetchedAt": "2026-10-30T04:09:00.000Z",
+      "firstSeenAt": "2026-10-30T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
