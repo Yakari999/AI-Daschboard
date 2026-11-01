@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-10-31T04:08:00.000Z",
+    "lastRun": "2026-11-01T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-10-31T04:08:00.000Z"
+    "lastRun": "2026-11-01T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-10-31T04:08:00.000Z"
+    "lastRun": "2026-11-01T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-65",
-      "type": "article",
-      "title": "C'est une première : l'UE brandit sa loi sur l'IA contre les \"agents\" hors de contrôle",
-      "summary": "Lors de l'International AI Summit organisé le 14 octobre 2026 à Dublin, dans le cadre de la présidence irlandaise du Conseil de l'UE, Henna Virkkunen, vice-présidente exécutive de la Commission européenne pour la souveraineté technologique, a annoncé que Bruxelles commence à mobiliser les pouvoirs de l'AI Act contre les laboratoires développant des modèles de pointe et leurs agents autonomes. La Commission précise qu'aucune procédure formelle n'a encore été ouverte et qu'un porte-parole a indiqué que la loi ne serait pas appliquée strictement pendant une phase de test.",
-      "url": "https://www.presse-citron.net/ue-loi-ia-agents-hors-de-controle/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fue-loi-ia-agents-hors-de-controle%2F?w=400&h=225",
-      "date": "2026-10-15T00:00:00.000Z",
-      "fetchedAt": "2026-10-16T04:09:00.000Z",
-      "firstSeenAt": "2026-10-16T04:09:00.000Z"
-    },
-    {
       "id": "presse-citron-66",
       "type": "article",
       "title": "Tentative d'espionnage : le FBI arrête un ingénieur d'OpenAI accusé d'avoir placé un appareil d'enregistrement chez le créateur de ChatGPT",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-26T00:00:00.000Z",
       "fetchedAt": "2026-10-31T04:08:00.000Z",
       "firstSeenAt": "2026-10-31T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-80",
+      "type": "article",
+      "title": "« Elonville » : pour étendre ses data centers IA, Elon Musk rachète un quartier entier et achète le silence des riverains",
+      "summary": "Selon une enquête du Guardian, xAI (via sa filiale immobilière MZX) propose de racheter les maisons des habitants de Southaven, dans le Mississippi, à condition qu'ils renoncent à se joindre à une action collective accusant l'entreprise de nuisances liées à sa centrale électrique au gaz alimentant les data centers Colossus. Un enregistrement entendu par le Guardian évoque un objectif de 418 maisons, et les registres du comté montrent que cinq habitations ont déjà été achetées depuis le 9 octobre 2026. Le maire de Southaven affirme que ces logements serviront à loger des employés de SpaceXAI, tandis qu'une riveraine citée par le Guardian qualifie le phénomène de « Elonville », décrivant un rachat qui semble s'étendre progressivement à tout le quartier.",
+      "url": "https://presse-citron.net/elonville-pour-etendre-ses-data-centers-ia-elon-musk-rachete-un-quartier-entier-et-achete-le-silence-des-riverains",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpresse-citron.net%2Felonville-pour-etendre-ses-data-centers-ia-elon-musk-rachete-un-quartier-entier-et-achete-le-silence-des-riverains?w=400&h=225",
+      "date": "2026-10-28T00:00:00.000Z",
+      "fetchedAt": "2026-11-01T04:08:00.000Z",
+      "firstSeenAt": "2026-11-01T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
