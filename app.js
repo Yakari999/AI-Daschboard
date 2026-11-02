@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-01T04:08:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-10-26T04:09:00.000Z",
+    "lastRun": "2026-11-02T04:09:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-01T04:08:00.000Z"
+    "lastRun": "2026-11-02T04:09:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-01T04:08:00.000Z"
+    "lastRun": "2026-11-02T04:09:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-10-26T04:09:00.000Z"
+    "lastRun": "2026-11-02T04:09:00.000Z"
   }
 ];
 
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-66",
-      "type": "article",
-      "title": "Tentative d'espionnage : le FBI arrête un ingénieur d'OpenAI accusé d'avoir placé un appareil d'enregistrement chez le créateur de ChatGPT",
-      "summary": "Un enregistreur audio dissimulé dans du papier toilette et branché sur un port USB a été découvert le 30 septembre 2026 dans une salle de réunion des dirigeants d'OpenAI à San Francisco. Abdulrahman Alfozan, ingénieur saoudien de 35 ans chez OpenAI depuis juillet 2025, a été identifié grâce aux propres modèles d'IA de l'entreprise, puis arrêté par le FBI le 9 octobre et présenté devant le tribunal fédéral de San Francisco le 13 octobre. Il est accusé d'avoir utilisé ou tenté d'utiliser un dispositif pour intercepter des communications orales ; OpenAI l'a licencié et a limité son accès.",
-      "url": "https://www.presse-citron.net/tentative-espionnage-fbi-arrete-ingenieur-openai-chatgpt/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Ftentative-espionnage-fbi-arrete-ingenieur-openai-chatgpt%2F?w=400&h=225",
-      "date": "2026-10-13T00:00:00.000Z",
-      "fetchedAt": "2026-10-18T04:07:00.000Z",
-      "firstSeenAt": "2026-10-18T04:07:00.000Z"
-    },
-    {
       "id": "presse-citron-67",
       "type": "article",
       "title": "La solution aux déserts médicaux ? Cette IA prescrit des médicaments seule et à distance, une première mondiale",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-28T00:00:00.000Z",
       "fetchedAt": "2026-11-01T04:08:00.000Z",
       "firstSeenAt": "2026-11-01T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-81",
+      "type": "article",
+      "title": "C'est confirmé : Anthropic va entrer en Bourse malgré les craintes de son patron",
+      "summary": "Anthropic a déposé le 26 octobre 2026 une déclaration d'enregistrement publique (formulaire S-1) auprès de la SEC, une étape qui fait suite à un premier dépôt confidentiel effectué le 1er juin 2026. L'entreprise prévoirait de coter ses actions de classe A sur le Nasdaq sous le symbole « ANT », sans que le nombre d'actions ou le prix d'introduction n'aient encore été fixés. Anthropic avait été valorisée à 965 milliards de dollars lors de sa levée de série H, au-dessus des 852 milliards de dollars attribués à OpenAI, mais précise que le calendrier de cotation dépendra des conditions de marché.",
+      "url": "https://www.presse-citron.net/cest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron%2F?w=400&h=225",
+      "date": "2026-10-26T00:00:00.000Z",
+      "fetchedAt": "2026-11-02T04:09:00.000Z",
+      "firstSeenAt": "2026-11-02T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
