@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-03T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-02T04:09:00.000Z"
+    "lastRun": "2026-11-03T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-02T04:09:00.000Z"
+    "lastRun": "2026-11-03T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -1116,17 +1116,6 @@ const FALLBACK_RESULTS = {
   ],
   "presse-citron": [
     {
-      "id": "presse-citron-67",
-      "type": "article",
-      "title": "La solution aux déserts médicaux ? Cette IA prescrit des médicaments seule et à distance, une première mondiale",
-      "summary": "Dans l'Utah, l'application Nolla Derm a été autorisée à émettre des prescriptions générées par IA pour traiter l'acné, dans le cadre d'un test en trois phases encadré par des garde-fous stricts : deux médecins valident chaque ordonnance au départ, et l'État doit donner son accord écrit à chaque étape. La start-up doit garantir zéro incident grave et un taux de concordance d'au moins 95% entre les décisions de l'IA et celles des médecins, pour un service facturé à partir de 4,99 dollars par mois.",
-      "url": "https://www.presse-citron.net/la-solution-aux-deserts-medicaux-cette-ia-prescrit-des-medicaments-seule-et-a-distance-une-premiere-mondiale/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fla-solution-aux-deserts-medicaux-cette-ia-prescrit-des-medicaments-seule-et-a-distance-une-premiere-mondiale%2F?w=400&h=225",
-      "date": "2026-10-15T00:00:00.000Z",
-      "fetchedAt": "2026-10-19T04:10:00.000Z",
-      "firstSeenAt": "2026-10-19T04:10:00.000Z"
-    },
-    {
       "id": "presse-citron-68",
       "type": "article",
       "title": "Céline Dion à Paris : cette IA française a aidé à sublimer sa voix pendant ses concerts",
@@ -1279,6 +1268,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-26T00:00:00.000Z",
       "fetchedAt": "2026-11-02T04:09:00.000Z",
       "firstSeenAt": "2026-11-02T04:09:00.000Z"
+    },
+    {
+      "id": "presse-citron-82",
+      "type": "article",
+      "title": "15 ans d'efforts écologiques balayés par la course aux data centers IA : cette étude fait froid dans le dos",
+      "summary": "Selon une analyse du Sierra Club relayée par Bloomberg fin octobre 2026, les émissions de CO2 du secteur électrique américain pourraient atteindre 2,1 milliards de tonnes en 2030, soit une hausse d'environ 42% (618 millions de tonnes supplémentaires) par rapport à 2025. La majeure partie de cette hausse viendrait de générateurs non raccordés au réseau électrique, souvent construits par les entreprises technologiques pour éviter les longs délais de raccordement, et qui pourraient émettre jusqu'à 460 millions de tonnes par an d'ici 2030 ; les centres raccordés au réseau ajouteraient 154 millions de tonnes supplémentaires. Un expert d'Energy Innovation souligne toutefois la difficulté de modéliser précisément ces émissions, faute de données fiables sur les délais de construction et de raccordement, et rien ne garantit que tous les projets de data centers actuellement planifiés seront effectivement construits.",
+      "url": "https://www.presse-citron.net/15-ans-defforts-ecologiques-balayes-par-la-course-aux-data-centers-ia-cette-etude-fait-froid-dans-le-dos/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2F15-ans-defforts-ecologiques-balayes-par-la-course-aux-data-centers-ia-cette-etude-fait-froid-dans-le-dos%2F?w=400&h=225",
+      "date": "2026-10-29T00:00:00.000Z",
+      "fetchedAt": "2026-11-03T04:08:00.000Z",
+      "firstSeenAt": "2026-11-03T04:08:00.000Z"
     }
   ],
   "wing-freefly": [
