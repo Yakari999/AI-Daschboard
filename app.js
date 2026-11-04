@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-03T04:08:00.000Z",
+    "lastRun": "2026-11-04T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-03T04:08:00.000Z"
+    "lastRun": "2026-11-04T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-03T04:08:00.000Z"
+    "lastRun": "2026-11-04T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -235,17 +235,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-09-21T04:09:32.000Z"
     },
     {
-      "id": "laus-c31",
-      "type": "article",
-      "title": "JazzOnze+, 39e édition",
-      "summary": "Du 27 octobre au 1er novembre 2026, le festival JazzOnze+ investit sept lieux du centre-ville de Lausanne (dont le Casino de Montbenon) avec une programmation jazz internationale réunissant notamment Hiromi, Kenny Barron, Nate Smith, Kurt Rosenwinkel et Joe Armon-Jones.",
-      "url": "https://jazzonzeplus.ch/",
-      "date": "2026-10-27T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fjazzonzeplus.ch%2F?w=400&h=225",
-      "fetchedAt": "2026-10-05T04:08:00.000Z",
-      "firstSeenAt": "2026-10-05T04:08:00.000Z"
-    },
-    {
       "id": "laus-c33",
       "type": "article",
       "title": "Portugal. The Man en concert à Lausanne",
@@ -277,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fle-grand-recital-grigory-sokolov?w=400&h=225",
       "fetchedAt": "2026-10-30T04:09:00.000Z",
       "firstSeenAt": "2026-10-30T04:09:00.000Z"
+    },
+    {
+      "id": "laus-c36",
+      "type": "article",
+      "title": "Lucas Erin — Prix culturel Manor Vaud 2026",
+      "summary": "Jusqu'au 14 février 2027 à l'Espace Projet du MCBA, Plateforme 10 (Lausanne) : exposition consacrée à l'artiste Lucas Erin, lauréat 2026 du Prix culturel Manor Vaud, avec une visite commentée par la curatrice Nicole Schweizer prévue le 5 novembre 2026 à 18h.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/vernissage-lucas-erin-prix-culturel-manor-vaud-2026",
+      "date": "2026-08-28T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fvernissage-lucas-erin-prix-culturel-manor-vaud-2026?w=400&h=225",
+      "fetchedAt": "2026-11-04T04:08:00.000Z",
+      "firstSeenAt": "2026-11-04T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
