@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-07T04:08:00.000Z",
+    "lastRun": "2026-11-08T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-07T04:08:00.000Z"
+    "lastRun": "2026-11-08T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-07T04:08:00.000Z"
+    "lastRun": "2026-11-08T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -255,17 +255,6 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Ffestival-bach-de-lausanne?w=400&h=225",
       "fetchedAt": "2026-10-20T04:08:00.000Z",
       "firstSeenAt": "2026-10-20T04:08:00.000Z"
-    },
-    {
-      "id": "laus-c35",
-      "type": "article",
-      "title": "Le Grand Récital — Grigory Sokolov",
-      "summary": "Le pianiste Grigory Sokolov se produit à la Salle Métropole de Lausanne le 7 novembre 2026, avec un apéro gratuit et une présentation du programme dès 18h avant le récital à 19h (Sonate n°21 D.960 de Schubert, suite du programme à annoncer). Billets dès 24 CHF.",
-      "url": "https://www.lausanne-tourisme.ch/fr/evenement/le-grand-recital-grigory-sokolov",
-      "date": "2026-11-07T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fle-grand-recital-grigory-sokolov?w=400&h=225",
-      "fetchedAt": "2026-10-30T04:09:00.000Z",
-      "firstSeenAt": "2026-10-30T04:09:00.000Z"
     },
     {
       "id": "laus-c36",
