@@ -12,7 +12,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T20:05:00.000Z",
     "updatedAt": "2026-08-12T17:55:43.650Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "sourceType": "prompt"
   },
   {
@@ -22,7 +22,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 7,
     "createdAt": "2026-08-12T09:39:51.181Z",
     "updatedAt": "2026-08-17T11:51:20.402Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "tags": [
       "sport"
     ],
@@ -37,7 +37,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:41:09.686Z",
     "updatedAt": "2026-08-12T13:04:39.827Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -55,7 +55,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:03:08.181Z",
     "updatedAt": "2026-08-12T13:04:54.123Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -67,7 +67,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 15,
     "createdAt": "2026-08-12T09:19:55.490Z",
     "updatedAt": "2026-08-12T13:04:29.156Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "tags": [
       "ciné"
     ],
@@ -85,7 +85,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T13:06:43.136Z",
     "updatedAt": "2026-08-12T13:56:42.401Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "frequency": "weekly",
     "layout": "tiles",
     "sourceType": "prompt"
@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-08T04:08:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -112,7 +112,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 10,
     "createdAt": "2026-08-11T22:50:30.590Z",
     "updatedAt": "2026-08-13T06:47:01.307Z",
-    "lastRun": "2026-11-02T04:09:00.000Z",
+    "lastRun": "2026-11-09T04:08:00.000Z",
     "frequency": "weekly",
     "tags": [
       "wing"
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-08T04:08:00.000Z"
+    "lastRun": "2026-11-09T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-08T04:08:00.000Z"
+    "lastRun": "2026-11-09T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -163,7 +163,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:49:14.630Z",
     "updatedAt": "2026-08-13T07:10:52.931Z",
-    "lastRun": "2026-11-02T04:09:00.000Z"
+    "lastRun": "2026-11-09T04:08:00.000Z"
   }
 ];
 
@@ -266,6 +266,17 @@ const FALLBACK_RESULTS = {
       "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fvernissage-lucas-erin-prix-culturel-manor-vaud-2026?w=400&h=225",
       "fetchedAt": "2026-11-04T04:08:00.000Z",
       "firstSeenAt": "2026-11-04T04:08:00.000Z"
+    },
+    {
+      "id": "laus-c37",
+      "type": "article",
+      "title": "Lausanne, l'Exposition",
+      "summary": "Du 1er juillet 2026 au 30 juin 2027 au Musée historique de Lausanne (ouvert du mardi au dimanche, 11h-18h) : exposition en 11 espaces retraçant les métamorphoses de la ville depuis le Moyen Âge jusqu'à aujourd'hui (eau, mobilité, loisirs, logement...), avec en ouverture la célèbre maquette de Lausanne telle qu'elle apparaissait en 1638.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/lausanne-lexposition/",
+      "date": "2026-07-01T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Flausanne-lexposition%2F?w=400&h=225",
+      "fetchedAt": "2026-11-09T04:08:00.000Z",
+      "firstSeenAt": "2026-11-09T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -401,17 +412,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-08-12T15:40:00.000Z"
     },
     {
-      "id": "ts-2",
-      "type": "video",
-      "title": "3 Body Problem — Saison 2",
-      "summary": "Adaptation du roman de Liu Cixin, la saison 2 embrasse la théorie de la forêt sombre.",
-      "url": "https://www.youtube.com/watch?v=5vqIIjcOps0",
-      "image": "https://img.youtube.com/vi/5vqIIjcOps0/hqdefault.jpg",
-      "date": "2026-04-01T00:00:00.000Z",
-      "datePrecision": "month",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "ts-5",
       "type": "video",
       "title": "Avatar : Le Dernier Maître de l'Air — Saison 2",
@@ -522,6 +522,17 @@ const FALLBACK_RESULTS = {
       "datePrecision": "month",
       "fetchedAt": "2026-10-19T04:10:00.000Z",
       "firstSeenAt": "2026-10-19T04:10:00.000Z"
+    },
+    {
+      "id": "series-black-doves-s2",
+      "type": "video",
+      "title": "Black Doves — Saison 2",
+      "summary": "Thriller d'espionnage britannique porté par Keira Knightley et Ben Whishaw, saison 2 sortie le 5 novembre 2026 sur Netflix, salué par la critique (100% sur Rotten Tomatoes sur un petit échantillon).",
+      "url": "https://www.netflix.com/title/81479631",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.netflix.com%2Ftitle%2F81479631?w=400&h=225",
+      "date": "2026-11-05T00:00:00.000Z",
+      "fetchedAt": "2026-11-09T04:08:00.000Z",
+      "firstSeenAt": "2026-11-09T04:08:00.000Z"
     }
   ],
   "courses-au-large": [
