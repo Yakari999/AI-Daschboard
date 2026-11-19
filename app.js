@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-18T04:08:00.000Z",
+    "lastRun": "2026-11-19T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-18T04:08:00.000Z"
+    "lastRun": "2026-11-19T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-18T04:08:00.000Z"
+    "lastRun": "2026-11-19T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -268,15 +268,15 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-11-09T04:08:00.000Z"
     },
     {
-      "id": "laus-c38",
+      "id": "laus-c39",
       "type": "article",
-      "title": "Concert de l'OSUL (Orchestre Symphonique et Universitaire de Lausanne)",
-      "summary": "Mercredi 18 novembre à 19h, Salle Métropole (entrée gratuite) : l'OSUL joue la Symphonie n°3 de Mendelssohn, l'ouverture The Wasps de Vaughan Williams, Still, Glowing de Judith Weir et l'ouverture The Wand of Youth d'Elgar.",
-      "url": "https://www.lausanne-tourisme.ch/fr/evenement/osul-orchestre-symphonique-et-universitaire-lausanne/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fosul-orchestre-symphonique-et-universitaire-lausanne%2F?w=400&h=225",
-      "fetchedAt": "2026-11-18T04:08:00.000Z",
-      "firstSeenAt": "2026-11-18T04:08:00.000Z"
+      "title": "OCL — Grand Concert n°3",
+      "summary": "Mercredi 25 novembre à 19h30 au Théâtre de Beaulieu : l'Orchestre de Chambre de Lausanne, dirigé par Renaud Capuçon, joue la Symphonie n°29 de Mozart, le Concerto « Jeunehomme » et la Symphonie « Inachevée » de Schubert ; billets dès 30 CHF.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/ocl-grand-concert-3",
+      "date": "2026-11-25T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Focl-grand-concert-3?w=400&h=225",
+      "fetchedAt": "2026-11-19T04:08:00.000Z",
+      "firstSeenAt": "2026-11-19T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
