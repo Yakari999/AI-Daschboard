@@ -704,16 +704,6 @@
       "fetchedAt": "2026-08-31T04:05:23.000Z"
     },
     {
-      "id": "jv-2",
-      "type": "video",
-      "title": "Assassin's Creed Shadows",
-      "summary": "Ubisoft situe l'aventure dans le Japon féodal, disponible depuis le 20 mars 2025.",
-      "url": "https://www.youtube.com/watch?v=f2s4cgHsnTA",
-      "image": "https://img.youtube.com/vi/f2s4cgHsnTA/hqdefault.jpg",
-      "date": "2025-03-20T00:00:00.000Z",
-      "fetchedAt": "2026-08-31T04:05:23.000Z"
-    },
-    {
       "id": "jv-3",
       "type": "video",
       "title": "Doom: The Dark Ages",
@@ -765,6 +755,17 @@
       "date": "2026-05-19T00:00:00.000Z",
       "fetchedAt": "2026-09-28T04:08:59.000Z",
       "firstSeenAt": "2026-09-28T04:08:59.000Z"
+    },
+    {
+      "id": "jeux-gta6",
+      "type": "link",
+      "title": "Grand Theft Auto VI",
+      "summary": "Sorti le 19 novembre 2026 sur PS5 et Xbox Series (PC prévu en 2027), le jeu décroche un Metascore de 99 sur Metacritic, salué par la critique mondiale comme un chef-d'œuvre du monde ouvert.",
+      "url": "https://www.rockstargames.com/VI",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.rockstargames.com%2FVI?w=400&h=225",
+      "date": "2026-11-19T00:00:00.000Z",
+      "fetchedAt": "2026-11-23T04:08:00.000Z",
+      "firstSeenAt": "2026-11-23T04:08:00.000Z"
     }
   ],
   "marques-vtt-avinox": [
