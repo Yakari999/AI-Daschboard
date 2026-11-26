@@ -97,7 +97,7 @@ const FALLBACK_COLUMNS = [
     "resultCount": 5,
     "createdAt": "2026-08-11T21:39:53.869Z",
     "updatedAt": "2026-08-12T12:12:53.333Z",
-    "lastRun": "2026-11-25T04:08:00.000Z",
+    "lastRun": "2026-11-26T04:08:00.000Z",
     "tags": [
       "event"
     ],
@@ -133,7 +133,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-12T21:10:00.000Z",
     "updatedAt": "2026-08-12T19:09:04.649Z",
-    "lastRun": "2026-11-25T04:08:00.000Z"
+    "lastRun": "2026-11-26T04:08:00.000Z"
   },
   {
     "id": "wing-freefly",
@@ -148,7 +148,7 @@ const FALLBACK_COLUMNS = [
     ],
     "createdAt": "2026-08-13T06:46:07.770Z",
     "updatedAt": "2026-08-13T06:46:36.738Z",
-    "lastRun": "2026-11-25T04:08:00.000Z"
+    "lastRun": "2026-11-26T04:08:00.000Z"
   },
   {
     "id": "restaurant-lausanne",
@@ -268,15 +268,15 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-11-09T04:08:00.000Z"
     },
     {
-      "id": "laus-c39",
+      "id": "laus-c40",
       "type": "article",
-      "title": "OCL — Grand Concert n°3",
-      "summary": "Mercredi 25 novembre à 19h30 au Théâtre de Beaulieu : l'Orchestre de Chambre de Lausanne, dirigé par Renaud Capuçon, joue la Symphonie n°29 de Mozart, le Concerto « Jeunehomme » et la Symphonie « Inachevée » de Schubert ; billets dès 30 CHF.",
-      "url": "https://www.lausanne-tourisme.ch/fr/evenement/ocl-grand-concert-3",
-      "date": "2026-11-25T00:00:00.000Z",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Focl-grand-concert-3?w=400&h=225",
-      "fetchedAt": "2026-11-19T04:08:00.000Z",
-      "firstSeenAt": "2026-11-19T04:08:00.000Z"
+      "title": "Concert — Gloria de Vivaldi (Organopole)",
+      "summary": "Samedi 28 novembre à Plateforme 10 (3e Biennale Organopole, du 26 novembre au 6 décembre) : Benjamin Righetti joue sa propre transcription du Gloria de Vivaldi sur le Sismos, synthétiseur à trois claviers et pédalier, pour une expérience sonore inédite.",
+      "url": "https://www.lausanne-tourisme.ch/fr/evenement/concert-8211-gloria-de-vivaldi/",
+      "date": "2026-11-28T00:00:00.000Z",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lausanne-tourisme.ch%2Ffr%2Fevenement%2Fconcert-8211-gloria-de-vivaldi%2F?w=400&h=225",
+      "fetchedAt": "2026-11-26T04:08:00.000Z",
+      "firstSeenAt": "2026-11-26T04:08:00.000Z"
     }
   ],
   "idee-de-vacances-wingfoil-en-europe-en-automne": [
@@ -1260,17 +1260,6 @@ const FALLBACK_RESULTS = {
       "firstSeenAt": "2026-11-01T04:08:00.000Z"
     },
     {
-      "id": "presse-citron-81",
-      "type": "article",
-      "title": "C'est confirmé : Anthropic va entrer en Bourse malgré les craintes de son patron",
-      "summary": "Anthropic a déposé le 26 octobre 2026 une déclaration d'enregistrement publique (formulaire S-1) auprès de la SEC, une étape qui fait suite à un premier dépôt confidentiel effectué le 1er juin 2026. L'entreprise prévoirait de coter ses actions de classe A sur le Nasdaq sous le symbole « ANT », sans que le nombre d'actions ou le prix d'introduction n'aient encore été fixés. Anthropic avait été valorisée à 965 milliards de dollars lors de sa levée de série H, au-dessus des 852 milliards de dollars attribués à OpenAI, mais précise que le calendrier de cotation dépendra des conditions de marché.",
-      "url": "https://www.presse-citron.net/cest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron/",
-      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron%2F?w=400&h=225",
-      "date": "2026-10-26T00:00:00.000Z",
-      "fetchedAt": "2026-11-02T04:09:00.000Z",
-      "firstSeenAt": "2026-11-02T04:09:00.000Z"
-    },
-    {
       "id": "presse-citron-82",
       "type": "article",
       "title": "15 ans d'efforts écologiques balayés par la course aux data centers IA : cette étude fait froid dans le dos",
@@ -1280,6 +1269,17 @@ const FALLBACK_RESULTS = {
       "date": "2026-10-29T00:00:00.000Z",
       "fetchedAt": "2026-11-03T04:08:00.000Z",
       "firstSeenAt": "2026-11-03T04:08:00.000Z"
+    },
+    {
+      "id": "presse-citron-81",
+      "type": "article",
+      "title": "C'est confirmé : Anthropic va entrer en Bourse malgré les craintes de son patron",
+      "summary": "Anthropic a déposé le 26 octobre 2026 une déclaration d'enregistrement publique (formulaire S-1) auprès de la SEC, une étape qui fait suite à un premier dépôt confidentiel effectué le 1er juin 2026. L'entreprise prévoirait de coter ses actions de classe A sur le Nasdaq sous le symbole « ANT », sans que le nombre d'actions ou le prix d'introduction n'aient encore été fixés. Anthropic avait été valorisée à 965 milliards de dollars lors de sa levée de série H, au-dessus des 852 milliards de dollars attribués à OpenAI, mais précise que le calendrier de cotation dépendra des conditions de marché.",
+      "url": "https://www.presse-citron.net/cest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron/",
+      "image": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.presse-citron.net%2Fcest-confirme-anthropic-va-entrer-en-bourse-malgre-les-craintes-de-son-patron%2F?w=400&h=225",
+      "date": "2026-10-26T00:00:00.000Z",
+      "fetchedAt": "2026-11-02T04:09:00.000Z",
+      "firstSeenAt": "2026-11-02T04:09:00.000Z"
     }
   ],
   "wing-freefly": [
